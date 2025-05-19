@@ -29,6 +29,167 @@
 
      <!--=====JQUERY=======-->
      <script src="assets/js/jquery-3-7-1.min.js"></script>
+     
+     <!-- Estilos para selectores de precios -->
+     <style>
+     /* Estilos para el toggle de precios */
+     .pricing-options {
+         position: relative;
+         min-height: 300px;
+         margin-bottom: 15px;
+     }
+     
+     .pricing-options h3 {
+         font-size: 1.1rem;
+         margin-bottom: 5px;
+         color: #4e54c8;
+         font-weight: 600;
+     }
+     
+     .pricing-option {
+         display: none;
+         transition: all 0.3s ease;
+     }
+     
+     .pricing-option.active {
+         display: block;
+         animation: fadeIn 0.5s;
+     }
+     
+     .billing-toggle {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin: 15px 0;
+     }
+     
+     .billing-toggle span {
+         margin: 0 10px;
+         font-weight: 500;
+         color: #666;
+         transition: all 0.3s ease;
+     }
+     
+     .billing-toggle span.active {
+         color: #4e54c8;
+         font-weight: 600;
+     }
+     
+     /* Switch toggle */
+     .switch {
+         position: relative;
+         display: inline-block;
+         width: 50px;
+         height: 24px;
+     }
+     
+     .switch input { 
+         opacity: 0;
+         width: 0;
+         height: 0;
+     }
+     
+     .slider {
+         position: absolute;
+         cursor: pointer;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         background-color: #ccc;
+         transition: .4s;
+         border-radius: 24px;
+     }
+     
+     .slider:before {
+         position: absolute;
+         content: "";
+         height: 16px;
+         width: 16px;
+         left: 4px;
+         bottom: 4px;
+         background-color: white;
+         transition: .4s;
+         border-radius: 50%;
+     }
+     
+     input:checked + .slider {
+         background-color: #4e54c8;
+     }
+     
+     input:focus + .slider {
+         box-shadow: 0 0 1px #4e54c8;
+     }
+     
+     input:checked + .slider:before {
+         transform: translateX(26px);
+     }
+     
+     /* Badge de descuento */
+     .discount-badge {
+         display: block;
+         background: #4e54c8;
+         color: white;
+         padding: 5px 10px;
+         border-radius: 4px;
+         font-size: 14px;
+         font-weight: 600;
+         margin: 10px 0;
+         text-align: center;
+     }
+     
+     /* Especificaciones del servidor */
+     .server-specs {
+         background: #f8f9ff;
+         border-radius: 8px;
+         padding: 15px;
+         margin: 15px 0;
+         border: 1px solid #e0e4ff;
+     }
+     
+     .server-specs p {
+         font-weight: 600;
+         margin-bottom: 10px;
+         color: #4e54c8;
+     }
+     
+     .server-specs ul {
+         padding-left: 20px;
+         margin: 0;
+     }
+     
+     .server-specs li {
+         margin-bottom: 8px;
+         font-size: 0.9rem;
+         position: relative;
+         padding-left: 25px;
+     }
+     
+     .server-specs li i {
+         position: absolute;
+         left: 0;
+         color: #4e54c8;
+         width: 20px;
+         text-align: center;
+     }
+     
+     /* Mejoras para los precios */
+     .single-pricing-box h2 {
+         font-size: 2rem;
+         margin: 10px 0;
+     }
+     
+     .single-pricing-box h2 small {
+         font-size: 1.2rem;
+         color: #666;
+         font-weight: 500;
+     }
+     
+     @keyframes fadeIn {
+         from { opacity: 0; transform: translateY(10px); }
+         to { opacity: 1; transform: translateY(0); }
+     }
+     </style>
 </head>
 <body class="body tg-heading-subheading animation-style3">
 
@@ -43,9 +204,85 @@
     </svg>
   </div>
 
-</div> 
+  </div> 
 
 <!--=====progress END=======-->
+
+    <!-- JavaScript para los toggles de precios -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Función para manejar el cambio en los toggles
+        function handlePricingToggle(checkbox, planId) {
+            const container = checkbox.closest('.single-pricing-box').querySelector('.pricing-options');
+            const monthlyOption = container.querySelector('[data-period="monthly"]');
+            const yearlyOption = container.querySelector('[data-period="yearly"]');
+            const monthlyText = container.closest('.single-pricing-box').querySelector('.monthly');
+            const yearlyText = container.closest('.single-pricing-box').querySelector('.yearly');
+            
+            if (checkbox.checked) {
+                // Cambiar a pago único
+                if (monthlyOption) monthlyOption.classList.remove('active');
+                if (yearlyOption) yearlyOption.classList.add('active');
+                if (monthlyText) monthlyText.classList.remove('active');
+                if (yearlyText) yearlyText.classList.add('active');
+            } else {
+                // Cambiar a pago mensual
+                if (monthlyOption) monthlyOption.classList.add('active');
+                if (yearlyOption) yearlyOption.classList.remove('active');
+                if (monthlyText) monthlyText.classList.add('active');
+                if (yearlyText) yearlyText.classList.remove('active');
+            }
+        }
+        
+        // Inicializar los toggles
+        const esencialToggle = document.getElementById('esencial-toggle');
+        const avanzadoToggle = document.getElementById('avanzado-toggle');
+        
+        // Configurar evento para el toggle de Esencial
+        if (esencialToggle) {
+            esencialToggle.addEventListener('change', function() {
+                handlePricingToggle(this, 'esencial');
+            });
+        }
+        
+        // Configurar evento para el toggle de Avanzado
+        if (avanzadoToggle) {
+            avanzadoToggle.addEventListener('change', function() {
+                handlePricingToggle(this, 'avanzado');
+            });
+        }
+        
+        // Inicializar el estado de los toggles
+        function initToggles() {
+            // Asegurar que solo se muestre la opción mensual por defecto
+            document.querySelectorAll('.pricing-options').forEach(container => {
+                const monthlyOption = container.querySelector('[data-period="monthly"]');
+                const yearlyOption = container.querySelector('[data-period="yearly"]');
+                
+                if (monthlyOption) monthlyOption.classList.add('active');
+                if (yearlyOption) yearlyOption.classList.remove('active');
+            });
+            
+            // Asegurar que los textos estén en el estado correcto
+            document.querySelectorAll('.billing-toggle').forEach(toggle => {
+                const monthlyText = toggle.querySelector('.monthly');
+                const yearlyText = toggle.querySelector('.yearly');
+                const checkbox = toggle.querySelector('input[type="checkbox"]');
+                
+                if (checkbox && checkbox.checked) {
+                    if (monthlyText) monthlyText.classList.remove('active');
+                    if (yearlyText) yearlyText.classList.add('active');
+                } else {
+                    if (monthlyText) monthlyText.classList.add('active');
+                    if (yearlyText) yearlyText.classList.remove('active');
+                }
+            });
+        }
+        
+        // Inicializar al cargar la página
+        initToggles();
+    });
+    </script>
 
     <!-- Preloader -->
     <section>

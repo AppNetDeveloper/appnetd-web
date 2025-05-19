@@ -425,40 +425,119 @@
         <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="700">
           <div class="single-pricing-box h-100">
             <p class="title">Módulo Esencial</p>
-            <h2>Desde 49€<span>/ mes</span></h2>
-            <p class="pera">Ideal para empezar con automatización básica y control horario.</p>
+            <div class="pricing-options">
+              <div class="pricing-option active" data-period="monthly">
+                <h3>Inversión Inicial:</h3>
+                <h2>5.000€ <span>+ 99€/mes</span></h2>
+                <p class="pera">Pago mensual del servicio</p>
+                <div class="server-specs">
+                  <p><i class="fas fa-server"></i> Mini PC Incluido:</p>
+                  <ul>
+                    <li><i class="fas fa-microchip"></i> AMD Ryzen AI MAX+ 395 (hasta 5.1GHz)</li>
+                    <li><i class="fas fa-memory"></i> 128GB LPDDR5X 8000MHz (16GB*8)</li>
+                    <li><i class="fas fa-hdd"></i> 2TB PCIe 4.0 NVMe SSD + 20TB HDD</li>
+                    <li><i class="fas fa-microchip"></i> Gráficos Integrados Radeon</li>
+                    <li><i class="fas fa-shield-alt"></i> Licencias de software incluidas</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="pricing-option" data-period="yearly">
+                <h3>Pago Único:</h3>
+                <h2>15.000€</h2>
+                <p class="pera">Todo incluido (sin mensualidades)</p>
+                <div class="server-specs">
+                  <p><i class="fas fa-server"></i> Mini PC Incluido:</p>
+                  <ul>
+                    <li><i class="fas fa-microchip"></i> AMD Ryzen AI MAX+ 395 (hasta 5.1GHz)</li>
+                    <li><i class="fas fa-memory"></i> 128GB LPDDR5X 8000MHz (16GB*8)</li>
+                    <li><i class="fas fa-hdd"></i> 2TB PCIe 4.0 NVMe SSD + 20TB HDD</li>
+                    <li><i class="fas fa-microchip"></i> Gráficos Integrados Radeon</li>
+                    <li><i class="fas fa-shield-alt"></i> Licencias de software permanentes</li>
+                  </ul>
+                </div>
+                <div class="discount-badge">Ahorro a largo plazo</div>
+              </div>
+            </div>
+            <div class="billing-toggle text-center mb-3">
+              <span class="monthly active">Pago Mensual</span>
+              <label class="switch">
+                <input type="checkbox" id="esencial-toggle">
+                <span class="slider round"></span>
+              </label>
+              <span class="yearly">Pago Único</span>
+            </div>
             <div class="border"></div>
             <h4>Características Principales:</h4>
             <ul class="list">
-              <li><span><i class="fa-solid fa-check"></i></span> Control Horario Básico</li>
-              <li><span><i class="fa-solid fa-check"></i></span> Geolocalización Empleados</li>
-              <li><span><i class="fa-solid fa-check"></i></span> Notificaciones Básicas</li>
-              <li><span><i class="fa-solid fa-times"></i></span> Reconocimiento Facial</li>
-              <li><span><i class="fa-solid fa-times"></i></span> Servidores Locales</li>
+              <li><span><i class="fa-solid fa-check"></i></span> Control Horario Avanzado</li>
+              <li><span><i class="fa-solid fa-check"></i></span> Geolocalización en Tiempo Real</li>
+              <li><span><i class="fa-solid fa-check"></i></span> Notificaciones Automáticas</li>
+              <li><span><i class="fa-solid fa-check"></i></span> Soporte Técnico 24/7</li>
+              <li><span><i class="fa-solid fa-check"></i></span> Actualizaciones de Software</li>
+              <li><span><i class="fa-solid fa-check"></i></span> Reconocimiento Facial (Opcional)</li>
+              <li><span><i class="fa-solid fa-check"></i></span> Automatización RRHH (Tickets, Fichajes)</li>
+              <li><span><i class="fa-solid fa-check"></i></span> Comunicación WhatsApp/SMS/Telegram</li>
             </ul>
             <div class="space30"></div>
             <div class="button">
-              <a class="theme-btn1" href="contact.php">Solicitar Info <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              <a class="theme-btn1" href="contact.php?plan=esencial">Solicitar Demo <span><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1100">
           <div class="single-pricing-box active h-100">
             <p class="title">Plan Avanzado IA</p>
-            <h2>Desde 99€<span>/ mes</span></h2>
-            <p class="pera">Para empresas que buscan integrar IA en RRHH y comunicaciones.</p>
+            <div class="pricing-options">
+              <div class="pricing-option active" data-period="monthly">
+                <h3>Inversión Inicial:</h3>
+                <h2>9.000€ <span>+ 199€/mes</span></h2>
+                <p class="pera">Pago mensual del servicio</p>
+                <div class="server-specs">
+                  <p><i class="fas fa-server"></i> Estación de Trabajo Incluida:</p>
+                  <ul>
+                    <li><i class="fas fa-microchip"></i> AMD Ryzen 9 9950X (16 núcleos/32 hilos)</li>
+                    <li><i class="fas fa-memory"></i> 128GB RAM DDR5 de alta velocidad</li>
+                    <li><i class="fas fa-hdd"></i> 2x 2TB NVMe PCIe 4.0 SSD (RAID 0/1) + 20TB HDD</li>
+                    <li><i class="fas fa-microchip"></i> 2x NVIDIA RTX 5090 Ti (32GB GDDR7 cada una)</li>
+                    <li><i class="fas fa-shield-alt"></i> Licencias de software premium</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="pricing-option" data-period="yearly">
+                <h3>Pago Único:</h3>
+                <h2>27.000€</h2>
+                <p class="pera">Todo incluido (sin mensualidades)</p>
+                <div class="server-specs">
+                  <p><i class="fas fa-server"></i> Estación de Trabajo Incluida:</p>
+                  <ul>
+                    <li><i class="fas fa-microchip"></i> AMD Ryzen 9 9950X (16 núcleos/32 hilos)</li>
+                    <li><i class="fas fa-memory"></i> 128GB RAM DDR5 de alta velocidad</li>
+                    <li><i class="fas fa-hdd"></i> 2x 2TB NVMe PCIe 4.0 SSD (RAID 0/1) + 20TB HDD</li>
+                    <li><i class="fas fa-microchip"></i> 2x NVIDIA RTX 5090 Ti (32GB GDDR7 cada una)</li>
+                    <li><i class="fas fa-shield-alt"></i> Licencias de software permanentes</li>
+                  </ul>
+                </div>
+                <div class="discount-badge">Ahorro a largo plazo</div>
+              </div>
+            </div>
+            <div class="billing-toggle text-center mb-3">
+              <span class="monthly active">Pago Mensual</span>
+              <label class="switch">
+                <input type="checkbox" id="avanzado-toggle">
+                <span class="slider round"></span>
+              </label>
+              <span class="yearly">Pago Único</span>
+            </div>
             <div class="border"></div>
             <h4>Características Principales:</h4>
             <ul class="list">
                <li><span><i class="fa-solid fa-check"></i></span> Todo lo de Esencial +</li>
-               <li><span><i class="fa-solid fa-check"></i></span> Reconocimiento Facial (Opcional)</li>
-               <li><span><i class="fa-solid fa-check"></i></span> Automatización RRHH (Tickets, Fichajes)</li>
-               <li><span><i class="fa-solid fa-check"></i></span> Comunicación WhatsApp/SMS</li>
-               <li><span><i class="fa-solid fa-times"></i></span> LLM Personalizado</li>
+
+               <li><span><i class="fa-solid fa-check"></i></span> LLM Personalizado</li>
             </ul>
             <div class="space30"></div>
             <div class="button">
-              <a class="theme-btn1" href="contact.php">Solicitar Info <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              <a class="theme-btn1" href="contact.php?plan=avanzado">Solicitar Info <span><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
           </div>
         </div>
