@@ -54,9 +54,9 @@ include_once 'header.php';
                             <li><i class="far fa-calendar"></i> 15 Mayo, 2025</li>
                             <li><i class="far fa-folder"></i> IoT Industrial</li>
                         </ul>
-                        <h3><a href="blog-iot-industria.php">IoT Industrial: Conectando el Futuro de la Fabricación</a></h3>
+                        <h3><a href="<?php echo $base_url; ?>/blog-iot-industria.php">IoT Industrial: Conectando el Futuro de la Fabricación</a></h3>
                         <p>Descubre cómo el Internet de las Cosas está revolucionando los procesos industriales y mejorando la eficiencia operativa.</p>
-                        <a href="blog-iot-industria.php" class="blog-btn">Leer más <i class="fas fa-arrow-right"></i></a>
+                        <a href="<?php echo $base_url; ?>/blog-iot-industria.php" class="blog-btn">Leer más <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -65,18 +65,18 @@ include_once 'header.php';
             <div class="col-lg-4 col-md-6">
                 <div class="blog-card">
                     <div class="blog-img">
-                        <a href="blog-servidores-arm.php">
-                            <img src="assets/img/blog/arm-architecture.png" alt="Servidores ARM">
+                        <a href="<?php echo $base_url; ?>/blog-servidores-arm.php">
+                            <img src="<?php echo $base_url; ?>/assets/img/blog/servidores-arm.jpg" alt="Servidores ARM" onerror="this.src='<?php echo $base_url; ?>/assets/img/blog/placeholder.jpg'">
                         </a>
                     </div>
                     <div class="blog-text">
                         <ul class="blog-meta">
-                            <li><i class="far fa-calendar"></i> 10 Mayo, 2025</li>
-                            <li><i class="far fa-folder"></i> Infraestructura</li>
+                            <li><i class="far fa-calendar"></i> 20 Mayo, 2025</li>
+                            <li><i class="far fa-folder"></i> Tecnología</li>
                         </ul>
-                        <h3><a href="blog-servidores-arm.php">Ventajas de los Servidores ARM en Entornos Empresariales</a></h3>
-                        <p>Análisis de cómo la arquitectura ARM está cambiando el panorama de los centros de datos y las ventajas que ofrece.</p>
-                        <a href="blog-servidores-arm.php" class="blog-btn">Leer más <i class="fas fa-arrow-right"></i></a>
+                        <h3><a href="<?php echo $base_url; ?>/blog-servidores-arm.php">Servidores ARM: El Futuro de los Centros de Datos</a></h3>
+                        <p>Explora cómo la arquitectura ARM está transformando la infraestructura de centros de datos con su eficiencia energética y rendimiento.</p>
+                        <a href="<?php echo $base_url; ?>/blog-servidores-arm.php" class="blog-btn">Leer más <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

@@ -29,12 +29,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         // Configuración del servidor SMTP
         $mail->isSMTP();
-        $mail->Host = 'mail.appnet.dev';
+        $mail->Host = 'smtp-pulse.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'liviudiaconu@appnet.dev'; // Usuario
-        $mail->Password = 'lss281613858715'; // Contraseña
+        $mail->Password = 'mYpYMieSGrJ'; // Contraseña
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Cambia a PHPMailer::ENCRYPTION_SMTPS si usas SSL
-        $mail->Port = 25; // Puerto SMTP
+        $mail->Port = 2525; // Puerto SMTP
 
         // Habilitar el modo de depuración
        // $mail->SMTPDebug = 2; // Cambia a 3 para más detalles
