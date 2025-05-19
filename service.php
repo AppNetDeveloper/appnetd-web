@@ -30,9 +30,9 @@
                   <div class="icon">
                     <img src="assets/img/icons/service-page-icon1.png" alt="">
                   </div>
-                  <a href="service-details.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="servicio-control-produccion.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="service-details.php">Control Horario y de Producción</a></h4>
+                    <h4><a href="servicio-control-produccion.php">Control Horario y de Producción</a></h4>
                     <div class="space16"></div>
                     <p>Conectamos la maquinaria con nuestro sistema, permitiendo un control en tiempo real de la producción.</p>
                   </div>
@@ -44,9 +44,9 @@
                   <div class="icon">
                     <img src="assets/img/icons/service-page-icon2.png" alt="">
                   </div>
-                  <a href="service-details.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="servicio-integracion-maquinaria.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="service-details.php">Integración de Maquinaria</a></h4>
+                    <h4><a href="servicio-integracion-maquinaria.php">Integración de Maquinaria</a></h4>
                     <div class="space16"></div>
                     <p>Conectamos cualquier máquina industrial, básculas y medidores de altura para optimizar procesos.</p>
                   </div>
@@ -58,9 +58,9 @@
                   <div class="icon">
                     <img src="assets/img/icons/service-page-icon3.png" alt="">
                   </div>
-                  <a href="service-details.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="servicio-cameras-ia.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="service-details.php">Cámaras con IA</a></h4>
+                    <h4><a href="servicio-cameras-ia.php">Cámaras con IA</a></h4>
                     <div class="space16"></div>
                     <p>Implementamos cámaras con inteligencia artificial para reconocimiento de matrículas y seguridad.</p>
                   </div>
@@ -72,9 +72,9 @@
                   <div class="icon">
                     <img src="assets/img/icons/service-page-icon4.png" alt="">
                   </div>
-                  <a href="service-details.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="servicio-geolocalizacion.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="service-details.php">Geolocalización</a></h4>
+                    <h4><a href="servicio-geolocalizacion.php">Geolocalización</a></h4>
                     <div class="space16"></div>
                     <p>Ofrecemos soluciones de geolocalización para un mejor seguimiento y gestión de recursos.</p>
                   </div>
@@ -86,9 +86,9 @@
                   <div class="icon">
                     <img src="assets/img/icons/service-page-icon5.png" alt="">
                   </div>
-                  <a href="ciberseguridad-seguridad-informatica-inteligencia-artificial.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="servicio-ciberseguridad.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="ciberseguridad-seguridad-informatica-inteligencia-artificial.php">Ciberseguridad</a></h4>
+                    <h4><a href="servicio-ciberseguridad.php">Ciberseguridad</a></h4>
                     <div class="space16"></div>
                     <p>Desarrollamos estrategias de ciberseguridad para proteger tus datos y sistemas.</p>
                   </div>
@@ -100,9 +100,9 @@
                   <div class="icon">
                     <img src="assets/img/icons/service-page-icon6.png" alt="">
                   </div>
-                  <a href="local-server-and-cloud-server.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="servicio-servidores.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="local-server-and-cloud-server.php">Servidores Locales y en la Nube</a></h4>
+                    <h4><a href="servicio-servidores.php">Servidores Locales y en la Nube</a></h4>
                     <div class="space16"></div>
                     <p>Ofrecemos servidores tanto locales como en la nube, adaptados a tus necesidades.</p>
                   </div>
@@ -114,9 +114,9 @@
                   <div class="icon">
                     <img src="assets/img/icons/service-page-icon7.png" alt="">
                   </div>
-                  <a href="service-details.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="servicio-servidores-arm.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="service-details.php">Servidores ARM</a></h4>
+                    <h4><a href="servicio-servidores-arm.php">Servidores ARM</a></h4>
                     <div class="space16"></div>
                     <p>Implementamos servidores ARM para un mejor ahorro de energía y eficiencia.</p>
                   </div>
@@ -128,9 +128,9 @@
                   <div class="icon">
                     <img src="assets/img/icons/service-page-icon8.png" alt="">
                   </div>
-                  <a href="service-details.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="servicio-aplicaciones-medida.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="service-details.php">Desarrollo de Aplicaciones a Medida</a></h4>
+                    <h4><a href="servicio-aplicaciones-medida.php">Desarrollo de Aplicaciones a Medida</a></h4>
                     <div class="space16"></div>
                     <p>Desarrollamos aplicaciones personalizadas para satisfacer las necesidades específicas de tu negocio.</p>
                   </div>
