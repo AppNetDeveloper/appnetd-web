@@ -1,27 +1,15 @@
 <?php
 // Incluir el header
+$page_title = 'IoT Industrial';
+$additional_css = 'assets/css/blog-details.css';
+
+// Obtener la URL base del sitio
+$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+
 include_once 'header.php';
 ?>
 
-<!-- Page Title Start -->
-<section class="page-title title-bg10">
-    <div class="d-table">
-        <div class="d-table-cell">
-            <h2>IoT Industrial</h2>
-            <ul>
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="blog.php">Blog</a></li>
-                <li>IoT Industrial</li>
-            </ul>
-        </div>
-    </div>
-    <div class="lines">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-    </div>
-</section>
-<!-- Page Title End -->
+
 
 <!-- Blog Details Section Start -->
 <section class="blog-details-area ptb-100">
@@ -31,7 +19,7 @@ include_once 'header.php';
                 <div class="blog-details-content">
                     <div class="blog-top">
                         <div class="blog-img">
-                            <img src="assets/img/blog/iot-industrial.png" alt="IoT Industrial">
+                            <img src="<?php echo $base_url; ?>/assets/img/blog/iot-industrial.jpg" alt="IoT Industrial" class="img-fluid" onerror="this.src='<?php echo $base_url; ?>/assets/img/blog/placeholder.jpg'">
                         </div>
                         <div class="blog-meta">
                             <ul>
@@ -91,7 +79,7 @@ include_once 'header.php';
                     <p>Seguimiento de condiciones ambientales para productos sensibles a la temperatura en sectores como el farmacéutico y alimentario.</p>
 
                     <div class="blog-img">
-                        <img src="assets/img/blog/iot-aplicaciones.jpg" alt="Aplicaciones del IoT Industrial">
+                        <img src="<?php echo $base_url; ?>/assets/img/blog/ia-revolucion-industrial.jpg" onerror="this.src='<?php echo $base_url; ?>/assets/img/blog/placeholder.jpg'" alt="Aplicaciones del IoT Industrial">
                         <p><em>El IoT está transformando múltiples sectores industriales</em></p>
                     </div>
 

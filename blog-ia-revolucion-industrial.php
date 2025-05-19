@@ -1,27 +1,15 @@
 <?php
 // Incluir el header
+$page_title = 'IA en la Industria 4.0';
+$additional_css = 'assets/css/blog-details.css';
+
+// Obtener la URL base del sitio
+$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+
 include_once 'header.php';
 ?>
 
-<!-- Page Title Start -->
-<section class="page-title title-bg10">
-    <div class="d-table">
-        <div class="d-table-cell">
-            <h2>IA en la Industria 4.0</h2>
-            <ul>
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="blog.php">Blog</a></li>
-                <li>IA en la Industria 4.0</li>
-            </ul>
-        </div>
-    </div>
-    <div class="lines">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-    </div>
-</section>
-<!-- Page Title End -->
+
 
 <!-- Blog Details Section Start -->
 <section class="blog-details-area ptb-100">
@@ -31,7 +19,7 @@ include_once 'header.php';
                 <div class="blog-details-content">
                     <div class="blog-top">
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog1.jpg" alt="IA en la Industria 4.0">
+                            <img src="<?php echo $base_url; ?>/assets/img/blog/ia-revolucion-industrial.jpg" alt="IA en la Industria 4.0" class="img-fluid" onerror="this.src='<?php echo $base_url; ?>/assets/img/blog/placeholder.jpg'">
                         </div>
                         <div class="blog-meta">
                             <ul>
@@ -132,12 +120,12 @@ include_once 'header.php';
                         <div class="popular-post">
                             <div class="single-post">
                                 <div class="post-img">
-                                    <a href="blog-iot-industria.php">
-                                        <img src="assets/img/blog/iot-industrial.png" alt="IoT Industrial">
+                                    <a href="<?php echo $base_url; ?>/blog-iot-industria.php">
+                                        <img src="<?php echo $base_url; ?>/assets/img/blog/iot-industrial.jpg" onerror="this.src='<?php echo $base_url; ?>/assets/img/blog/placeholder.jpg'" alt="IoT Industrial">
                                     </a>
                                 </div>
                                 <div class="post-text">
-                                    <h4><a href="blog-iot-industria.php">IoT Industrial: Conectando el Futuro de la Fabricación</a></h4>
+                                    <h4><a href="<?php echo $base_url; ?>/blog-iot-industria.php">IoT Industrial: Conectando el Futuro de la Fabricación</a></h4>
                                     <span>15 Mayo, 2025</span>
                                 </div>
                             </div>

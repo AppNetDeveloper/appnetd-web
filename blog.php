@@ -1,26 +1,15 @@
 <?php
 // Incluir el header
+$page_title = 'Blog';
+$additional_css = 'assets/css/blog.css';
+
+// Obtener la URL base del sitio
+$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+
 include_once 'header.php';
 ?>
 
-<!-- Page Title Start -->
-<section class="page-title title-bg10">
-    <div class="d-table">
-        <div class="d-table-cell">
-            <h2>Blog</h2>
-            <ul>
-                <li><a href="index.php">Inicio</a></li>
-                <li>Blog</li>
-            </ul>
-        </div>
-    </div>
-    <div class="lines">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-    </div>
-</section>
-<!-- Page Title End -->
+
 
 <!-- Blog Section Start -->
 <section class="blog-section blog-style-two pt-100 pb-70">
@@ -37,7 +26,7 @@ include_once 'header.php';
                 <div class="blog-card">
                     <div class="blog-img">
                         <a href="blog-ia-revolucion-industrial.php">
-                            <img src="assets/img/blog/blog1.jpg" alt="Revolución Industrial 4.0">
+                            <img src="<?php echo $base_url; ?>/assets/img/blog/ia-revolucion-industrial.jpg" alt="Revolución Industrial 4.0" onerror="this.src='<?php echo $base_url; ?>/assets/img/blog/placeholder.jpg'">
                         </a>
                     </div>
                     <div class="blog-text">
@@ -56,8 +45,8 @@ include_once 'header.php';
             <div class="col-lg-4 col-md-6">
                 <div class="blog-card">
                     <div class="blog-img">
-                        <a href="blog-iot-industria.php">
-                            <img src="assets/img/blog/iot-industrial.png" alt="IoT Industrial">
+                        <a href="<?php echo $base_url; ?>/blog-iot-industria.php">
+                            <img src="<?php echo $base_url; ?>/assets/img/blog/iot-industrial.jpg" alt="IoT Industrial" onerror="this.src='<?php echo $base_url; ?>/assets/img/blog/placeholder.jpg'">
                         </a>
                     </div>
                     <div class="blog-text">
