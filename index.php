@@ -42,44 +42,44 @@
         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
           <div class="single-box h-100">
             <div class="icon">
-              <img src="assets/img/icons/hero-bottom-icon1.png" alt="Icono Alojamiento ARM">
+              <i class="fas fa-robot" style="font-size: 40px; color: #4e54c8;"></i>
             </div>
             <div class="headding">
-              <h5>Reconocimiento Facial IA</h5>
-              <p>Identificación segura y control de acceso avanzado.</p>
+              <h5>IA Empresarial Autónoma</h5>
+              <p>Asistente empresarial con IA local, sin dependencia de servicios externos.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
           <div class="single-box h-100">
             <div class="icon">
-              <img src="assets/img/icons/hero-bottom-icon2.png" alt="Icono Servidores Juego">
+              <i class="fas fa-shield-alt" style="font-size: 40px; color: #4e54c8;"></i>
             </div>
             <div class="headding">
-              <h5>LLMs y Chat IA Propios</h5>
-              <p>Modelos de lenguaje adaptados y chat sin filtrado de datos.</p>
+              <h5>Seguridad Total</h5>
+              <p>Todo en servidor local con túneles P2P cifrados, sin necesidad de IP pública.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
           <div class="single-box h-100">
             <div class="icon">
-              <img src="assets/img/icons/hero-bottom-icon3.png" alt="Icono Proxy">
+              <i class="fas fa-cogs" style="font-size: 40px; color: #4e54c8;"></i>
             </div>
             <div class="headding">
-              <h5>Automatización RRHH</h5>
-              <p>Control horario, gastos y gestión de personal con IA.</p>
+              <h5>Automatización Integral</h5>
+              <p>Desde RRHH hasta producción, con visión artificial y control industrial.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="single-box h-100">
             <div class="icon">
-              <img src="assets/img/icons/hero-bottom-icon4.png" alt="Icono Soporte 24/7">
+              <i class="fas fa-comments" style="font-size: 40px; color: #4e54c8;"></i>
             </div>
             <div class="headding">
-              <h5>Comunicaciones Seguras</h5>
-              <p>Servidores locales para WhatsApp, Telegram y SMS.</p>
+              <h5>Comunicaciones Unificadas</h5>
+              <p>WhatsApp, Telegram, Email y LinkedIn integrados con IA generativa.</p>
             </div>
           </div>
         </div>
@@ -260,8 +260,9 @@
       <div class="row">
         <div class="col-lg-8 m-auto text-center">
           <div class="heading1">
-             <span class="span" data-aos="zoom-in-left" data-aos-duration="700"><img src="assets/img/icons/span1.png" alt="" style="vertical-align: middle; margin-right: 5px;"> Nuestras Soluciones Clave</span>
-            <h2 class="title tg-element-title">Tecnología Inteligente Adaptada a Tus Necesidades</h2>
+             <span class="span" data-aos="zoom-in-left" data-aos-duration="700"><img src="assets/img/icons/span1.png" alt="" style="vertical-align: middle; margin-right: 5px;"> Plataforma Todo-en-Uno</span>
+            <h2 class="title tg-element-title">Sistema Operativo Empresarial con IA</h2>
+            <p class="mt-3">Una solución integrada que unifica automatización, control y comunicación empresarial en un único ecosistema seguro.</p>
           </div>
         </div>
       </div>
@@ -270,84 +271,84 @@
         <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in-up" data-aos-duration="700">
           <div class="single-box h-100">
             <div class="icon">
-              <img src="assets/img/icons/service-icon1.png" alt="Icono Soluciones Cloud">
+              <i class="fas fa-brain" style="font-size: 40px; color: #4e54c8;"></i>
             </div>
             <div class="heading1">
-              <h4><a href="servicio-reconocimiento-facial.php">Reconocimiento Facial y Control de Acceso</a></h4>
+              <h4><a href="servicio-ia-empresarial.php">Asistente Empresarial con IA Local</a></h4>
               <div class="space16"></div>
-              <p>Implementa sistemas biométricos con IA para una seguridad y gestión de accesos sin precedentes, con entrenamiento personalizado en local.</p>
+              <p>IA ejecutada íntegramente en tu servidor, con tecnología RAG para acceder a documentación interna y responder con precisión sin filtros externos.</p>
               <div class="space16"></div>
-              <a href="servicio-reconocimiento-facial.php" class="learn">Aprende Más <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              <a href="servicio-ia-empresarial.php" class="learn">Descubre Cómo <span><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in-up" data-aos-duration="900">
           <div class="single-box h-100">
             <div class="icon">
-               <img src="assets/img/icons/service-icon2.png" alt="Icono Análisis Datos">
+              <i class="fas fa-industry" style="font-size: 40px; color: #4e54c8;"></i>
             </div>
             <div class="heading1">
-              <h4><a href="servicio-llm-personalizado.php">Modelos LLM y Chatbots IA Propios</a></h4>
+              <h4><a href="servicio-control-produccion.php">Control de Producción con Visión Artificial</a></h4>
               <div class="space16"></div>
-              <p>Desarrollamos modelos de lenguaje grandes (LLMs) a medida y chatbots que operan con tus datos, sin filtraciones externas.</p>
+              <p>Supervisión en tiempo real de líneas de producción, conteo de cajas y detección de anomalías mediante visión por computadora.</p>
               <div class="space16"></div>
-              <a href="servicio-llm-personalizado.php" class="learn">Aprende Más <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              <a href="servicio-control-produccion.php" class="learn">Ver Demostración <span><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1100">
           <div class="single-box h-100">
             <div class="icon">
-               <img src="assets/img/icons/service-icon3.png" alt="Icono Ciberseguridad">
+              <i class="fas fa-users-cog" style="font-size: 40px; color: #4e54c8;"></i>
             </div>
             <div class="heading1">
-              <h4><a href="servicio-gestion-personal.php">Plataforma Inteligente de RRHH</a></h4>
+              <h4><a href="servicio-gestion-personal.php">Gestión Integral de RRHH</a></h4>
               <div class="space16"></div>
-              <p>Automatiza el control horario, gestión de personal, firma de documentos y control de gastos, todo potenciado por IA.</p>
+              <p>Control horario con reconocimiento facial, gestión de turnos, firma digital de documentos y seguimiento de productividad, todo en tiempo real.</p>
               <div class="space16"></div>
-              <a href="servicio-gestion-personal.php" class="learn">Aprende Más <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              <a href="servicio-gestion-personal.php" class="learn">Ver Funcionalidades <span><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in-up" data-aos-duration="700">
           <div class="single-box h-100">
             <div class="icon">
-               <img src="assets/img/icons/service-icon4.png" alt="Icono Desarrollo Software">
+              <i class="fas fa-comment-dots" style="font-size: 40px; color: #4e54c8;"></i>
             </div>
             <div class="heading1">
-              <h4><a href="servicio-comunicacion-automatizada.php">Comunicación Automatizada Segura</a></h4>
+              <h4><a href="servicio-comunicacion-automatizada.php">Comunicaciones Unificadas con IA</a></h4>
               <div class="space16"></div>
-              <p>Interactúa con empleados (fichajes, tickets) y clientes (marketing) vía WhatsApp, SMS, Telegram y Email desde servidores locales.</p>
+              <p>Gestión centralizada de WhatsApp, Telegram, Email y LinkedIn con IA generativa para respuestas personalizadas y campañas automatizadas.</p>
               <div class="space16"></div>
-              <a href="servicio-comunicacion-automatizada.php" class="learn">Aprende Más <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              <a href="servicio-comunicacion-automatizada.php" class="learn">Descubrir Más <span><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in-up" data-aos-duration="900">
           <div class="single-box h-100">
             <div class="icon">
-               <img src="assets/img/icons/service-icon5.png" alt="Icono Consultoría IT">
+              <i class="fas fa-microchip" style="font-size: 40px; color: #4e54c8;"></i>
             </div>
             <div class="heading1">
-              <h4><a href="servicio-iot-industrial.php">Soluciones IoT Industriales</a></h4>
+              <h4><a href="servicio-iot-industrial.php">Integración Industrial 4.0</a></h4>
               <div class="space16"></div>
-              <p>Conectamos y monitorizamos maquinaria, optimizamos producción y gestionamos instalaciones con sistemas IoT inteligentes.</p>
+              <p>Conexión de maquinaria industrial, supervisión de líneas de producción y análisis predictivo con sensores IoT y visión artificial.</p>
               <div class="space16"></div>
-              <a href="servicio-iot-industrial.php" class="learn">Aprende Más <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              <a href="servicio-iot-industrial.php" class="learn">Ver Casos de Uso <span><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1100">
           <div class="single-box h-100">
             <div class="icon">
-               <img src="assets/img/icons/service-page-icon3.png" alt="Icono Genérico Servicio 6">
+              <i class="fas fa-chart-line" style="font-size: 40px; color: #4e54c8;"></i>
             </div>
             <div class="heading1">
-              <h4><a href="servicio-desarrollo-medida.php">Desarrollo de Software a Medida</a></h4>
+              <h4><a href="servicio-analitica-empresarial.php">Cuadro de Mando Integral</a></h4>
               <div class="space16"></div>
-              <p>Creamos aplicaciones y plataformas únicas, integrando IA y IoT para resolver tus desafíos empresariales específicos.</p>
+              <p>Dashboard interactivo con KPIs en tiempo real, análisis predictivo e informes personalizados para la toma de decisiones estratégicas.</p>
               <div class="space16"></div>
-              <a href="servicio-desarrollo-medida.php" class="learn">Aprende Más <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              <a href="servicio-analitica-empresarial.php" class="learn">Ver Demostración <span><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
           </div>
         </div>
@@ -500,16 +501,16 @@
             <div class="row align-items-center">
               <div class="col-lg-7">
                 <div class="right-side">
-                  <h4>Gestión de Personal Eficiente con IA</h4>
-                  <p>"Implementamos el control horario con geolocalización y notificaciones automáticas por WhatsApp. Redujimos el absentismo y simplificamos la gestión de fichajes drásticamente."</p>
+                  <h4>Transformación Digital Integral</h4>
+                  <p>"AppNet Developer revolucionó nuestra operativa. Desde el control de accesos con reconocimiento facial hasta la automatización de facturación y gestión documental. La integración con nuestro ERP fue impecable y la curva de aprendizaje mínima."</p>
                   <div class="author-info mt-3">
-                      <strong>- Cliente Sector Logística</strong>
+                      <strong>- Director de Operaciones, Cadena de Supermercados</strong>
                   </div>
                 </div>
               </div>
               <div class="col-lg-5">
                 <div class="left-side">
-                  <img src="assets/img/control-horario.webp" alt="Control horario y geolocalización">
+                  <img src="assets/img/transformacion-digital.webp" alt="Transformación digital empresarial">
                 </div>
               </div>
             </div>
@@ -518,16 +519,16 @@
             <div class="row align-items-center">
               <div class="col-lg-7">
                 <div class="right-side">
-                  <h4>Seguridad Mejorada con Reconocimiento Facial</h4>
-                   <p>"El sistema de reconocimiento facial para el control de acceso a nuestras instalaciones ha mejorado la seguridad y eliminado la necesidad de tarjetas físicas. El entrenamiento local fue clave."</p>
+                  <h4>Automatización Industrial 4.0</h4>
+                   <p>"La integración de visión artificial en nuestra línea de producción nos permitió reducir un 40% los errores de calidad. El sistema detecta anomalías en tiempo real y notifica a los operarios. La inversión se amortizó en solo 3 meses gracias al aumento de productividad."</p>
                    <div class="author-info mt-3">
-                      <strong>- Cliente Sector Industrial</strong>
+                      <strong>- Director de Producción, Empresa Manufacturera</strong>
                   </div>
                 </div>
               </div>
               <div class="col-lg-5">
                 <div class="left-side">
-                   <img src="assets/img/rec-matriculas.webp" alt="Reconocimiento de matrículas">
+                   <img src="assets/img/automatizacion-industrial.webp" alt="Automatización industrial con IA">
                 </div>
               </div>
             </div>
@@ -536,16 +537,16 @@
             <div class="row align-items-center">
               <div class="col-lg-7">
                 <div class="right-side">
-                  <h4>Optimización de Producción con IoT</h4>
-                   <p>"Conectar nuestra maquinaria al sistema IoT de AppNet nos dio visibilidad en tiempo real del rendimiento y permitió identificar cuellos de botella, optimizando la producción."</p>
+                  <h4>Comunicaciones Empresariales Eficientes</h4>
+                   <p>"La plataforma de comunicaciones unificadas nos permite gestionar toda la interacción con clientes desde un solo lugar. La IA generativa responde consultas comunes, agilizando el soporte. Redujimos los tiempos de respuesta de horas a minutos, mejorando significativamente la satisfacción del cliente."</p>
                    <div class="author-info mt-3">
-                      <strong>- Cliente Sector Manufactura</strong>
+                      <strong>- Director de Atención al Cliente, Empresa de Servicios</strong>
                   </div>
                 </div>
               </div>
               <div class="col-lg-5">
                 <div class="left-side">
-                   <img src="assets/img/gestion-iot.webp" alt="Gestión IoT industrial">
+                   <img src="assets/img/comunicaciones-empresariales.webp" alt="Comunicaciones unificadas empresariales">
                 </div>
               </div>
             </div>
