@@ -444,7 +444,7 @@
               <div class="pricing-option" data-period="yearly">
                 <h3>Pago Único:</h3>
                 <h2>15.000€</h2>
-                <p class="pera">Todo incluido (sin mensualidades)</p>
+                <p class="pera">Todo incluido (sin mensualidades) Soporte 12 meses</p>
                 <div class="server-specs">
                   <p><i class="fas fa-server"></i> Mini PC Incluido:</p>
                   <ul>
@@ -505,8 +505,8 @@
               </div>
               <div class="pricing-option" data-period="yearly">
                 <h3>Pago Único:</h3>
-                <h2>27.000€</h2>
-                <p class="pera">Todo incluido (sin mensualidades)</p>
+                <h2>19.000€</h2>
+                <p class="pera">Todo incluido (sin mensualidades) Soporte 12 meses</p>
                 <div class="server-specs">
                   <p><i class="fas fa-server"></i> Estación de Trabajo Incluida:</p>
                   <ul>
