@@ -3,23 +3,29 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>AppNet Developer</title>
+     <title><?php echo isset($page_title) ? $page_title . ' - ' : ''; ?>AppNet Developer</title>
 
      <!--=====FAB ICON=======-->
      <link rel="shortcut icon" href="assets/img/logo/titile.png" type="image/x-icon">
 
 
      <!--=====CSS=======-->
-     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-     <link rel="stylesheet" href="assets/css/fontawesome.css">
-     <link rel="stylesheet" href="assets/css/magnific-popup.css">
-     <link rel="stylesheet" href="assets/css/nice-select.css">
-     <link rel="stylesheet" href="assets/css/slick-slider.css">
-     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-     <link rel="stylesheet" href="assets/css/aos.css">
-     <link rel="stylesheet" href="assets/css/mobile-menu.css">
-     <link rel="stylesheet" href="assets/css/main.css">
-
+     <?php
+     // Obtener la URL base del sitio
+     $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+     ?>
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/fontawesome.css">
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/magnific-popup.css">
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/nice-select.css">
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/slick-slider.css">
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/owl.carousel.min.css">
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/aos.css">
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/mobile-menu.css">
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/main.css">
+     <?php if(isset($additional_css)): ?>
+     <link rel="stylesheet" href="<?php echo $base_url . '/' . ltrim($additional_css, '/'); ?>">
+     <?php endif; ?>
 
      <!--=====JQUERY=======-->
      <script src="assets/js/jquery-3-7-1.min.js"></script>
@@ -177,7 +183,7 @@
                           <div class="mega-menu-single">
                             <h3>Nuestros Proyectos</h3>
                             <ul>
-                              <li><a href="project.php">Proyectos</a></li>
+                              <li><a href="proyectos.php ">Proyectos</a></li>
                             </ul>
                           </div>
                         </div>
@@ -193,7 +199,7 @@
 
                  <li class="dropdown-menu-parrent"><a href="#">Project <i class="fa-solid fa-angle-down"></i></a>
                   <ul>
-                   <li><a href="project.php">Project</a></li>
+                   <li><a href="proyectos.php ">Project</a></li>
 
                   </ul>
                   <li class="dropdown-menu-parrent"><a href="#">Contacto <i class="fa-solid fa-angle-down"></i></a>
@@ -319,14 +325,7 @@
                 </ul>
             </li>
 
-            <li class="has-dropdown"><a href="#">Proyecto</a> 
-              <ul class="sub-menu">
-                <li><a href="project.php">Proyecto</a></li>
-                <li><a href="project-details-left.php">Proyecto Izquierda</a></li>
-                <li><a href="project-details-right.php">Proyecto Derecha</a></li>
-                <li><a href="project-details.php">Detalles del Proyecto</a></li>
-              </ul>
-          </li>
+            <li><a href="proyectos.php">Proyectos</a></li>
       
             </ul>
             
