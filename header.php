@@ -187,79 +187,13 @@
 
                   <li class="dropdown-menu-parrent"><a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
                    <ul>
-                    <li><a href="blog.php">Blog <i class="fa-solid fa-angle-right"></i></a>
-                      <ul>
-                        <li><a href="#">Light <i class="fa-solid fa-angle-right"></i></a>
-                          <ul>
-                            <li><a href="blog.php">Blog - Light</a></li>
-                            <li><a href="blog-sidebar.php">Blog Sidebar - Light</a></li>
-                           </ul>
-                          </li>
-                          <li><a href="#">Dark <i class="fa-solid fa-angle-right"></i></a>
-                            <ul>
-                              <li><a href="blog2.php">Blog - Dark</a></li>
-                             </ul>
-                            </li>
-                       </ul>
-                      </li>
-
-                      <li><a href="blog-details.php">Single Blog <i class="fa-solid fa-angle-right"></i></a>
-                        <ul>
-                          <li><a href="#">Light <i class="fa-solid fa-angle-right"></i></a>
-                            <ul>
-                              <li><a href="blog-details-left.php">Details Left - Light</a></li>
-                              <li><a href="blog-details-right.php">Details Right - Light</a></li>
-                              <li><a href="blog-details.php">Blog Details - Light</a></li>
-                             </ul>
-                            </li>
-                            <li><a href="#">Dark <i class="fa-solid fa-angle-right"></i></a>
-                              <ul>
-                                <li><a href="blog-details-left2.php">Details Left - Dark</a></li>
-                                <li><a href="blog-details-right2.php">Details Right - Dark</a></li>
-                                <li><a href="blog-details2.php">Blog Details - Dark</a></li>
-                               </ul>
-                              </li>
-                         </ul>
-                        </li>
-
+                   <li><a href="blog.php">Blog</a></li>
                    </ul>
                  </li>
 
                  <li class="dropdown-menu-parrent"><a href="#">Project <i class="fa-solid fa-angle-down"></i></a>
                   <ul>
-                   <li><a href="project.php">Project <i class="fa-solid fa-angle-right"></i></a>
-                     <ul>
-                       <li><a href="#">Light <i class="fa-solid fa-angle-right"></i></a>
-                         <ul>
-                           <li><a href="project.php">Project - Light</a></li>
-                          </ul>
-                         </li>
-                         <li><a href="#">Dark <i class="fa-solid fa-angle-right"></i></a>
-                           <ul>
-                             <li><a href="project2.php">Project - Dark</a></li>
-                            </ul>
-                           </li>
-                      </ul>
-                     </li>
-
-                     <li><a href="blog-details.php">Single Project <i class="fa-solid fa-angle-right"></i></a>
-                       <ul>
-                         <li><a href="#">Light <i class="fa-solid fa-angle-right"></i></a>
-                           <ul>
-                            <li><a href="project-details-left.php">Project Left - Light</a></li>
-                            <li><a href="project-details-right.php">Project Right - Light</a></li>
-                            <li><a href="project-details.php">Project Details - Light</a></li>
-                            </ul>
-                           </li>
-                           <li><a href="#">Dark <i class="fa-solid fa-angle-right"></i></a>
-                             <ul>
-                              <li><a href="project-details-left2.php">Project Left - Dark</a></li>
-                              <li><a href="project-details-right2.php">Project Right - Dark</a></li>
-                              <li><a href="project-details2.php">Project Details - Dark</a></li>
-                              </ul>
-                             </li>
-                        </ul>
-                       </li>
+                   <li><a href="project.php">Project</a></li>
 
                   </ul>
                   <li class="dropdown-menu-parrent"><a href="#">Contacto <i class="fa-solid fa-angle-down"></i></a>
