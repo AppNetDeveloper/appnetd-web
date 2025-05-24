@@ -278,5 +278,28 @@ return [
     'all_rights' => 'جميع الحقوق محفوظة',
     'privacy_policy' => 'سياسة الخصوصية',
     'terms_conditions' => 'الشروط والأحكام',
-    'cookies_policy' => 'سياسة ملفات تعريف الارتباط'
+    'cookies_policy' => 'سياسة ملفات تعريف الارتباط',
+    
+    // Footer - تذييل الصفحة
+    'footer_about_text' => 'في AppNet Developer، نكرس أنفسنا لتقديم حلول تكنولوجية متقدمة في إنترنت الأشياء والذكاء الاصطناعي وتطوير البرمجيات المخصصة. نستخدم تقنية ARM والحوسبة السحابية لإنشاء حلول فعالة وصديقة للبيئة، مصممة خصيصًا لتلبية الاحتياجات الفريدة للشركات مثل شركتك.',
+    'services_we_offer' => 'الخدمات التي نقدمها',
+    'industrial_iot_solutions' => 'حلول إنترنت الأشياء الصناعي',
+    'ai_ml_solutions' => 'الذكاء الاصطناعي وتعلم الآلة',
+    'custom_software_development' => 'تطوير برمجيات مخصصة',
+    'control_geolocation_apps' => 'تطبيقات التحكم وتحديد المواقع',
+    'useful_links' => 'روابط مفيدة',
+    'about_us' => 'من نحن',
+    'our_services' => 'خدماتنا',
+    'blog_news' => 'المدونة والأخبار',
+    'brand_assets' => 'أصول العلامة التجارية',
+    'contact_us' => 'اتصل بنا',
+    'phone_number' => '+34 619 929 305',
+    'email_address' => 'info@appnet.dev',
+    'website_url' => 'www.appnet.dev',
+    'all_rights_reserved' => 'جميع الحقوق محفوظة',
+    'terms_conditions' => 'الشروط والأحكام',
+    'privacy_policy' => 'سياسة الخصوصية',
+    'cookie_consent_text' => 'يستخدم هذا الموقع ملفات تعريف الارتباط لتحسين تجربتك.',
+    'accept' => 'قبول',
+    'last_updated' => 'آخر تحديث'
 ];

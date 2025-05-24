@@ -279,5 +279,28 @@ return [
     'all_rights' => 'Toate drepturile rezervate',
     'privacy_policy' => 'Politica de Confidențialitate',
     'terms_conditions' => 'Termeni și Condiții',
-    'cookies_policy' => 'Politica de Cookie-uri'
+    'cookies_policy' => 'Politica de Cookie-uri',
+    
+    // Footer
+    'footer_about_text' => 'La AppNet Developer, ne dedicăm oferirii de soluții tehnologice avansate în domeniile IoT, IA și dezvoltare de software personalizat. Folosim tehnologia ARM și cloud computing-ul pentru a crea soluții eficiente și prietenoase cu mediul, concepute pentru a satisface nevoile unice ale afacerilor precum a dumneavoastră.',
+    'services_we_offer' => 'Servicii pe care le Oferim',
+    'industrial_iot_solutions' => 'Soluții IoT Industriale',
+    'ai_ml_solutions' => 'Inteligență Artificială și Machine Learning',
+    'custom_software_development' => 'Dezvoltare Software Personalizată',
+    'control_geolocation_apps' => 'Aplicații de Control și Geolocalizare',
+    'useful_links' => 'Linkuri Utile',
+    'about_us' => 'Despre Noi',
+    'our_services' => 'Serviciile Noastre',
+    'blog_news' => 'Blog & Știri',
+    'brand_assets' => 'Resurse de Brand',
+    'contact_us' => 'Contactați-ne',
+    'phone_number' => '+34 619 929 305',
+    'email_address' => 'info@appnet.dev',
+    'website_url' => 'www.appnet.dev',
+    'all_rights_reserved' => 'Toate drepturile rezervate',
+    'terms_conditions' => 'Termeni și Condiții',
+    'privacy_policy' => 'Politica de Confidențialitate',
+    'cookie_consent_text' => 'Acest site web folosește cookie-uri pentru a vă îmbunătăți experiența.',
+    'accept' => 'Accept',
+    'last_updated' => 'Ultima actualizare'
 ];

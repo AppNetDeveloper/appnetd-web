@@ -508,7 +508,7 @@ require_once __DIR__ . '/languages/config.php';
         <div class="row">
           <div class="col-lg-12">
             <div class="pera">
-              <p><img src="assets/img/icons/header-top-span.png" alt=""> Una empresa profesional de tecnología y soluciones informáticas que ofrece presencia mundial</p>
+              <p><img src="assets/img/icons/header-top-span.png" alt=""> <?php echo __('header_top_text'); ?></p>
             </div>
           </div>
         </div>
@@ -530,43 +530,43 @@ require_once __DIR__ . '/languages/config.php';
                <div class="main-menu-ex main-menu-ex1">
                 <ul>
                   
-                  <li><a href="index.php">Inicio</a></li>
+                  <li><a href="index.php"><?php echo __('home'); ?></a></li>
 
-                  <li class="dropdown-menu-parrent"><a href="#">Sobre Nosotros <i class="fa-solid fa-angle-down"></i></a>
+                  <li class="dropdown-menu-parrent"><a href="#"><?php echo __('about'); ?> <i class="fa-solid fa-angle-down"></i></a>
                     <ul>
-                     <li><a href="about.php">Sobre Nosotros</a></li>
+                     <li><a href="about.php"><?php echo __('about'); ?></a></li>
                     </ul>
                   </li>
 
-                  <li class="dropdown-menu-parrent"><a href="#" class="main1">Ofrecemos<i class="fa-solid fa-angle-down"></i></a>
+                  <li class="dropdown-menu-parrent"><a href="#" class="main1"><?php echo __('we_offer'); ?><i class="fa-solid fa-angle-down"></i></a>
                     <div class="mega-menu-all">
                       <div class="row">
                         <div class="col-md-3">
                           <div class="mega-menu-single dis1">
-                            <h3>Nuestros Servicios</h3>
+                            <h3><?php echo __('our_services'); ?></h3>
                             <ul>
-                              <li><a href="service.php">Servicio</a></li>
+                              <li><a href="service.php"><?php echo __('services'); ?></a></li>
                             </ul>
                           </div>
                         </div>
                   
                         <div class="col-md-3">
                           <div class="mega-menu-single">
-                            <h3>Boletín de Noticias</h3>
+                            <h3><?php echo __('newsletter'); ?></h3>
                             <ul>
-                              <li><a href="blog.php">Blog</a></li>
+                              <li><a href="blog.php"><?php echo __('blog'); ?></a></li>
                             </ul>
                           </div>
                         </div>
                   
                         <div class="col-md-3">
                           <div class="mega-menu-single">
-                            <h3>Páginas</h3>
+                            <h3><?php echo __('pages'); ?></h3>
                             <ul>
-                              <li><a href="about.php">Acerca de Nosotros</a></li>
-                              <li><a href="contact.php">Contacto</a></li>
-                              <li><a href="team.php">Nuestro Equipo</a></li>
-                              <li><a href="testimonial.php">Testimonios</a></li>
+                              <li><a href="about.php"><?php echo __('about_us'); ?></a></li>
+                              <li><a href="contact.php"><?php echo __('contact'); ?></a></li>
+                              <li><a href="team.php"><?php echo __('our_team'); ?></a></li>
+                              <li><a href="testimonial.php"><?php echo __('testimonials'); ?></a></li>
                               <li></li>
                             </ul>
                           </div>
@@ -574,9 +574,9 @@ require_once __DIR__ . '/languages/config.php';
                   
                         <div class="col-md-3">
                           <div class="mega-menu-single">
-                            <h3>Nuestros Proyectos</h3>
+                            <h3><?php echo __('our_projects'); ?></h3>
                             <ul>
-                              <li><a href="proyectos.php ">Proyectos</a></li>
+                              <li><a href="proyectos.php"><?php echo __('projects'); ?></a></li>
                             </ul>
                           </div>
                         </div>
@@ -584,20 +584,20 @@ require_once __DIR__ . '/languages/config.php';
                     </div>
                   </li>
 
-                  <li class="dropdown-menu-parrent"><a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
+                  <li class="dropdown-menu-parrent"><a href="#"><?php echo __('blog'); ?> <i class="fa-solid fa-angle-down"></i></a>
                    <ul>
-                   <li><a href="blog.php">Blog</a></li>
+                   <li><a href="blog.php"><?php echo __('blog'); ?></a></li>
                    </ul>
                  </li>
 
-                 <li class="dropdown-menu-parrent"><a href="#">Project <i class="fa-solid fa-angle-down"></i></a>
+                 <li class="dropdown-menu-parrent"><a href="#"><?php echo __('projects'); ?> <i class="fa-solid fa-angle-down"></i></a>
                   <ul>
-                   <li><a href="proyectos.php ">Project</a></li>
+                   <li><a href="proyectos.php"><?php echo __('projects'); ?></a></li>
 
                   </ul>
-                  <li class="dropdown-menu-parrent"><a href="#">Contacto <i class="fa-solid fa-angle-down"></i></a>
+                  <li class="dropdown-menu-parrent"><a href="#"><?php echo __('contact'); ?> <i class="fa-solid fa-angle-down"></i></a>
                     <ul>
-                     <li><a href="contact.php">Contacta con Nosotros</a></li>
+                     <li><a href="contact.php"><?php echo __('contact_us'); ?></a></li>
                     </ul>
                   </li>
                 </li>
@@ -677,53 +677,50 @@ require_once __DIR__ . '/languages/config.php';
           </div>
           <div class="mobile-nav">
             <ul>
-              <li><a href="index.php">Inicio</a></li>
+              <li><a href="index.php"><?php echo __('home'); ?></a></li>
               
-              <li class="has-dropdown"><a href="#">Sobre Nosotros <i class="fa-solid fa-angle-down"></i></a>
+              <li class="has-dropdown"><a href="#"><?php echo __('about'); ?> <i class="fa-solid fa-angle-down"></i></a>
                 <ul class="sub-menu">
-                  <li><a href="about.php">Sobre Nosotros</a></li>
+                  <li><a href="about.php"><?php echo __('about'); ?></a></li>
                 </ul>
               </li>
 
-              <li class="has-dropdown"><a href="#">Ofrecemos <i class="fa-solid fa-angle-down"></i></a>
+              <li class="has-dropdown"><a href="#"><?php echo __('we_offer'); ?> <i class="fa-solid fa-angle-down"></i></a>
                 <ul class="sub-menu">
-                  <li><a href="service.php">Nuestros Servicios</a></li>
-                  <li><a href="blog.php">Blog</a></li>
-                  <li><a href="about.php">Acerca de Nosotros</a></li>
-                  <li><a href="team.php">Nuestro Equipo</a></li>
-                  <li><a href="testimonial.php">Testimonios</a></li>
-                  <li><a href="proyectos.php">Nuestros Proyectos</a></li>
+                  <li><a href="service.php"><?php echo __('our_services'); ?></a></li>
+                  <li><a href="blog.php"><?php echo __('blog'); ?></a></li>
+                  <li><a href="about.php"><?php echo __('about_us'); ?></a></li>
+                  <li><a href="team.php"><?php echo __('our_team'); ?></a></li>
+                  <li><a href="testimonial.php"><?php echo __('testimonials'); ?></a></li>
+                  <li><a href="proyectos.php"><?php echo __('our_projects'); ?></a></li>
                 </ul>
               </li>
-
-              <li class="has-dropdown"><a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
+              <li class="has-dropdown"><a href="#"><?php echo __('blog'); ?> <i class="fa-solid fa-angle-down"></i></a>
                 <ul class="sub-menu">
-                  <li><a href="blog.php">Blog</a></li>
+                  <li><a href="blog.php"><?php echo __('blog'); ?></a></li>
                 </ul>
               </li>
-
-              <li class="has-dropdown"><a href="#">Proyectos <i class="fa-solid fa-angle-down"></i></a>
+              <li class="has-dropdown"><a href="#"><?php echo __('projects'); ?> <i class="fa-solid fa-angle-down"></i></a>
                 <ul class="sub-menu">
-                  <li><a href="proyectos.php">Proyectos</a></li>
+                  <li><a href="proyectos.php"><?php echo __('projects'); ?></a></li>
                 </ul>
               </li>
-
-              <li><a href="contact.php">Contacto</a></li>
+              <li><a href="contact.php"><?php echo __('contact'); ?></a></li>
             </ul>
             
             <div class="mobile-button">
-              <a class="theme-btn1" href="contact.php">Obtén un Presupuesto <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              <a class="theme-btn1" href="contact.php"><?php echo __('get_quote'); ?> <span><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
 
             <div class="single-footer-items">
-              <h3>Contáctanos</h3>
+              <h3><?php echo __('contact_us'); ?></h3>
 
               <div class="contact-box">
                 <div class="icon">
                   <img src="assets/img/icons/header1-icon.png" alt="Teléfono">
                 </div>
                 <div class="pera">
-                  <p>Haz una Llamada</p>
+                  <p><?php echo __('call_us'); ?></p>
                   <a href="tel:+34619929305">+34 619 929 305</a>
                 </div>
               </div>
@@ -733,7 +730,7 @@ require_once __DIR__ . '/languages/config.php';
                   <img src="assets/img/icons/footer1-icon3.png" alt="Email">
                 </div>
                 <div class="pera">
-                  <p>Envíanos un Email</p>
+                  <p><?php echo __('send_us_email'); ?></p>
                   <a href="mailto:info@appnet.dev">info@appnet.dev</a>
                 </div>
               </div>
@@ -743,7 +740,7 @@ require_once __DIR__ . '/languages/config.php';
                   <img src="assets/img/icons/footer1-icon4.png" alt="Web">
                 </div>
                 <div class="pera">
-                  <p>Visítanos en</p>
+                  <p><?php echo __('visit_us_at'); ?></p>
                   <a href="https://appnet.dev">www.appnet.dev</a>
                 </div>
               </div>
@@ -751,7 +748,7 @@ require_once __DIR__ . '/languages/config.php';
          </div>
 
             <div class="contact-infos">
-              <h3>Nuestra Ubicación</h3>
+              <h3><?php echo __('our_location'); ?></h3>
               <ul class="social-icon">
                 <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>

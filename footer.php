@@ -10,7 +10,7 @@
                                       </div>
                                       <div class="space20"></div>
                                       <div class="heading1">
-                                        <p>En AppNet Developer, nos dedicamos a ofrecer soluciones tecnológicas avanzadas en IoT, IA y desarrollo de software personalizado. Utilizamos tecnología ARM y cloud computing para crear soluciones eficientes y respetuosas con el medio ambiente, diseñadas para satisfacer las necesidades únicas de empresas como la suya.</p>
+                                        <p><?php echo __('footer_about_text'); ?></p>
                                       </div>
                                       <ul class="social-icon">
                                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
@@ -23,27 +23,27 @@
         
                             <div class="col-lg col-md-6 col-12">
                                  <div class="single-footer-items">
-                                      <h3>Servicio Que Ofrecemos</h3>
+                                      <h3><?php echo __('services_we_offer'); ?></h3>
         
                                       <ul class="menu-list">
-                                           <li><a href="#">Soluciones IoT Industrial</a></li>
-                                           <li><a href="#">Inteligencia Artificial y Machine Learning</a></li>
-                                           <li><a href="#">Desarrollo de Software Personalizado</a></li>
-                                           <li><a href="#">Aplicaciones de Control y Geolocalización</a></li>
+                                           <li><a href="#"><?php echo __('industrial_iot_solutions'); ?></a></li>
+                                           <li><a href="#"><?php echo __('ai_ml_solutions'); ?></a></li>
+                                           <li><a href="#"><?php echo __('custom_software_development'); ?></a></li>
+                                           <li><a href="#"><?php echo __('control_geolocation_apps'); ?></a></li>
                                       </ul>
                                  </div>
                             </div>
         
                             <div class="col-lg col-md-6 col-12">
                                  <div class="single-footer-items">
-                                      <h3>Enlaces Útiles</h3>
+                                      <h3><?php echo __('useful_links'); ?></h3>
         
                                       <ul class="menu-list">
-                                           <li><a href="#">Sobre Nosotros </a></li>
-                                           <li><a href="#">Nuestros Servicios</a></li>
-                                           <li><a href="#">Blog & Noticias</a></li>
-                                           <li><a href="#">Activos de la Marca</a></li>
-                                           <li><a href="#">Contáctenos</a></li>
+                                           <li><a href="about.php"><?php echo __('about_us'); ?></a></li>
+                                           <li><a href="services.php"><?php echo __('our_services'); ?></a></li>
+                                           <li><a href="blog.php"><?php echo __('blog_news'); ?></a></li>
+                                           <li><a href="#"><?php echo __('brand_assets'); ?></a></li>
+                                           <li><a href="contact.php"><?php echo __('contact_us'); ?></a></li>
                                       </ul>
                                  </div>
                             </div>
@@ -51,14 +51,14 @@
         
                             <div class="col-lg-3 col-md-6 col-12">
                                  <div class="single-footer-items">
-                                      <h3>Contáctenos</h3>
+                                      <h3><?php echo __('contact_us'); ?></h3>
         
                                       <div class="contact-box">
                                         <div class="icon">
                                           <img src="assets/img/icons/footer1-icon1.png" alt="">
                                         </div>
                                         <div class="pera">
-                                          <a href="tel:+34619929305">+34 619 929 305</a>
+                                          <a href="tel:+34619929305"><?php echo __('phone_number'); ?></a>
                                         </div>
                                       </div>
 
@@ -67,7 +67,7 @@
                                           <img src="assets/img/icons/footer1-icon3.png" alt="">
                                         </div>
                                         <div class="pera">
-                                          <a href="mailto:info@appnet.dev">info@appnet.dev</a>
+                                          <a href="mailto:info@appnet.dev"><?php echo __('email_address'); ?></a>
                                         </div>
                                       </div>
 
@@ -76,7 +76,7 @@
                                           <img src="assets/img/icons/footer1-icon4.png" alt="">
                                         </div>
                                         <div class="pera">
-                                          <a href="https://appnet.dev">www.appnet.dev</a>
+                                          <a href="https://appnet.dev"><?php echo __('website_url'); ?></a>
                                         </div>
                                       </div>
         
@@ -93,13 +93,13 @@
                       <div class="row align-items-center">
                         <div class="col-md-5">
                              <div class="coppyright">
-                               <p>Copyright @<?php echo date('Y'); ?> AppNet Developer. Todos los derechos reservados</p>
+                               <p>Copyright @<?php echo date('Y'); ?> AppNet Developer. <?php echo __('all_rights_reserved'); ?></p>
                              </div>
                         </div>
                         <div class="col-md-7">
                               <div class="coppyright right-area">
-                                   <a href="#" id="terms-link">Términos y Condiciones</a>
-                                   <a href="#" id="privacy-link">Política de Privacidad</a>
+                                   <a href="#" id="terms-link"><?php echo __('terms_conditions'); ?></a>
+                                   <a href="#" id="privacy-link"><?php echo __('privacy_policy'); ?></a>
                               </div>
 
                         </div>
@@ -130,7 +130,7 @@
      <script src="assets/js/main.js"></script>
 
      <div id="cookie-consent" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; background: #333; color: #fff; padding: 10px; text-align: center;">
-        Este sitio web utiliza cookies para mejorar su experiencia. <button id="accept-cookies">Aceptar</button>
+        <?php echo __('cookie_consent_text'); ?> <button id="accept-cookies"><?php echo __('accept'); ?></button>
      </div>
 
      <script>
@@ -150,8 +150,8 @@
 <div id="terms-modal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.7); z-index: 1000; padding: 20px; overflow-y: auto;">
     <div style="background: #fff; padding: 20px; border-radius: 5px; max-width: 600px; margin: auto; position: relative;">
         <button id="close-terms-modal" style="position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 20px; cursor: pointer;">&times;</button>
-        <h2>Términos y Condiciones</h2>
-        <p>Última actualización: <?php echo date('d/m/Y'); ?></p>
+        <h2><?php echo __('terms_conditions'); ?></h2>
+        <p><?php echo __('last_updated'); ?>: <?php echo date('d/m/Y'); ?></p>
         <p>Bienvenido a AppNet Developer. Estos términos y condiciones describen las reglas y regulaciones para el uso del sitio web de AppNet Developer, ubicado en www.appnet.dev.</p>
         <p>Al acceder a este sitio web, asumimos que aceptas estos términos y condiciones. No continúes usando AppNet Developer si no aceptas todos los términos y condiciones establecidos en esta página.</p>
         <h3>Licencia de Uso</h3>

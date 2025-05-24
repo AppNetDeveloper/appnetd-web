@@ -270,5 +270,28 @@ return [
     'all_rights' => 'Tutti i diritti riservati',
     'privacy_policy' => 'Informativa sulla Privacy',
     'terms_conditions' => 'Termini e Condizioni',
-    'cookies_policy' => 'Informativa sui Cookie'
+    'cookies_policy' => 'Informativa sui Cookie',
+    
+    // Footer
+    'footer_about_text' => 'In AppNet Developer, ci dedichiamo a offrire soluzioni tecnologiche avanzate in IoT, IA e sviluppo software personalizzato. Utilizziamo la tecnologia ARM e il cloud computing per creare soluzioni efficienti e rispettose dell\'ambiente, progettate per soddisfare le esigenze uniche delle aziende come la tua.',
+    'services_we_offer' => 'Servizi che Offriamo',
+    'industrial_iot_solutions' => 'Soluzioni IoT Industriale',
+    'ai_ml_solutions' => 'Intelligenza Artificiale e Machine Learning',
+    'custom_software_development' => 'Sviluppo Software Personalizzato',
+    'control_geolocation_apps' => 'Applicazioni di Controllo e Geolocalizzazione',
+    'useful_links' => 'Link Utili',
+    'about_us' => 'Chi Siamo',
+    'our_services' => 'I Nostri Servizi',
+    'blog_news' => 'Blog & Notizie',
+    'brand_assets' => 'Risorse del Marchio',
+    'contact_us' => 'Contattaci',
+    'phone_number' => '+34 619 929 305',
+    'email_address' => 'info@appnet.dev',
+    'website_url' => 'www.appnet.dev',
+    'all_rights_reserved' => 'Tutti i diritti riservati',
+    'terms_conditions' => 'Termini e Condizioni',
+    'privacy_policy' => 'Informativa sulla Privacy',
+    'cookie_consent_text' => 'Questo sito utilizza i cookie per migliorare la tua esperienza.',
+    'accept' => 'Accetta',
+    'last_updated' => 'Ultimo aggiornamento'
 ];
