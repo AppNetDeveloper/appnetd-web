@@ -476,12 +476,12 @@
     <!--=====HEADER END=======-->
     
         <!--=====Mobile header start=======-->
-        <div class="mobile-header d-block d-lg-none ">
+        <div class="mobile-header d-block d-lg-none">
           <div class="container-fluid">
             <div class="col-12">
               <div class="mobile-header-elements">
                 <div class="mobile-logo">
-                  <a href="index1.php"><img src="assets/img/logo/header-logo1.png" alt=""></a>
+                  <a href="index.php"><img src="assets/img/logo/header-logo1.png" alt="AppNet Developer"></a>
                 </div>
                 <div class="mobile-nav-icon">
                   <i class="fa-duotone fa-bars-staggered"></i>
@@ -493,81 +493,49 @@
         
         <div class="mobile-sidebar d-block d-lg-none">
           <div class="logo-m">
-            <a href="index.php"><img src="assets/img/logo/header3-logo.png" alt=""></a>
+            <a href="index.php"><img src="assets/img/logo/header-logo1.png" alt="AppNet Developer"></a>
           </div>
           <div class="menu-close">
             <i class="fa-solid fa-xmark"></i>
           </div>
           <div class="mobile-nav">
-      
             <ul>
-              <li class="has-dropdown"><a href="#">Inicio </a> 
+              <li><a href="index.php">Inicio</a></li>
+              
+              <li class="has-dropdown"><a href="#">Sobre Nosotros <i class="fa-solid fa-angle-down"></i></a>
                 <ul class="sub-menu">
-                  <li  class="has-dropdown has-dropdown1"><a href="#">Multipágina</a>
-                    <ul class="sub-menu">
-                      <li><a href="index.php">Inicio 1</a></li>
-                      <li><a href="index2.php">Inicio 2</a></li>
-                      <li><a href="index3.php">Inicio 3</a></li>
-                      <li><a href="index4.php">Inicio 4</a></li>
-                      <li><a href="index5.php">Inicio 5</a></li>
-                      <li><a href="index6.php">Inicio 6</a></li>
-                      <li><a href="index7.php">Inicio 7</a></li>
-                      <li><a href="index8.php">Inicio 8</a></li>
-                      <li><a href="index9.php">Inicio 9</a></li>
-                      <li><a href="index10.php">Inicio 10</a></li>
-                    </ul>
-                  </li>
-                  <li  class="has-dropdown has-dropdown1"><a href="#">Página de Destino</a>
-                    <ul class="sub-menu">
-                      <li><a href="single-index1.php">Inicio 1</a></li>
-                      <li><a href="single-index2.php">Inicio 2</a></li>
-                      <li><a href="single-index3.php">Inicio 3</a></li>
-                      <li><a href="single-index4.php">Inicio 4 </a></li>
-                      <li><a href="single-index5.php">Inicio 5 </a></li>
-                      <li><a href="single-index6.php">Inicio 6 </a></li>
-                      <li><a href="single-index7.php">Inicio 7 </a></li>
-                      <li><a href="single-index8.php">Inicio 8 </a></li>
-                      <li><a href="single-index9.php">Inicio 9 </a></li>
-                      <li><a href="single-index10.php">Inicio 10 </a></li>
-                    </ul>
-                  </li>
+                  <li><a href="about.php">Sobre Nosotros</a></li>
                 </ul>
-            </li>
-            <li><a href="about.php">Sobre Nosotros</a></li>
-            <li class="has-dropdown"><a href="#">Servicio</a> 
-              <ul class="sub-menu">
-                  <li><a href="service.php">Servicio</a></li>
-                  <li><a href="service-details-left.php">Servicio Izquierda</a></li>
-                  <li><a href="service-details-right.php">Servicio Derecha</a></li>
-                  <li><a href="service-details.php">Detalles del Servicio</a></li>
-              </ul>
-          </li>
+              </li>
 
-          <li class="has-dropdown"><a href="#">Páginas</a> 
-            <ul class="sub-menu">
-              <li><a href="contact.php">Contacto</a></li>
-              <li><a href="team.php">Equipo</a></li>
-              <li><a href="testimonial.php">Testimonios</a></li>
-              <li><a href="error.php">404</a></li>
-            </ul>
-        </li>
-      
-              <li class="has-dropdown"><a href="#">Blog</a> 
+              <li class="has-dropdown"><a href="#">Ofrecemos <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="sub-menu">
+                  <li><a href="service.php">Nuestros Servicios</a></li>
+                  <li><a href="blog.php">Blog</a></li>
+                  <li><a href="about.php">Acerca de Nosotros</a></li>
+                  <li><a href="team.php">Nuestro Equipo</a></li>
+                  <li><a href="testimonial.php">Testimonios</a></li>
+                  <li><a href="proyectos.php">Nuestros Proyectos</a></li>
+                </ul>
+              </li>
+
+              <li class="has-dropdown"><a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
                 <ul class="sub-menu">
                   <li><a href="blog.php">Blog</a></li>
-                  <li><a href="blog-sidebar.php">Barra Lateral del Blog</a></li>
-                        <li><a href="blog-details-left.php">Detalles Izquierda</a></li>
-                        <li><a href="blog-details-right.php">Detalles Derecha</a></li>
-                        <li><a href="blog-details.php">Detalles del Blog</a></li>
                 </ul>
-            </li>
+              </li>
 
-            <li><a href="proyectos.php">Proyectos</a></li>
-      
+              <li class="has-dropdown"><a href="#">Proyectos <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="sub-menu">
+                  <li><a href="proyectos.php">Proyectos</a></li>
+                </ul>
+              </li>
+
+              <li><a href="contact.php">Contacto</a></li>
             </ul>
             
             <div class="mobile-button">
-              <a class="menu-btn2" href="service.php">Aprende Más <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              <a class="theme-btn1" href="contact.php">Obtén un Presupuesto <span><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
 
             <div class="single-footer-items">
@@ -575,27 +543,30 @@
 
               <div class="contact-box">
                 <div class="icon">
-                  <img src="assets/img/icons/footer1-icon1.png" alt="">
+                  <img src="assets/img/icons/header1-icon.png" alt="Teléfono">
                 </div>
                 <div class="pera">
+                  <p>Haz una Llamada</p>
                   <a href="tel:+34619929305">+34 619 929 305</a>
                 </div>
               </div>
 
               <div class="contact-box">
                 <div class="icon">
-                  <img src="assets/img/icons/footer1-icon3.png" alt="">
+                  <img src="assets/img/icons/footer1-icon3.png" alt="Email">
                 </div>
                 <div class="pera">
+                  <p>Envíanos un Email</p>
                   <a href="mailto:info@appnet.dev">info@appnet.dev</a>
                 </div>
               </div>
 
               <div class="contact-box">
                 <div class="icon">
-                  <img src="assets/img/icons/footer1-icon4.png" alt="">
+                  <img src="assets/img/icons/footer1-icon4.png" alt="Web">
                 </div>
                 <div class="pera">
+                  <p>Visítanos en</p>
                   <a href="https://appnet.dev">www.appnet.dev</a>
                 </div>
               </div>
