@@ -13,8 +13,10 @@ return [
     'close' => 'Close',
     
     // Navigation
+    'header_top_text' => 'Welcome to AppNet Developer - Your Technology Partner',
     'home' => 'Home',
     'about' => 'About Us',
+    'we_offer' => 'We Offer',
     'services' => 'Services',
     'projects' => 'Projects',
     'blog' => 'Blog',
@@ -258,11 +260,15 @@ return [
     'blog_post6_title' => 'Artificial Intelligence in Customer Service',
     'blog_post6_excerpt' => 'How AI is revolutionizing customer service and user experience.',
     
-    // CTA Section
-    'cta_title' => 'Ready to Transform Your Business?',
-    'cta_description' => 'Discover how our AI, IoT, and automation solutions can drive the growth and efficiency of your company.',
-    'request_free_consultation' => 'Request Free Consultation',
-    'explore_solutions' => 'Explore Our Solutions',
+    // Features
+    'feature1_title' => 'Specialized Technical Support',
+    'feature1_desc' => 'Expert technical assistance available 24/7 to resolve any incidents.',
+    'feature2_title' => 'Constant Updates',
+    'feature2_desc' => 'We keep your infrastructure always updated with the latest technologies.',
+    'feature3_title' => 'Comprehensive Security',
+    'feature3_desc' => 'Advanced protection for your systems and sensitive data.',
+    'feature4_title' => 'High Performance',
+    'feature4_desc' => 'Cutting-edge technology to ensure maximum system performance.',
     'view_all_services' => 'View All Services',
     'explore_possibilities' => 'Explore Possibilities',
     'cta_business_commitment' => 'At AppNet Developer, We Are Committed to Businesses',

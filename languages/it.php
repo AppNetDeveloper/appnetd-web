@@ -13,8 +13,10 @@ return [
     'close' => 'Chiudi',
     
     // Navigazione
+    'header_top_text' => 'Benvenuti in AppNet Developer - Il Vostro Partner Tecnologico',
     'home' => 'Home',
     'about' => 'Chi Siamo',
+    'we_offer' => 'Offriamo',
     'services' => 'Servizi',
     'projects' => 'Progetti',
     'blog' => 'Blog',
@@ -293,5 +295,15 @@ return [
     'privacy_policy' => 'Informativa sulla Privacy',
     'cookie_consent_text' => 'Questo sito utilizza i cookie per migliorare la tua esperienza.',
     'accept' => 'Accetta',
-    'last_updated' => 'Ultimo aggiornamento'
+    'last_updated' => 'Ultimo aggiornamento',
+    
+    // Features
+    'feature1_title' => 'Supporto Tecnico Specializzato',
+    'feature1_desc' => 'Assistenza tecnica esperta disponibile 24/7 per risolvere qualsiasi incidente.',
+    'feature2_title' => 'Aggiornamenti Costanti',
+    'feature2_desc' => 'Manteniamo la tua infrastruttura sempre aggiornata con le ultime tecnologie.',
+    'feature3_title' => 'Sicurezza Completa',
+    'feature3_desc' => 'Protezione avanzata per i tuoi sistemi e dati sensibili.',
+    'feature4_title' => 'Alte Prestazioni',
+    'feature4_desc' => 'Tecnologia all\'avanguardia per garantire le massime prestazioni ai tuoi sistemi.'
 ];

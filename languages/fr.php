@@ -13,8 +13,10 @@ return [
     'close' => 'Fermer',
     
     // Navigation
+    'header_top_text' => 'Bienvenue sur AppNet Developer - Votre Partenaire Technologique',
     'home' => 'Accueil',
     'about' => 'À Propos',
+    'we_offer' => 'Nous Offrons',
     'services' => 'Services',
     'projects' => 'Projets',
     'blog' => 'Blog',
@@ -303,6 +305,16 @@ return [
     'contact_us' => 'Contactez-nous',
     'phone_number' => '+34 619 929 305',
     'email_address' => 'info@appnet.dev',
+    
+    // Features
+    'feature1_title' => 'Support Technique Spécialisé',
+    'feature1_desc' => 'Assistance technique experte disponible 24/7 pour résoudre tout incident.',
+    'feature2_title' => 'Mises à Jour Constantes',
+    'feature2_desc' => 'Nous maintenons votre infrastructure toujours à jour avec les dernières technologies.',
+    'feature3_title' => 'Sécurité Intégrale',
+    'feature3_desc' => 'Protection avancée pour vos systèmes et données sensibles.',
+    'feature4_title' => 'Haute Performance',
+    'feature4_desc' => 'Technologie de pointe pour garantir des performances maximales à vos systèmes.',
     'website_url' => 'www.appnet.dev',
     'all_rights_reserved' => 'Tous droits réservés',
     'terms_conditions' => 'Conditions Générales',

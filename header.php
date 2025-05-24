@@ -27,12 +27,98 @@ require_once __DIR__ . '/languages/config.php';
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/aos.css">
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/mobile-menu.css">
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/main.css">
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/header-styles.css">
      <?php if(isset($additional_css)): ?>
      <link rel="stylesheet" href="<?php echo $base_url . '/' . ltrim($additional_css, '/'); ?>">
      <?php endif; ?>
 
      <!--=====JQUERY=======-->
      <script src="assets/js/jquery-3-7-1.min.js"></script>
+     <!-- Script para el menú desplegable -->
+     <script>
+     document.addEventListener('DOMContentLoaded', function() {
+         // Manejar el menú desplegable
+         const dropdowns = document.querySelectorAll('.nav-item.dropdown');
+         
+         dropdowns.forEach(dropdown => {
+             const link = dropdown.querySelector('.nav-link');
+             const menu = dropdown.querySelector('.dropdown-menu');
+             
+             if (!menu) return;
+             
+             // Asegurar que el menú tenga estilos iniciales
+             Object.assign(menu.style, {
+                 position: 'absolute',
+                 top: '100%',
+                 left: '0',
+                 minWidth: '220px',
+                 backgroundColor: '#fff',
+                 boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)',
+                 borderRadius: '4px',
+                 padding: '10px 0',
+                 opacity: '0',
+                 visibility: 'hidden',
+                 transform: 'translateY(10px)',
+                 transition: 'all 0.3s ease',
+                 zIndex: '1001',
+                 border: '1px solid rgba(0,0,0,0.05)',
+                 display: 'block',
+                 pointerEvents: 'auto'
+             });
+             
+             // Mostrar el menú al pasar el ratón
+             dropdown.addEventListener('mouseenter', function() {
+                 menu.style.opacity = '1';
+                 menu.style.visibility = 'visible';
+                 menu.style.transform = 'translateY(0)';
+                 menu.style.pointerEvents = 'auto';
+             });
+             
+             // Ocultar el menú al quitar el ratón
+             dropdown.addEventListener('mouseleave', function(e) {
+                 // Verificar si el ratón se mueve al menú desplegable
+                 if (!menu.contains(e.relatedTarget) && e.relatedTarget !== menu) {
+                     menu.style.opacity = '0';
+                     menu.style.visibility = 'hidden';
+                     menu.style.transform = 'translateY(10px)';
+                 }
+             });
+             
+             // Mantener el menú visible cuando el ratón está sobre él
+             menu.addEventListener('mouseenter', function() {
+                 this.style.opacity = '1';
+                 this.style.visibility = 'visible';
+                 this.style.transform = 'translateY(0)';
+             });
+             
+             menu.addEventListener('mouseleave', function() {
+                 this.style.opacity = '0';
+                 this.style.visibility = 'hidden';
+                 this.style.transform = 'translateY(10px)';
+             });
+             
+             // Prevenir que el menú se cierre al hacer clic en él
+             menu.addEventListener('click', function(e) {
+                 e.stopPropagation();
+             });
+             
+             // Asegurar que los enlaces sean clickeables
+             const links = menu.querySelectorAll('a');
+             links.forEach(link => {
+                 link.style.pointerEvents = 'auto';
+             });
+         });
+         
+         // Cerrar menús al hacer clic en cualquier parte del documento
+         document.addEventListener('click', function() {
+             document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                 menu.style.opacity = '0';
+                 menu.style.visibility = 'hidden';
+                 menu.style.transform = 'translateY(10px)';
+             });
+         });
+     });
+     </script>
      
      <!-- Estilos para selectores de precios -->
      <style>
@@ -528,90 +614,32 @@ require_once __DIR__ . '/languages/config.php';
 
 
                <div class="main-menu-ex main-menu-ex1">
-                <ul>
-                  
-                  <li><a href="index.php"><?php echo __('home'); ?></a></li>
-
-                  <li class="dropdown-menu-parrent"><a href="#"><?php echo __('about'); ?> <i class="fa-solid fa-angle-down"></i></a>
-                    <ul>
-                     <li><a href="about.php"><?php echo __('about'); ?></a></li>
-                    </ul>
-                  </li>
-
-                  <li class="dropdown-menu-parrent"><a href="#" class="main1"><?php echo __('we_offer'); ?><i class="fa-solid fa-angle-down"></i></a>
-                    <div class="mega-menu-all">
-                      <div class="row">
-                        <div class="col-md-3">
-                          <div class="mega-menu-single dis1">
-                            <h3><?php echo __('our_services'); ?></h3>
-                            <ul>
-                              <li><a href="service.php"><?php echo __('services'); ?></a></li>
-                            </ul>
-                          </div>
+                <ul class="main-nav">
+                    <li class="nav-item"><a href="index.php" class="nav-link"><?php echo __('home'); ?></a></li>
+                    <li class="nav-item"><a href="about.php" class="nav-link"><?php echo __('about'); ?></a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link"><?php echo __('we_offer'); ?> <i class="fa-solid fa-angle-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="service.php" class="dropdown-item"><?php echo __('our_services'); ?></a>
+                            <a href="blog.php" class="dropdown-item"><?php echo __('blog'); ?></a>
+                            <a href="team.php" class="dropdown-item"><?php echo __('our_team'); ?></a>
+                            <a href="testimonial.php" class="dropdown-item"><?php echo __('testimonials'); ?></a>
+                            <a href="proyectos.php" class="dropdown-item"><?php echo __('our_projects'); ?></a>
                         </div>
-                  
-                        <div class="col-md-3">
-                          <div class="mega-menu-single">
-                            <h3><?php echo __('newsletter'); ?></h3>
-                            <ul>
-                              <li><a href="blog.php"><?php echo __('blog'); ?></a></li>
-                            </ul>
-                          </div>
-                        </div>
-                  
-                        <div class="col-md-3">
-                          <div class="mega-menu-single">
-                            <h3><?php echo __('pages'); ?></h3>
-                            <ul>
-                              <li><a href="about.php"><?php echo __('about_us'); ?></a></li>
-                              <li><a href="contact.php"><?php echo __('contact'); ?></a></li>
-                              <li><a href="team.php"><?php echo __('our_team'); ?></a></li>
-                              <li><a href="testimonial.php"><?php echo __('testimonials'); ?></a></li>
-                              <li></li>
-                            </ul>
-                          </div>
-                        </div>
-                  
-                        <div class="col-md-3">
-                          <div class="mega-menu-single">
-                            <h3><?php echo __('our_projects'); ?></h3>
-                            <ul>
-                              <li><a href="proyectos.php"><?php echo __('projects'); ?></a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li class="dropdown-menu-parrent"><a href="#"><?php echo __('blog'); ?> <i class="fa-solid fa-angle-down"></i></a>
-                   <ul>
-                   <li><a href="blog.php"><?php echo __('blog'); ?></a></li>
-                   </ul>
-                 </li>
-
-                 <li class="dropdown-menu-parrent"><a href="#"><?php echo __('projects'); ?> <i class="fa-solid fa-angle-down"></i></a>
-                  <ul>
-                   <li><a href="proyectos.php"><?php echo __('projects'); ?></a></li>
-
-                  </ul>
-                  <li class="dropdown-menu-parrent"><a href="#"><?php echo __('contact'); ?> <i class="fa-solid fa-angle-down"></i></a>
-                    <ul>
-                     <li><a href="contact.php"><?php echo __('contact_us'); ?></a></li>
-                    </ul>
-                  </li>
-                </li>
-                    
+                    </li>
+                    <li class="nav-item"><a href="blog.php" class="nav-link"><?php echo __('blog'); ?></a></li>
+                    <li class="nav-item"><a href="proyectos.php" class="nav-link"><?php echo __('projects'); ?></a></li>
+                    <li class="nav-item"><a href="contact.php" class="nav-link"><?php echo __('contact'); ?></a></li>
                 </ul>
 
                </div>
 
 
 
-               <div class="header1-buttons">
+                <div class="header-actions">
                     <!-- Selector de idiomas -->
                     <div class="language-selector">
-                        <button class="current-language" type="button">
+                        <button class="current-language" type="button" aria-label="<?php echo __('change_language'); ?>">
                             <span class="language-flag"><?php echo $available_languages[$current_lang]['flag']; ?></span>
                             <span class="language-code"><?php echo strtoupper($current_lang); ?></span>
                             <i class="fa-solid fa-chevron-down"></i>
@@ -630,19 +658,25 @@ require_once __DIR__ . '/languages/config.php';
                         </ul>
                     </div>
                     
-                    <div class="contact-btn">
-                      <div class="icon">
-                        <img src="assets/img/icons/header1-icon.png" alt="">
-                      </div>
-                      <div class="headding">
-                        <p>Haz una Llamada</p>
-                        <a href="tel:+34619929305">+34 619 929 305</a>
-                      </div>
+                    <!-- Botón de contacto -->
+                    <div class="header-contact">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label"><?php echo __('call_us'); ?></span>
+                            <a href="tel:+34619929305" class="contact-number">+34 619 929 305</a>
+                        </div>
                     </div>
-                    <div class="button">
-                      <a class="theme-btn1" href="contact.php"><?php echo __('get_quote'); ?> <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                    
+                    <!-- Botón de cotización -->
+                    <div class="header-quote">
+                        <a href="contact.php" class="btn btn-primary">
+                            <?php echo __('get_quote'); ?>
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </a>
                     </div>
-               </div>
+                </div>
 
              </div>
            </div>

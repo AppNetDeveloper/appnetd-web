@@ -1,0 +1,317 @@
+/* Estilos generales para la barra de navegación */
+.main-menu-ex {
+    width: 100%;
+}
+
+.main-menu-ex .main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0 15px;
+    list-style: none;
+    height: 100%;
+    gap: 5px;
+}
+
+/* Estilos para los elementos del menú */
+.nav-item {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    color: #4d94ff;
+    background: rgba(0, 0, 0, 0.03);
+}
+
+/* Estilos para el menú desplegable */
+.nav-item.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-item.dropdown > .nav-link {
+    padding-right: 30px !important;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-item.dropdown > .nav-link i {
+    margin-left: 5px;
+    font-size: 12px;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.nav-item.dropdown:hover > .nav-link i {
+    transform: rotate(180deg);
+}
+
+.nav-item.dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 220px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 10px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 1001;
+    margin-top: 0;
+    border: 1px solid rgba(0,0,0,0.05);
+    display: block !important; /* Asegurar que siempre esté en bloque */
+}
+
+/* Mostrar el menú desplegable al pasar el ratón */
+.nav-item.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    display: block;
+}
+
+/* Asegurar que los enlaces del menú sean clickeables */
+.dropdown-menu a {
+    pointer-events: auto !important;
+}
+
+/* Asegurar que el menú no se cierre al pasar el ratón sobre él */
+.dropdown-menu {
+    pointer-events: auto;
+}
+
+.dropdown-item {
+    display: block;
+    padding: 10px 25px;
+    color: #333 !important;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.dropdown-item:hover {
+    background: #f8f9fa;
+    color: #4d94ff !important;
+    padding-left: 30px;
+}
+
+/* Asegurar que el menú desplegable esté por encima de otros elementos */
+.main-menu-ex .main-nav > .nav-item {
+    position: static;
+}
+
+.mega-menu-section {
+    margin-bottom: 15px;
+}
+
+.mega-menu-section h4 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.mega-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mega-menu-link {
+    display: block;
+    padding: 8px 0;
+    color: #666;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.mega-menu-link:hover {
+    color: #007bff;
+    padding-left: 5px;
+}
+
+/* Estilos para el botón de contacto en el header */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 15px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.contact-icon {
+    font-size: 18px;
+    color: #007bff;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-label {
+    font-size: 12px;
+    color: #666;
+}
+
+.contact-number {
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Estilos para el botón de cotización */
+.header-quote .btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.header-quote .btn:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Estilos para el selector de idiomas */
+.language-selector {
+    position: relative;
+}
+
+.current-language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: none;
+    border: 1px solid #ddd;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.current-language:hover {
+    border-color: #007bff;
+}
+
+.language-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 5px;
+    min-width: 150px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.language-selector:hover .language-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.language-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 15px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.language-option:hover {
+    background: #f8f9fa;
+    color: #007bff;
+}
+
+/* Estilos responsivos */
+@media (max-width: 991px) {
+    .main-menu-ex .main-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .nav-item {
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .nav-link {
+        padding: 12px 0;
+    }
+    
+    .mega-menu-content {
+        position: static;
+        box-shadow: none;
+        padding: 10px 0 10px 20px;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+    }
+    
+    .header-actions {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .header-contact, .header-quote {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .language-selector {
+        width: 100%;
+    }
+    
+    .current-language {
+        width: 100%;
+        justify-content: center;
+    }
+}

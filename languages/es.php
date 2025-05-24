@@ -13,8 +13,10 @@ return [
     'close' => 'Cerrar',
     
     // Navigation
+    'header_top_text' => 'Bienvenido a AppNet Developer - Su Socio Tecnológico',
     'home' => 'Inicio',
     'about' => 'Sobre Nosotros',
+    'we_offer' => 'Ofrecemos',
     'services' => 'Servicios',
     'projects' => 'Proyectos',
     'blog' => 'Blog',
@@ -299,5 +301,15 @@ return [
     'request_free_consultation' => 'Solicitar Consulta Gratuita',
     'explore_solutions' => 'Explorar Soluciones',
     'view_all_services' => 'Ver todos nuestros servicios',
-    'explore_possibilities' => 'Explora las Posibilidades'
+    'explore_possibilities' => 'Explora las Posibilidades',
+    
+    // Features
+    'feature1_title' => 'Soporte Técnico Especializado',
+    'feature1_desc' => 'Asistencia técnica experta disponible 24/7 para resolver cualquier incidencia.',
+    'feature2_title' => 'Actualizaciones Constantes',
+    'feature2_desc' => 'Mantenemos tu infraestructura siempre actualizada con las últimas tecnologías.',
+    'feature3_title' => 'Seguridad Integral',
+    'feature3_desc' => 'Protección avanzada para tus sistemas y datos sensibles.',
+    'feature4_title' => 'Alto Rendimiento',
+    'feature4_desc' => 'Tecnología de punta para garantizar el máximo rendimiento de tus sistemas.',
 ];

@@ -13,8 +13,10 @@ return [
     'close' => 'Închide',
     
     // Navigare
+    'header_top_text' => 'Bine ați venit la AppNet Developer - Partenerul Dvs. Tehnologic',
     'home' => 'Acasă',
     'about' => 'Despre Noi',
+    'we_offer' => 'Oferim',
     'services' => 'Servicii',
     'projects' => 'Proiecte',
     'blog' => 'Blog',
@@ -302,5 +304,15 @@ return [
     'privacy_policy' => 'Politica de Confidențialitate',
     'cookie_consent_text' => 'Acest site web folosește cookie-uri pentru a vă îmbunătăți experiența.',
     'accept' => 'Accept',
-    'last_updated' => 'Ultima actualizare'
+    'last_updated' => 'Ultima actualizare',
+    
+    // Caracteristici
+    'feature1_title' => 'Suport Tehnic Specializat',
+    'feature1_desc' => 'Asistență tehnică expertă disponibilă 24/7 pentru a rezolva orice incident.',
+    'feature2_title' => 'Actualizări Constante',
+    'feature2_desc' => 'Ne asigurăm că infrastructura dumneavoastră este mereu actualizată cu cele mai recente tehnologii.',
+    'feature3_title' => 'Securitate Integrată',
+    'feature3_desc' => 'Protecție avansată pentru sistemele și datele dumneavoastră sensibile.',
+    'feature4_title' => 'Performanță Ridicată',
+    'feature4_desc' => 'Tehnologie de ultimă oră pentru a garanta performanța maximă a sistemelor dumneavoastră.'
 ];
