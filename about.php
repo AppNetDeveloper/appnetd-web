@@ -136,125 +136,124 @@
 
         <!--=====SOLUTION AREA END=======-->
 
-        <!--=====TEAM AREA START=======-->
+        <!--=====EXPERTISE AREA START=======-->
 
-        <div class="team2 about-page-team sp bg1">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6 m-auto text-center">
-                  <div class="heading1">
-                    <span class="span"><img src="assets/img/icons/span1.png" alt=""> Nuestro Equipo</span>
-                    <h2>Conoce a Nuestro Equipo de Expertos</h2>
+        <div class="expertise sp bg1">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 m-auto text-center">
+                <div class="heading1">
+                  <span class="span"><img src="assets/img/icons/span1.png" alt=""> Nuestra Experiencia</span>
+                  <h2>Áreas de Especialización</h2>
+                  <p>En AppNet Developer, nos enorgullece ofrecer soluciones tecnológicas integrales respaldadas por años de experiencia y conocimiento especializado.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="space30"></div>
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="expertise-box">
+                  <div class="icon">
+                    <i class="fas fa-microchip"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Inteligencia Artificial</h4>
+                    <p>Desarrollamos soluciones de IA personalizadas que impulsan la eficiencia y la innovación en tu negocio.</p>
                   </div>
                 </div>
               </div>
-    
-              <div class="space30"></div>
-              <div class="row">
-                <div class="col-lg-3 col-md-6">
-                  <div class="team-box">
-                    <div class="image-area">
-                      <div class="image">
-                        <img src="assets/img/team/team2-img1.png" alt="">
-                      </div>
-                      <div class="icon-area">
-                        <ul>
-                          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                          <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-    
-                    <div class="space30"></div>
-                      <div class="heading1">
-                        <h4><a href="#">John Doe</a></h4>
-                        <div class="space10"></div>
-                        <p>CEO & Fundador</p>
-                      </div>
+
+              <div class="col-lg-3 col-md-6">
+                <div class="expertise-box">
+                  <div class="icon">
+                    <i class="fas fa-network-wired"></i>
+                  </div>
+                  <div class="content">
+                    <h4>IoT Industrial</h4>
+                    <p>Conexión de maquinaria y sensores para un control en tiempo real y análisis predictivo.</p>
                   </div>
                 </div>
-    
-                <div class="col-lg-3 col-md-6">
-                  <div class="team-box">
-                    <div class="image-area">
-                      <div class="image">
-                        <img src="assets/img/team/team2-img2.png" alt="">
-                      </div>
-                      <div class="icon-area">
-                        <ul>
-                          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                          <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-    
-                    <div class="space30"></div>
-                      <div class="heading1">
-                        <h4><a href="#">Jane Smith</a></h4>
-                        <div class="space10"></div>
-                        <p>Directora de Tecnología</p>
-                      </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6">
+                <div class="expertise-box">
+                  <div class="icon">
+                    <i class="fas fa-shield-alt"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Ciberseguridad</h4>
+                    <p>Protección avanzada para tus sistemas y datos con las últimas tecnologías en seguridad informática.</p>
                   </div>
                 </div>
-    
-                <div class="col-lg-3 col-md-6">
-                  <div class="team-box">
-                    <div class="image-area">
-                      <div class="image">
-                        <img src="assets/img/team/team2-img3.png" alt="">
-                      </div>
-                      <div class="icon-area">
-                        <ul>
-                          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                          <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-    
-                    <div class="space30"></div>
-                      <div class="heading1">
-                        <h4><a href="#">Sarah Thompson </a></h4>
-                        <div class="space10"></div>
-                        <p>Jefa de Gestión de Proyectos</p>
-                      </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6">
+                <div class="expertise-box">
+                  <div class="icon">
+                    <i class="fas fa-cloud"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Servidores en la Nube</h4>
+                    <p>Infraestructura escalable y segura para alojar tus aplicaciones y datos críticos.</p>
                   </div>
                 </div>
-    
-                <div class="col-lg-3 col-md-6">
-                  <div class="team-box">
-                    <div class="image-area">
-                      <div class="image">
-                        <img src="assets/img/team/team2-img4.png" alt="">
-                      </div>
-                      <div class="icon-area">
-                        <ul>
-                          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                          <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-    
-                    <div class="space30"></div>
-                      <div class="heading1">
-                        <h4><a href="#">David Garcia</a></h4>
-                        <div class="space10"></div>
-                        <p>Ingeniero de Software Principal</p>
-                      </div>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-lg-3 col-md-6">
+                <div class="expertise-box">
+                  <div class="icon">
+                    <i class="fas fa-mobile-alt"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Aplicaciones Móviles</h4>
+                    <p>Desarrollo de aplicaciones nativas e híbridas para iOS y Android con diseño centrado en el usuario.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6">
+                <div class="expertise-box">
+                  <div class="icon">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Análisis de Datos</h4>
+                    <p>Transformamos datos en información valiosa para la toma de decisiones estratégicas.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6">
+                <div class="expertise-box">
+                  <div class="icon">
+                    <i class="fas fa-robot"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Automatización</h4>
+                    <p>Soluciones personalizadas para automatizar procesos y aumentar la productividad.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6">
+                <div class="expertise-box">
+                  <div class="icon">
+                    <i class="fas fa-headset"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Soporte 24/7</h4>
+                    <p>Asistencia técnica continua para garantizar el funcionamiento óptimo de tus sistemas.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-        <!--=====TEAM AREA END=======-->
+        <!--=====EXPERTISE AREA END=======-->
 
         <!--=====CTA AREA START=======-->
 
