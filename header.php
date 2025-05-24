@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<?php
+// Incluir configuración de idiomas
+require_once __DIR__ . '/languages/config.php';
+?>
+<html lang="<?php echo $current_lang; ?>" dir="<?php echo isset($available_languages[$current_lang]['rtl']) && $available_languages[$current_lang]['rtl'] ? 'rtl' : 'ltr'; ?>">
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -188,6 +192,158 @@
      @keyframes fadeIn {
          from { opacity: 0; transform: translateY(10px); }
          to { opacity: 1; transform: translateY(0); }
+     }
+     
+     /* Estilos para el selector de idiomas */
+     .language-selector {
+         position: relative;
+         margin-right: 15px;
+     }
+     
+     .current-language {
+         background: transparent;
+         color: #fff;
+         border: 1px solid rgba(255, 255, 255, 0.2);
+         border-radius: 4px;
+         padding: 8px 12px;
+         cursor: pointer;
+         display: flex;
+         align-items: center;
+         gap: 8px;
+         transition: all 0.3s ease;
+     }
+     
+     .current-language:hover {
+         background: rgba(255, 255, 255, 0.1);
+     }
+     
+     .language-flag {
+         font-size: 1.2em;
+     }
+     
+     .language-code {
+         font-weight: 600;
+     }
+     
+     .language-dropdown {
+         position: absolute;
+         top: 100%;
+         right: 0;
+         background: #fff;
+         border-radius: 4px;
+         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+         min-width: 180px;
+         margin-top: 5px;
+         opacity: 0;
+         visibility: hidden;
+         transform: translateY(10px);
+         transition: all 0.3s ease;
+         z-index: 1000;
+     }
+     
+     .language-selector:hover .language-dropdown {
+         opacity: 1;
+         visibility: visible;
+         transform: translateY(0);
+     }
+     
+     .language-dropdown li {
+         list-style: none;
+     }
+     
+     .language-option {
+         display: flex;
+         align-items: center;
+         padding: 10px 15px;
+         color: #333;
+         text-decoration: none;
+         transition: all 0.2s ease;
+     }
+     
+     .language-option:hover {
+         background: #f5f5f5;
+     }
+     
+     .language-option .language-flag {
+         margin-right: 10px;
+     }
+     
+     .language-option .language-name {
+         font-size: 0.9em;
+     }
+     
+     /* Estilos para el popup de bienvenida */
+     .language-popup {
+         display: none;
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: rgba(0, 0, 0, 0.7);
+         z-index: 9999;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     .language-popup-content {
+         background: #fff;
+         padding: 30px;
+         border-radius: 8px;
+         text-align: center;
+         max-width: 500px;
+         width: 90%;
+         animation: fadeIn 0.3s ease;
+     }
+     
+     .language-popup h2 {
+         margin-bottom: 20px;
+         color: #333;
+     }
+     
+     .language-options {
+         display: grid;
+         grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+         gap: 15px;
+         margin-top: 20px;
+     }
+     
+     .language-option-btn {
+         padding: 10px;
+         border: 1px solid #ddd;
+         border-radius: 4px;
+         background: #fff;
+         cursor: pointer;
+         transition: all 0.3s ease;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     
+     .language-option-btn:hover {
+         background: #f5f5f5;
+         border-color: #4e54c8;
+     }
+     
+     .language-option-btn .flag {
+         font-size: 2em;
+         margin-bottom: 5px;
+     }
+     
+     /* Estilos para RTL */
+     [dir="rtl"] .language-selector {
+         margin-right: 0;
+         margin-left: 15px;
+     }
+     
+     [dir="rtl"] .language-dropdown {
+         right: auto;
+         left: 0;
+     }
+     
+     [dir="rtl"] .language-option .language-flag {
+         margin-right: 0;
+         margin-left: 10px;
      }
      </style>
 </head>
@@ -453,6 +609,27 @@
 
 
                <div class="header1-buttons">
+                    <!-- Selector de idiomas -->
+                    <div class="language-selector">
+                        <button class="current-language" type="button">
+                            <span class="language-flag"><?php echo $available_languages[$current_lang]['flag']; ?></span>
+                            <span class="language-code"><?php echo strtoupper($current_lang); ?></span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <ul class="language-dropdown">
+                            <?php foreach ($available_languages as $code => $language): ?>
+                                <?php if ($code !== $current_lang): ?>
+                                    <li>
+                                        <a href="?lang=<?php echo $code; ?>" class="language-option" data-lang="<?php echo $code; ?>">
+                                            <span class="language-flag"><?php echo $language['flag']; ?></span>
+                                            <span class="language-name"><?php echo $language['name']; ?></span>
+                                        </a>
+                                    </li>
+                                <?php endif; ?>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                    
                     <div class="contact-btn">
                       <div class="icon">
                         <img src="assets/img/icons/header1-icon.png" alt="">
@@ -463,7 +640,7 @@
                       </div>
                     </div>
                     <div class="button">
-                      <a class="theme-btn1" href="contact.php">Obtén un Presupuesto <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                      <a class="theme-btn1" href="contact.php"><?php echo __('get_quote'); ?> <span><i class="fa-solid fa-arrow-right"></i></span></a>
                     </div>
                </div>
 
@@ -588,3 +765,88 @@
 
         <!--=====Mobile header end=======-->
 
+    <!-- Popup de selección de idioma -->
+    <?php if ($first_visit): ?>
+    <div id="language-popup" class="language-popup" style="display: flex;">
+        <div class="language-popup-content">
+            <h2><?php echo __('welcome'); ?></h2>
+            <p><?php echo __('select_language'); ?></p>
+            <div class="language-options">
+                <?php foreach ($available_languages as $code => $language): ?>
+                    <a href="?lang=<?php echo $code; ?>" class="language-option-btn" data-lang="<?php echo $code; ?>">
+                        <span class="flag"><?php echo $language['flag']; ?></span>
+                        <span class="name"><?php echo $language['name']; ?></span>
+                    </a>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
+    <?php endif; ?>
+
+    <!--=====JS=======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/nice-select.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/counterup.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/mobile-menu.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+    // Cerrar popup al hacer clic fuera del contenido
+    document.addEventListener('DOMContentLoaded', function() {
+        const languagePopup = document.getElementById('language-popup');
+        
+        if (languagePopup) {
+            languagePopup.addEventListener('click', function(e) {
+                if (e.target === languagePopup) {
+                    languagePopup.style.display = 'none';
+                }
+            });
+            
+            // Cerrar popup al seleccionar un idioma
+            const languageButtons = document.querySelectorAll('.language-option-btn');
+            languageButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const lang = this.getAttribute('data-lang');
+                    setLanguage(lang);
+                });
+            });
+        }
+        
+        // Función para cambiar el idioma
+        function setLanguage(lang) {
+            // Establecer la cookie de idioma
+            document.cookie = `appnet_language=${lang};path=/;max-age=${60*60*24*365};SameSite=Lax`;
+            
+            // Redirigir a la misma página con el nuevo idioma
+            const url = new URL(window.location.href);
+            url.searchParams.set('lang', lang);
+            window.location.href = url.toString();
+        }
+        
+        // Manejar el selector de idiomas en el header
+        const currentLanguageBtn = document.querySelector('.current-language');
+        if (currentLanguageBtn) {
+            currentLanguageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const dropdown = this.nextElementSibling;
+                dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+            });
+            
+            // Cerrar el dropdown al hacer clic fuera
+            document.addEventListener('click', function() {
+                const dropdowns = document.querySelectorAll('.language-dropdown');
+                dropdowns.forEach(dropdown => {
+                    dropdown.style.display = 'none';
+                });
+            });
+        }
+    });
+    </script>
