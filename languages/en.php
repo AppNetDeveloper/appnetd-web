@@ -265,6 +265,18 @@ return [
     'explore_solutions' => 'Explore Our Solutions',
     'view_all_services' => 'View All Services',
     'explore_possibilities' => 'Explore Possibilities',
+    'cta_business_commitment' => 'At AppNet Developer, We Are Committed to Businesses',
+    'cta_business_description' => 'Take the first step towards achieving your business goals by contacting us today. Schedule a consultation with one of our IT specialists to discuss your objectives and explore how our innovative solutions can drive your business forward.',
+    'request_consultation' => 'Request a Consultation',
+    'explore_solutions' => 'Explore Solutions',
+    'mobile_apps' => 'Mobile Applications',
+    'mobile_apps_desc' => 'Development of native and hybrid applications for iOS and Android with user-centered design.',
+    'data_analysis' => 'Data Analysis',
+    'data_analysis_desc' => 'We transform data into valuable information for strategic decision making.',
+    'automation' => 'Automation',
+    'automation_desc' => 'Custom solutions to automate processes and increase productivity.',
+    'support_24_7' => '24/7 Support',
+    'support_24_7_desc' => 'Continuous technical assistance to ensure optimal operation of your systems.',
     
     // Footer
     'all_rights' => 'All rights reserved',
