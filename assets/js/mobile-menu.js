@@ -41,16 +41,18 @@
       
       // Inicializar el menú
       function initMenu() {
-        // Agregar clase has-sub a los elementos con submenú
-        $mobileMenu.find('li:has(ul)').addClass('has-sub');
+        // Agregar clase has-dropdown a los elementos con submenú si no la tienen
+        $mobileMenu.find('li:has(ul)').addClass('has-dropdown');
         
-        // Remover cualquier botón de submenú existente para evitar duplicados
-        $mobileMenu.find('.submenu-button').remove();
+        // Asegurarse de que los submenús estén ocultos al inicio
+        $mobileMenu.find('.has-dropdown > ul').hide();
         
-        // Agregar botones de submenú
-        $mobileMenu.find('.has-sub > a').each(function() {
-          if (!$(this).siblings('.submenu-button').length) {
-            $('<span class="submenu-button"><i class="fas fa-plus"></i></span>').insertAfter($(this));
+        // Agregar clase active a los enlaces principales
+        $mobileMenu.find('.has-dropdown > a').each(function() {
+          var $link = $(this);
+          // Si el enlace tiene un submenú, prevenir la navegación
+          if ($link.siblings('ul').length) {
+            $link.attr('href', 'javascript:void(0)');
           }
         });
         
@@ -62,80 +64,61 @@
       function updateSubmenus() {
         if (isMobile) {
           // En móvil, ocultar todos los submenús al inicio
-          $mobileMenu.find('.has-sub > ul').hide();
-          $mobileMenu.find('.submenu-button i')
-            .removeClass('fa-minus')
-            .addClass('fa-plus');
+          $mobileMenu.find('.has-dropdown > ul').hide();
+          $mobileMenu.find('.has-dropdown > a i.fa-solid')
+            .removeClass('fa-angle-up')
+            .addClass('fa-angle-down');
         } else {
           // En escritorio, mostrar todos los submenús
-          $mobileMenu.find('.has-sub > ul').show();
+          $mobileMenu.find('.has-dropdown > ul').show();
+          $mobileMenu.find('.has-dropdown > a i.fa-solid')
+            .removeClass('fa-angle-up')
+            .addClass('fa-angle-down');
         }
       }
       
-      // Función para cerrar todos los submenús excepto uno
-      function closeOtherSubmenus($except) {
-        // Solo cerrar otros si no se está haciendo clic en un submenú existente
-        if (!$except || !$except.hasClass('submenu-opened')) {
-          $('.submenu-button').not($except || '')
-            .removeClass('submenu-opened')
-            .siblings('ul')
-            .slideUp(200, function() {
-              $(this).find('.submenu-button')
-                .removeClass('submenu-opened')
-                .find('i')
-                .removeClass('fa-minus')
-                .addClass('fa-plus');
-            });
-        }
+      // Cerrar todos los submenús excepto el actual
+      function closeOtherSubmenus($submenuToKeepOpen) {
+        $mobileMenu.find('.has-dropdown > ul').not($submenuToKeepOpen).each(function() {
+          var $submenu = $(this);
+          if ($submenu.is(':visible')) {
+            $submenu.slideUp(200);
+            $submenu.siblings('a').find('i.fa-solid')
+              .removeClass('fa-angle-up')
+              .addClass('fa-angle-down');
+          }
+        });
       }
       
       // Inicializar el menú
       initMenu();
       
-      // Manejar clics en los botones de submenú
-      $mobileMenu.off('click', '.submenu-button').on('click', '.submenu-button', function(e) {
+      // Manejar clics en los enlaces principales con submenús
+      $mobileMenu.off('click', '.has-dropdown > a').on('click', '.has-dropdown > a', function(e) {
         if (!isMobile) return; // Solo para móviles
         
         e.preventDefault();
         e.stopPropagation();
         
-        var $this = $(this);
-        var $submenu = $this.siblings('ul');
-        var isOpening = !$this.hasClass('submenu-opened');
-        
-        // Cerrar otros submenús solo si estamos abriendo uno nuevo
+        var $link = $(this);
+        var $submenu = $link.siblings('ul');
+        var $icon = $link.find('i.fa-solid');
+        if ($submenu.length === 0) return;
+        var isOpening = !$submenu.is(':visible');
         if (isOpening) {
-          closeOtherSubmenus($this);
-        }
-        
-        // Alternar el submenú actual
-        $this.toggleClass('submenu-opened');
-        
-        // Cambiar el ícono
-        $this.find('i')
-          .toggleClass('fa-plus', !isOpening)
-          .toggleClass('fa-minus', isOpening);
-          
-        // Mostrar/ocultar el submenú con animación
-        if (isOpening) {
+          closeOtherSubmenus($submenu);
           $submenu.slideDown(200);
+          $icon.removeClass('fa-angle-down').addClass('fa-angle-up');
         } else {
           $submenu.slideUp(200);
+          $icon.removeClass('fa-angle-up').addClass('fa-angle-down');
         }
       });
       
-      // Manejar clics en los enlaces principales
-      $mobileMenu.off('click', '.has-sub > a').on('click', '.has-sub > a', function(e) {
-        if (!isMobile) return; // Solo para móviles
-        
-        e.preventDefault();
-        var $button = $(this).siblings('.submenu-button');
-        if ($button.length) {
-          $button.trigger('click');
-        } else {
-          // Si no hay botón, navegar al enlace
-          window.location.href = $(this).attr('href');
-        }
+      // Manejar clics en los enlaces de submenú para evitar que se cierren los menús padres
+      $mobileMenu.off('click', '.sub-menu a').on('click', '.sub-menu a', function(e) {
+        e.stopPropagation(); // Evitar que el evento se propague al menú padre
+        // Permitir la navegación normal
       });
       
       // Cerrar menús al hacer clic fuera

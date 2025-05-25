@@ -9,7 +9,6 @@ $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 
 // Incluir configuración SEO
 require_once __DIR__ . '/includes/seo_config.php';
 ?>
-<!DOCTYPE html>
 <html lang="<?php echo $current_lang; ?>" dir="<?php echo isset($available_languages[$current_lang]['rtl']) && $available_languages[$current_lang]['rtl'] ? 'rtl' : 'ltr'; ?>" prefix="og: https://ogp.me/ns#">
 <head>
      <!-- Meta Charset & Viewport -->
@@ -100,8 +99,8 @@ require_once __DIR__ . '/includes/seo_config.php';
      <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/bootstrap.min.css">
      
-     <!-- Font Awesome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Font Awesome 6.5.2 -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      
      <!-- Magnific Popup -->
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/magnific-popup.css">
@@ -717,7 +716,12 @@ require_once __DIR__ . '/includes/seo_config.php';
                <div class="main-menu-ex main-menu-ex1">
                 <ul class="main-nav">
                     <li class="nav-item"><a href="index.php" class="nav-link"><?php echo __('home'); ?></a></li>
-                    <li class="nav-item"><a href="about.php" class="nav-link"><?php echo __('about'); ?></a></li>
+                    <li class="nav-item dropdown">
+                        <a href="about.php" class="nav-link"><?php echo __('about'); ?> <i class="fa-solid fa-angle-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="about.php" class="dropdown-item"><?php echo __('about'); ?></a>
+                        </div>
+                    </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link"><?php echo __('we_offer'); ?> <i class="fa-solid fa-angle-down"></i></a>
                         <div class="dropdown-menu">
@@ -798,7 +802,7 @@ require_once __DIR__ . '/includes/seo_config.php';
                   <a href="index.php"><img src="assets/img/logo/header-logo1.png" alt="AppNet Developer"></a>
                 </div>
                 <div class="mobile-nav-icon">
-                  <i class="fa-duotone fa-bars-staggered"></i>
+                  <i class="fas fa-bars"></i>
                 </div>
               </div>
             </div>

@@ -19,7 +19,7 @@ include "header.php";
             <div class="space30"></div>
             <div class="buttons">
               <a class="theme-btn1" href="service.php"><?php echo __('our_solutions'); ?> <span><i class="fa-solid fa-arrow-right"></i></span></a>
-              <a class="play-btn popup-youtube" href="https://www.youtube.com/watch?v=kcfs1-ryKWE"><span><i class="fa-regular fa-play"></i></span> <?php echo __('watch_demo'); ?></a>
+              <a class="play-btn popup-youtube" href="https://www.youtube.com/watch?v=kcfs1-ryKWE"><span><i class="fas fa-play"></i></span> <?php echo __('watch_demo'); ?></a>
             </div>
           </div>
         </div>

@@ -277,6 +277,47 @@ Desc:
     line-height: 16px;
 }
 
+/* Estilos para los submenús del menú móvil */
+.mobile-nav .has-dropdown {
+    position: relative;
+}
+
+.mobile-nav .has-dropdown > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-nav .has-dropdown > a .fa-angle-down {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.mobile-nav .has-dropdown > a.active .fa-angle-down {
+    transform: rotate(180deg);
+}
+
+.mobile-nav .sub-menu {
+    display: none;
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+.mobile-nav .sub-menu li {
+    margin: 5px 0;
+}
+
+.mobile-nav .sub-menu a {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    padding: 5px 0;
+}
+
+.mobile-nav .sub-menu a:hover {
+    color: #ccc;
+}
+
 .mobile-menu-icon-box {
     display: flex;
     align-items: start;
