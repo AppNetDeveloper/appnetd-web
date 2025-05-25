@@ -6,11 +6,11 @@
     <div class="row align-items-center">
       <div class="col-lg-8">
         <div class="main-heading text-white">
-          <h1>Ciberseguridad Integral</h1>
+          <h1><?php echo __('cyber_security_title'); ?></h1>
           <div class="space16"></div>
-          <p class="lead">Protege tus sistemas, datos y reputación con nuestras soluciones de seguridad informática avanzada</p>
+          <p class="lead"><?php echo __('cyber_security_subtitle'); ?></p>
           <div class="space30"></div>
-          <a href="#contact-form" class="theme-btn1">Evaluación de Seguridad Gratuita</a>
+          <a href="#contact-form" class="theme-btn1"><?php echo __('free_security_assessment'); ?></a>
         </div>
       </div>
     </div>
@@ -23,29 +23,29 @@
     <div class="row align-items-center">
       <div class="col-lg-6">
         <div class="service-content">
-          <h2>Seguridad en la Era Digital</h2>
-          <p>En un mundo cada vez más conectado, la ciberseguridad se ha convertido en una necesidad crítica para empresas de todos los tamaños. Nuestras soluciones protegen tu infraestructura tecnológica contra amenazas cibernéticas.</p>
+          <h2><?php echo __('cyber_digital_era_title'); ?></h2>
+          <p><?php echo __('cyber_digital_era_desc'); ?></p>
           
           <div class="feature-list">
             <div class="feature-item">
               <i class="fas fa-shield-alt"></i>
               <div>
-                <h4>Protección Integral</h4>
-                <p>Defensa en capas para todos tus activos digitales</p>
+                <h4><?php echo __('cyber_feature_protection_title'); ?></h4>
+                <p><?php echo __('cyber_feature_protection_desc'); ?></p>
               </div>
             </div>
             <div class="feature-item">
               <i class="fas fa-user-lock"></i>
               <div>
-                <h4>Gestión de Identidades</h4>
-                <p>Control de acceso seguro a sistemas y datos sensibles</p>
+                <h4><?php echo __('cyber_feature_identity_title'); ?></h4>
+                <p><?php echo __('cyber_feature_identity_desc'); ?></p>
               </div>
             </div>
             <div class="feature-item">
               <i class="fas fa-bug"></i>
               <div>
-                <h4>Detección de Amenazas</h4>
-                <p>Monitoreo continuo y respuesta ante incidentes</p>
+                <h4><?php echo __('cyber_feature_threat_title'); ?></h4>
+                <p><?php echo __('cyber_feature_threat_desc'); ?></p>
               </div>
             </div>
           </div>
@@ -64,8 +64,8 @@
 <div class="benefits-section sp bg-light">
   <div class="container">
     <div class="section-title text-center">
-      <h2>Beneficios Clave</h2>
-      <p>Ventajas de implementar nuestras soluciones de ciberseguridad</p>
+      <h2><?php echo __('cyber_benefits_title'); ?></h2>
+      <p><?php echo __('cyber_benefits_subtitle'); ?></p>
     </div>
     
     <div class="row">
@@ -74,8 +74,8 @@
           <div class="benefit-icon">
             <i class="fas fa-lock"></i>
           </div>
-          <h4>Protección de Datos</h4>
-          <p>Cumplimiento normativo y protección de información sensible</p>
+          <h4><?php echo __('cyber_benefit_data_title'); ?></h4>
+          <p><?php echo __('cyber_benefit_data_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-4 mb-4">
@@ -83,8 +83,8 @@
           <div class="benefit-icon">
             <i class="fas fa-clock"></i>
           </div>
-          <h4>Disponibilidad</h4>
-          <p>Prevención de tiempos de inactividad costosos</p>
+          <h4><?php echo __('cyber_benefit_availability_title'); ?></h4>
+          <p><?php echo __('cyber_benefit_availability_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-4 mb-4">
@@ -92,8 +92,8 @@
           <div class="benefit-icon">
             <i class="fas fa-shield-virus"></i>
           </div>
-          <h4>Respaldo y Recuperación</h4>
-          <p>Plan de continuidad de negocio ante ciberataques</p>
+          <h4><?php echo __('cyber_benefit_recovery_title'); ?></h4>
+          <p><?php echo __('cyber_benefit_recovery_desc'); ?></p>
         </div>
       </div>
     </div>
@@ -104,51 +104,51 @@
 <div class="applications-section sp">
   <div class="container">
     <div class="section-title text-center">
-      <h2>Nuestros Servicios de Ciberseguridad</h2>
-      <p>Soluciones adaptadas a las necesidades de tu empresa</p>
+      <h2><?php echo __('cyber_services_title'); ?></h2>
+      <p><?php echo __('cyber_services_subtitle'); ?></p>
     </div>
     
     <div class="row">
       <div class="col-md-4 mb-4">
         <div class="app-card">
           <div class="icon"><i class="fas fa-search"></i></div>
-          <h4>Auditorías de Seguridad</h4>
-          <p>Evaluación de vulnerabilidades y pruebas de penetración</p>
+          <h4><?php echo __('cyber_service_audit_title'); ?></h4>
+          <p><?php echo __('cyber_service_audit_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="app-card">
           <div class="icon"><i class="fas fa-user-shield"></i></div>
-          <h4>Seguridad Perimetral</h4>
-          <p>Firewalls, VPNs y protección contra DDoS</p>
+          <h4><?php echo __('cyber_service_perimeter_title'); ?></h4>
+          <p><?php echo __('cyber_service_perimeter_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="app-card">
           <div class="icon"><i class="fas fa-cloud"></i></div>
-          <h4>Seguridad en la Nube</h4>
-          <p>Protección para entornos cloud híbridos y multi-nube</p>
+          <h4><?php echo __('cyber_service_cloud_title'); ?></h4>
+          <p><?php echo __('cyber_service_cloud_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="app-card">
           <div class="icon"><i class="fas fa-mobile-alt"></i></div>
-          <h4>Seguridad Móvil</h4>
-          <p>Protección para dispositivos móviles y BYOD</p>
+          <h4><?php echo __('cyber_service_mobile_title'); ?></h4>
+          <p><?php echo __('cyber_service_mobile_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="app-card">
           <div class="icon"><i class="fas fa-user-graduate"></i></div>
-          <h4>Concientización</h4>
-          <p>Capacitación del personal en seguridad informática</p>
+          <h4><?php echo __('cyber_service_awareness_title'); ?></h4>
+          <p><?php echo __('cyber_service_awareness_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="app-card">
           <div class="icon"><i class="fas fa-file-contract"></i></div>
-          <h4>Cumplimiento Normativo</h4>
-          <p>Asesoría en normativas de protección de datos</p>
+          <h4><?php echo __('cyber_service_compliance_title'); ?></h4>
+          <p><?php echo __('cyber_service_compliance_desc'); ?></p>
         </div>
       </div>
     </div>

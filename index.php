@@ -26,7 +26,7 @@ include "header.php";
         <div class="col-lg-6">
           <div class="hero1-all-images">
             <div class="image1 ">
-              <img src="assets/img/hero/hero1-image1.png" alt="Ilustración tecnológica 1">
+              <img src="assets/img/hero/AppNetDeveloper-1.webp" alt="Ilustración tecnológica 1">
             </div>
             <div class="image2 reveal">
               <img src="assets/img/hero/AppNetDeveloper-1.webp" alt="Ilustración tecnológica 2">

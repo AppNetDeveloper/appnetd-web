@@ -112,22 +112,88 @@
                 <!--===== FOOTER AREA END =======-->
 
 
-     <script src="assets/js/bootstrap.min.js"></script>
-     <script src="assets/js/aos.js"></script>
-     <script src="assets/js/fontawesome.js"></script>
-     <script src="assets/js/jquery.countup.js"></script>
-     <script src="assets/js/mobile-menu.js"></script>
-     <script src="assets/js/jquery.magnific-popup.js"></script>
-     <script src="assets/js/owl.carousel.min.js"></script>
-     <script src="assets/js/slick-slider.js"></script>
-     <script src="assets/js/gsap.min.js"></script>
-     <script src="assets/js/ScrollTrigger.min.js"></script>
-     <script src="assets/js/Splitetext.js"></script>
-     <script src="assets/js/text-animation.js"></script>
-     <script src="assets/js/SmoothScroll.js"></script>
-     <script src="assets/js/jquery.lineProgressbar.js"></script>
-     <script src="assets/js/ripple-btn.js"></script>
-     <script src="assets/js/main.js"></script>
+     <?php
+     // Obtener la URL base del sitio
+     $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+     ?>
+     <!-- jQuery (debe ir primero) -->
+     <script src="<?php echo $base_url; ?>/assets/js/jquery-3-7-1.min.js"></script>
+     
+     <!-- Popper.js (requerido por Bootstrap) -->
+     <script src="<?php echo $base_url; ?>/assets/js/popper.min.js"></script>
+     
+     <!-- Bootstrap JS -->
+     <script src="<?php echo $base_url; ?>/assets/js/bootstrap.min.js"></script>
+     
+     <!-- GSAP (para animaciones) -->
+     <script src="<?php echo $base_url; ?>/assets/js/gsap.min.js"></script>
+     <script src="<?php echo $base_url; ?>/assets/js/ScrollTrigger.min.js"></script>
+     
+     <!-- Swiper JS -->
+     <script src="<?php echo $base_url; ?>/assets/js/swiper-bundle.js"></script>
+     
+     <!-- Magnific Popup -->
+     <script src="<?php echo $base_url; ?>/assets/js/jquery.magnific-popup.js"></script>
+     
+     <!-- Isotope -->
+     <script src="<?php echo $base_url; ?>/assets/js/isotope.pkgd.min.js"></script>
+     
+     <!-- Nice Select -->
+     <script src="<?php echo $base_url; ?>/assets/js/nice-select.js"></script>
+     
+     <!-- Slick Carousel -->
+     <script src="<?php echo $base_url; ?>/assets/js/slick.min.js"></script>
+     
+     <!-- Waypoints -->
+     <script src="<?php echo $base_url; ?>/assets/js/waypoints.min.js"></script>
+     
+     <!-- WOW.js -->
+     <script src="<?php echo $base_url; ?>/assets/js/wow.min.js"></script>
+     
+     <!-- AOS (Animate On Scroll) -->
+     <script src="<?php echo $base_url; ?>/assets/js/aos.js"></script>
+     <script>
+     // Inicializar AOS
+     document.addEventListener('DOMContentLoaded', function() {
+         if (typeof AOS !== 'undefined') {
+             AOS.init({
+                 duration: 800,
+                 easing: 'ease-in-out',
+                 once: true
+             });
+         }
+     });
+     </script>
+     
+     <!-- Otros scripts personalizados -->
+     <script src="<?php echo $base_url; ?>/assets/js/owl.carousel.min.js"></script>
+     <script src="<?php echo $base_url; ?>/assets/js/slick-slider.js"></script>
+     <script src="<?php echo $base_url; ?>/assets/js/jquery.lineProgressbar.js"></script>
+     <script src="<?php echo $base_url; ?>/assets/js/ripple-btn.js"></script>
+     <script src="<?php echo $base_url; ?>/assets/js/mobile-menu.js"></script>
+     
+     <!-- Script principal (debe ir al final) -->
+     <script src="<?php echo $base_url; ?>/assets/js/main.js"></script>
+     
+     <!-- Inicialización de componentes -->
+     <script>
+     document.addEventListener('DOMContentLoaded', function() {
+         // Inicializar WOW.js
+         if (typeof WOW !== 'undefined') {
+             new WOW().init();
+         }
+         
+         // Inicializar ScrollTrigger
+         if (typeof ScrollTrigger !== 'undefined') {
+             gsap.registerPlugin(ScrollTrigger);
+         }
+         
+         // Inicializar Swiper si existe
+         if (typeof Swiper !== 'undefined') {
+             // Configuración de Swiper aquí si es necesario
+         }
+     });
+     </script>
 
      <div id="cookie-consent" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; background: #333; color: #fff; padding: 10px; text-align: center;">
         <?php echo __('cookie_consent_text'); ?> <button id="accept-cookies"><?php echo __('accept'); ?></button>
@@ -244,5 +310,110 @@
     });
 </script>
 
+    <!-- Botón flotante de cotización -->
+    <a href="contact.php" class="floating-quote-btn" aria-label="<?php echo __('get_quote'); ?>">
+        <i class="fa-regular fa-paper-plane"></i>
+        <span><?php echo __('get_quote'); ?></span>
+    </a>
+
+    <style>
+    /* Estilos para el botón flotante */
+    .floating-quote-btn {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+        color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        z-index: 999;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        overflow: hidden;
+    }
+    
+    .floating-quote-btn i {
+        font-size: 20px;
+        margin-bottom: 2px;
+        transition: all 0.3s ease;
+    }
+    
+    .floating-quote-btn span {
+        font-size: 12px;
+        font-weight: 600;
+        display: none;
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+    
+    .floating-quote-btn:hover {
+        width: 180px;
+        border-radius: 30px;
+        text-decoration: none;
+        transform: translateY(-3px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    }
+    
+    .floating-quote-btn:hover i {
+        margin-bottom: 5px;
+    }
+    
+    .floating-quote-btn:hover span {
+        display: block;
+        opacity: 1;
+    }
+    
+    /* Estilos para el número de teléfono */
+    .contact-number {
+        white-space: nowrap;
+        display: inline-block;
+    }
+    
+    /* Efecto de onda al hacer clic */
+    .floating-quote-btn:active:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        transform: scale(0);
+        animation: ripple 0.6s linear;
+    }
+    
+    @keyframes ripple {
+        to {
+            transform: scale(2.5);
+            opacity: 0;
+        }
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+        .floating-quote-btn {
+            width: 50px;
+            height: 50px;
+            bottom: 20px;
+            left: 20px;
+        }
+        
+        .floating-quote-btn i {
+            font-size: 18px;
+        }
+        
+        .floating-quote-btn:hover {
+            width: 160px;
+        }
+    }
+    </style>
 </body>
 </html>

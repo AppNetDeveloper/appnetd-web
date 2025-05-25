@@ -2522,20 +2522,29 @@ body.body {
   width: 56px;
   cursor: pointer;
   display: block;
-  border-radius: 50px;
-  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.1);
-  z-index: 1;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4e54c8 0%, #8f94fb 100%);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 998;
   opacity: 0;
   visibility: hidden;
   transform: translateY(15px);
-  transition: all 200ms linear;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .progress-wrap.active-progress {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
-  z-index: 99;
+  z-index: 998;
+}
+
+.progress-wrap:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.25);
 }
 
 .progress-wrap::after {
@@ -2586,8 +2595,14 @@ body.body {
   fill: none;
 }
 
+.progress-wrap svg.progress-circle {
+  width: 24px;
+  height: 24px;
+}
+
 .progress-wrap svg.progress-circle path {
-  stroke: #03256c; /* --- Lijn progres kleur --- */
+  fill: none;
+  stroke: white;
   stroke-width: 4;
   box-sizing: border-box;
   transition: all 200ms linear;

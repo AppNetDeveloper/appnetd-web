@@ -1,4 +1,18 @@
-<?php include "header.php"; ?>
+<?php
+// Incluir configuración de idioma
+require_once __DIR__ . '/languages/config.php';
+
+// Incluir el archivo de idioma correspondiente
+$lang_file = __DIR__ . '/languages/' . $current_lang . '.php';
+if (file_exists($lang_file)) {
+    include $lang_file;
+} else {
+    // Si no se encuentra el archivo de idioma, cargar el idioma por defecto
+    include __DIR__ . '/languages/es.php';
+}
+
+include "header.php"; 
+?>
 
 <!-- Hero Section -->
 <div class="common-hero" style="background-image: url('assets/img/bg/desarrollo-app-bg.jpg');">
@@ -6,11 +20,11 @@
     <div class="row align-items-center">
       <div class="col-lg-8">
         <div class="main-heading text-white">
-          <h1>Desarrollo de Aplicaciones a Medida</h1>
+          <h1><?php echo __('custom_apps_title'); ?></h1>
           <div class="space16"></div>
-          <p class="lead">Soluciones de software personalizadas que se adaptan perfectamente a los procesos únicos de tu negocio</p>
+          <p class="lead"><?php echo __('custom_apps_subtitle'); ?></p>
           <div class="space30"></div>
-          <a href="#contact-form" class="theme-btn1">Solicitar Cotización</a>
+          <a href="#contact-form" class="theme-btn1"><?php echo __('request_quote'); ?></a>
         </div>
       </div>
     </div>
@@ -23,29 +37,29 @@
     <div class="row align-items-center">
       <div class="col-lg-6">
         <div class="service-content">
-          <h2>Software que se Adapta a tus Necesidades</h2>
-          <p>Desarrollamos aplicaciones personalizadas que resuelven problemas específicos de tu negocio, optimizando procesos y mejorando la productividad de tu equipo.</p>
+          <h2><?php echo __('custom_apps_heading'); ?></h2>
+          <p><?php echo __('custom_apps_description'); ?></p>
           
           <div class="feature-list">
             <div class="feature-item">
               <i class="fas fa-mobile-alt"></i>
               <div>
-                <h4>Aplicaciones Móviles</h4>
-                <p>iOS y Android nativas o multiplataforma</p>
+                <h4><?php echo __('custom_apps_mobile_title'); ?></h4>
+                <p><?php echo __('custom_apps_mobile_desc'); ?></p>
               </div>
             </div>
             <div class="feature-item">
               <i class="fas fa-desktop"></i>
               <div>
-                <h4>Aplicaciones Web</h4>
-                <p>Soluciones accesibles desde cualquier navegador</p>
+                <h4><?php echo __('custom_apps_web_title'); ?></h4>
+                <p><?php echo __('custom_apps_web_desc'); ?></p>
               </div>
             </div>
             <div class="feature-item">
               <i class="fas fa-sync"></i>
               <div>
-                <h4>Integración de Sistemas</h4>
-                <p>Conexión con tus herramientas existentes</p>
+                <h4><?php echo __('custom_apps_integration_title'); ?></h4>
+                <p><?php echo __('custom_apps_integration_desc'); ?></p>
               </div>
             </div>
           </div>
@@ -64,44 +78,44 @@
 <div class="process-section sp bg-light">
   <div class="container">
     <div class="section-title text-center">
-      <h2>Nuestro Proceso de Desarrollo</h2>
-      <p>Metodología ágil centrada en resultados</p>
+      <h2><?php echo __('custom_apps_process_title'); ?></h2>
+      <p><?php echo __('custom_apps_process_subtitle'); ?></p>
     </div>
     
     <div class="row">
       <div class="col-md-4 mb-4">
         <div class="process-card text-center">
           <div class="process-number">1</div>
-          <h4>Análisis y Planificación</h4>
-          <p>Entendemos tus necesidades y definimos los requisitos del proyecto</p>
+          <h4><?php echo __('custom_apps_step1_title'); ?></h4>
+          <p><?php echo __('custom_apps_step1_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="process-card text-center">
           <div class="process-number">2</div>
-          <h4>Diseño de Interfaz</h4>
-          <p>Creación de prototipos y diseño de experiencia de usuario</p>
+          <h4><?php echo __('custom_apps_step2_title'); ?></h4>
+          <p><?php echo __('custom_apps_step2_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="process-card text-center">
           <div class="process-number">3</div>
-          <h4>Desarrollo</h4>
-          <p>Programación siguiendo las mejores prácticas del sector</p>
+          <h4><?php echo __('custom_apps_step3_title'); ?></h4>
+          <p><?php echo __('custom_apps_step3_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-6 mb-4">
         <div class="process-card text-center">
           <div class="process-number">4</div>
-          <h4>Pruebas</h4>
-          <p>Testeo exhaustivo para garantizar calidad y rendimiento</p>
+          <h4><?php echo __('custom_apps_step4_title'); ?></h4>
+          <p><?php echo __('custom_apps_step4_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-6 mb-4">
         <div class="process-card text-center">
           <div class="process-number">5</div>
-          <h4>Despliegue y Soporte</h4>
-          <p>Implementación y mantenimiento continuo</p>
+          <h4><?php echo __('custom_apps_step5_title'); ?></h4>
+          <p><?php echo __('custom_apps_step5_desc'); ?></p>
         </div>
       </div>
     </div>
@@ -112,8 +126,8 @@
 <div class="technologies-section sp">
   <div class="container">
     <div class="section-title text-center">
-      <h2>Tecnologías que Utilizamos</h2>
-      <p>Las mejores herramientas para cada proyecto</p>
+      <h2><?php echo __('custom_apps_tech_title'); ?></h2>
+      <p><?php echo __('custom_apps_tech_subtitle'); ?></p>
     </div>
     
     <div class="row">
@@ -122,7 +136,7 @@
           <div class="tech-icon">
             <i class="fab fa-react"></i>
           </div>
-          <h5>React / React Native</h5>
+          <h5><?php echo __('custom_apps_tech_react'); ?></h5>
         </div>
       </div>
       <div class="col-6 col-md-3 mb-4">
@@ -130,7 +144,7 @@
           <div class="tech-icon">
             <i class="fab fa-angular"></i>
           </div>
-          <h5>Angular</h5>
+          <h5><?php echo __('custom_apps_tech_angular'); ?></h5>
         </div>
       </div>
       <div class="col-6 col-md-3 mb-4">
@@ -138,7 +152,7 @@
           <div class="tech-icon">
             <i class="fab fa-vuejs"></i>
           </div>
-          <h5>Vue.js</h5>
+          <h5><?php echo __('custom_apps_tech_vue'); ?></h5>
         </div>
       </div>
       <div class="col-6 col-md-3 mb-4">
@@ -146,7 +160,7 @@
           <div class="tech-icon">
             <i class="fab fa-node-js"></i>
           </div>
-          <h5>Node.js</h5>
+          <h5><?php echo __('custom_apps_tech_node'); ?></h5>
         </div>
       </div>
       <div class="col-6 col-md-3 mb-4">
@@ -154,7 +168,7 @@
           <div class="tech-icon">
             <i class="fab fa-python"></i>
           </div>
-          <h5>Python</h5>
+          <h5><?php echo __('custom_apps_tech_python'); ?></h5>
         </div>
       </div>
       <div class="col-6 col-md-3 mb-4">
@@ -162,7 +176,7 @@
           <div class="tech-icon">
             <i class="fas fa-database"></i>
           </div>
-          <h5>Bases de Datos</h5>
+          <h5><?php echo __('custom_apps_tech_database'); ?></h5>
         </div>
       </div>
       <div class="col-6 col-md-3 mb-4">
@@ -170,7 +184,7 @@
           <div class="tech-icon">
             <i class="fas fa-cloud"></i>
           </div>
-          <h5>Cloud Services</h5>
+          <h5><?php echo __('custom_apps_tech_cloud'); ?></h5>
         </div>
       </div>
       <div class="col-6 col-md-3 mb-4">
@@ -178,7 +192,7 @@
           <div class="tech-icon">
             <i class="fas fa-robot"></i>
           </div>
-          <h5>IA y Machine Learning</h5>
+          <h5><?php echo __('custom_apps_tech_ai'); ?></h5>
         </div>
       </div>
     </div>
@@ -189,8 +203,8 @@
 <div class="benefits-section sp bg-light">
   <div class="container">
     <div class="section-title text-center">
-      <h2>Beneficios Clave</h2>
-      <p>Ventajas de desarrollar una aplicación a medida</p>
+      <h2><?php echo __('custom_apps_benefits_title'); ?></h2>
+      <p><?php echo __('custom_apps_benefits_subtitle'); ?></p>
     </div>
     
     <div class="row">
@@ -199,8 +213,8 @@
           <div class="benefit-icon">
             <i class="fas fa-bullseye"></i>
           </div>
-          <h4>Adaptación Perfecta</h4>
-          <p>Desarrollada específicamente para tus procesos y necesidades</p>
+          <h4><?php echo __('custom_apps_benefit1_title'); ?></h4>
+          <p><?php echo __('custom_apps_benefit1_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-4 mb-4">
@@ -208,8 +222,8 @@
           <div class="benefit-icon">
             <i class="fas fa-chart-line"></i>
           </div>
-          <h4>Mayor Eficiencia</h4>
-          <p>Automatización de tareas repetitivas y reducción de errores</p>
+          <h4><?php echo __('custom_apps_benefit2_title'); ?></h4>
+          <p><?php echo __('custom_apps_benefit2_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-4 mb-4">
@@ -217,8 +231,8 @@
           <div class="benefit-icon">
             <i class="fas fa-lock"></i>
           </div>
-          <h4>Seguridad Garantizada</h4>
-          <p>Desarrollo siguiendo los más altos estándares de seguridad</p>
+          <h4><?php echo __('custom_apps_benefit3_title'); ?></h4>
+          <p><?php echo __('custom_apps_benefit3_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-6 mb-4">
@@ -226,8 +240,8 @@
           <div class="benefit-icon">
             <i class="fas fa-expand-arrows-alt"></i>
           </div>
-          <h4>Escalabilidad</h4>
-          <p>Crecimiento adaptado a la evolución de tu negocio</p>
+          <h4><?php echo __('custom_apps_benefit4_title'); ?></h4>
+          <p><?php echo __('custom_apps_benefit4_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-6 mb-4">
@@ -235,8 +249,8 @@
           <div class="benefit-icon">
             <i class="fas fa-headset"></i>
           </div>
-          <h4>Soporte Continuo</h4>
-          <p>Mantenimiento y actualizaciones periódicas</p>
+          <h4><?php echo __('custom_apps_benefit5_title'); ?></h4>
+          <p><?php echo __('custom_apps_benefit5_desc'); ?></p>
         </div>
       </div>
     </div>

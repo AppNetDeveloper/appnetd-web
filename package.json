@@ -1,0 +1,30 @@
+{
+  "name": "appnetd-web",
+  "version": "1.0.0",
+  "description": "AppNet Developer Website",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@popperjs/core": "^2.11.6",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.3",
+    "gsap": "^3.11.4",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.6.1",
+    "jquery-nice-select": "^1.1.0",
+    "magnific-popup": "^1.1.0",
+    "popper.js": "^1.16.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^8.4.5",
+    "waypoints": "^4.0.1",
+    "wow.js": "^1.2.2"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}

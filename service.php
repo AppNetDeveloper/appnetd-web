@@ -1,15 +1,22 @@
-<?php include "header.php"; ?>
+<?php 
+// Incluir configuración de idiomas
+include "header.php";
+?>
 
         <!--=====HERO AREA START=======-->
-
         <div class="common-hero">
           <div class="container">
             <div class="row align-items-center text-center">
               <div class="col-lg-6 m-auto">
                 <div class="main-heading">
-                  <h1>Nuestros Servicios</h1>
+                  <h1><?php echo __('services_page_title'); ?></h1>
                     <div class="space16"></div>
-                    <span class="span"><img src="assets/img/icons/span1.png" alt=""> <a href="index.php">Inicio</a> <span class="arrow"><i class="fa-regular fa-angle-right"></i></span> Servicios</span>
+                    <span class="span">
+                      <img src="assets/img/icons/span1.png" alt=""> 
+                      <a href="index.php"><?php echo __('services_page_breadcrumb_home'); ?></a> 
+                      <span class="arrow"><i class="fa-regular fa-angle-right"></i></span> 
+                      <?php echo __('services_page_breadcrumb_current'); ?>
+                    </span>
                 </div>
               </div>
             </div>
@@ -32,9 +39,9 @@
                   </div>
                   <a href="servicio-control-produccion.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="servicio-control-produccion.php">Control Horario y de Producción</a></h4>
+                    <h4><a href="servicio-control-produccion.php"><?php echo __('services_control_titulo'); ?></a></h4>
                     <div class="space16"></div>
-                    <p>Conectamos la maquinaria con nuestro sistema, permitiendo un control en tiempo real de la producción.</p>
+                    <p><?php echo __('services_control_desc'); ?></p>
                   </div>
                 </div>
               </div>
@@ -46,9 +53,9 @@
                   </div>
                   <a href="servicio-integracion-maquinaria.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="servicio-integracion-maquinaria.php">Integración de Maquinaria</a></h4>
+                    <h4><a href="servicio-integracion-maquinaria.php"><?php echo __('services_integracion_titulo'); ?></a></h4>
                     <div class="space16"></div>
-                    <p>Conectamos cualquier máquina industrial, básculas y medidores de altura para optimizar procesos.</p>
+                    <p><?php echo __('services_integracion_desc'); ?></p>
                   </div>
                 </div>
               </div>
@@ -60,9 +67,9 @@
                   </div>
                   <a href="servicio-cameras-ia.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="servicio-cameras-ia.php">Cámaras con IA</a></h4>
+                    <h4><a href="servicio-cameras-ia.php"><?php echo __('services_cameras_titulo'); ?></a></h4>
                     <div class="space16"></div>
-                    <p>Implementamos cámaras con inteligencia artificial para reconocimiento de matrículas y seguridad.</p>
+                    <p><?php echo __('services_cameras_desc'); ?></p>
                   </div>
                 </div>
               </div>
@@ -74,9 +81,9 @@
                   </div>
                   <a href="servicio-geolocalizacion.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="servicio-geolocalizacion.php">Geolocalización</a></h4>
+                    <h4><a href="servicio-geolocalizacion.php"><?php echo __('services_geolocalizacion_titulo'); ?></a></h4>
                     <div class="space16"></div>
-                    <p>Ofrecemos soluciones de geolocalización para un mejor seguimiento y gestión de recursos.</p>
+                    <p><?php echo __('services_geolocalizacion_desc'); ?></p>
                   </div>
                 </div>
               </div>
@@ -88,9 +95,9 @@
                   </div>
                   <a href="servicio-ciberseguridad.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="servicio-ciberseguridad.php">Ciberseguridad</a></h4>
+                    <h4><a href="servicio-ciberseguridad.php"><?php echo __('services_ciberseguridad_titulo'); ?></a></h4>
                     <div class="space16"></div>
-                    <p>Desarrollamos estrategias de ciberseguridad para proteger tus datos y sistemas.</p>
+                    <p><?php echo __('services_ciberseguridad_desc'); ?></p>
                   </div>
                 </div>
               </div>
@@ -102,9 +109,9 @@
                   </div>
                   <a href="servicio-servidores.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="servicio-servidores.php">Servidores Locales y en la Nube</a></h4>
+                    <h4><a href="servicio-servidores.php"><?php echo __('local_cloud_servers_title'); ?></a></h4>
                     <div class="space16"></div>
-                    <p>Ofrecemos servidores tanto locales como en la nube, adaptados a tus necesidades.</p>
+                    <p><?php echo __('local_cloud_servers_desc'); ?></p>
                   </div>
                 </div>
               </div>
@@ -116,9 +123,9 @@
                   </div>
                   <a href="servicio-servidores-arm.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="servicio-servidores-arm.php">Servidores ARM</a></h4>
+                    <h4><a href="servicio-servidores.php"><?php echo __('services_servidores_titulo'); ?></a></h4>
                     <div class="space16"></div>
-                    <p>Implementamos servidores ARM para un mejor ahorro de energía y eficiencia.</p>
+                    <p><?php echo __('services_servidores_desc'); ?></p>
                   </div>
                 </div>
               </div>
@@ -130,9 +137,9 @@
                   </div>
                   <a href="servicio-aplicaciones-medida.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
-                    <h4><a href="servicio-aplicaciones-medida.php">Desarrollo de Aplicaciones a Medida</a></h4>
+                    <h4><a href="servicio-software.php"><?php echo __('services_software_titulo'); ?></a></h4>
                     <div class="space16"></div>
-                    <p>Desarrollamos aplicaciones personalizadas para satisfacer las necesidades específicas de tu negocio.</p>
+                    <p><?php echo __('services_software_desc'); ?></p>
                   </div>
                 </div>
               </div>
@@ -176,10 +183,10 @@
                       </div>
                       <div class="col-lg-6">
                         <div class="heading1">
-                          <span class="span"><img src="assets/img/icons/span1.png" alt=""> Nuestra Visión</span>
-                          <h2>Impulsando la Innovación: Nuestra Visión en Appnet Developer</h2>
+                          <span class="span"><img src="assets/img/icons/span1.png" alt=""> <?php echo __('our_vision'); ?></span>
+                          <h2><?php echo __('vision_title'); ?></h2>
                           <div class="space16"></div>
-                          <p>En Appnet Developer, nuestra visión es ser la fuerza líder que impulsa la transformación digital y la innovación a nivel mundial. Imaginamos un futuro donde las empresas de todos los tamaños tengan las herramientas y la experiencia que necesitan para prosperar en un mundo cada vez más digital.</p>
+                          <p><?php echo __('vision_text'); ?></p>
         
                           <div class="item-box">
                             <div class="icon">
@@ -188,9 +195,9 @@
                               </div>
                             </div>
                             <div class="">
-                              <h3><a href="#">Soluciones de Infraestructura de Red</a></h3>
+                              <h3><a href="#"><?php echo __('infrastructure_solutions_title'); ?></a></h3>
                               <div class="space10"></div>
-                              <p>Construimos una infraestructura de red confiable y segura que <br> apoya las operaciones de su negocio y permite una integración fluida.</p>
+                              <p><?php echo __('infrastructure_solutions_desc'); ?></p>
                             </div>
                           </div>
         
@@ -201,15 +208,15 @@
                               </div>
                             </div>
                             <div class="">
-                              <h3><a href="#">Servicios de TI Gestionados</a></h3>
+                              <h3><a href="#"><?php echo __('managed_services_title'); ?></a></h3>
                               <div class="space10"></div>
-                              <p>Concéntrese en sus actividades comerciales principales mientras nosotros nos encargamos <br> de sus necesidades de TI con nuestros servicios gestionados.</p>
+                              <p><?php echo __('managed_services_desc'); ?></p>
                             </div>
                           </div>
         
                           <div class="space30"></div>
                           <div class="">
-                            <a class="theme-btn1" href="contact.php">Solicitar una Cotización <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                            <a class="theme-btn1" href="contact.php"><?php echo __('request_quote_btn'); ?> <span><i class="fa-solid fa-arrow-right"></i></span></a>
                           </div>
                         </div>
                       </div>
@@ -228,16 +235,16 @@
             <div class="row align-items-center">
               <div class="col-lg-7">
                 <div class="heading1-w">
-                  <h2>En Appnet Developer, Estamos Comprometidos con las Empresas</h2>
+                  <h2><?php echo __('cta_business_commitment'); ?></h2>
                   <div class="space16"></div>
-                  <p>Dé el primer paso hacia el logro de sus objetivos comerciales contactándonos hoy. Programe una consulta con uno de nuestros especialistas en TI para discutir sus objetivos y explorar cómo nuestras soluciones innovadoras pueden impulsar su negocio.</p>
+                  <p><?php echo __('cta_business_description'); ?></p>
                 </div>
               </div>
 
               <div class="col-lg-5">
                 <div class="buttons">
-                  <a class="cta-btn1" href="service.php">Solicitar una Consulta <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                  <a class="cta-btn2" href="service.php">Explorar Soluciones <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                  <a class="cta-btn1" href="service.php"><?php echo __('request_consultation'); ?> <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                  <a class="cta-btn2" href="service.php"><?php echo __('explore_solutions'); ?> <span><i class="fa-solid fa-arrow-right"></i></span></a>
                 </div>
               </div>
             </div>

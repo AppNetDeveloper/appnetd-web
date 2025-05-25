@@ -189,6 +189,105 @@
     font-weight: 600;
     color: #333;
     text-decoration: none;
+    white-space: nowrap;
+}
+
+.contact-methods {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.contact-button.whatsapp {
+    background-color: #25D366;
+}
+
+.contact-button.telegram {
+    background-color: #0088cc;
+}
+
+.contact-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.contact-button i {
+    line-height: 1;
+}
+
+/* Estilos para los botones de contacto en móvil */
+.mobile-contact-buttons {
+    display: none; /* Oculto por defecto, se muestra solo en móviles */
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.mobile-contact-buttons .contact-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 15px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.mobile-contact-buttons .contact-button i {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.mobile-contact-buttons .contact-button.whatsapp {
+    background-color: #25D366;
+}
+
+.mobile-contact-buttons .contact-button.telegram {
+    background-color: #0088cc;
+}
+
+.mobile-contact-buttons .contact-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Mostrar solo en móviles */
+@media (max-width: 991px) {
+    .mobile-contact-buttons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .mobile-contact-buttons .contact-button {
+        flex: 1;
+        max-width: 160px;
+    }
 }
 
 /* Estilos para el botón de cotización */

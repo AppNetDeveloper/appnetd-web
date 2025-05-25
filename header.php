@@ -2,32 +2,133 @@
 <?php
 // Incluir configuración de idiomas
 require_once __DIR__ . '/languages/config.php';
+
+// Obtener la URL base del sitio
+$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+
+// Incluir configuración SEO
+require_once __DIR__ . '/includes/seo_config.php';
 ?>
-<html lang="<?php echo $current_lang; ?>" dir="<?php echo isset($available_languages[$current_lang]['rtl']) && $available_languages[$current_lang]['rtl'] ? 'rtl' : 'ltr'; ?>">
+<!DOCTYPE html>
+<html lang="<?php echo $current_lang; ?>" dir="<?php echo isset($available_languages[$current_lang]['rtl']) && $available_languages[$current_lang]['rtl'] ? 'rtl' : 'ltr'; ?>" prefix="og: https://ogp.me/ns#">
 <head>
+     <!-- Meta Charset & Viewport -->
      <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title><?php echo isset($page_title) ? $page_title . ' - ' : ''; ?>AppNet Developer</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+     
+     <?php
+     // Obtener la URL actual
+     $current_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+     $canonical_url = strtok($current_url, '?'); // Eliminar parámetros de la URL
+     
+     // Obtener el título de la página actual o usar uno por defecto
+     $page_title_seo = isset($page_title) ? $page_title . ' - ' . $available_languages[$current_lang]['site_name'] : $available_languages[$current_lang]['site_name'];
+     $page_description = isset($meta_description) ? $meta_description : $available_languages[$current_lang]['site_description'];
+     $page_image = $base_url . '/assets/img/og-image.jpg';
+     ?>
+     
+     <!-- Primary Meta Tags -->
+     <title><?php echo htmlspecialchars($page_title_seo, ENT_QUOTES, 'UTF-8'); ?></title>
+     <meta name="title" content="<?php echo htmlspecialchars($page_title_seo, ENT_QUOTES, 'UTF-8'); ?>">
+     <meta name="description" content="<?php echo htmlspecialchars($page_description, ENT_QUOTES, 'UTF-8'); ?>">
+     <meta name="keywords" content="<?php echo isset($meta_keywords) ? htmlspecialchars($meta_keywords, ENT_QUOTES, 'UTF-8') : 'IA, IoT, desarrollo de software, inteligencia artificial, internet de las cosas, desarrollo web, aplicaciones móviles, consultoría tecnológica'; ?>">
+     <meta name="author" content="AppNet Developer">
+     <meta name="robots" content="index, follow">
+     <meta name="language" content="<?php echo $available_languages[$current_lang]['hreflang']; ?>">
+     <meta name="revisit-after" content="7 days">
+     <meta name="theme-color" content="#4e54c8">
+     
+     <!-- Canonical URL -->
+     <link rel="canonical" href="<?php echo $canonical_url; ?>">
+     
+     <!-- Hreflang para SEO multilingüe -->
+     <?php foreach ($available_languages as $lang_code => $lang_data): ?>
+     <link rel="alternate" hreflang="<?php echo $lang_data['hreflang']; ?>" href="<?php echo $base_url . '/' . ($lang_code !== $default_language ? $lang_code . '/' : ''); ?>">
+     <?php endforeach; ?>
+     <link rel="alternate" hreflang="x-default" href="<?php echo $base_url; ?>">
+     
+     <!-- Open Graph / Facebook -->
+     <meta property="og:type" content="website">
+     <meta property="og:url" content="<?php echo $current_url; ?>">
+     <meta property="og:title" content="<?php echo htmlspecialchars($page_title_seo, ENT_QUOTES, 'UTF-8'); ?>">
+     <meta property="og:description" content="<?php echo htmlspecialchars($page_description, ENT_QUOTES, 'UTF-8'); ?>">
+     <meta property="og:image" content="<?php echo $page_image; ?>">
+     <meta property="og:site_name" content="<?php echo $available_languages[$current_lang]['site_name']; ?>">
+     <meta property="og:locale" content="<?php echo $available_languages[$current_lang]['locale']; ?>">
+     <?php if (!empty($available_languages[$current_lang]['fb_app_id'])): ?>
+     <meta property="fb:app_id" content="<?php echo $available_languages[$current_lang]['fb_app_id']; ?>">
+     <?php endif; ?>
+     
+     <!-- Twitter -->
+     <meta property="twitter:card" content="summary_large_image">
+     <meta property="twitter:url" content="<?php echo $current_url; ?>">
+     <meta property="twitter:title" content="<?php echo htmlspecialchars($page_title_seo, ENT_QUOTES, 'UTF-8'); ?>">
+     <meta property="twitter:description" content="<?php echo htmlspecialchars($page_description, ENT_QUOTES, 'UTF-8'); ?>">
+     <meta property="twitter:image" content="<?php echo $page_image; ?>">
+     <?php if (!empty($available_languages[$current_lang]['twitter_site'])): ?>
+     <meta name="twitter:site" content="<?php echo $available_languages[$current_lang]['twitter_site']; ?>">
+     <meta name="twitter:creator" content="<?php echo $available_languages[$current_lang]['twitter_site']; ?>">
+     <?php endif; ?>
+     
+     <!-- Favicon y Apple Touch Icons -->
+     <link rel="shortcut icon" href="<?php echo $base_url; ?>/assets/img/favicon.ico" type="image/x-icon">
+     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $base_url; ?>/assets/img/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $base_url; ?>/assets/img/favicon-16x16.png">
+     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $base_url; ?>/assets/img/apple-touch-icon.png">
+     <link rel="mask-icon" href="<?php echo $base_url; ?>/assets/img/safari-pinned-tab.svg" color="#4e54c8">
+     <meta name="msapplication-TileColor" content="#4e54c8">
+     <meta name="theme-color" content="#4e54c8">
+     
+     <!-- Preconnect a dominios externos -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="preconnect" href="https://www.google-analytics.com">
+     
+     <!-- Preload de recursos críticos -->
+     <link rel="preload" href="<?php echo $base_url; ?>/assets/css/main.css" as="style">
+     <link rel="preload" href="<?php echo $base_url; ?>/assets/js/main.js" as="script">
 
-     <!--=====FAB ICON=======-->
-     <link rel="shortcut icon" href="assets/img/logo/titile.png" type="image/x-icon">
-
+     <!-- JSON-LD para SEO -->
+     <?php include_once __DIR__ . '/includes/json_ld.php'; ?>
+     <?php echo $json_ld_markup; ?>
 
      <!--=====CSS=======-->
      <?php
      // Obtener la URL base del sitio
      $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
      ?>
+     <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/bootstrap.min.css">
-     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/fontawesome.css">
+     
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+     <!-- Magnific Popup -->
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/magnific-popup.css">
+     
+     <!-- Nice Select -->
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/nice-select.css">
-     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/slick-slider.css">
+     
+     <!-- Slick Carousel -->
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/slick.css">
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/slick-theme.css">
+     
+     <!-- Owl Carousel -->
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/owl.carousel.min.css">
+     
+     <!-- AOS Animation -->
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/aos.css">
+     
+     <!-- WOW Animation -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+     
+     <!-- Swiper -->
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/swiper-bundle.min.css">
+     
+     <!-- Custom CSS -->
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/mobile-menu.css">
-     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/main.css">
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/header-styles.css">
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/main.css">
      <?php if(isset($additional_css)): ?>
      <link rel="stylesheet" href="<?php echo $base_url . '/' . ltrim($additional_css, '/'); ?>">
      <?php endif; ?>
@@ -665,16 +766,18 @@ require_once __DIR__ . '/languages/config.php';
                         </div>
                         <div class="contact-info">
                             <span class="contact-label"><?php echo __('call_us'); ?></span>
-                            <a href="tel:+34619929305" class="contact-number">+34 619 929 305</a>
+                            <div class="contact-methods">
+                                <a href="tel:+34619929305" class="contact-number">+34 619 929 305</a>
+                                <div class="contact-buttons">
+                                    <a href="https://wa.me/34619929305" class="contact-button whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+                                        <i class="fab fa-whatsapp"></i>
+                                    </a>
+                                    <a href="https://t.me/+34619929305" class="contact-button telegram" target="_blank" rel="noopener" aria-label="Telegram">
+                                        <i class="fab fa-telegram-plane"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    
-                    <!-- Botón de cotización -->
-                    <div class="header-quote">
-                        <a href="contact.php" class="btn btn-primary">
-                            <?php echo __('get_quote'); ?>
-                            <i class="fa-solid fa-arrow-right ms-2"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -709,6 +812,16 @@ require_once __DIR__ . '/languages/config.php';
           <div class="menu-close">
             <i class="fa-solid fa-xmark"></i>
           </div>
+          <!-- Botones de contacto móviles -->
+          <div class="mobile-contact-buttons d-flex justify-content-center gap-3 mb-4">
+            <a href="https://wa.me/34619929305" class="contact-button whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <i class="fab fa-whatsapp"></i> <span>WhatsApp</span>
+            </a>
+            <a href="https://t.me/+34619929305" class="contact-button telegram" target="_blank" rel="noopener" aria-label="Telegram">
+              <i class="fab fa-telegram-plane"></i> <span>Telegram</span>
+            </a>
+          </div>
+          
           <div class="mobile-nav">
             <ul>
               <li><a href="index.php"><?php echo __('home'); ?></a></li>
