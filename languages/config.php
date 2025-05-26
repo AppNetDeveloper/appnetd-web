@@ -123,4 +123,24 @@ if (isset($_GET['lang']) && array_key_exists($_GET['lang'], $available_languages
 
 // Verificar si es la primera visita para mostrar el popup
 $first_visit = !isset($_COOKIE['appnet_language']);
+
+// Determinar el idioma actual
+$current_lang = isset($_COOKIE['appnet_language']) && array_key_exists($_COOKIE['appnet_language'], $available_languages) 
+    ? $_COOKIE['appnet_language'] 
+    : $default_language;
+
+// Cargar las traducciones del idioma actual
+$translations = [];
+$language_file = __DIR__ . '/' . $available_languages[$current_lang]['file'];
+if (file_exists($language_file)) {
+    $translations = include $language_file;
+}
+
+// Si no hay traducciones, cargar el idioma por defecto
+if (empty($translations) && $current_lang !== $default_language) {
+    $default_language_file = __DIR__ . '/' . $available_languages[$default_language]['file'];
+    if (file_exists($default_language_file)) {
+        $translations = include $default_language_file;
+    }
+}
 ?>
