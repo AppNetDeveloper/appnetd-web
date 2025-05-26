@@ -168,16 +168,21 @@
     padding: 8px 15px;
     background: #f8f9fa;
     border-radius: 5px;
+    height: 100%;
 }
 
 .contact-icon {
     font-size: 18px;
     color: #007bff;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .contact-label {

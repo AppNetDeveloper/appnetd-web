@@ -10,13 +10,19 @@ include "header.php";
               <div class="col-lg-6 m-auto">
                 <div class="main-heading">
                   <h1><?php echo __('services_page_title'); ?></h1>
-                    <div class="space16"></div>
-                    <span class="span">
-                      <img src="assets/img/icons/span1.png" alt=""> 
-                      <a href="index.php"><?php echo __('services_page_breadcrumb_home'); ?></a> 
-                      <span class="arrow"><i class="fa-regular fa-angle-right"></i></span> 
+                  <div class="space16"></div>
+                  <nav class="breadcrumb-nav">
+                    <a href="index.php" class="breadcrumb-item">
+                      <i class="fa-solid fa-house"></i>
+                      <?php echo __('services_page_breadcrumb_home'); ?>
+                    </a>
+                    <span class="breadcrumb-separator">
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </span>
+                    <span class="breadcrumb-item active">
                       <?php echo __('services_page_breadcrumb_current'); ?>
                     </span>
+                  </nav>
                 </div>
               </div>
             </div>
@@ -35,7 +41,7 @@ include "header.php";
               <div class="col-lg-4 col-md-6">
                 <div class="servcie2-box">
                   <div class="icon">
-                    <img src="assets/img/icons/service-page-icon1.png" alt="">
+                    <i class="fa-solid fa-gears" style="font-size: 48px; color: #4e54c8;"></i>
                   </div>
                   <a href="servicio-control-produccion.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
@@ -49,7 +55,7 @@ include "header.php";
               <div class="col-lg-4 col-md-6">
                 <div class="servcie2-box">
                   <div class="icon">
-                    <img src="assets/img/icons/service-page-icon2.png" alt="">
+                    <i class="fa-solid fa-robot" style="font-size: 48px; color: #4e54c8;"></i>
                   </div>
                   <a href="servicio-integracion-maquinaria.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
@@ -63,7 +69,7 @@ include "header.php";
               <div class="col-lg-4 col-md-6">
                 <div class="servcie2-box">
                   <div class="icon">
-                    <img src="assets/img/icons/service-page-icon3.png" alt="">
+                    <i class="fa-solid fa-camera" style="font-size: 48px; color: #4e54c8;"></i>
                   </div>
                   <a href="servicio-cameras-ia.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
@@ -77,7 +83,7 @@ include "header.php";
               <div class="col-lg-4 col-md-6">
                 <div class="servcie2-box">
                   <div class="icon">
-                    <img src="assets/img/icons/service-page-icon4.png" alt="">
+                    <i class="fa-solid fa-location-dot" style="font-size: 48px; color: #4e54c8;"></i>
                   </div>
                   <a href="servicio-geolocalizacion.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
@@ -91,7 +97,7 @@ include "header.php";
               <div class="col-lg-4 col-md-6">
                 <div class="servcie2-box">
                   <div class="icon">
-                    <img src="assets/img/icons/service-page-icon5.png" alt="">
+                    <i class="fa-solid fa-shield-halved" style="font-size: 48px; color: #4e54c8;"></i>
                   </div>
                   <a href="servicio-ciberseguridad.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
@@ -105,7 +111,7 @@ include "header.php";
               <div class="col-lg-4 col-md-6">
                 <div class="servcie2-box">
                   <div class="icon">
-                    <img src="assets/img/icons/service-page-icon6.png" alt="">
+                    <i class="fa-solid fa-cloud" style="font-size: 48px; color: #4e54c8;"></i>
                   </div>
                   <a href="servicio-servidores.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
@@ -119,7 +125,7 @@ include "header.php";
               <div class="col-lg-4 col-md-6">
                 <div class="servcie2-box">
                   <div class="icon">
-                    <img src="assets/img/icons/service-page-icon7.png" alt="">
+                    <i class="fa-solid fa-server" style="font-size: 48px; color: #4e54c8;"></i>
                   </div>
                   <a href="servicio-servidores-arm.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">
@@ -133,7 +139,7 @@ include "header.php";
               <div class="col-lg-4 col-md-6">
                 <div class="servcie2-box">
                   <div class="icon">
-                    <img src="assets/img/icons/service-page-icon8.png" alt="">
+                    <i class="fa-solid fa-laptop-code" style="font-size: 48px; color: #4e54c8;"></i>
                   </div>
                   <a href="servicio-aplicaciones-medida.php" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
                   <div class="heading1">

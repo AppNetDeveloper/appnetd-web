@@ -74,8 +74,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                               <div class="col-lg-8 m-auto">
                                 <div class="main-heading">
                                   <h1>Contáctanos</h1>
-                                    <div class="space16"></div>
-                                    <span class="span"><img src="assets/img/icons/span1.png" alt=""> <a href="index.php">Inicio</a> <span class="arrow"><i class="fa-regular fa-angle-right"></i></span> Contáctanos</span>
+                                  <div class="space16"></div>
+                                  <nav class="breadcrumb-nav">
+                                    <a href="index.php" class="breadcrumb-item">
+                                      <i class="fa-solid fa-house"></i>
+                                      Inicio
+                                    </a>
+                                    <span class="breadcrumb-separator">
+                                      <i class="fa-solid fa-chevron-right"></i>
+                                    </span>
+                                    <span class="breadcrumb-item active">
+                                      Contáctanos
+                                    </span>
+                                  </nav>
                                 </div>
                               </div>
                             </div>

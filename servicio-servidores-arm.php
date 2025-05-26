@@ -1,4 +1,7 @@
-<?php include "header.php"; ?>
+<?php 
+// Incluir configuración de idiomas
+include "header.php";
+?>
 
 <!-- Hero Section -->
 <div class="common-hero" style="background-image: url('assets/img/bg/servidores-arm-bg.jpg');">
@@ -6,11 +9,11 @@
     <div class="row align-items-center">
       <div class="col-lg-8">
         <div class="main-heading text-white">
-          <h1>Servidores ARM</h1>
+          <h1><?php echo __('servidores_arm_titulo'); ?></h1>
           <div class="space16"></div>
-          <p class="lead">Eficiencia energética y alto rendimiento con arquitectura ARM para centros de datos modernos</p>
+          <p class="lead"><?php echo __('servidores_arm_subtitulo'); ?></p>
           <div class="space30"></div>
-          <a href="#contact-form" class="theme-btn1">Solicitar Información</a>
+          <a href="#contact-form" class="theme-btn1"><?php echo __('solicitar_informacion'); ?></a>
         </div>
       </div>
     </div>
@@ -23,29 +26,29 @@
     <div class="row align-items-center">
       <div class="col-lg-6">
         <div class="service-content">
-          <h2>El Futuro de la Infraestructura Eficiente</h2>
-          <p>Los servidores ARM representan la próxima generación en eficiencia energética para centros de datos, ofreciendo un rendimiento excepcional por vatio y reduciendo significativamente los costos operativos.</p>
+          <h2><?php echo __('servidores_arm_seccion1_titulo'); ?></h2>
+          <p><?php echo __('servidores_arm_seccion1_desc'); ?></p>
           
           <div class="feature-list">
             <div class="feature-item">
               <i class="fas fa-bolt"></i>
               <div>
-                <h4>Bajo Consumo</h4>
-                <p>Hasta un 60% menos de consumo energético que arquitecturas tradicionales</p>
+                <h4><?php echo __('servidores_arm_caracteristica1_titulo'); ?></h4>
+                <p><?php echo __('servidores_arm_caracteristica1_desc'); ?></p>
               </div>
             </div>
             <div class="feature-item">
               <i class="fas fa-tachometer-alt"></i>
               <div>
-                <h4>Alto Rendimiento</h4>
-                <p>Procesamiento paralelo masivo para cargas de trabajo específicas</p>
+                <h4><?php echo __('servidores_arm_caracteristica2_titulo'); ?></h4>
+                <p><?php echo __('servidores_arm_caracteristica2_desc'); ?></p>
               </div>
             </div>
             <div class="feature-item">
               <i class="fas fa-leaf"></i>
               <div>
-                <h4>Sostenibilidad</h4>
-                <p>Reducción de la huella de carbono de tu infraestructura TI</p>
+                <h4><?php echo __('servidores_arm_caracteristica3_titulo'); ?></h4>
+                <p><?php echo __('servidores_arm_caracteristica3_desc'); ?></p>
               </div>
             </div>
           </div>
@@ -100,15 +103,15 @@
       <div class="col-md-4 mb-4">
         <div class="app-card">
           <div class="icon"><i class="fas fa-server"></i></div>
-          <h4>Microservicios</h4>
-          <p>Arquitecturas escalables y modulares</p>
+          <h4><?php echo __('servidores_arm_microservicios_titulo'); ?></h4>
+          <p><?php echo __('servidores_arm_microservicios_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="app-card">
           <div class="icon"><i class="fas fa-mobile-alt"></i></div>
-          <h4>Desarrollo Móvil</h4>
-          <p>Entornos de desarrollo y testing para aplicaciones móviles</p>
+          <h4><?php echo __('servidores_arm_desarrollo_titulo'); ?></h4>
+          <p><?php echo __('servidores_arm_desarrollo_desc'); ?></p>
         </div>
       </div>
     </div>
@@ -119,8 +122,8 @@
 <div class="benefits-section sp">
   <div class="container">
     <div class="section-title text-center">
-      <h2>Ventajas Clave</h2>
-      <p>Beneficios de elegir servidores ARM</p>
+      <h2><?php echo __('servidores_arm_ventajas_titulo'); ?></h2>
+      <p><?php echo __('servidores_arm_ventajas_subtitulo'); ?></p>
     </div>
     
     <div class="row">
@@ -129,8 +132,8 @@
           <div class="benefit-icon">
             <i class="fas fa-bolt"></i>
           </div>
-          <h4>Eficiencia Energética</h4>
-          <p>Menor consumo eléctrico y reducción de costos operativos</p>
+          <h4><?php echo __('servidores_arm_ventaja1_titulo'); ?></h4>
+          <p><?php echo __('servidores_arm_ventaja1_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-4 mb-4">
@@ -138,8 +141,8 @@
           <div class="benefit-icon">
             <i class="fas fa-expand"></i>
           </div>
-          <h4>Alta Densidad</h4>
-          <p>Mayor cantidad de núcleos por unidad de rack</p>
+          <h4><?php echo __('servidores_arm_ventaja2_titulo'); ?></h4>
+          <p><?php echo __('servidores_arm_ventaja2_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-4 mb-4">
@@ -147,8 +150,8 @@
           <div class="benefit-icon">
             <i class="fas fa-thermometer-quarter"></i>
           </div>
-          <h4>Menor Disipación Térmica</h4>
-          <p>Reducción de costos de refrigeración</p>
+          <h4><?php echo __('servidores_arm_ventaja3_titulo'); ?></h4>
+          <p><?php echo __('servidores_arm_ventaja3_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-6 mb-4">
@@ -156,8 +159,8 @@
           <div class="benefit-icon">
             <i class="fas fa-mobile-alt"></i>
           </div>
-          <h4>Compatibilidad Móvil</h4>
-          <p>Ideal para entornos de desarrollo móvil y aplicaciones nativas</p>
+          <h4><?php echo __('servidores_arm_ventaja4_titulo'); ?></h4>
+          <p><?php echo __('servidores_arm_ventaja4_desc'); ?></p>
         </div>
       </div>
       <div class="col-md-6 mb-4">
@@ -165,8 +168,8 @@
           <div class="benefit-icon">
             <i class="fas fa-leaf"></i>
           </div>
-          <h4>Sostenibilidad</h4>
-          <p>Contribución a los objetivos de sostenibilidad corporativa</p>
+          <h4><?php echo __('servidores_arm_ventaja5_titulo'); ?></h4>
+          <p><?php echo __('servidores_arm_ventaja5_desc'); ?></p>
         </div>
       </div>
     </div>

@@ -9,7 +9,11 @@
                 <div class="main-heading">
                   <h1><?php echo __('about'); ?></h1>
                     <div class="space16"></div>
-                    <span class="span"><img src="assets/img/icons/span1.png" alt=""> <a href="index.php"><?php echo __('home'); ?></a> <span class="arrow"><i class="fa-regular fa-angle-right"></i></span> <?php echo __('about'); ?></span>
+                    <div class="breadcrumb-nav">
+    <a href="index.php" class="breadcrumb-item"><i class="fas fa-home"></i> <?php echo __('home'); ?></a>
+    <span class="breadcrumb-separator"><i class="fas fa-chevron-right"></i></span>
+    <span class="breadcrumb-item active"><?php echo __('about'); ?></span>
+</div>
                 </div>
               </div>
             </div>
