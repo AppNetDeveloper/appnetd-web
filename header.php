@@ -716,22 +716,8 @@ require_once __DIR__ . '/includes/seo_config.php';
                <div class="main-menu-ex main-menu-ex1">
                 <ul class="main-nav">
                     <li class="nav-item"><a href="index.php" class="nav-link"><?php echo __('home'); ?></a></li>
-                    <li class="nav-item dropdown">
-                        <a href="about.php" class="nav-link"><?php echo __('about'); ?> <i class="fa-solid fa-angle-down"></i></a>
-                        <div class="dropdown-menu">
-                            <a href="about.php" class="dropdown-item"><?php echo __('about'); ?></a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link"><?php echo __('we_offer'); ?> <i class="fa-solid fa-angle-down"></i></a>
-                        <div class="dropdown-menu">
-                            <a href="service.php" class="dropdown-item"><?php echo __('our_services'); ?></a>
-                            <a href="blog.php" class="dropdown-item"><?php echo __('blog'); ?></a>
-                            <a href="team.php" class="dropdown-item"><?php echo __('our_team'); ?></a>
-                            <a href="testimonial.php" class="dropdown-item"><?php echo __('testimonials'); ?></a>
-                            <a href="proyectos.php" class="dropdown-item"><?php echo __('our_projects'); ?></a>
-                        </div>
-                    </li>
+                    <li class="nav-item"><a href="about.php" class="nav-link"><?php echo __('about'); ?></a></li>
+                    <li class="nav-item"><a href="service.php" class="nav-link"><?php echo __('we_offer'); ?></a></li>
                     <li class="nav-item"><a href="blog.php" class="nav-link"><?php echo __('blog'); ?></a></li>
                     <li class="nav-item"><a href="proyectos.php" class="nav-link"><?php echo __('projects'); ?></a></li>
                     <li class="nav-item"><a href="contact.php" class="nav-link"><?php echo __('contact'); ?></a></li>
@@ -830,32 +816,11 @@ require_once __DIR__ . '/includes/seo_config.php';
             <ul>
               <li><a href="index.php"><?php echo __('home'); ?></a></li>
               
-              <li class="has-dropdown"><a href="#"><?php echo __('about'); ?> <i class="fa-solid fa-angle-down"></i></a>
-                <ul class="sub-menu">
-                  <li><a href="about.php"><?php echo __('about'); ?></a></li>
-                </ul>
-              </li>
+              <li><a href="about.php"><?php echo __('about'); ?></a></li>
 
-              <li class="has-dropdown"><a href="#"><?php echo __('we_offer'); ?> <i class="fa-solid fa-angle-down"></i></a>
-                <ul class="sub-menu">
-                  <li><a href="service.php"><?php echo __('our_services'); ?></a></li>
-                  <li><a href="blog.php"><?php echo __('blog'); ?></a></li>
-                  <li><a href="about.php"><?php echo __('about_us'); ?></a></li>
-                  <li><a href="team.php"><?php echo __('our_team'); ?></a></li>
-                  <li><a href="testimonial.php"><?php echo __('testimonials'); ?></a></li>
-                  <li><a href="proyectos.php"><?php echo __('our_projects'); ?></a></li>
-                </ul>
-              </li>
-              <li class="has-dropdown"><a href="#"><?php echo __('blog'); ?> <i class="fa-solid fa-angle-down"></i></a>
-                <ul class="sub-menu">
-                  <li><a href="blog.php"><?php echo __('blog'); ?></a></li>
-                </ul>
-              </li>
-              <li class="has-dropdown"><a href="#"><?php echo __('projects'); ?> <i class="fa-solid fa-angle-down"></i></a>
-                <ul class="sub-menu">
-                  <li><a href="proyectos.php"><?php echo __('projects'); ?></a></li>
-                </ul>
-              </li>
+              <li><a href="service.php"><?php echo __('we_offer'); ?></a></li>
+              <li><a href="blog.php"><?php echo __('blog'); ?></a></li>
+              <li><a href="proyectos.php"><?php echo __('projects'); ?></a></li>
               <li><a href="contact.php"><?php echo __('contact'); ?></a></li>
             </ul>
             
