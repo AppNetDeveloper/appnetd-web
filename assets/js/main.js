@@ -738,19 +738,39 @@
     }
 
     // Preloader
-    $(window).on("load", function(event) {
+    // Preloader mejorado para móviles
+    function hidePreloader() {
       if ($('#ctn-preloader').length) {
+        $('#ctn-preloader').addClass('loaded');
+        $('body').removeClass('no-scroll-y');
+        
+        // Forzar la eliminación del preloader después de la animación
         setTimeout(function() {
-          $('#ctn-preloader').addClass('loaded');
-          $('body').removeClass('no-scroll-y');
-
-          if ($('#ctn-preloader').hasClass('loaded')) {
-            $('#preloader').delay(1000).queue(function() {
-              $(this).remove();
-            });
-          }
-        }, 1000);
+          $('#preloader').fadeOut(300, function() {
+            $(this).remove();
+          });
+        }, 800);
       }
+    }
+    
+    // Múltiples eventos para asegurar que el preloader se oculte
+    $(window).on("load", function(event) {
+      // Esperar un poco más en móviles
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      const delay = isMobile ? 1500 : 1000;
+      
+      setTimeout(hidePreloader, delay);
+    });
+    
+    // Backup: si el load no funciona, usar DOMContentLoaded
+    $(document).ready(function() {
+      // Timeout de seguridad por si el load no se dispara
+      setTimeout(function() {
+        if ($('#ctn-preloader').length && !$('#ctn-preloader').hasClass('loaded')) {
+          console.log('Preloader fallback activated');
+          hidePreloader();
+        }
+      }, 3000);
     });
 
   }); // Cierre de $(document).ready

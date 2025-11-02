@@ -4,7 +4,8 @@
  */
 
 // Obtener la URL base del sitio
-$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+$host = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'localhost';
+$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $host;
 
 // Configuración básica de la organización
 $organization_schema = [
@@ -21,14 +22,15 @@ $organization_schema = [
     ],
     'address' => [
         '@type' => 'PostalAddress',
-        'addressLocality' => 'Madrid',
-        'addressRegion' => 'Madrid',
+        'addressLocality' => 'Murcia',
+        'addressRegion' => 'Murcia',
         'addressCountry' => 'ES'
     ],
     'contactPoint' => [
         '@type' => 'ContactPoint',
-        'telephone' => '+34 123 456 789',
+        'telephone' => '+34 619 929 305',
         'contactType' => 'customer service',
+        'email' => 'info@appnet.dev',
         'availableLanguage' => $available_languages[$current_lang]['hreflang']
     ]
 ];

@@ -1,4 +1,4 @@
-<?php include "header.php"; ?>
+<?php include "includes/header.php"; ?>
 
         <!--=====HERO AREA START=======-->
 
@@ -428,7 +428,7 @@
 
         <!--=====CTA AREA END=======-->
 
-        <?php include "footer.php"; ?>
+        <?php include "includes/footer.php"; ?>
 
 
 

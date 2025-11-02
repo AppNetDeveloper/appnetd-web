@@ -6,8 +6,8 @@ require_once __DIR__ . '/languages/config.php';
 $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
 
 // Configuración de la página
-$page_title = __('project1_title');
-$meta_description = __('project1_description');
+$page_title = 'Sistema de Logística Automatizada';
+$meta_description = 'Automatización de almacén con vehículos guiados (AGV) y gestión inteligente de inventario';
 
 include "includes/header.php";
 ?>
@@ -16,11 +16,11 @@ include "includes/header.php";
 <section class="page-title title-bg10">
     <div class="d-table">
         <div class="d-table-cell">
-            <h2><?php echo __('project1_title'); ?></h2>
+            <h2>Sistema de Logística Automatizada</h2>
             <ul>
                 <li><a href="index.php"><?php echo __('home'); ?></a></li>
                 <li><a href="proyectos.php"><?php echo __('projects'); ?></a></li>
-                <li><?php echo __('project1_title'); ?></li>
+                <li>Logística Automatizada</li>
             </ul>
         </div>
     </div>
@@ -38,38 +38,45 @@ include "includes/header.php";
         <div class="row">
             <div class="col-lg-8">
                 <div class="project-details-img">
-                    <img src="assets/img/projects/automatizacion-industrial-large.jpg" alt="Automatización Industrial">
+                    <img src="assets/img/projects/logistica-automatizada.jpg" alt="Logística Automatizada">
                 </div>
 
                 <div class="project-details-content">
                     <h3>Descripción del Proyecto</h3>
-                    <p>Implementamos un sistema integral de automatización para una línea de producción industrial que permitió a nuestro cliente aumentar su productividad en un 40% y reducir los tiempos de inactividad en un 60%. El proyecto incluyó la integración de PLCs, sensores avanzados y un sistema SCADA personalizado.</p>
-                    
+                    <p>Implementamos un sistema completo de automatización logística en un almacén de 12,000 m² que transformó completamente las operaciones de nuestro cliente. La solución incluye 25 vehículos guiados automáticamente (AGV), sistemas de almacenamiento inteligente, y un software de gestión de almacén (WMS) con inteligencia artificial que optimiza rutas y gestiona inventario en tiempo real.</p>
+
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="assets/img/projects/automatizacion-1.jpg" alt="Sistema de Control" class="mb-4">
+                            <img src="assets/img/projects/logistica-1.jpg" alt="AGV en Operación" class="mb-4">
                         </div>
                         <div class="col-md-6">
-                            <img src="assets/img/projects/automatizacion-2.jpg" alt="Línea de Producción" class="mb-4">
+                            <img src="assets/img/projects/logistica-2.jpg" alt="Sistema WMS" class="mb-4">
                         </div>
                     </div>
 
                     <h3>Retos del Proyecto</h3>
                     <ul class="project-details-list">
-                        <li>Integración con maquinaria existente de diferentes fabricantes</li>
-                        <li>Minimizar el tiempo de parada durante la implementación</li>
-                        <li>Capacitación del personal operativo</li>
-                        <li>Cumplimiento de normativas de seguridad industrial</li>
+                        <li>Coordinación de 25 AGV simultáneos sin colisiones</li>
+                        <li>Integración con sistemas ERP y WMS legacy</li>
+                        <li>Optimización de rutas en tiempo real</li>
+                        <li>Gestión de inventario de 50,000+ SKUs</li>
+                        <li>Minimizar tiempo de implementación</li>
+                        <li>Capacitación del personal en nuevos sistemas</li>
+                        <li>Garantizar alta disponibilidad (99.9%)</li>
                     </ul>
 
                     <h3>Solución Implementada</h3>
-                    <p>Desarrollamos una solución personalizada que incluyó:</p>
+                    <p>Desarrollamos una solución integral que incluyó:</p>
                     <ul class="project-details-list">
-                        <li>Instalación de PLCs de última generación</li>
-                        <li>Red de sensores IoT para monitoreo en tiempo real</li>
-                        <li>Interfaz HMI intuitiva</li>
-                        <li>Sistema de alertas predictivas</li>
-                        <li>Plataforma de análisis de datos</li>
+                        <li>25 vehículos AGV con navegación láser y magnética</li>
+                        <li>Sistema de gestión de flota AGV con IA</li>
+                        <li>Software WMS personalizado con algoritmos de optimización</li>
+                        <li>Estanterías inteligentes con sensores de peso y ubicación</li>
+                        <li>Sistema de picking automatizado con luz guiada</li>
+                        <li>Dashboards en tiempo real para gestión operativa</li>
+                        <li>Integración con ERP SAP mediante APIs REST</li>
+                        <li>Sistema de trazabilidad completa con RFID</li>
+                        <li>Aplicación móvil para gestión de tareas</li>
                     </ul>
 
                     <div class="project-result">
@@ -77,23 +84,23 @@ include "includes/header.php";
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="result-item">
-                                    <i class="fas fa-chart-line"></i>
-                                    <h4>+40%</h4>
-                                    <p>Incremento en productividad</p>
+                                    <i class="fas fa-shipping-fast"></i>
+                                    <h4>+250%</h4>
+                                    <p>Incremento en throughput</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="result-item">
                                     <i class="fas fa-clock"></i>
-                                    <h4>-60%</h4>
-                                    <p>Reducción en tiempos de inactividad</p>
+                                    <h4>-75%</h4>
+                                    <p>Reducción en tiempo de picking</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="result-item">
-                                    <i class="fas fa-euro-sign"></i>
-                                    <h4>ROI 8 meses</h4>
-                                    <p>Retorno de la inversión</p>
+                                    <i class="fas fa-check-double"></i>
+                                    <h4>99.8%</h4>
+                                    <p>Precisión en inventario</p>
                                 </div>
                             </div>
                         </div>
@@ -102,11 +109,11 @@ include "includes/header.php";
                     <div class="project-testimonial">
                         <div class="testimonial-content">
                             <div class="testimonial-text">
-                                <p>"La implementación del sistema de automatización superó nuestras expectativas. No solo mejoramos nuestra eficiencia operativa, sino que también ganamos una ventaja competitiva en nuestro sector."</p>
+                                <p>"La automatización de nuestro almacén superó todas las expectativas. Hemos triplicado nuestra capacidad operativa con el mismo espacio físico, y la precisión en inventario nos ha permitido mejorar significativamente el servicio al cliente."</p>
                             </div>
                             <div class="testimonial-author">
-                                <h4>Juan Martínez</h4>
-                                <span>Director de Operaciones, Cliente Industrial</span>
+                                <h4>Laura Sánchez</h4>
+                                <span>Directora de Operaciones, Empresa de Distribución E-commerce</span>
                             </div>
                         </div>
                     </div>
@@ -119,23 +126,23 @@ include "includes/header.php";
                     <ul>
                         <li>
                             <span>Cliente:</span>
-                            <p>Empresa Industrial S.A.</p>
+                            <p>Empresa de Distribución E-commerce</p>
                         </li>
                         <li>
                             <span>Categoría:</span>
-                            <p>Automatización Industrial</p>
+                            <p>Logística 4.0 / Automatización</p>
                         </li>
                         <li>
                             <span>Fecha:</span>
-                            <p>Enero 2025</p>
+                            <p>Agosto 2024</p>
                         </li>
                         <li>
                             <span>Ubicación:</span>
-                            <p>Barcelona, España</p>
+                            <p>Zaragoza, España</p>
                         </li>
                         <li>
                             <span>Duración:</span>
-                            <p>3 meses</p>
+                            <p>8 meses</p>
                         </li>
                     </ul>
                 </div>
@@ -144,13 +151,13 @@ include "includes/header.php";
                     <h3>Documentación</h3>
                     <a href="#" class="download-btn">
                         <i class="far fa-file-pdf"></i>
-                        <span>Descargar Caso de Estudio <small>(PDF, 2.4MB)</small></span>
+                        <span>Descargar Caso de Estudio <small>(PDF, 6.5MB)</small></span>
                     </a>
                 </div>
 
                 <div class="project-contact">
                     <h3>¿Interesado en un proyecto similar?</h3>
-                    <p>Contáctanos para discutir cómo podemos ayudarte con tu proyecto de automatización industrial.</p>
+                    <p>Contáctanos para discutir cómo automatizar tu almacén y optimizar tu logística.</p>
                     <a href="contact.php" class="default-btn">Solicitar Presupuesto</a>
                 </div>
             </div>
@@ -169,6 +176,21 @@ include "includes/header.php";
             <div class="col-lg-4 col-md-6">
                 <div class="project-card">
                     <div class="project-img">
+                        <a href="proyecto-automatizacion-industrial.php">
+                            <img src="assets/img/projects/automatizacion-industrial-large.jpg" alt="Automatización Industrial">
+                        </a>
+                    </div>
+                    <div class="project-content">
+                        <h3><a href="proyecto-automatizacion-industrial.php">Automatización Industrial</a></h3>
+                        <p>Sistema integral de automatización para líneas de producción industrial.</p>
+                        <a href="proyecto-automatizacion-industrial.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <div class="project-img">
                         <a href="proyecto-iot-industrial.php">
                             <img src="assets/img/projects/iot-industrial.jpg" alt="IoT Industrial">
                         </a>
@@ -184,29 +206,14 @@ include "includes/header.php";
             <div class="col-lg-4 col-md-6">
                 <div class="project-card">
                     <div class="project-img">
-                        <a href="proyecto-mantenimiento-predictivo.php">
-                            <img src="assets/img/projects/mantenimiento-predictivo.jpg" alt="Mantenimiento Predictivo">
+                        <a href="proyecto-ia-calidad.php">
+                            <img src="assets/img/projects/ia-calidad.jpg" alt="Control de Calidad con IA">
                         </a>
                     </div>
                     <div class="project-content">
-                        <h3><a href="proyecto-mantenimiento-predictivo.php">Mantenimiento Predictivo</a></h3>
-                        <p>Implementación de sistema de mantenimiento predictivo basado en IA para maquinaria crítica.</p>
-                        <a href="proyecto-mantenimiento-predictivo.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="project-card">
-                    <div class="project-img">
-                        <a href="proyecto-logistica-automatizada.php">
-                            <img src="assets/img/projects/logistica-automatizada.jpg" alt="Logística Automatizada">
-                        </a>
-                    </div>
-                    <div class="project-content">
-                        <h3><a href="proyecto-logistica-automatizada.php">Logística Automatizada</a></h3>
-                        <p>Automatización de almacén con vehículos guiados (AGV) y gestión inteligente de inventario.</p>
-                        <a href="proyecto-logistica-automatizada.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                        <h3><a href="proyecto-ia-calidad.php">Control de Calidad con IA</a></h3>
+                        <p>Sistema de inspección visual automatizada para control de calidad en producción.</p>
+                        <a href="proyecto-ia-calidad.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -221,8 +228,8 @@ include "includes/header.php";
         <div class="row align-items-center">
             <div class="col-lg-9">
                 <div class="cta-text">
-                    <h2>¿Listo para automatizar tu línea de producción?</h2>
-                    <p>Nuestros expertos están listos para ayudarte a implementar soluciones de automatización personalizadas para tu negocio.</p>
+                    <h2>¿Listo para automatizar tu almacén?</h2>
+                    <p>Nuestros expertos te ayudarán a optimizar tus operaciones logísticas con las últimas tecnologías.</p>
                 </div>
             </div>
             <div class="col-lg-3">

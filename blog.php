@@ -1,13 +1,15 @@
 <?php
+// Incluir configuración de idiomas
+require_once __DIR__ . '/languages/config.php';
+
 // Obtener la URL base del sitio
 $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
 
 // Configuración de la página
-$page_title = 'Blog';
-$additional_css = 'assets/css/blog.css';
+$page_title = __('blog_page_title');
+$meta_description = __('blog_meta_description');
 
-// Incluir el header
-include_once 'header.php';
+include "includes/header.php";
 ?>
 
 <!-- Blog Section Start -->
@@ -85,6 +87,5 @@ include_once 'header.php';
 <!-- Blog Section End -->
 
 <?php
-// Incluir el footer
-include_once 'footer.php';
+include "includes/footer.php";
 ?>

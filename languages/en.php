@@ -442,8 +442,8 @@ return [
     'equipment_gauges_desc' => 'Real-time dimension control',
     
     // Vision Section
-    'vision_title' => 'Driving Innovation: Our Vision at Appnet Developer',
-    'vision_text' => 'At Appnet Developer, our vision is to be the leading force driving digital transformation and innovation worldwide. We envision a future where businesses of all sizes have the tools and expertise they need to thrive in an increasingly digital world.',
+    'vision_title' => 'Driving Innovation: Our Vision at AppNet Developer',
+    'vision_text' => 'At AppNet Developer, our vision is to be the leading force driving digital transformation and innovation worldwide. We envision a future where businesses of all sizes have the tools and expertise they need to thrive in an increasingly digital world.',
     
     // Additional Services
     'infrastructure_solutions_title' => 'Network Infrastructure Solutions',
@@ -709,5 +709,199 @@ return [
     'custom_apps_benefit4_title' => 'Scalability',
     'custom_apps_benefit4_desc' => 'Growth adapted to the evolution of your business',
     'custom_apps_benefit5_title' => 'Ongoing Support',
-    'custom_apps_benefit5_desc' => 'Maintenance and periodic updates'
+    'custom_apps_benefit5_desc' => 'Maintenance and periodic updates',
+    
+    // Additional translations for the contact page
+    'contact_hero_subtitle' => 'Get in Touch',
+    'contact_hero_description' => 'We are here to help you with your technology needs. Reach out to us and let\'s create something amazing together.',
+    'contact_section_title' => 'Contact Us',
+    'contact_main_title' => 'Let\'s Work Together',
+    'contact_main_description' => 'Have a project in mind? We\'d love to hear about it. Send us a message and we\'ll respond as soon as possible.',
+    'contact_form_button' => 'Send Message',
+    'call_now' => 'Call Now',
+    'support_available' => 'Support Available',
+    'response_time' => 'Response Time',
+    'client_satisfaction' => 'Client Satisfaction',
+    'find_us_title' => 'Find Us',
+    'find_us_description' => 'Visit our office in Murcia, Spain. We\'d be happy to meet you in person.',
+    'contact_cta_title' => 'Ready to Start Your Project?',
+    'contact_cta_description' => 'Let\'s discuss how we can help transform your business with innovative technology solutions.',
+    'contact_subject_quote' => 'Request a Quote',
+    'contact_subject_support' => 'Technical Support',
+    'contact_subject_partnership' => 'Partnership Inquiry',
+    'contact_subject_general' => 'General Question',
+    'sending_message' => 'Sending...',
+    'contact_error_required_fields' => 'Please fill in all required fields.',
+    'contact_error_invalid_email' => 'Please enter a valid email address.',
+    'contact_form_new_message' => 'New Contact Form Submission',
+    'contact_email_sent_from' => 'This email was sent from the contact form at',
+
+    // New translations for modernized about.php
+    // Who We Are Section
+    'about_who_we_are_title' => 'Who We Are',
+    'about_who_we_are_description' => 'We are leaders in advanced technology solutions, merging Artificial Intelligence, IoT, and custom development to transform businesses. Our 25+ years of experience enable us to offer innovative solutions that optimize processes and improve operational efficiency.',
+    'about_stats_projects' => 'Completed Projects',
+    'about_stats_clients' => 'Satisfied Clients',
+    'about_stats_countries' => 'Countries',
+    'about_stats_support' => '24/7 Support',
+
+    // Mission and Vision Section
+    'about_mission_title' => 'Our Mission',
+    'about_mission_description' => 'To revolutionize the digital landscape by offering top-tier technology solutions that drive growth, efficiency, and sustainability for our clients.',
+    'about_vision_title' => 'Our Vision',
+    'about_vision_description' => 'To be the leading force driving digital transformation and innovation worldwide, empowering businesses with advanced AI, IoT, and automation tools.',
+
+    // Values Section
+    'about_values_title' => 'Our Values',
+    'about_value_innovation' => 'Innovation',
+    'about_value_innovation_desc' => 'We constantly develop new technologies to stay at the forefront of innovation.',
+    'about_value_excellence' => 'Excellence',
+    'about_value_excellence_desc' => 'We strive for perfection in every project, guaranteeing quality and exceptional results.',
+    'about_value_commitment' => 'Commitment',
+    'about_value_commitment_desc' => 'We are committed to our clients\' success, offering continuous and personalized support.',
+    'about_value_integrity' => 'Integrity',
+    'about_value_integrity_desc' => 'We act with honesty, transparency, and ethics in all our operations.',
+
+    // Team Section
+    'about_team_title' => 'Our Team',
+    'about_team_subtitle' => 'Passionate professionals about technology',
+    'about_team_member_name' => 'Member Name',
+    'about_team_member_position' => 'Member Position',
+    'about_team_member_description' => 'Member Description',
+
+    // History Section
+    'about_history_title' => 'Our History',
+    'about_history_subtitle' => 'Over two decades of technological innovation',
+    'about_history_year' => 'Year',
+    'about_history_event' => 'Event',
+
+    // Improved Expertise Section
+    'about_expertise_improved_title' => 'Areas of Expertise',
+    'about_expertise_ai_improved' => 'Artificial Intelligence',
+    'about_expertise_ai_improved_desc' => 'We develop custom AI solutions that drive efficiency and innovation in your business, including facial recognition, intelligent chatbots, and predictive analytics.',
+    'about_expertise_iot_improved' => 'Industrial IoT',
+    'about_expertise_iot_improved_desc' => 'We connect machinery and sensors for real-time control and predictive analysis, optimizing industrial processes and reducing downtime.',
+    'about_expertise_cybersecurity_improved' => 'Cybersecurity',
+    'about_expertise_cybersecurity_improved_desc' => 'Advanced protection for your systems and data with the latest cybersecurity technologies, including encryption, continuous monitoring, and incident response.',
+    'about_expertise_cloud_improved' => 'Cloud Servers',
+    'about_expertise_cloud_improved_desc' => 'Scalable and secure infrastructure to host your critical applications and data, with low-energy ARM servers.',
+    'about_expertise_mobile_improved' => 'Mobile Applications',
+    'about_expertise_mobile_improved_desc' => 'Development of native and hybrid applications for iOS and Android with user-centered design and integration with enterprise systems.',
+    'about_expertise_data_improved' => 'Data Analysis',
+    'about_expertise_data_improved_desc' => 'We transform data into valuable information for strategic decision-making, using advanced algorithms and interactive visualization.',
+    'about_expertise_automation_improved' => 'Automation',
+    'about_expertise_automation_improved_desc' => 'Custom solutions to automate processes and increase productivity, from HR to industrial operations.',
+    'about_expertise_support_improved' => '24/7 Support',
+    'about_expertise_support_improved_desc' => 'Continuous technical assistance to ensure optimal operation of your systems, with remote and on-site support.',
+
+    // Improved CTA
+    'about_cta_title' => 'Ready to Transform Your Business?',
+    'about_cta_description' => 'Discover how our solutions can optimize your operations and improve your productivity. Schedule a free consultation with our experts.',
+    'about_cta_button_primary' => 'Contact Us',
+    'about_cta_button_secondary' => 'View Projects',
+
+    // New translations for about.php
+    'about_who_we_are_title' => 'Who We Are',
+    'about_who_we_are_description' => 'We are leaders in advanced technology solutions, merging Artificial Intelligence, IoT, and custom development to transform businesses. Our 25+ years of experience enable us to offer innovative solutions that optimize processes and improve operational efficiency.',
+    'about_stats_support' => '24/7 Support',
+    'expertise_intro' => 'At AppNet Developer, we take pride in offering comprehensive technology solutions backed by years of experience and specialized knowledge.',
+    'about_expertise_automation_improved' => 'Automation',
+    'about_expertise_automation_improved_desc' => 'Custom solutions to automate processes and increase productivity, from HR to industrial operations.',
+    'mission_feature1' => 'Constant innovation',
+    'mission_feature2' => 'Customized solutions',
+    'mission_feature3' => 'Continuous support',
+    'vision_feature1' => 'Technology leadership',
+    'vision_feature2' => 'Digital transformation',
+    'vision_feature3' => 'Sustainability',
+    'about_values_subtitle' => 'The principles that guide our work',
+
+    // Missing translations for about.php
+    'about_mission_vision_subtitle' => 'Our mission and vision for the future',
+    'about_mission_vision_title' => 'Mission and Vision',
+    'about_stats_clients_desc' => 'Companies that trust our solutions',
+    'about_stats_countries_desc' => 'Countries where we operate and serve',
+    'about_stats_projects_desc' => 'Successfully completed projects',
+    'about_stats_subtitle' => 'Numbers that demonstrate our commitment',
+    'about_stats_title' => 'Our Achievements',
+    'clients_served' => 'Clients Served',
+    'projects_completed' => 'Projects Completed',
+    'software_development_specialization' => 'Software Development',
+
+    // New translations for improved history section
+    'about_history_event_2000' => 'Foundation of AppNet Developer',
+    'about_history_event_2000_desc' => 'AppNet Developer is born as a company dedicated to custom software development, marking the beginning of an innovative trajectory in the technology sector.',
+    'about_history_event_2010' => 'Expansion towards IoT',
+    'about_history_event_2010_desc' => 'We incorporate IoT solutions into our offering, revolutionizing industrial control and enabling intelligent connection of machinery and processes.',
+    'about_history_event_2020' => 'Integration of Advanced AI',
+    'about_history_event_2020_desc' => 'We develop the first custom AI solutions, including facial recognition and intelligent chatbots to optimize business operations.',
+    'about_history_event_2025' => 'Leadership in Industry 4.0',
+    'about_history_event_2025_desc' => 'We consolidate our position as leaders in digital transformation, offering complete solutions that integrate AI, IoT and advanced automation.',
+
+    // New translations for improved achievements section
+    'about_achievements_title' => 'Numbers that demonstrate our commitment',
+    'about_achievements_projects' => 'Successfully completed projects',
+    'about_achievements_clients' => 'Companies that trust our solutions',
+    'about_achievements_countries' => 'Countries where we operate and serve',
+    
+    // New translations for improved about.php
+    'site_name' => 'AppNet Developer',
+    'our_services' => 'Our Services',
+    'about_feature1_desc' => 'We create large language models (LLMs) customized for your business, with facial recognition capabilities, intelligent chatbots and predictive analytics that integrate perfectly with your existing systems.',
+    'about_feature2_desc' => 'We implement IoT sensors and devices that connect industrial machinery, measurement systems and smart cameras for real-time monitoring and automated process control.',
+    'about_feature3_desc' => 'We completely automate human resource management, from access control with facial recognition to shift management and productivity evaluation with real-time data analysis.',
+    'about_feature4_desc' => 'We develop secure communication platforms with WhatsApp, Telegram and email integrated, running on local servers to guarantee privacy and regulatory compliance.',
+    
+    // Missing translations for hero cards
+    'hero_card_ai' => 'Advanced AI',
+    'hero_card_iot' => 'Industrial IoT',
+    'hero_card_cybersecurity' => 'Cybersecurity',
+    'about_achievements_badge' => 'Our Achievements',
+    'hero_main_image_alt' => 'Technology Solutions',
+
+    // About page - Feature cards
+    'about_feature_innovation_title' => 'Technological Innovation',
+    'about_feature_innovation_desc' => 'We develop cutting-edge solutions using AI, IoT and emerging technologies to transform your business.',
+    'about_feature_experience_title' => 'Proven Experience',
+    'about_feature_experience_desc' => 'Over 500 completed projects and 250 satisfied clients in 15 different countries.',
+    'about_feature_support_title' => '24/7 Support',
+    'about_feature_support_desc' => 'Technical team available 24 hours a day to ensure the continued success of your projects.',
+
+    // About page - Stats descriptions
+    'about_stats_support_desc' => '24-hour support available',
+
+    // About page - Team members
+    'about_team_member1_name' => 'Carlos Rodríguez',
+    'about_team_member1_role' => 'Founder & CEO',
+    'about_team_member1_desc' => '25 years of experience in software development and digital transformation.',
+    'about_team_member2_name' => 'Marta López',
+    'about_team_member2_role' => 'Chief Technology Officer',
+    'about_team_member2_desc' => 'AI and Machine Learning specialist with over 15 years of experience.',
+    'about_team_member3_name' => 'Javier Gómez',
+    'about_team_member3_role' => 'IoT Architect',
+    'about_team_member3_desc' => 'Expert in Industry 4.0 and industrial automation solutions.',
+    'about_team_member4_name' => 'Sofía Martínez',
+    'about_team_member4_role' => 'Security Director',
+    'about_team_member4_desc' => 'Specialist in cybersecurity and critical data protection.',
+
+    // Projects page
+    'projects_our_work' => 'Our Work',
+    'projects_featured' => 'Featured Projects',
+    'projects_description' => 'Discover some of our most recent and successful projects in industrial automation, IoT, and advanced technological solutions.',
+    'view_project' => 'View Project',
+    'projects_cta_title' => 'Have a project in mind?',
+    'projects_cta_description' => 'We are ready to help you make it a reality with our advanced technological solutions.',
+
+    // Individual projects
+    'project1_title' => 'Production Line Automation',
+    'project1_description' => 'Comprehensive automation system for industrial production line with real-time control.',
+    'project2_title' => 'Industrial IoT Implementation',
+    'project2_description' => 'Remote monitoring solution for industrial machinery with predictive analytics.',
+    'project3_title' => 'AI Quality Control',
+    'project3_description' => 'Automated visual inspection system for production quality control.',
+    'project4_title' => 'Energy Efficiency System',
+    'project4_description' => 'Optimization of energy consumption in industrial plant through IoT and advanced analytics.',
+    'project5_title' => 'Predictive Maintenance',
+    'project5_description' => 'Implementation of AI-based predictive maintenance system for critical machinery.',
+    'project6_title' => 'Automated Logistics System',
+    'project6_description' => 'Warehouse automation with automated guided vehicles (AGV) and intelligent inventory management.',
 ];

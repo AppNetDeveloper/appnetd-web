@@ -1,0 +1,51 @@
+# Archivos de configuración con credenciales sensibles
+includes/email_config.php
+includes/config.php
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.backup
+*.swp
+*~
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de PHP
+vendor/
+composer.lock
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de caché
+cache/
+*.cache
+
+# Archivos de subida (si los hay)
+uploads/
+files/
+
+# Certificados y claves
+*.pem
+*.key
+*.crt
+*.p12

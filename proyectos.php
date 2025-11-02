@@ -1,22 +1,25 @@
 <?php
-// Incluir el header
-$page_title = 'Nuestros Proyectos';
-$additional_css = 'assets/css/projects.css';
+// Incluir configuración de idiomas
+require_once __DIR__ . '/languages/config.php';
 
 // Obtener la URL base del sitio
 $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
 
-include_once 'header.php';
+// Configuración de la página
+$page_title = __('our_projects');
+$meta_description = __('projects_meta_description');
+
+include "includes/header.php";
 ?>
 
 <!-- Page Title Start -->
 <section class="page-title title-bg10">
     <div class="d-table">
         <div class="d-table-cell">
-            <h2>Nuestros Proyectos</h2>
+            <h2><?php echo __('our_projects'); ?></h2>
             <ul>
-                <li><a href="index.php">Inicio</a></li>
-                <li>Proyectos</li>
+                <li><a href="index.php"><?php echo __('home'); ?></a></li>
+                <li><?php echo __('projects'); ?></li>
             </ul>
         </div>
     </div>
@@ -32,9 +35,9 @@ include_once 'header.php';
 <section class="project-section ptb-100">
     <div class="container">
         <div class="section-title text-center">
-            <span>Nuestro Trabajo</span>
-            <h2>Proyectos Destacados</h2>
-            <p>Descubre algunos de nuestros proyectos más recientes y exitosos en automatización industrial, IoT y soluciones tecnológicas avanzadas.</p>
+            <span><?php echo __('projects_our_work'); ?></span>
+            <h2><?php echo __('projects_featured'); ?></h2>
+            <p><?php echo __('projects_description'); ?></p>
         </div>
 
         <div class="row">
@@ -47,9 +50,9 @@ include_once 'header.php';
                         </a>
                     </div>
                     <div class="project-content">
-                        <h3><a href="proyecto-automatizacion-industrial.php">Automatización de Línea de Producción</a></h3>
-                        <p>Sistema integral de automatización para línea de producción industrial con control en tiempo real.</p>
-                        <a href="proyecto-automatizacion-industrial.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                        <h3><a href="proyecto-automatizacion-industrial.php"><?php echo __('project1_title'); ?></a></h3>
+                        <p><?php echo __('project1_description'); ?></p>
+                        <a href="proyecto-automatizacion-industrial.php" class="project-btn"><?php echo __('view_project'); ?> <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -63,9 +66,9 @@ include_once 'header.php';
                         </a>
                     </div>
                     <div class="project-content">
-                        <h3><a href="proyecto-iot-industrial.php">Implementación de IoT Industrial</a></h3>
-                        <p>Solución de monitoreo remoto para maquinaria industrial con análisis predictivo.</p>
-                        <a href="proyecto-iot-industrial.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                        <h3><a href="proyecto-iot-industrial.php"><?php echo __('project2_title'); ?></a></h3>
+                        <p><?php echo __('project2_description'); ?></p>
+                        <a href="proyecto-iot-industrial.php" class="project-btn"><?php echo __('view_project'); ?> <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -79,9 +82,9 @@ include_once 'header.php';
                         </a>
                     </div>
                     <div class="project-content">
-                        <h3><a href="proyecto-ia-calidad.php">Control de Calidad con IA</a></h3>
-                        <p>Sistema de inspección visual automatizada para control de calidad en producción.</p>
-                        <a href="proyecto-ia-calidad.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                        <h3><a href="proyecto-ia-calidad.php"><?php echo __('project3_title'); ?></a></h3>
+                        <p><?php echo __('project3_description'); ?></p>
+                        <a href="proyecto-ia-calidad.php" class="project-btn"><?php echo __('view_project'); ?> <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -95,9 +98,9 @@ include_once 'header.php';
                         </a>
                     </div>
                     <div class="project-content">
-                        <h3><a href="proyecto-eficiencia-energetica.php">Sistema de Eficiencia Energética</a></h3>
-                        <p>Optimización del consumo energético en planta industrial mediante IoT y análisis avanzado.</p>
-                        <a href="proyecto-eficiencia-energetica.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                        <h3><a href="proyecto-eficiencia-energetica.php"><?php echo __('project4_title'); ?></a></h3>
+                        <p><?php echo __('project4_description'); ?></p>
+                        <a href="proyecto-eficiencia-energetica.php" class="project-btn"><?php echo __('view_project'); ?> <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -111,9 +114,9 @@ include_once 'header.php';
                         </a>
                     </div>
                     <div class="project-content">
-                        <h3><a href="proyecto-mantenimiento-predictivo.php">Mantenimiento Predictivo</a></h3>
-                        <p>Implementación de sistema de mantenimiento predictivo basado en IA para maquinaria crítica.</p>
-                        <a href="proyecto-mantenimiento-predictivo.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                        <h3><a href="proyecto-mantenimiento-predictivo.php"><?php echo __('project5_title'); ?></a></h3>
+                        <p><?php echo __('project5_description'); ?></p>
+                        <a href="proyecto-mantenimiento-predictivo.php" class="project-btn"><?php echo __('view_project'); ?> <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -127,9 +130,9 @@ include_once 'header.php';
                         </a>
                     </div>
                     <div class="project-content">
-                        <h3><a href="proyecto-logistica-automatizada.php">Sistema de Logística Automatizada</a></h3>
-                        <p>Automatización de almacén con vehículos guiados (AGV) y gestión inteligente de inventario.</p>
-                        <a href="proyecto-logistica-automatizada.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                        <h3><a href="proyecto-logistica-automatizada.php"><?php echo __('project6_title'); ?></a></h3>
+                        <p><?php echo __('project6_description'); ?></p>
+                        <a href="proyecto-logistica-automatizada.php" class="project-btn"><?php echo __('view_project'); ?> <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -153,13 +156,13 @@ include_once 'header.php';
         <div class="row align-items-center">
             <div class="col-lg-9">
                 <div class="cta-text">
-                    <h2>¿Tienes un proyecto en mente?</h2>
-                    <p>Estamos listos para ayudarte a hacerlo realidad con nuestras soluciones tecnológicas avanzadas.</p>
+                    <h2><?php echo __('projects_cta_title'); ?></h2>
+                    <p><?php echo __('projects_cta_description'); ?></p>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="cta-btn">
-                    <a href="contacto.php" class="default-btn">Contáctanos</a>
+                    <a href="contact.php" class="default-btn"><?php echo __('contact_us'); ?></a>
                 </div>
             </div>
         </div>
@@ -168,6 +171,5 @@ include_once 'header.php';
 <!-- CTA Section End -->
 
 <?php
-// Incluir el footer
-include_once 'footer.php';
+include "includes/footer.php";
 ?>

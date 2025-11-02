@@ -1,4 +1,4 @@
-<?php include "header.php"; ?>
+<?php include "includes/header.php"; ?>
 
 <!-- Hero Section -->
 <div class="common-hero" style="background-image: url('assets/img/bg/service-bg.jpg');">
@@ -119,4 +119,4 @@
   </div>
 </div>
 
-<?php include "footer.php"; ?>
+<?php include "includes/footer.php"; ?>

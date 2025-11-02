@@ -516,5 +516,249 @@ return [
     'servidores_arm_app3_titulo' => 'استدلال الذكاء الاصطناعي',
     'servidores_arm_app3_desc' => 'تنفيذ فعال لنماذج التعلم الآلي',
     'servidores_arm_app4_titulo' => 'قواعد البيانات',
-    'servidores_arm_app4_desc' => 'تخزين واستعلام فعال للبيانات'
+    'servidores_arm_app4_desc' => 'تخزين واستعلام فعال للبيانات',
+    
+    // ترجمات جديدة لصفحة الاتصال المحدثة
+    'contact_hero_subtitle' => 'تواصل معنا',
+    'contact_hero_description' => 'نحن هنا لمساعدتك في احتياجاتك التكنولوجية. تواصل معنا ولنخلق شيئًا رائعًا معًا.',
+    'contact_main_title' => 'لنعمل معًا',
+    'contact_main_description' => 'هل لديك مشروع في ذهنك؟ نود أن نسمع عنه. أرسل لنا رسالة وسنرد في أقرب وقت ممكن.',
+    'contact_form_name_placeholder' => 'اسمك الكامل',
+    'contact_form_email_placeholder' => 'بريدك الإلكتروني',
+    'contact_form_phone_placeholder' => 'رقم هاتفك',
+    'contact_form_subject_placeholder' => 'موضوع رسالتك',
+    'contact_form_message_placeholder' => 'صف مشروعك أو احتياجاتك...',
+    'contact_form_privacy' => 'أوافق على سياسة الخصوصية وشروط الاستخدام.',
+    'contact_whatsapp_title' => 'واتساب',
+    'contact_whatsapp_description' => 'تحدث مباشرة مع فريقنا',
+    'contact_telegram_title' => 'تيليجرام',
+    'contact_telegram_description' => 'انضم إلى قناتنا للحصول على التحديثات',
+    'contact_map_title' => 'موقعنا',
+    'contact_map_description' => 'زر مكتبنا في مرسيا، إسبانيا',
+    'contact_cta_title' => 'هل أنت مستعد لبدء مشروعك؟',
+    'contact_cta_description' => 'نحول أفكارك إلى واقع. تواصل معنا اليوم للحصول على استشارة مجانية.',
+    'contact_cta_button' => 'ابدأ المشروع',
+    // ترجمات جديدة لصفحة about.php المحدثة
+    // قسم من نحن
+    'about_who_we_are_title' => 'من نحن',
+    'about_who_we_are_description' => 'نحن رواد في الحلول التكنولوجية المتقدمة، نجمع بين الذكاء الاصطناعي وإنترنت الأشياء والتطوير المخصص لتحويل الأعمال. خبرتنا التي تزيد عن 25 عامًا تتيح لنا تقديم حلول مبتكرة تحسن العمليات وزيادة الكفاءة التشغيلية.',
+    'about_stats_projects' => 'المشاريع المكتملة',
+    'about_stats_clients' => 'العملاء الراضون',
+    'about_stats_countries' => 'البلدان',
+    'about_stats_support' => 'دعم على مدار الساعة',
+
+    // قسم المهمة والرؤية
+    'about_mission_title' => 'مهمتنا',
+    'about_mission_description' => 'نحدث ثورة في المشهد الرقمي من خلال تقديم حلول تكنولوجية من الطراز الأول تعزز النمو والكفاءة والاستدامة لعملائنا.',
+    'about_vision_title' => 'رؤيتنا',
+    'about_vision_description' => 'أن نكون القوة الدافعة التي تقود التحول الرقمي والابتكار على المستوى العالمي، مما يوفر للشركات أدوات متقدمة للذكاء الاصطناعي وإنترنت الأشياء والأتمتة.',
+
+    // قسم القيم
+    'about_values_title' => 'قيمنا',
+    'about_value_innovation' => 'الابتكار',
+    'about_value_innovation_desc' => 'نطور باستمرار تقنيات جديدة للبقاء في طليعة الابتكار.',
+    'about_value_excellence' => 'التميز',
+    'about_value_excellence_desc' => 'نسعى للكمال في كل مشروع، مما يضمن الجودة والنتائج الاستثنائية.',
+    'about_value_commitment' => 'الالتزام',
+    'about_value_commitment_desc' => 'نلتزم بنجاح عملائنا، ونقدم دعمًا مستمرًا وشخصيًا.',
+    'about_value_integrity' => 'النزاهة',
+    'about_value_integrity_desc' => 'نعمل بصدق وشفافية وأخلاقيات في جميع عملياتنا.',
+
+    // قسم الفريق
+    'about_team_title' => 'فريقنا',
+    'about_team_subtitle' => 'مهنيون متحمسون للتكنولوجيا',
+    'about_team_member_name' => 'اسم العضو',
+    'about_team_member_position' => 'منصب العضو',
+    'about_team_member_description' => 'وصف العضو',
+
+    // قسم التاريخ
+    'about_history_title' => 'تاريخنا',
+    'about_history_subtitle' => 'أكثر من عقدين من الابتكار التكنولوجي',
+    'about_history_year' => 'السنة',
+    'about_history_event' => 'الحدث',
+
+    // قسم الخبرة المحسنة
+    'about_expertise_improved_title' => 'مجالات الخبرة',
+    'about_expertise_ai_improved' => 'الذكاء الاصطناعي',
+    'about_expertise_ai_improved_desc' => 'نطور حلول ذكاء اصطناعي مخصصة تعزز الكفاءة والابتكار في عملك، بما في ذلك التعرف على الوجوه، الدردشات الذكية، والتحليل التنبئي.',
+    'about_expertise_iot_improved' => 'إنترنت الأشياء الصناعي',
+    'about_expertise_iot_improved_desc' => 'نربط الآلات والمستشعرات للتحكم الفوري والتحليل التنبئي، مما يحسن العمليات الصناعية ويقلل من أوقات التوقف.',
+    'about_expertise_cybersecurity_improved' => 'الأمن السيبراني',
+    'about_expertise_cybersecurity_improved_desc' => 'حماية متقدمة لأنظمتك وبياناتك باستخدام أحدث تقنيات الأمن السيبراني، بما في ذلك التشفير، المراقبة المستمرة، والاستجابة للحوادث.',
+    'about_expertise_cloud_improved' => 'خوادم السحابة',
+    'about_expertise_cloud_improved_desc' => 'بنية تحتية قابلة للتطوير وآمنة لاستضافة تطبيقاتك الحرجة وبياناتك، مع خوادم ARM منخفضة الاستهلاك.',
+    'about_expertise_mobile_improved' => 'التطبيقات المحمولة',
+    'about_expertise_mobile_improved_desc' => 'تطوير تطبيقات أصلية وهجينة لأنظمة iOS و Android مع تصميم يركز على المستخدم وتكامل مع أنظمة الأعمال.',
+    'about_expertise_data_improved' => 'تحليل البيانات',
+    'about_expertise_data_improved_desc' => 'نحول البيانات إلى معلومات قيمة لاتخاذ القرارات الاستراتيجية، باستخدام خوارزميات متقدمة وعرض تفاعلي.',
+    'about_expertise_automation_improved' => 'الأتمتة',
+    'about_expertise_automation_improved_desc' => 'حلول مخصصة لأتمتة العمليات وزيادة الإنتاجية، من الموارد البشرية إلى العمليات الصناعية.',
+    'about_expertise_support_improved' => 'دعم على مدار الساعة',
+    'about_expertise_support_improved_desc' => 'دعم فني مستمر لضمان التشغيل الأمثل لأنظمتك، مع دعم عن بعد وعلى الموقع.',
+
+    // دعوة للعمل محسنة
+    'about_cta_title' => 'هل أنت مستعد لتحويل عملك؟',
+    'about_cta_description' => 'اكتشف كيف يمكن لحلولنا تحسين عملياتك وزيادة إنتاجيتك. حدد موعدًا لاستشارة مجانية مع خبرائنا.',
+    'about_cta_button_primary' => 'اتصل بنا',
+    'about_cta_button_secondary' => 'عرض المشاريع',
+
+    // ترجمات جديدة لصفحة about.php المحدثة
+    // قسم من نحن
+    'about_who_we_are_title' => 'من نحن',
+    'about_who_we_are_description' => 'نحن رواد في الحلول التكنولوجية المتقدمة، نجمع بين الذكاء الاصطناعي وإنترنت الأشياء والتطوير المخصص لتحويل الأعمال. خبرتنا التي تزيد عن 25 عامًا تتيح لنا تقديم حلول مبتكرة تحسن العمليات وتزيد الكفاءة التشغيلية.',
+    'about_stats_projects' => 'المشاريع المكتملة',
+    'about_stats_clients' => 'العملاء الراضون',
+    'about_stats_countries' => 'البلدان',
+    'about_stats_support' => 'دعم على مدار الساعة',
+
+    // قسم المهمة والرؤية
+    'about_mission_title' => 'مهمتنا',
+    'about_mission_description' => 'نحدث ثورة في المشهد الرقمي من خلال تقديم حلول تكنولوجية من الطراز الأول تعزز النمو والكفاءة والاستدامة لعملائنا.',
+    'about_vision_title' => 'رؤيتنا',
+    'about_vision_description' => 'أن نكون القوة الدافعة التي تقود التحول الرقمي والابتكار على المستوى العالمي، مما يوفر للشركات أدوات متقدمة للذكاء الاصطناعي وإنترنت الأشياء والأتمتة.',
+
+    // قسم القيم
+    'about_values_title' => 'قيمنا',
+    'about_value_innovation' => 'الابتكار',
+    'about_value_innovation_desc' => 'نطور باستمرار تقنيات جديدة للبقاء في طليعة الابتكار.',
+    'about_value_excellence' => 'التميز',
+    'about_value_excellence_desc' => 'نسعى للكمال في كل مشروع، مما يضمن الجودة والنتائج الاستثنائية.',
+    'about_value_commitment' => 'الالتزام',
+    'about_value_commitment_desc' => 'نلتزم بنجاح عملائنا، ونقدم دعمًا مستمرًا وشخصيًا.',
+    'about_value_integrity' => 'النزاهة',
+    'about_value_integrity_desc' => 'نعمل بصدق وشفافية وأخلاقيات في جميع عملياتنا.',
+
+    // قسم الفريق
+    'about_team_title' => 'فريقنا',
+    'about_team_subtitle' => 'مهنيون متحمسون للتكنولوجيا',
+    'about_team_member_name' => 'اسم العضو',
+    'about_team_member_position' => 'منصب العضو',
+    'about_team_member_description' => 'وصف العضو',
+
+    // قسم التاريخ
+    'about_history_title' => 'تاريخنا',
+    'about_history_subtitle' => 'أكثر من عقدين من الابتكار التكنولوجي',
+    'about_history_year' => 'السنة',
+    'about_history_event' => 'الحدث',
+
+    // قسم الخبرة المحسنة
+    'about_expertise_improved_title' => 'مجالات الخبرة',
+    'about_expertise_ai_improved' => 'الذكاء الاصطناعي',
+    'about_expertise_ai_improved_desc' => 'نطور حلول ذكاء اصطناعي مخصصة تعزز الكفاءة والابتكار في عملك، بما في ذلك التعرف على الوجوه، الدردشات الذكية، والتحليل التنبئي.',
+    'about_expertise_iot_improved' => 'إنترنت الأشياء الصناعي',
+    'about_expertise_iot_improved_desc' => 'نربط الآلات والمستشعرات للتحكم الفوري والتحليل التنبئي، مما يحسن العمليات الصناعية ويقلل من أوقات التوقف.',
+    'about_expertise_cybersecurity_improved' => 'الأمن السيبراني',
+    'about_expertise_cybersecurity_improved_desc' => 'حماية متقدمة لأنظمتك وبياناتك باستخدام أحدث تقنيات الأمن السيبراني، بما في ذلك التشفير، المراقبة المستمرة، والاستجابة للحوادث.',
+    'about_expertise_cloud_improved' => 'الخوادم السحابية',
+    'about_expertise_cloud_improved_desc' => 'بنية تحتية قابلة للتطوير وآمنة لاستضافة تطبيقاتك الحرجة وبياناتك، مع خوادم ARM منخفضة الاستهلاك.',
+    'about_expertise_mobile_improved' => 'التطبيقات المحمولة',
+    'about_expertise_mobile_improved_desc' => 'تطوير تطبيقات أصلية وهجينة لأنظمة iOS و Android مع تصميم يركز على المستخدم وتكامل مع أنظمة الأعمال.',
+    'about_expertise_data_improved' => 'تحليل البيانات',
+    'about_expertise_data_improved_desc' => 'نحول البيانات إلى معلومات قيمة لاتخاذ القرارات الاستراتيجية، باستخدام خوارزميات متقدمة وعرض تفاعلي.',
+    'about_expertise_automation_improved' => 'الأتمتة',
+    'about_expertise_automation_improved_desc' => 'حلول مخصصة لأتمتة العمليات وزيادة الإنتاجية، من الموارد البشرية إلى العمليات الصناعية.',
+    'about_expertise_support_improved' => 'دعم على مدار الساعة',
+    'about_expertise_support_improved_desc' => 'دعم فني مستمر لضمان التشغيل الأمثل لأنظمتك، مع دعم عن بعد وعلى الموقع.',
+    // ترجمات جديدة لصفحة about.php
+    'about_who_we_are_title' => 'من نحن',
+    'about_who_we_are_description' => 'نحن رواد في الحلول التكنولوجية المتقدمة، نجمع بين الذكاء الاصطناعي وإنترنت الأشياء والتطوير المخصص لتحويل الأعمال. خبرتنا التي تزيد عن 25 عامًا تتيح لنا تقديم حلول مبتكرة تحسن العمليات وزيادة الكفاءة التشغيلية.',
+    'about_stats_support' => 'دعم على مدار الساعة',
+    'expertise_intro' => 'في AppNet Developer، نفخر بتقديم حلول تكنولوجية شاملة مدعومة بسنوات من الخبرة والمعرفة المتخصصة.',
+    'about_expertise_automation_improved' => 'الأتمتة',
+    'about_expertise_automation_improved_desc' => 'حلول مخصصة لأتمتة العمليات وزيادة الإنتاجية، من الموارد البشرية إلى العمليات الصناعية.',
+    'mission_feature1' => 'ابتكار مستمر',
+    'mission_feature2' => 'حلول مخصصة',
+    'mission_feature3' => 'دعم مستمر',
+    'vision_feature1' => 'قيادة تكنولوجية',
+    'vision_feature2' => 'تحول رقمي',
+    'vision_feature3' => 'استدامة',
+    'about_values_subtitle' => 'المبادئ التي توجه عملنا',
+
+    // ترجمات مفقودة لصفحة about.php
+    'about_mission_vision_subtitle' => 'مهمتنا ورؤيتنا للمستقبل',
+    'about_mission_vision_title' => 'المهمة والرؤية',
+    'about_stats_clients_desc' => 'الشركات التي تثق بحلولنا',
+    'about_stats_countries_desc' => 'البلدان التي نعمل ونخدم فيها',
+    'about_stats_projects_desc' => 'المشاريع المكتملة بنجاح',
+    'about_stats_subtitle' => 'أرقام تثبت التزامنا',
+    'about_stats_title' => 'إنجازاتنا',
+    'clients_served' => 'العملاء المخدومون',
+    'projects_completed' => 'المشاريع المكتملة',
+    'software_development_specialization' => 'تطوير البرمجيات',
+
+    // ترجمات جديدة لقسم التاريخ المحسن
+    'about_history_event_2000' => 'تأسيس AppNet Developer',
+    'about_history_event_2000_desc' => 'يولد AppNet Developer كشركة مخصصة لتطوير البرمجيات المخصصة، مما يمثل بداية مسار مبتكر في القطاع التكنولوجي.',
+    'about_history_event_2010' => 'التوسع نحو إنترنت الأشياء',
+    'about_history_event_2010_desc' => 'ندمج حلول إنترنت الأشياء في عرضنا، مما يحدث ثورة في التحكم الصناعي ويسمح بالاتصال الذكي للآلات والعمليات.',
+    'about_history_event_2020' => 'دمج الذكاء الاصطناعي المتقدم',
+    'about_history_event_2020_desc' => 'نطور أول حلول الذكاء الاصطناعي المخصصة، بما في ذلك التعرف على الوجوه والدردشات الذكية لتحسين العمليات التجارية.',
+    'about_history_event_2025' => 'القيادة في الصناعة 4.0',
+    'about_history_event_2025_desc' => 'نعزز موقعنا كقادة في التحول الرقمي، مقدمين حلولاً كاملة تجمع بين الذكاء الاصطناعي وإنترنت الأشياء والأتمتة المتقدمة.',
+
+    // ترجمات جديدة لقسم الإنجازات المحسن
+    'about_achievements_title' => 'أرقام تثبت التزامنا',
+    'about_achievements_projects' => 'المشاريع المكتملة بنجاح',
+    'about_achievements_clients' => 'الشركات التي تثق بحلولنا',
+    'about_achievements_countries' => 'البلدان التي نعمل ونخدم فيها',
+    
+    // ترجمات جديدة لـ about.php محسّن
+    'about_feature1_desc' => 'نحن ننشئ نماذج اللغة الكبيرة (LLM) المخصصة لعملك، مع قدرات التعرف على الوجوه، والدردشة الذكية، والتحليل التنبؤي الذي يتكامل تمامًا مع أنظمتك الحالية.',
+    'about_feature2_desc' => 'نحن ننفذ أجهزة الاستشعار وإنترنت الأشياء التي تربط الآلات الصناعية، وأنظمة القياس، والكاميرات الذكية للمراقبة في الوقت الفعلي والتحكم الآلي للعمليات.',
+    'about_feature3_desc' => 'نحن نؤتمت إدارة الموارد البشرية بالكامل، من التحكم في الوصول بالتعرف على الوجوه إلى إدارة المناوبات وتقييم الإنتاجية مع تحليل البيانات في الوقت الفعلي.',
+    'about_feature4_desc' => 'نحن نطور منصات اتصال آمنة مع WhatsApp و Telegram والبريد الإلكتروني المتكامل، تعمل على الخوادم المحلية لضمان الخصوصية والامتثال التنظيمي.',
+    
+    // Missing translations for hero cards
+    'hero_card_ai' => 'الذكاء الاصطناعي المتقدم',
+    'hero_card_iot' => 'إنترنت الأشياء الصناعي',
+    'hero_card_cybersecurity' => 'الأمن السيبراني',
+    'about_achievements_badge' => 'إنجازاتنا',
+    'hero_main_image_alt' => 'الحلول التكنولوجية',
+
+    // About page - Feature cards
+    'about_feature_innovation_title' => 'الابتكار التكنولوجي',
+    'about_feature_innovation_desc' => 'نطور حلولاً متطورة باستخدام الذكاء الاصطناعي وإنترنت الأشياء والتقنيات الناشئة لتحويل أعمالك.',
+    'about_feature_experience_title' => 'خبرة مثبتة',
+    'about_feature_experience_desc' => 'أكثر من 500 مشروع مكتمل و250 عميل راضٍ في 15 دولة مختلفة.',
+    'about_feature_support_title' => 'دعم 24/7',
+    'about_feature_support_desc' => 'فريق تقني متاح على مدار 24 ساعة في اليوم لضمان النجاح المستمر لمشاريعك.',
+
+    // About page - Stats descriptions
+    'about_stats_support_desc' => 'الدعم متاح 24 ساعة',
+
+    // About page - Team members
+    'about_team_member1_name' => 'كارلوس رودريغيز',
+    'about_team_member1_role' => 'الرئيس التنفيذي والمؤسس',
+    'about_team_member1_desc' => '25 عامًا من الخبرة في تطوير البرمجيات والتحول الرقمي.',
+    'about_team_member2_name' => 'مارتا لوبيز',
+    'about_team_member2_role' => 'مديرة التكنولوجيا',
+    'about_team_member2_desc' => 'متخصصة في الذكاء الاصطناعي والتعلم الآلي مع أكثر من 15 عامًا من الخبرة.',
+    'about_team_member3_name' => 'خافيير غوميز',
+    'about_team_member3_role' => 'مهندس إنترنت الأشياء',
+    'about_team_member3_desc' => 'خبير في الصناعة 4.0 وحلول الأتمتة الصناعية.',
+    'about_team_member4_name' => 'صوفيا مارتينيز',
+    'about_team_member4_role' => 'مديرة الأمن',
+    'about_team_member4_desc' => 'متخصصة في الأمن السيبراني وحماية البيانات الحرجة.',
+
+    // Projects page
+    'projects_our_work' => 'عملنا',
+    'projects_featured' => 'مشاريع مميزة',
+    'projects_description' => 'اكتشف بعض مشاريعنا الأحدث والأكثر نجاحًا في الأتمتة الصناعية وإنترنت الأشياء والحلول التكنولوجية المتقدمة.',
+    'view_project' => 'عرض المشروع',
+    'projects_cta_title' => 'هل لديك مشروع في الاعتبار؟',
+    'projects_cta_description' => 'نحن مستعدون لمساعدتك في تحقيقه بحلولنا التكنولوجية المتقدمة.',
+
+    // Individual projects
+    'project1_title' => 'أتمتة خط الإنتاج',
+    'project1_description' => 'نظام أتمتة شامل لخط الإنتاج الصناعي مع التحكم في الوقت الفعلي.',
+    'project2_title' => 'تطبيق إنترنت الأشياء الصناعي',
+    'project2_description' => 'حل مراقبة عن بعد للآلات الصناعية مع التحليل التنبؤي.',
+    'project3_title' => 'مراقبة الجودة بالذكاء الاصطناعي',
+    'project3_description' => 'نظام فحص بصري آلي لمراقبة الجودة في الإنتاج.',
+    'project4_title' => 'نظام كفاءة الطاقة',
+    'project4_description' => 'تحسين استهلاك الطاقة في المصنع الصناعي عبر إنترنت الأشياء والتحليل المتقدم.',
+    'project5_title' => 'الصيانة التنبؤية',
+    'project5_description' => 'تطبيق نظام صيانة تنبؤية قائم على الذكاء الاصطناعي للآلات الحرجة.',
+    'project6_title' => 'نظام لوجستي آلي',
+    'project6_description' => 'أتمتة المستودع بمركبات موجهة آليًا (AGV) وإدارة ذكية للمخزون.',
 ];

@@ -114,7 +114,8 @@
 
      <?php
      // Obtener la URL base del sitio
-     $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+     $host = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'localhost';
+     $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $host;
      ?>
      <!-- jQuery (debe ir primero) -->
      <script src="<?php echo $base_url; ?>/assets/js/jquery-3-7-1.min.js"></script>

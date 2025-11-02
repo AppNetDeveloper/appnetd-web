@@ -565,8 +565,8 @@ return [
     'servidores_arm_app4_desc' => 'Stockage et interrogation efficaces des données',
     
     // Section Vision
-    'vision_title' => 'Propulser l\'Innovation : Notre Vision chez Appnet Developer',
-    'vision_text' => 'Chez Appnet Developer, notre vision est d\'être la force motrice qui stimule la transformation numérique et l\'innovation à l\'échelle mondiale. Nous imaginons un avenir où les entreprises de toutes tailles disposent des outils et de l\'expertise nécessaires pour prospérer dans un monde de plus en plus numérique.',
+    'vision_title' => 'Propulser l\'Innovation : Notre Vision chez AppNet Developer',
+    'vision_text' => 'Chez AppNet Developer, notre vision est d\'être la force motrice qui stimule la transformation numérique et l\'innovation à l\'échelle mondiale. Nous imaginons un avenir où les entreprises de toutes tailles disposent des outils et de l\'expertise nécessaires pour prospérer dans un monde de plus en plus numérique.',
     
     // Services Additionnels
     'infrastructure_solutions_title' => 'Solutions d\'Infrastructure Réseau',
@@ -578,7 +578,7 @@ return [
     'request_quote_btn' => 'Demander un Devis',
     
     // Section Engagement
-    'commitment_title' => 'Chez Appnet Developer, Nous Nous Engageons envers les Entreprises',
+    'commitment_title' => 'Chez AppNet Developer, Nous Nous Engageons envers les Entreprises',
     'commitment_text' => 'Faites le premier pas vers la réalisation de vos objectifs commerciaux en nous contactant dès aujourd\'hui. Planifiez une consultation avec l\'un de nos spécialistes en informatique pour discuter de vos objectifs et explorer comment nos solutions innovantes peuvent faire progresser votre entreprise.',
     'schedule_consultation' => 'Demander une Consultation',
     'explore_solutions' => 'Explorer les Solutions',
@@ -697,4 +697,192 @@ return [
     'custom_apps_benefit4_desc' => 'Croissance adaptée à l\'évolution de votre entreprise',
     'custom_apps_benefit5_title' => 'Support Continu',
     'custom_apps_benefit5_desc' => 'Maintenance et mises à jour périodiques',
+    
+    // Nouvelles traductions pour la page de contact modernisée
+    'contact_hero_subtitle' => 'Entrer en Contact',
+    'contact_hero_description' => 'Nous sommes là pour vous aider avec vos besoins technologiques. Contactez-nous et créons quelque chose d\'incroyable ensemble.',
+    'contact_main_title' => 'Travaillons Ensemble',
+    'contact_main_description' => 'Avez-vous un projet en tête ? Nous aimerions en entendre parler. Envoyez-nous un message et nous répondrons dès que possible.',
+    'contact_form_name_placeholder' => 'Votre nom complet',
+    'contact_form_email_placeholder' => 'votre@email.com',
+    'contact_form_phone_placeholder' => 'Votre numéro de téléphone',
+    'contact_form_subject_placeholder' => 'Sujet de votre message',
+    'contact_form_message_placeholder' => 'Décrivez votre projet ou vos besoins...',
+    'contact_form_privacy' => 'J\'accepte la politique de confidentialité et les conditions d\'utilisation.',
+    'contact_whatsapp_title' => 'WhatsApp',
+    'contact_whatsapp_description' => 'Discutez directement avec notre équipe',
+    'contact_telegram_title' => 'Telegram',
+    'contact_telegram_description' => 'Rejoignez notre canal pour des mises à jour',
+    'contact_map_title' => 'Notre Localisation',
+    'contact_map_description' => 'Visitez notre bureau à Murcie, Espagne',
+    'contact_cta_title' => 'Prêt à Commencer Votre Projet ?',
+    'contact_cta_description' => 'Transformons vos idées en réalité. Contactez-nous dès aujourd\'hui pour une consultation gratuite.',
+    'contact_cta_button' => 'Commencer le Projet',
+
+    // Nouvelles traductions pour about.php modernisé
+    // Section Qui Sommes-Nous
+    'about_who_we_are_title' => 'Qui Sommes-Nous',
+    'about_who_we_are_description' => 'Nous sommes des leaders en solutions technologiques avancées, fusionnant Intelligence Artificielle, IoT et développement personnalisé pour transformer les entreprises. Notre expérience de plus de 25 ans nous permet d\'offrir des solutions innovantes qui optimisent les processus et améliorent l\'efficacité opérationnelle.',
+    'about_stats_projects' => 'Projets Réalisés',
+    'about_stats_clients' => 'Clients Satisfaits',
+    'about_stats_countries' => 'Pays',
+    'about_stats_support' => 'Support 24/7',
+
+    // Section Mission et Vision
+    'about_mission_title' => 'Notre Mission',
+    'about_mission_description' => 'Révolutionner le paysage numérique en offrant des solutions technologiques de premier ordre qui stimulent la croissance, l\'efficacité et la durabilité pour nos clients.',
+    'about_vision_title' => 'Notre Vision',
+    'about_vision_description' => 'Être la force motrice qui stimule la transformation numérique et l\'innovation à l\'échelle mondiale, en dotant les entreprises d\'outils avancés d\'IA, d\'IoT et d\'automatisation.',
+
+    // Section Valeurs
+    'about_values_title' => 'Nos Valeurs',
+    'about_value_innovation' => 'Innovation',
+    'about_value_innovation_desc' => 'Nous développons constamment de nouvelles technologies pour rester à la pointe de l\'innovation.',
+    'about_value_excellence' => 'Excellence',
+    'about_value_excellence_desc' => 'Nous visons la perfection dans chaque projet, garantissant qualité et résultats exceptionnels.',
+    'about_value_commitment' => 'Engagement',
+    'about_value_commitment_desc' => 'Nous nous engageons envers le succès de nos clients, offrant un support continu et personnalisé.',
+    'about_value_integrity' => 'Intégrité',
+    'about_value_integrity_desc' => 'Nous agissons avec honnêteté, transparence et éthique dans toutes nos opérations.',
+
+    // Section Équipe
+    'about_team_title' => 'Notre Équipe',
+    'about_team_subtitle' => 'Professionnels passionnés par la technologie',
+    'about_team_member_name' => 'Nom du Membre',
+    'about_team_member_position' => 'Poste du Membre',
+    'about_team_member_description' => 'Description du Membre',
+
+    // Section Histoire
+    'about_history_title' => 'Notre Histoire',
+    'about_history_subtitle' => 'Plus de deux décennies d\'innovation technologique',
+    'about_history_year' => 'Année',
+    'about_history_event' => 'Événement',
+
+    // Section Expertise Améliorée
+    'about_expertise_improved_title' => 'Domaines d\'Expertise',
+    'about_expertise_ai_improved' => 'Intelligence Artificielle',
+    'about_expertise_ai_improved_desc' => 'Nous développons des solutions IA personnalisées qui stimulent l\'efficacité et l\'innovation dans votre entreprise, incluant reconnaissance faciale, chatbots intelligents et analyse prédictive.',
+    'about_expertise_iot_improved' => 'IoT Industriel',
+    'about_expertise_iot_improved_desc' => 'Nous connectons machines et capteurs pour un contrôle en temps réel et une analyse prédictive, optimisant les processus industriels et réduisant les temps d\'arrêt.',
+    'about_expertise_cybersecurity_improved' => 'Cybersécurité',
+    'about_expertise_cybersecurity_improved_desc' => 'Protection avancée pour vos systèmes et données avec les dernières technologies de cybersécurité, incluant chiffrement, surveillance continue et réponse aux incidents.',
+    'about_expertise_cloud_improved' => 'Serveurs Cloud',
+    'about_expertise_cloud_improved_desc' => 'Infrastructure évolutive et sécurisée pour héberger vos applications critiques et données, avec serveurs ARM basse consommation.',
+    'about_expertise_mobile_improved' => 'Applications Mobiles',
+    'about_expertise_mobile_improved_desc' => 'Développement d\'applications natives et hybrides pour iOS et Android avec conception centrée sur l\'utilisateur et intégration avec systèmes d\'entreprise.',
+    'about_expertise_data_improved' => 'Analyse de Données',
+    'about_expertise_data_improved_desc' => 'Nous transformons les données en informations précieuses pour la prise de décision stratégique, utilisant algorithmes avancés et visualisation interactive.',
+    'about_expertise_automation_improved' => 'Automatisation',
+    'about_expertise_automation_improved_desc' => 'Solutions personnalisées pour automatiser les processus et augmenter la productivité, des RH aux opérations industrielles.',
+    'about_expertise_support_improved' => 'Support 24/7',
+    'about_expertise_support_improved_desc' => 'Assistance technique continue pour assurer le fonctionnement optimal de vos systèmes, avec support à distance et sur site.',
+
+    // CTA Amélioré
+    'about_cta_title' => 'Prêt à Transformer Votre Entreprise ?',
+    'about_cta_description' => 'Découvrez comment nos solutions peuvent optimiser vos opérations et améliorer votre productivité. Planifiez une consultation gratuite avec nos experts.',
+    'about_cta_button_primary' => 'Contactez-Nous',
+    'about_cta_button_secondary' => 'Voir les Projets',
+
+    // Nouvelles traductions pour about.php
+    'about_who_we_are_title' => 'Qui Sommes-Nous',
+    'about_who_we_are_description' => 'Nous sommes des leaders en solutions technologiques avancées, fusionnant Intelligence Artificielle, IoT et développement personnalisé pour transformer les entreprises. Notre expérience de plus de 25 ans nous permet d\'offrir des solutions innovantes qui optimisent les processus et améliorent l\'efficacité opérationnelle.',
+    'about_stats_support' => 'Support 24/7',
+    'expertise_intro' => 'Chez AppNet Developer, nous sommes fiers d\'offrir des solutions technologiques complètes soutenues par des années d\'expérience et de connaissances spécialisées.',
+    'about_expertise_automation_improved' => 'Automatisation',
+    'about_expertise_automation_improved_desc' => 'Solutions personnalisées pour automatiser les processus et augmenter la productivité, des RH aux opérations industrielles.',
+    'mission_feature1' => 'Innovation constante',
+    'mission_feature2' => 'Solutions personnalisées',
+    'mission_feature3' => 'Support continu',
+    'vision_feature1' => 'Leadership technologique',
+    'vision_feature2' => 'Transformation digitale',
+    'vision_feature3' => 'Durabilité',
+    'about_values_subtitle' => 'Les principes qui guident notre travail',
+
+    // Traductions manquantes pour about.php
+    'about_mission_vision_subtitle' => 'Notre mission et vision pour l\'avenir',
+    'about_mission_vision_title' => 'Mission et Vision',
+    'about_stats_clients_desc' => 'Entreprises qui font confiance à nos solutions',
+    'about_stats_countries_desc' => 'Pays où nous opérons et servons',
+    'about_stats_projects_desc' => 'Projets réussis complétés',
+    'about_stats_subtitle' => 'Chiffres qui démontrent notre engagement',
+    'about_stats_title' => 'Nos Réalisations',
+    'clients_served' => 'Clients Servis',
+    'projects_completed' => 'Projets Terminés',
+    'software_development_specialization' => 'Développement Logiciel',
+
+    // Nouvelles traductions pour la section d'histoire améliorée
+    'about_history_event_2000' => 'Fondation d\'AppNet Developer',
+    'about_history_event_2000_desc' => 'AppNet Developer naît en tant qu\'entreprise dédiée au développement de logiciels personnalisés, marquant le début d\'une trajectoire innovante dans le secteur technologique.',
+    'about_history_event_2010' => 'Expansion vers l\'IoT',
+    'about_history_event_2010_desc' => 'Nous intégrons des solutions IoT à notre offre, révolutionnant le contrôle industriel et permettant la connexion intelligente des machines et processus.',
+    'about_history_event_2020' => 'Intégration d\'IA Avancée',
+    'about_history_event_2020_desc' => 'Nous développons les premières solutions d\'IA personnalisées, incluant la reconnaissance faciale et les chatbots intelligents pour optimiser les opérations commerciales.',
+    'about_history_event_2025' => 'Leadership dans l\'Industrie 4.0',
+    'about_history_event_2025_desc' => 'Nous consolidons notre position de leaders en transformation digitale, offrant des solutions complètes qui intègrent IA, IoT et automatisation avancée.',
+
+    // Nouvelles traductions pour la section des réalisations améliorée
+    'about_achievements_title' => 'Chiffres qui démontrent notre engagement',
+    'about_achievements_projects' => 'Projets réussis complétés',
+    'about_achievements_clients' => 'Entreprises qui font confiance à nos solutions',
+    'about_achievements_countries' => 'Pays où nous opérons et servons',
+    
+    // Nouvelles traductions pour about.php amélioré
+    'about_feature1_desc' => 'Nous créons des modèles de langage volumineux (LLM) personnalisés pour votre entreprise, avec des capacités de reconnaissance faciale, chatbots intelligents et analyses prédictives qui s\'intègrent parfaitement avec vos systèmes existants.',
+    'about_feature2_desc' => 'Nous mettons en œuvre des capteurs et dispositifs IoT qui connectent des machines industrielles, des systèmes de mesure et des caméras intelligentes pour la surveillance en temps réel et le contrôle automatisé des processus.',
+    'about_feature3_desc' => 'Nous automatisons complètement la gestion des ressources humaines, du contrôle d\'accès par reconnaissance faciale à la gestion des quarts et à l\'évaluation de la productivité avec analyse de données en temps réel.',
+    'about_feature4_desc' => 'Nous développons des plateformes de communication sécurisées avec WhatsApp, Telegram et e-mail intégrés, fonctionnant sur des serveurs locaux pour garantir la confidentialité et la conformité réglementaire.',
+    
+    // Missing translations for hero cards
+    'hero_card_ai' => 'IA Avancée',
+    'hero_card_iot' => 'IoT Industriel',
+    'hero_card_cybersecurity' => 'Cybersécurité',
+    'about_achievements_badge' => 'Nos Réalisations',
+    'hero_main_image_alt' => 'Solutions Technologiques',
+
+    // About page - Feature cards
+    'about_feature_innovation_title' => 'Innovation Technologique',
+    'about_feature_innovation_desc' => 'Nous développons des solutions de pointe utilisant l\'IA, l\'IoT et les technologies émergentes pour transformer votre entreprise.',
+    'about_feature_experience_title' => 'Expérience Prouvée',
+    'about_feature_experience_desc' => 'Plus de 500 projets réalisés et 250 clients satisfaits dans 15 pays différents.',
+    'about_feature_support_title' => 'Support 24/7',
+    'about_feature_support_desc' => 'Équipe technique disponible 24 heures sur 24 pour assurer le succès continu de vos projets.',
+
+    // About page - Stats descriptions
+    'about_stats_support_desc' => 'Support disponible 24 heures sur 24',
+
+    // About page - Team members
+    'about_team_member1_name' => 'Carlos Rodríguez',
+    'about_team_member1_role' => 'PDG Fondateur',
+    'about_team_member1_desc' => '25 ans d\'expérience en développement de logiciels et transformation digitale.',
+    'about_team_member2_name' => 'Marta López',
+    'about_team_member2_role' => 'Directrice de la Technologie',
+    'about_team_member2_desc' => 'Spécialiste en IA et Machine Learning avec plus de 15 ans d\'expérience.',
+    'about_team_member3_name' => 'Javier Gómez',
+    'about_team_member3_role' => 'Architecte IoT',
+    'about_team_member3_desc' => 'Expert en Industrie 4.0 et solutions d\'automatisation industrielle.',
+    'about_team_member4_name' => 'Sofía Martínez',
+    'about_team_member4_role' => 'Directrice de la Sécurité',
+    'about_team_member4_desc' => 'Spécialiste en cybersécurité et protection des données critiques.',
+
+    // Projects page
+    'projects_our_work' => 'Notre Travail',
+    'projects_featured' => 'Projets en Vedette',
+    'projects_description' => 'Découvrez certains de nos projets les plus récents et les plus réussis en automatisation industrielle, IoT et solutions technologiques avancées.',
+    'view_project' => 'Voir le Projet',
+    'projects_cta_title' => 'Vous avez un projet en tête ?',
+    'projects_cta_description' => 'Nous sommes prêts à vous aider à le concrétiser avec nos solutions technologiques avancées.',
+
+    // Individual projects
+    'project1_title' => 'Automatisation de Ligne de Production',
+    'project1_description' => 'Système d\'automatisation intégral pour ligne de production industrielle avec contrôle en temps réel.',
+    'project2_title' => 'Implémentation IoT Industriel',
+    'project2_description' => 'Solution de surveillance à distance pour machines industrielles avec analyse prédictive.',
+    'project3_title' => 'Contrôle Qualité avec IA',
+    'project3_description' => 'Système d\'inspection visuelle automatisée pour contrôle qualité en production.',
+    'project4_title' => 'Système d\'Efficacité Énergétique',
+    'project4_description' => 'Optimisation de la consommation énergétique en usine industrielle via IoT et analyse avancée.',
+    'project5_title' => 'Maintenance Prédictive',
+    'project5_description' => 'Implémentation de système de maintenance prédictive basé sur l\'IA pour machines critiques.',
+    'project6_title' => 'Système de Logistique Automatisée',
+    'project6_description' => 'Automatisation d\'entrepôt avec véhicules guidés automatiques (AGV) et gestion intelligente d\'inventaire.',
 ];

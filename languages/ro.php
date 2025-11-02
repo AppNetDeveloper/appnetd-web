@@ -644,5 +644,192 @@ return [
     'servidores_arm_app3_titulo' => 'Inferență IA',
     'servidores_arm_app3_desc' => 'Execuție eficientă a modelelor de machine learning',
     'servidores_arm_app4_titulo' => 'Baze de Date',
-    'servidores_arm_app4_desc' => 'Stocare și interogare eficientă a datelor'
+    'servidores_arm_app4_desc' => 'Stocare și interogare eficientă a datelor',
+    
+    // Traduceri noi pentru pagina de contact modernizată
+    'contact_hero_subtitle' => 'Contactați-ne',
+    'contact_hero_description' => 'Suntem aici pentru a vă ajuta cu nevoile dumneavoastră tehnologice. Contactați-ne și creăm ceva incredibil împreună.',
+    'contact_main_title' => 'Lucrăm Împreună',
+    'contact_main_description' => 'Aveți un proiect în minte? Ne-ar plăcea să aflăm despre el. Trimiteți-ne un mesaj și vă vom răspunde cât mai curând posibil.',
+    'contact_form_name_placeholder' => 'Numele dumneavoastră complet',
+    'contact_form_email_placeholder' => 'email@domeniu.com',
+    'contact_form_phone_placeholder' => 'Numărul dumneavoastră de telefon',
+    'contact_form_subject_placeholder' => 'Subiectul mesajului dumneavoastră',
+    'contact_form_message_placeholder' => 'Descrieți proiectul sau nevoile dumneavoastră...',
+    'contact_form_privacy' => 'Accept politica de confidențialitate și termenii de utilizare.',
+    'contact_whatsapp_title' => 'WhatsApp',
+    'contact_whatsapp_description' => 'Discutați direct cu echipa noastră',
+    'contact_telegram_title' => 'Telegram',
+    'contact_telegram_description' => 'Alăturați-vă canalului nostru pentru actualizări',
+    'contact_map_title' => 'Locația Noastră',
+    'contact_map_description' => 'Vizitați biroul nostru din Murcia, Spania',
+    'contact_cta_title' => 'Sunteți Gata să Începeți Proiectul?',
+    'contact_cta_description' => 'Transformăm ideile dumneavoastră în realitate. Contactați-ne astăzi pentru o consultație gratuită.',
+    'contact_cta_button' => 'Începe Proiectul',
+    // Traduceri noi pentru about.php modernizat
+    // Secțiunea Cine Suntem
+    'about_who_we_are_title' => 'Cine Suntem',
+    'about_who_we_are_description' => 'Suntem lideri în soluții tehnologice avansate, combinând Inteligența Artificială, IoT și dezvoltare personalizată pentru a transforma afacerile. Experiența noastră de peste 25 de ani ne permite să oferim soluții inovatoare care optimizează procesele și îmbunătățesc eficiența operațională.',
+    'about_stats_projects' => 'Proiecte Finalizate',
+    'about_stats_clients' => 'Clienți Mulțumiți',
+    'about_stats_countries' => 'Țări',
+    'about_stats_support' => 'Suport 24/7',
+
+    // Secțiunea Misiune și Viziune
+    'about_mission_title' => 'Misiunea Noastră',
+    'about_mission_description' => 'Revoluționăm peisajul digital oferind soluții tehnologice de top care stimulează creșterea, eficiența și sustenabilitatea pentru clienții noștri.',
+    'about_vision_title' => 'Viziunea Noastră',
+    'about_vision_description' => 'Să fim forța motrice care conduce transformarea digitală și inovația la nivel global, dotând companiile cu instrumente avansate de IA, IoT și automatizare.',
+
+    // Secțiunea Valori
+    'about_values_title' => 'Valorile Noastre',
+    'about_value_innovation' => 'Inovație',
+    'about_value_innovation_desc' => 'Dezvoltăm constant noi tehnologii pentru a rămâne în fruntea inovației.',
+    'about_value_excellence' => 'Excelență',
+    'about_value_excellence_desc' => 'Ne străduim pentru perfecțiune în fiecare proiect, garantând calitate și rezultate excepționale.',
+    'about_value_commitment' => 'Angajament',
+    'about_value_commitment_desc' => 'Ne angajăm pentru succesul clienților noștri, oferind suport continuu și personalizat.',
+    'about_value_integrity' => 'Integritate',
+    'about_value_integrity_desc' => 'Acționăm cu onestitate, transparență și etică în toate operațiunile noastre.',
+
+    // Secțiunea Echipă
+    'about_team_title' => 'Echipa Noastră',
+    'about_team_subtitle' => 'Profesioniști pasionați de tehnologie',
+    'about_team_member_name' => 'Numele Membru',
+    'about_team_member_position' => 'Poziția Membru',
+    'about_team_member_description' => 'Descrierea Membru',
+
+    // Secțiunea Istorie
+    'about_history_title' => 'Istoria Noastră',
+    'about_history_subtitle' => 'Peste două decenii de inovație tehnologică',
+    'about_history_year' => 'An',
+    'about_history_event' => 'Eveniment',
+
+    // Secțiunea Expertiză Îmbunătățită
+    'about_expertise_improved_title' => 'Domenii de Expertiză',
+    'about_expertise_ai_improved' => 'Inteligență Artificială',
+    'about_expertise_ai_improved_desc' => 'Dezvoltăm soluții IA personalizate care stimulează eficiența și inovația în afacerea dumneavoastră, inclusiv recunoașterea facială, chatbot-uri inteligente și analiză predictivă.',
+    'about_expertise_iot_improved' => 'IoT Industrial',
+    'about_expertise_iot_improved_desc' => 'Conectăm mașini și senzori pentru control în timp real și analiză predictivă, optimizând procesele industriale și reducând timpii de nefuncționare.',
+    'about_expertise_cybersecurity_improved' => 'Securitate Cibernetică',
+    'about_expertise_cybersecurity_improved_desc' => 'Protecție avansată pentru sistemele și datele dumneavoastră cu cele mai recente tehnologii de securitate cibernetică, inclusiv criptare, monitorizare continuă și răspuns la incidente.',
+    'about_expertise_cloud_improved' => 'Servere Cloud',
+    'about_expertise_cloud_improved_desc' => 'Infrastructură scalabilă și sigură pentru găzduirea aplicațiilor dumneavoastră critice și date, cu servere ARM cu consum scăzut.',
+    'about_expertise_mobile_improved' => 'Aplicații Mobile',
+    'about_expertise_mobile_improved_desc' => 'Dezvoltare de aplicații native și hibride pentru iOS și Android cu design centrat pe utilizator și integrare cu sisteme de afaceri.',
+    'about_expertise_data_improved' => 'Analiză de Date',
+    'about_expertise_data_improved_desc' => 'Transformăm datele în informații valoroase pentru luarea deciziilor strategice, utilizând algoritmi avansați și vizualizare interactivă.',
+    'about_expertise_automation_improved' => 'Automatizare',
+    'about_expertise_automation_improved_desc' => 'Soluții personalizate pentru automatizarea proceselor și creșterea productivității, de la resurse umane la operațiuni industriale.',
+    'about_expertise_support_improved' => 'Suport 24/7',
+    'about_expertise_support_improved_desc' => 'Asistență tehnică continuă pentru a asigura funcționarea optimă a sistemelor dumneavoastră, cu suport la distanță și la fața locului.',
+
+    // CTA Îmbunătățit
+    'about_cta_title' => 'Sunteți Pregătit să Vă Transformați Afacerea?',
+    'about_cta_description' => 'Descoperiți cum soluțiile noastre pot optimiza operațiunile dumneavoastră și pot îmbunătăți productivitatea. Programați o consultație gratuită cu experții noștri.',
+    'about_cta_button_primary' => 'Contactați-ne',
+    'about_cta_button_secondary' => 'Vedeți Proiectele',
+
+    // Noi traduceri pentru about.php
+    'about_who_we_are_title' => 'Cine Suntem',
+    'about_who_we_are_description' => 'Suntem lideri în soluții tehnologice avansate, combinând Inteligența Artificială, IoT și dezvoltarea personalizată pentru a transforma afacerile. Experiența noastră de peste 25 de ani ne permite să oferim soluții inovatoare care optimizează procesele și îmbunătățesc eficiența operațională.',
+    'about_stats_support' => 'Suport 24/7',
+    'expertise_intro' => 'La AppNet Developer, suntem mândri să oferim soluții tehnologice complete susținute de ani de experiență și cunoștințe specializate.',
+    'about_expertise_automation_improved' => 'Automatizare',
+    'about_expertise_automation_improved_desc' => 'Soluții personalizate pentru automatizarea proceselor și creșterea productivității, de la resurse umane la operațiuni industriale.',
+    'mission_feature1' => 'Inovație constantă',
+    'mission_feature2' => 'Soluții personalizate',
+    'mission_feature3' => 'Suport continuu',
+    'vision_feature1' => 'Leadership tehnologic',
+    'vision_feature2' => 'Transformare digitală',
+    'vision_feature3' => 'Sustenabilitate',
+    'about_values_subtitle' => 'Principiile care ne ghidează munca',
+
+    // Traduceri lipsă pentru about.php
+    'about_mission_vision_subtitle' => 'Misiunea și viziunea noastră pentru viitor',
+    'about_mission_vision_title' => 'Misiune și Viziune',
+    'about_stats_clients_desc' => 'Companii care au încredere în soluțiile noastre',
+    'about_stats_countries_desc' => 'Țări unde operăm și servim',
+    'about_stats_projects_desc' => 'Proiecte finalizate cu succes',
+    'about_stats_subtitle' => 'Numere care demonstrează angajamentul nostru',
+    'about_stats_title' => 'Realizările Noastre',
+    'clients_served' => 'Clienți Deserviți',
+    'projects_completed' => 'Proiecte Finalizate',
+    'software_development_specialization' => 'Dezvoltare Software',
+
+    // Noi traduceri pentru secțiunea istorie îmbunătățită
+    'about_history_event_2000' => 'Fondarea AppNet Developer',
+    'about_history_event_2000_desc' => 'Se naște AppNet Developer ca o companie dedicată dezvoltării de software personalizat, marcând începutul unei traiectorii inovatoare în sectorul tehnologic.',
+    'about_history_event_2010' => 'Expansiune către IoT',
+    'about_history_event_2010_desc' => 'Incorporăm soluții IoT în oferta noastră, revoluționând controlul industrial și permițând conexiunea inteligentă a mașinilor și proceselor.',
+    'about_history_event_2020' => 'Integrarea IA Avansate',
+    'about_history_event_2020_desc' => 'Dezvoltăm primele soluții de IA personalizate, inclusiv recunoașterea facială și chatbot-uri inteligente pentru optimizarea operațiunilor de afaceri.',
+    'about_history_event_2025' => 'Leadership în Industria 4.0',
+    'about_history_event_2025_desc' => 'Consolidăm poziția noastră ca lideri în transformarea digitală, oferind soluții complete care integrează IA, IoT și automatizare avansată.',
+
+    // Noi traduceri pentru secțiunea realizări îmbunătățită
+    'about_achievements_title' => 'Numere care demonstrează angajamentul nostru',
+    'about_achievements_projects' => 'Proiecte finalizate cu succes',
+    'about_achievements_clients' => 'Companii care au încredere în soluțiile noastre',
+    'about_achievements_countries' => 'Țări unde operăm și servim',
+    
+    // Noi traduceri pentru about.php îmbunătățit
+    'about_feature1_desc' => 'Creăm modele lingvistice mari (LLM) personalizate pentru afacerea dumneavoastră, cu capacități de recunoaștere facială, chatbots inteligenți și analiză predictivă care se integrează perfect cu sistemele dumneavoastră existente.',
+    'about_feature2_desc' => 'Implementăm senzori și dispozitive IoT care conectează mașini industriale, sisteme de măsurare și camere inteligente pentru monitorizare în timp real și control automatizat al proceselor.',
+    'about_feature3_desc' => 'Automatizăm complet managementul resurselor umane, de la controlul accesului cu recunoaștere facială până la managementul turelor și evaluarea productivității cu analiză de date în timp real.',
+    'about_feature4_desc' => 'Dezvoltăm platforme de comunicare sigure cu WhatsApp, Telegram și e-mail integrate, funcționând pe servere locale pentru a garanta confidențialitatea și conformitatea normativă.',
+    
+    // Missing translations for hero cards
+    'hero_card_ai' => 'IA Avansată',
+    'hero_card_iot' => 'IoT Industrial',
+    'hero_card_cybersecurity' => 'Cybersecurity',
+    'about_achievements_badge' => 'Realizările Noastre',
+    'hero_main_image_alt' => 'Soluții Tehnologice',
+
+    // About page - Feature cards
+    'about_feature_innovation_title' => 'Inovație Tehnologică',
+    'about_feature_innovation_desc' => 'Dezvoltăm soluții de vârf folosind IA, IoT și tehnologii emergente pentru a transforma afacerea dvs.',
+    'about_feature_experience_title' => 'Experiență Dovedită',
+    'about_feature_experience_desc' => 'Peste 500 de proiecte finalizate și 250 de clienți mulțumiți în 15 țări diferite.',
+    'about_feature_support_title' => 'Suport 24/7',
+    'about_feature_support_desc' => 'Echipă tehnică disponibilă 24 de ore pe zi pentru a asigura succesul continuu al proiectelor dvs.',
+
+    // About page - Stats descriptions
+    'about_stats_support_desc' => 'Suport disponibil 24 de ore',
+
+    // About page - Team members
+    'about_team_member1_name' => 'Carlos Rodríguez',
+    'about_team_member1_role' => 'CEO Fondator',
+    'about_team_member1_desc' => '25 de ani de experiență în dezvoltare software și transformare digitală.',
+    'about_team_member2_name' => 'Marta López',
+    'about_team_member2_role' => 'Director de Tehnologie',
+    'about_team_member2_desc' => 'Specialist în IA și Machine Learning cu peste 15 ani de experiență.',
+    'about_team_member3_name' => 'Javier Gómez',
+    'about_team_member3_role' => 'Arhitect IoT',
+    'about_team_member3_desc' => 'Expert în Industrie 4.0 și soluții de automatizare industrială.',
+    'about_team_member4_name' => 'Sofía Martínez',
+    'about_team_member4_role' => 'Director de Securitate',
+    'about_team_member4_desc' => 'Specialist în securitate cibernetică și protecția datelor critice.',
+
+    // Projects page
+    'projects_our_work' => 'Munca Noastră',
+    'projects_featured' => 'Proiecte Recomandate',
+    'projects_description' => 'Descoperă unele dintre cele mai recente și de succes proiecte ale noastre în automatizare industrială, IoT și soluții tehnologice avansate.',
+    'view_project' => 'Vezi Proiectul',
+    'projects_cta_title' => 'Ai un proiect în minte?',
+    'projects_cta_description' => 'Suntem gata să te ajutăm să-l transformi în realitate cu soluțiile noastre tehnologice avansate.',
+
+    // Individual projects
+    'project1_title' => 'Automatizare Linie de Producție',
+    'project1_description' => 'Sistem complet de automatizare pentru linie de producție industrială cu control în timp real.',
+    'project2_title' => 'Implementare IoT Industrial',
+    'project2_description' => 'Soluție de monitorizare la distanță pentru utilaje industriale cu analiză predictivă.',
+    'project3_title' => 'Control Calitate cu IA',
+    'project3_description' => 'Sistem de inspecție vizuală automatizată pentru controlul calității în producție.',
+    'project4_title' => 'Sistem de Eficiență Energetică',
+    'project4_description' => 'Optimizarea consumului energetic în fabrică prin IoT și analiză avansată.',
+    'project5_title' => 'Întreținere Predictivă',
+    'project5_description' => 'Implementarea sistemului de întreținere predictivă bazat pe IA pentru utilaje critice.',
+    'project6_title' => 'Sistem de Logistică Automatizată',
+    'project6_description' => 'Automatizarea depozitului cu vehicule ghidate automat (AGV) și gestionare inteligentă a inventarului.',
 ];

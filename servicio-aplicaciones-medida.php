@@ -11,7 +11,7 @@ if (file_exists($lang_file)) {
     include __DIR__ . '/languages/es.php';
 }
 
-include "header.php"; 
+include "includes/header.php"; 
 ?>
 
 <!-- Hero Section -->
@@ -260,4 +260,4 @@ include "header.php";
 <!-- Formulario de Contacto -->
 <?php include "includes/contact-form.php"; ?>
 
-<?php include "footer.php"; ?>
+<?php include "includes/footer.php"; ?>

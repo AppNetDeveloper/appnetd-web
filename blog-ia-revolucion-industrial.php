@@ -1,12 +1,15 @@
 <?php
-// Incluir el header
-$page_title = 'IA en la Industria 4.0';
-$additional_css = 'assets/css/blog-details.css';
+// Incluir configuración de idiomas
+require_once __DIR__ . '/languages/config.php';
 
 // Obtener la URL base del sitio
 $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
 
-include_once 'header.php';
+// Configuración de la página
+$page_title = __('blog_ia_revolution_title');
+$meta_description = __('blog_ia_revolution_excerpt');
+
+include "includes/header.php";
 ?>
 
 
@@ -164,6 +167,5 @@ include_once 'header.php';
 <!-- Blog Details Section End -->
 
 <?php
-// Incluir el footer
-include_once 'footer.php';
+include "includes/footer.php";
 ?>

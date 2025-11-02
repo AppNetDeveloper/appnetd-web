@@ -53,7 +53,8 @@ function get_seo_config($page = 'home') {
     
     // Asegurarse de que la URL de la imagen sea completa
     if (isset($config['image']) && !filter_var($config['image'], FILTER_VALIDATE_URL)) {
-        $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+        $host = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'localhost';
+        $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $host;
         $config['image'] = $base_url . '/assets/img/' . $config['image'];
     }
     

@@ -6,8 +6,8 @@ require_once __DIR__ . '/languages/config.php';
 $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
 
 // Configuración de la página
-$page_title = __('project1_title');
-$meta_description = __('project1_description');
+$page_title = 'Mantenimiento Predictivo con IA';
+$meta_description = 'Implementación de sistema de mantenimiento predictivo basado en IA para maquinaria crítica';
 
 include "includes/header.php";
 ?>
@@ -16,11 +16,11 @@ include "includes/header.php";
 <section class="page-title title-bg10">
     <div class="d-table">
         <div class="d-table-cell">
-            <h2><?php echo __('project1_title'); ?></h2>
+            <h2>Mantenimiento Predictivo con IA</h2>
             <ul>
                 <li><a href="index.php"><?php echo __('home'); ?></a></li>
                 <li><a href="proyectos.php"><?php echo __('projects'); ?></a></li>
-                <li><?php echo __('project1_title'); ?></li>
+                <li>Mantenimiento Predictivo</li>
             </ul>
         </div>
     </div>
@@ -38,38 +38,44 @@ include "includes/header.php";
         <div class="row">
             <div class="col-lg-8">
                 <div class="project-details-img">
-                    <img src="assets/img/projects/automatizacion-industrial-large.jpg" alt="Automatización Industrial">
+                    <img src="assets/img/projects/mantenimiento-predictivo.jpg" alt="Mantenimiento Predictivo">
                 </div>
 
                 <div class="project-details-content">
                     <h3>Descripción del Proyecto</h3>
-                    <p>Implementamos un sistema integral de automatización para una línea de producción industrial que permitió a nuestro cliente aumentar su productividad en un 40% y reducir los tiempos de inactividad en un 60%. El proyecto incluyó la integración de PLCs, sensores avanzados y un sistema SCADA personalizado.</p>
-                    
+                    <p>Desarrollamos e implementamos un sistema avanzado de mantenimiento predictivo basado en inteligencia artificial que monitorea 80 máquinas críticas en tiempo real. El sistema analiza patrones de vibración, temperatura, consumo energético y otros parámetros para predecir fallos con hasta 30 días de anticipación, permitiendo planificar mantenimientos antes de que ocurran paros no programados.</p>
+
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="assets/img/projects/automatizacion-1.jpg" alt="Sistema de Control" class="mb-4">
+                            <img src="assets/img/projects/predictivo-1.jpg" alt="Sensores Predictivos" class="mb-4">
                         </div>
                         <div class="col-md-6">
-                            <img src="assets/img/projects/automatizacion-2.jpg" alt="Línea de Producción" class="mb-4">
+                            <img src="assets/img/projects/predictivo-2.jpg" alt="Análisis de Datos" class="mb-4">
                         </div>
                     </div>
 
                     <h3>Retos del Proyecto</h3>
                     <ul class="project-details-list">
-                        <li>Integración con maquinaria existente de diferentes fabricantes</li>
-                        <li>Minimizar el tiempo de parada durante la implementación</li>
-                        <li>Capacitación del personal operativo</li>
-                        <li>Cumplimiento de normativas de seguridad industrial</li>
+                        <li>Integración con maquinaria de diferentes fabricantes y edades</li>
+                        <li>Recopilación y procesamiento de múltiples tipos de datos</li>
+                        <li>Desarrollo de modelos de ML con alta precisión predictiva</li>
+                        <li>Reducción de falsos positivos y negativos</li>
+                        <li>Cambio cultural de mantenimiento reactivo a predictivo</li>
+                        <li>Justificación del ROI ante la dirección</li>
                     </ul>
 
                     <h3>Solución Implementada</h3>
-                    <p>Desarrollamos una solución personalizada que incluyó:</p>
+                    <p>Desarrollamos una solución de vanguardia que incluyó:</p>
                     <ul class="project-details-list">
-                        <li>Instalación de PLCs de última generación</li>
-                        <li>Red de sensores IoT para monitoreo en tiempo real</li>
-                        <li>Interfaz HMI intuitiva</li>
-                        <li>Sistema de alertas predictivas</li>
-                        <li>Plataforma de análisis de datos</li>
+                        <li>Red de sensores multivariable (vibración, temperatura, acústica, etc.)</li>
+                        <li>Edge computing para preprocesamiento de señales</li>
+                        <li>Modelos de machine learning (LSTM, Random Forest, XGBoost)</li>
+                        <li>Plataforma cloud para análisis histórico y tendencias</li>
+                        <li>Dashboard de mantenimiento con estado de salud de máquinas</li>
+                        <li>Sistema de alertas inteligentes con priorización</li>
+                        <li>Integración con CMMS (Computerized Maintenance Management System)</li>
+                        <li>Aplicación móvil para técnicos de campo</li>
+                        <li>Sistema de feedback para mejora continua del modelo</li>
                     </ul>
 
                     <div class="project-result">
@@ -77,23 +83,23 @@ include "includes/header.php";
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="result-item">
-                                    <i class="fas fa-chart-line"></i>
-                                    <h4>+40%</h4>
-                                    <p>Incremento en productividad</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="result-item">
-                                    <i class="fas fa-clock"></i>
-                                    <h4>-60%</h4>
-                                    <p>Reducción en tiempos de inactividad</p>
+                                    <i class="fas fa-tools"></i>
+                                    <h4>-68%</h4>
+                                    <p>Reducción en paros no planificados</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="result-item">
                                     <i class="fas fa-euro-sign"></i>
-                                    <h4>ROI 8 meses</h4>
-                                    <p>Retorno de la inversión</p>
+                                    <h4>€450K</h4>
+                                    <p>Ahorro anual en mantenimiento</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="result-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h4>92%</h4>
+                                    <p>Precisión en predicción de fallos</p>
                                 </div>
                             </div>
                         </div>
@@ -102,11 +108,11 @@ include "includes/header.php";
                     <div class="project-testimonial">
                         <div class="testimonial-content">
                             <div class="testimonial-text">
-                                <p>"La implementación del sistema de automatización superó nuestras expectativas. No solo mejoramos nuestra eficiencia operativa, sino que también ganamos una ventaja competitiva en nuestro sector."</p>
+                                <p>"El sistema de mantenimiento predictivo ha sido un cambio revolucionario para nuestras operaciones. Pasamos de apagar incendios constantemente a planificar mantenimientos de forma ordenada, y los ahorros han sido impresionantes."</p>
                             </div>
                             <div class="testimonial-author">
-                                <h4>Juan Martínez</h4>
-                                <span>Director de Operaciones, Cliente Industrial</span>
+                                <h4>Miguel Ángel Torres</h4>
+                                <span>Jefe de Mantenimiento, Planta de Manufactura Automotriz</span>
                             </div>
                         </div>
                     </div>
@@ -119,23 +125,23 @@ include "includes/header.php";
                     <ul>
                         <li>
                             <span>Cliente:</span>
-                            <p>Empresa Industrial S.A.</p>
+                            <p>Planta de Manufactura Automotriz</p>
                         </li>
                         <li>
                             <span>Categoría:</span>
-                            <p>Automatización Industrial</p>
+                            <p>Mantenimiento Predictivo / IA</p>
                         </li>
                         <li>
                             <span>Fecha:</span>
-                            <p>Enero 2025</p>
+                            <p>Julio 2024</p>
                         </li>
                         <li>
                             <span>Ubicación:</span>
-                            <p>Barcelona, España</p>
+                            <p>Valladolid, España</p>
                         </li>
                         <li>
                             <span>Duración:</span>
-                            <p>3 meses</p>
+                            <p>7 meses</p>
                         </li>
                     </ul>
                 </div>
@@ -144,13 +150,13 @@ include "includes/header.php";
                     <h3>Documentación</h3>
                     <a href="#" class="download-btn">
                         <i class="far fa-file-pdf"></i>
-                        <span>Descargar Caso de Estudio <small>(PDF, 2.4MB)</small></span>
+                        <span>Descargar Caso de Estudio <small>(PDF, 4.7MB)</small></span>
                     </a>
                 </div>
 
                 <div class="project-contact">
                     <h3>¿Interesado en un proyecto similar?</h3>
-                    <p>Contáctanos para discutir cómo podemos ayudarte con tu proyecto de automatización industrial.</p>
+                    <p>Contáctanos para discutir cómo el mantenimiento predictivo puede beneficiar tu operación.</p>
                     <a href="contact.php" class="default-btn">Solicitar Presupuesto</a>
                 </div>
             </div>
@@ -184,14 +190,14 @@ include "includes/header.php";
             <div class="col-lg-4 col-md-6">
                 <div class="project-card">
                     <div class="project-img">
-                        <a href="proyecto-mantenimiento-predictivo.php">
-                            <img src="assets/img/projects/mantenimiento-predictivo.jpg" alt="Mantenimiento Predictivo">
+                        <a href="proyecto-ia-calidad.php">
+                            <img src="assets/img/projects/ia-calidad.jpg" alt="Control de Calidad con IA">
                         </a>
                     </div>
                     <div class="project-content">
-                        <h3><a href="proyecto-mantenimiento-predictivo.php">Mantenimiento Predictivo</a></h3>
-                        <p>Implementación de sistema de mantenimiento predictivo basado en IA para maquinaria crítica.</p>
-                        <a href="proyecto-mantenimiento-predictivo.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                        <h3><a href="proyecto-ia-calidad.php">Control de Calidad con IA</a></h3>
+                        <p>Sistema de inspección visual automatizada para control de calidad en producción.</p>
+                        <a href="proyecto-ia-calidad.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -199,14 +205,14 @@ include "includes/header.php";
             <div class="col-lg-4 col-md-6">
                 <div class="project-card">
                     <div class="project-img">
-                        <a href="proyecto-logistica-automatizada.php">
-                            <img src="assets/img/projects/logistica-automatizada.jpg" alt="Logística Automatizada">
+                        <a href="proyecto-automatizacion-industrial.php">
+                            <img src="assets/img/projects/automatizacion-industrial-large.jpg" alt="Automatización Industrial">
                         </a>
                     </div>
                     <div class="project-content">
-                        <h3><a href="proyecto-logistica-automatizada.php">Logística Automatizada</a></h3>
-                        <p>Automatización de almacén con vehículos guiados (AGV) y gestión inteligente de inventario.</p>
-                        <a href="proyecto-logistica-automatizada.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                        <h3><a href="proyecto-automatizacion-industrial.php">Automatización Industrial</a></h3>
+                        <p>Sistema integral de automatización para líneas de producción industrial.</p>
+                        <a href="proyecto-automatizacion-industrial.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -221,8 +227,8 @@ include "includes/header.php";
         <div class="row align-items-center">
             <div class="col-lg-9">
                 <div class="cta-text">
-                    <h2>¿Listo para automatizar tu línea de producción?</h2>
-                    <p>Nuestros expertos están listos para ayudarte a implementar soluciones de automatización personalizadas para tu negocio.</p>
+                    <h2>¿Listo para implementar mantenimiento predictivo?</h2>
+                    <p>Descubre cómo la inteligencia artificial puede prevenir fallos y optimizar tu mantenimiento.</p>
                 </div>
             </div>
             <div class="col-lg-3">

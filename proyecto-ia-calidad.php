@@ -6,8 +6,8 @@ require_once __DIR__ . '/languages/config.php';
 $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
 
 // Configuración de la página
-$page_title = __('project1_title');
-$meta_description = __('project1_description');
+$page_title = 'Control de Calidad con IA';
+$meta_description = 'Sistema de inspección visual automatizada para control de calidad en producción';
 
 include "includes/header.php";
 ?>
@@ -16,11 +16,11 @@ include "includes/header.php";
 <section class="page-title title-bg10">
     <div class="d-table">
         <div class="d-table-cell">
-            <h2><?php echo __('project1_title'); ?></h2>
+            <h2>Control de Calidad con IA</h2>
             <ul>
                 <li><a href="index.php"><?php echo __('home'); ?></a></li>
                 <li><a href="proyectos.php"><?php echo __('projects'); ?></a></li>
-                <li><?php echo __('project1_title'); ?></li>
+                <li>Control de Calidad con IA</li>
             </ul>
         </div>
     </div>
@@ -38,38 +38,42 @@ include "includes/header.php";
         <div class="row">
             <div class="col-lg-8">
                 <div class="project-details-img">
-                    <img src="assets/img/projects/automatizacion-industrial-large.jpg" alt="Automatización Industrial">
+                    <img src="assets/img/projects/ia-calidad.jpg" alt="Control de Calidad con IA">
                 </div>
 
                 <div class="project-details-content">
                     <h3>Descripción del Proyecto</h3>
-                    <p>Implementamos un sistema integral de automatización para una línea de producción industrial que permitió a nuestro cliente aumentar su productividad en un 40% y reducir los tiempos de inactividad en un 60%. El proyecto incluyó la integración de PLCs, sensores avanzados y un sistema SCADA personalizado.</p>
-                    
+                    <p>Desarrollamos un sistema de inspección visual automatizada basado en inteligencia artificial que revolucionó el proceso de control de calidad de nuestro cliente. Utilizando técnicas de Deep Learning y Computer Vision, el sistema detecta defectos con una precisión del 99.2%, superando ampliamente la inspección manual tradicional.</p>
+
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="assets/img/projects/automatizacion-1.jpg" alt="Sistema de Control" class="mb-4">
+                            <img src="assets/img/projects/ia-calidad-1.jpg" alt="Sistema de Visión IA" class="mb-4">
                         </div>
                         <div class="col-md-6">
-                            <img src="assets/img/projects/automatizacion-2.jpg" alt="Línea de Producción" class="mb-4">
+                            <img src="assets/img/projects/ia-calidad-2.jpg" alt="Inspección Automatizada" class="mb-4">
                         </div>
                     </div>
 
                     <h3>Retos del Proyecto</h3>
                     <ul class="project-details-list">
-                        <li>Integración con maquinaria existente de diferentes fabricantes</li>
-                        <li>Minimizar el tiempo de parada durante la implementación</li>
-                        <li>Capacitación del personal operativo</li>
-                        <li>Cumplimiento de normativas de seguridad industrial</li>
+                        <li>Detección de defectos microscópicos y sutiles</li>
+                        <li>Alta velocidad de producción (300 piezas/minuto)</li>
+                        <li>Variabilidad en condiciones de iluminación</li>
+                        <li>Reducción de falsos positivos</li>
+                        <li>Integración con línea de producción existente</li>
+                        <li>Trazabilidad completa de cada pieza inspeccionada</li>
                     </ul>
 
                     <h3>Solución Implementada</h3>
-                    <p>Desarrollamos una solución personalizada que incluyó:</p>
+                    <p>Desarrollamos una solución de vanguardia que incluyó:</p>
                     <ul class="project-details-list">
-                        <li>Instalación de PLCs de última generación</li>
-                        <li>Red de sensores IoT para monitoreo en tiempo real</li>
-                        <li>Interfaz HMI intuitiva</li>
-                        <li>Sistema de alertas predictivas</li>
-                        <li>Plataforma de análisis de datos</li>
+                        <li>Cámaras industriales de alta resolución con iluminación controlada</li>
+                        <li>Red neuronal convolucional (CNN) personalizada</li>
+                        <li>Sistema de clasificación automática de defectos</li>
+                        <li>Dashboard en tiempo real con estadísticas de calidad</li>
+                        <li>Sistema de aprendizaje continuo para mejora del modelo</li>
+                        <li>Integración con sistema MES para trazabilidad</li>
+                        <li>Alertas automáticas ante patrones de defectos</li>
                     </ul>
 
                     <div class="project-result">
@@ -77,23 +81,23 @@ include "includes/header.php";
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="result-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <h4>99.2%</h4>
+                                    <p>Precisión en detección de defectos</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="result-item">
+                                    <i class="fas fa-tachometer-alt"></i>
+                                    <h4>10x</h4>
+                                    <p>Velocidad vs inspección manual</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="result-item">
                                     <i class="fas fa-chart-line"></i>
-                                    <h4>+40%</h4>
-                                    <p>Incremento en productividad</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="result-item">
-                                    <i class="fas fa-clock"></i>
-                                    <h4>-60%</h4>
-                                    <p>Reducción en tiempos de inactividad</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="result-item">
-                                    <i class="fas fa-euro-sign"></i>
-                                    <h4>ROI 8 meses</h4>
-                                    <p>Retorno de la inversión</p>
+                                    <h4>-87%</h4>
+                                    <p>Reducción en productos defectuosos</p>
                                 </div>
                             </div>
                         </div>
@@ -102,11 +106,11 @@ include "includes/header.php";
                     <div class="project-testimonial">
                         <div class="testimonial-content">
                             <div class="testimonial-text">
-                                <p>"La implementación del sistema de automatización superó nuestras expectativas. No solo mejoramos nuestra eficiencia operativa, sino que también ganamos una ventaja competitiva en nuestro sector."</p>
+                                <p>"El sistema de IA superó nuestras expectativas. No solo detecta defectos que antes pasaban desapercibidos, sino que también nos ha permitido escalar la producción sin comprometer la calidad."</p>
                             </div>
                             <div class="testimonial-author">
-                                <h4>Juan Martínez</h4>
-                                <span>Director de Operaciones, Cliente Industrial</span>
+                                <h4>María López</h4>
+                                <span>Directora de Calidad, Empresa de Componentes Electrónicos</span>
                             </div>
                         </div>
                     </div>
@@ -119,23 +123,23 @@ include "includes/header.php";
                     <ul>
                         <li>
                             <span>Cliente:</span>
-                            <p>Empresa Industrial S.A.</p>
+                            <p>Empresa de Componentes Electrónicos</p>
                         </li>
                         <li>
                             <span>Categoría:</span>
-                            <p>Automatización Industrial</p>
+                            <p>Inteligencia Artificial / Computer Vision</p>
                         </li>
                         <li>
                             <span>Fecha:</span>
-                            <p>Enero 2025</p>
+                            <p>Octubre 2024</p>
                         </li>
                         <li>
                             <span>Ubicación:</span>
-                            <p>Barcelona, España</p>
+                            <p>Madrid, España</p>
                         </li>
                         <li>
                             <span>Duración:</span>
-                            <p>3 meses</p>
+                            <p>5 meses</p>
                         </li>
                     </ul>
                 </div>
@@ -144,13 +148,13 @@ include "includes/header.php";
                     <h3>Documentación</h3>
                     <a href="#" class="download-btn">
                         <i class="far fa-file-pdf"></i>
-                        <span>Descargar Caso de Estudio <small>(PDF, 2.4MB)</small></span>
+                        <span>Descargar Caso de Estudio <small>(PDF, 4.1MB)</small></span>
                     </a>
                 </div>
 
                 <div class="project-contact">
                     <h3>¿Interesado en un proyecto similar?</h3>
-                    <p>Contáctanos para discutir cómo podemos ayudarte con tu proyecto de automatización industrial.</p>
+                    <p>Contáctanos para discutir cómo la IA puede mejorar tu control de calidad.</p>
                     <a href="contact.php" class="default-btn">Solicitar Presupuesto</a>
                 </div>
             </div>
@@ -166,6 +170,21 @@ include "includes/header.php";
             <h2>Proyectos Relacionados</h2>
         </div>
         <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <div class="project-img">
+                        <a href="proyecto-automatizacion-industrial.php">
+                            <img src="assets/img/projects/automatizacion-industrial-large.jpg" alt="Automatización Industrial">
+                        </a>
+                    </div>
+                    <div class="project-content">
+                        <h3><a href="proyecto-automatizacion-industrial.php">Automatización Industrial</a></h3>
+                        <p>Sistema integral de automatización para líneas de producción industrial.</p>
+                        <a href="proyecto-automatizacion-industrial.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-lg-4 col-md-6">
                 <div class="project-card">
                     <div class="project-img">
@@ -190,23 +209,8 @@ include "includes/header.php";
                     </div>
                     <div class="project-content">
                         <h3><a href="proyecto-mantenimiento-predictivo.php">Mantenimiento Predictivo</a></h3>
-                        <p>Implementación de sistema de mantenimiento predictivo basado en IA para maquinaria crítica.</p>
+                        <p>Sistema de mantenimiento predictivo basado en IA para maquinaria crítica.</p>
                         <a href="proyecto-mantenimiento-predictivo.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="project-card">
-                    <div class="project-img">
-                        <a href="proyecto-logistica-automatizada.php">
-                            <img src="assets/img/projects/logistica-automatizada.jpg" alt="Logística Automatizada">
-                        </a>
-                    </div>
-                    <div class="project-content">
-                        <h3><a href="proyecto-logistica-automatizada.php">Logística Automatizada</a></h3>
-                        <p>Automatización de almacén con vehículos guiados (AGV) y gestión inteligente de inventario.</p>
-                        <a href="proyecto-logistica-automatizada.php" class="project-btn">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -221,8 +225,8 @@ include "includes/header.php";
         <div class="row align-items-center">
             <div class="col-lg-9">
                 <div class="cta-text">
-                    <h2>¿Listo para automatizar tu línea de producción?</h2>
-                    <p>Nuestros expertos están listos para ayudarte a implementar soluciones de automatización personalizadas para tu negocio.</p>
+                    <h2>¿Listo para automatizar tu control de calidad?</h2>
+                    <p>Descubre cómo la inteligencia artificial puede mejorar la precisión y eficiencia de tus procesos de inspección.</p>
                 </div>
             </div>
             <div class="col-lg-3">

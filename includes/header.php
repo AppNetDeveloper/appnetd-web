@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <?php
 // Incluir configuración de idiomas
-require_once __DIR__ . '/languages/config.php';
+require_once __DIR__ . '/../languages/config.php';
 
 // Obtener la URL base del sitio
-$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+$host = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'localhost';
+$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $host;
 
 // Incluir configuración SEO
-require_once __DIR__ . '/includes/seo_config.php';
+require_once __DIR__ . '/seo_config.php';
 ?>
 <html lang="<?php echo $current_lang; ?>" dir="<?php echo isset($available_languages[$current_lang]['rtl']) && $available_languages[$current_lang]['rtl'] ? 'rtl' : 'ltr'; ?>" prefix="og: https://ogp.me/ns#">
 <head>
@@ -17,7 +18,9 @@ require_once __DIR__ . '/includes/seo_config.php';
      
      <?php
      // Obtener la URL actual
-     $current_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+     $host = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'localhost';
+     $request_uri = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/';
+     $current_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $host . $request_uri;
      $canonical_url = strtok($current_url, '?'); // Eliminar parámetros de la URL
      
      // Obtener el título de la página actual o usar uno por defecto
@@ -88,13 +91,14 @@ require_once __DIR__ . '/includes/seo_config.php';
      <link rel="preload" href="<?php echo $base_url; ?>/assets/js/main.js" as="script">
 
      <!-- JSON-LD para SEO -->
-     <?php include_once __DIR__ . '/includes/json_ld.php'; ?>
-     <?php echo $json_ld_markup; ?>
+     <?php include_once __DIR__ . '/json_ld.php'; ?>
+     <?php echo isset($json_ld_markup) ? $json_ld_markup : ''; ?>
 
      <!--=====CSS=======-->
      <?php
      // Obtener la URL base del sitio
-     $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+     $host = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'localhost';
+     $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $host;
      ?>
      <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/bootstrap.min.css">
@@ -132,8 +136,58 @@ require_once __DIR__ . '/includes/seo_config.php';
      <link rel="stylesheet" href="<?php echo $base_url . '/' . ltrim($additional_css, '/'); ?>">
      <?php endif; ?>
 
-     <!--=====JQUERY=======-->
-     <script src="assets/js/jquery-3-7-1.min.js"></script>
+    <!--=====JQUERY=======-->
+    <script src="assets/js/jquery-3-7-1.min.js"></script>
+    
+    <!-- Preloader fallback script -->
+    <script>
+    // Preloader mejorado para móviles
+    document.addEventListener('DOMContentLoaded', function() {
+      // Timeout de seguridad para móviles
+      setTimeout(function() {
+        const preloader = document.getElementById('preloader');
+        const ctnPreloader = document.getElementById('ctn-preloader');
+        const body = document.body;
+        
+        if (preloader && ctnPreloader && !ctnPreloader.classList.contains('loaded')) {
+          console.log('Preloader emergency fallback activated');
+          ctnPreloader.classList.add('loaded');
+          body.classList.remove('no-scroll-y');
+          
+          // Forzar ocultar el preloader
+          setTimeout(function() {
+            if (preloader) {
+              preloader.style.display = 'none';
+              preloader.remove();
+            }
+          }, 500);
+        }
+      }, 4000); // 4 segundos de timeout de seguridad
+    });
+    
+    // También verificar en el load
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        const preloader = document.getElementById('preloader');
+        const ctnPreloader = document.getElementById('ctn-preloader');
+        const body = document.body;
+        
+        if (preloader && ctnPreloader) {
+          ctnPreloader.classList.add('loaded');
+          body.classList.remove('no-scroll-y');
+          
+          setTimeout(function() {
+            if (preloader) {
+              preloader.style.opacity = '0';
+              setTimeout(function() {
+                preloader.remove();
+              }, 300);
+            }
+          }, 500);
+        }
+      }, 1000);
+    });
+    </script>
      <!-- Script para el menú desplegable -->
      <script>
      document.addEventListener('DOMContentLoaded', function() {
@@ -533,7 +587,7 @@ require_once __DIR__ . '/includes/seo_config.php';
      }
      </style>
 </head>
-<body class="body tg-heading-subheading animation-style3">
+<body class="body tg-heading-subheading animation-style3 no-scroll-y">
 
 
   <!--=====progress END=======-->
@@ -666,7 +720,7 @@ require_once __DIR__ . '/includes/seo_config.php';
               <span data-text-preloader="l" class="letters-loading">
                 l
               </span>
-              <span data-text-preloader="p" class="letters-loading">
+              <span data-text-preloader="o" class="letters-loading">
                 o
               </span>
               <span data-text-preloader="p" class="letters-loading">
