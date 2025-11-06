@@ -132,6 +132,7 @@ require_once __DIR__ . '/seo_config.php';
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/mobile-menu.css">
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/header-styles.css">
      <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/main.css">
+     <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/modern-styles.css">
      <?php if(isset($additional_css)): ?>
      <link rel="stylesheet" href="<?php echo $base_url . '/' . ltrim($additional_css, '/'); ?>">
      <?php endif; ?>

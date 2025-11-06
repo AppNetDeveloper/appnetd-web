@@ -4,61 +4,21 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// Enable error reporting
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+// Generate CSRF token if not already set
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
 
-// Include language configuration first
+// Incluir configuración de idiomas
 require_once __DIR__ . '/languages/config.php';
 
-// Load appropriate language file
-$lang_file = __DIR__ . '/languages/' . $current_lang . '.php';
-if (file_exists($lang_file)) {
-    require_once $lang_file;
-} else {
-    // Fallback to default language if current language file doesn't exist
-    require_once __DIR__ . '/languages/' . $default_language . '.php';
-}
+// PHPMailer related code commented out for debugging purposes
+// use PHPMailer\PHPMailer\PHPMailer;
+// use PHPMailer\PHPMailer\Exception;
 
-// Include header after setting up translations and variables
-require_once __DIR__ . '/includes/header.php';
-
-// Function to translate text
-if (!function_exists('__')) {
-    function __($key, $default = '') {
-        global $lang;
-        return isset($lang[$key]) ? $lang[$key] : ($default ?: $key);
-    }
-}
-
-// Set default timezone
-date_default_timezone_set('Europe/Madrid');
-
-// Load environment variables
-$envFile = __DIR__ . '/.env';
-if (file_exists($envFile)) {
-    $lines = file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    foreach ($lines as $line) {
-        if (strpos(trim($line), '#') === 0) continue;
-        list($name, $value) = explode('=', $line, 2);
-        $name = trim($name);
-        $value = trim($value);
-        if (!array_key_exists($name, $_ENV)) {
-            $_ENV[$name] = $value;
-        }
-        if (!array_key_exists($name, $_SERVER)) {
-            $_SERVER[$name] = $value;
-        }
-        putenv("$name=$value");
-    }
-}
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
+// require 'PHPMailer/src/Exception.php';
+// require 'PHPMailer/src/PHPMailer.php';
+// require 'PHPMailer/src/SMTP.php';
 
 // Set page title and CSS
 $page_title = __('contact_page_title', 'Contact Us');
@@ -68,110 +28,93 @@ $meta_keywords = 'contact, support, help, inquiry, ' . $available_languages[$cur
 
 $message = '';
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Validate and sanitize form inputs
-    $nombre = isset($_POST['nombre']) ? htmlspecialchars(trim($_POST['nombre']), ENT_QUOTES, 'UTF-8') : '';
-    $apellido = isset($_POST['apellido']) ? htmlspecialchars(trim($_POST['apellido']), ENT_QUOTES, 'UTF-8') : '';
-    $email = isset($_POST['email']) ? filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL) : '';
-    $telefono = isset($_POST['telefono']) ? htmlspecialchars(trim($_POST['telefono']), ENT_QUOTES, 'UTF-8') : '';
-    $asunto = isset($_POST['asunto']) ? htmlspecialchars(trim($_POST['asunto']), ENT_QUOTES, 'UTF-8') : '';
-    $mensaje = isset($_POST['mensaje']) ? htmlspecialchars(trim($_POST['mensaje']), ENT_QUOTES, 'UTF-8') : '';
-    $captcha = isset($_POST['captcha']) ? trim($_POST['captcha']) : '';
+// if ($_SERVER["REQUEST_METHOD"] == "POST") {
+//     // Validate and sanitize form inputs
+//     $nombre = isset($_POST['nombre']) ? htmlspecialchars(trim($_POST['nombre']), ENT_QUOTES, 'UTF-8') : '';
+//     $apellido = isset($_POST['apellido']) ? htmlspecialchars(trim($_POST['apellido']), ENT_QUOTES, 'UTF-8') : '';
+//     $email = isset($_POST['email']) ? filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL) : '';
+//     $telefono = isset($_POST['telefono']) ? htmlspecialchars(trim($_POST['telefono']), ENT_QUOTES, 'UTF-8') : '';
+//     $asunto = isset($_POST['asunto']) ? htmlspecialchars(trim($_POST['asunto']), ENT_QUOTES, 'UTF-8') : '';
+//     $mensaje = isset($_POST['mensaje']) ? htmlspecialchars(trim($_POST['mensaje']), ENT_QUOTES, 'UTF-8') : '';
 
-    // Validate required fields
-    if (empty($nombre) || empty($email) || empty($asunto) || empty($mensaje)) {
-        $message = __('contact_error_required_fields', 'Please fill in all required fields.');
-        echo "<script>alert('$message'); window.location.href='contact.php';</script>";
-        exit;
-    }
+//     // Validate required fields
+//     if (empty($nombre) || empty($email) || empty($asunto) || empty($mensaje)) {
+//         $message = __('contact_error_required_fields', 'Please fill in all required fields.');
+//         echo "<script>alert('$message'); window.location.href='contact.php';</script>";
+//         exit;
+//     }
 
-    // Validate email
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $message = __('contact_error_invalid_email', 'Please enter a valid email address.');
-        echo "<script>alert('$message'); window.location.href='contact.php';</script>";
-        exit;
-    }
+//     // Validate email
+//     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+//         $message = __('contact_error_invalid_email', 'Please enter a valid email address.');
+//         echo "<script>alert('$message'); window.location.href='contact.php';</script>";
+//         exit;
+//     }
 
-    // Verify CAPTCHA
-    $valid_answers = [
-        'security_question_1' => 'paris',
-        'security_question_2' => 'spain',
-        'security_question_3' => 'blue',
-        'security_question_4' => 'yes',
-        'security_question_5' => 'no'
-    ];
-    
-    $question_id = $_POST['question_id'] ?? '';
-    $user_answer = strtolower(trim($captcha));
-    
-    if (!isset($valid_answers[$question_id]) || $valid_answers[$question_id] !== $user_answer) {
-        $message = __('contact_captcha_error');
-        echo "<script>alert('$message'); window.location.href='contact.php';</script>";
-        exit;
-    }
+//     $mail = new PHPMailer(true);
 
-    $mail = new PHPMailer(true);
+//     try {
+//         // Configuración del servidor SMTP desde variables de entorno
+//         $mail->isSMTP();
+//         $mail->Host = getenv('SMTP_HOST') ?: 'smtp-pulse.com';
+//         $mail->SMTPAuth = true;
+//         $mail->Username = getenv('SMTP_USERNAME') ?: ''; // Configurar en .env
+//         $mail->Password = getenv('SMTP_PASSWORD') ?: ''; // Configurar en .env
+//         $mail->SMTPSecure = getenv('SMTP_SECURE') === 'ssl' ? PHPMailer::ENCRYPTION_SMTPS : PHPMailer::ENCRYPTION_STARTTLS;
+//         $mail->Port = (int)(getenv('SMTP_PORT') ?: 2525);
 
-    try {
-        // Configuración del servidor SMTP desde variables de entorno
-        $mail->isSMTP();
-        $mail->Host = getenv('SMTP_HOST') ?: 'smtp-pulse.com';
-        $mail->SMTPAuth = true;
-        $mail->Username = getenv('SMTP_USERNAME') ?: ''; // Configurar en .env
-        $mail->Password = getenv('SMTP_PASSWORD') ?: ''; // Configurar en .env
-        $mail->SMTPSecure = getenv('SMTP_SECURE') === 'ssl' ? PHPMailer::ENCRYPTION_SMTPS : PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = (int)(getenv('SMTP_PORT') ?: 2525);
+//         // Habilitar el modo de depuración
+//        // $mail->SMTPDebug = 2; // Cambia a 3 para más detalles
+//         //$mail->Debugoutput = 'html';
 
-        // Habilitar el modo de depuración
-       // $mail->SMTPDebug = 2; // Cambia a 3 para más detalles
-        //$mail->Debugoutput = 'html';
-
-        // Remitente y destinatario
-        $fromEmail = getenv('SMTP_FROM_EMAIL') ?: 'contacto@' . $_SERVER['HTTP_HOST'];
-        $fromName = getenv('SMTP_FROM_NAME') ?: 'Appnet';
-        // Set email content with translations
-        $mail->setFrom($fromEmail, $fromName);
-        $mail->addAddress($fromEmail, $fromName);
-        $mail->addReplyTo($email, "$nombre $apellido");
+//         // Remitente y destinatario
+//         $fromEmail = getenv('SMTP_FROM_EMAIL') ?: 'contacto@' . $_SERVER['HTTP_HOST'];
+//         $fromName = getenv('SMTP_FROM_NAME') ?: 'Appnet';
+//         // Set email content with translations
+//         $mail->setFrom($fromEmail, $fromName);
+//         $mail->addAddress($fromEmail, $fromName);
+//         $mail->addReplyTo($email, "$nombre $apellido");
         
-        // Set email subject and body with translations
-        $mail->isHTML(true);
-        $mail->Subject = __('contact_email_subject') . ": " . html_entity_decode($asunto);
+//         // Set email subject and body with translations
+//         $mail->isHTML(true);
+//         $mail->Subject = __('contact_email_subject') . ": " . html_entity_decode($asunto);
         
-        // Build HTML email body with proper escaping
-        $emailBody = "<html><body style='font-family: Arial, sans-serif; line-height: 1.6;'>";
-        $emailBody .= "<h2>" . __('contact_form_new_message', 'New Contact Form Submission') . "</h2>";
-        $emailBody .= "<p><strong>" . __('contact_form_name', 'Name') . ":</strong> " . nl2br(htmlspecialchars($nombre . ' ' . $apellido)) . "</p>";
-        $emailBody .= "<p><strong>" . __('contact_form_email', 'Email') . ":</strong> " . htmlspecialchars($email) . "</p>";
+//         // Build HTML email body with proper escaping
+//         $emailBody = "<html><body style='font-family: Arial, sans-serif; line-height: 1.6;'>";
+//         $emailBody .= "<h2>" . __('contact_form_new_message', 'New Contact Form Submission') . "</h2>";
+//         $emailBody .= "<p><strong>" . __('contact_form_name', 'Name') . ":</strong> " . nl2br(htmlspecialchars($nombre . ' ' . $apellido)) . "</p>";
+//         $emailBody .= "<p><strong>" . __('contact_form_email', 'Email') . ":</strong> " . htmlspecialchars($email) . "</p>";
         
-        if (!empty($telefono)) {
-            $emailBody .= "<p><strong>" . __('contact_form_phone', 'Phone') . ":</strong> " . htmlspecialchars($telefono) . "</p>";
-        }
+//         if (!empty($telefono)) {
+//             $emailBody .= "<p><strong>" . __('contact_form_phone', 'Phone') . ":</strong> " . htmlspecialchars($telefono) . "</p>";
+//         }
         
-        $emailBody .= "<p><strong>" . __('contact_form_subject', 'Subject') . ":</strong> " . htmlspecialchars($asunto) . "</p>";
-        $emailBody .= "<p><strong>" . __('contact_form_message', 'Message') . ":</strong></p>";
-        $emailBody .= "<p>" . nl2br(htmlspecialchars($mensaje)) . "</p>";
-        $emailBody .= "<p>--<br>" . __('contact_email_sent_from', 'This email was sent from the contact form at') . " " . htmlspecialchars($_SERVER['HTTP_HOST']) . "</p>";
-        $emailBody .= "</body></html>";
+//         $emailBody .= "<p><strong>" . __('contact_form_subject', 'Subject') . ":</strong> " . htmlspecialchars($asunto) . "</p>";
+//         $emailBody .= "<p><strong>" . __('contact_form_message', 'Message') . ":</strong></p>";
+//         $emailBody .= "<p>" . nl2br(htmlspecialchars($mensaje)) . "</p>";
+//         $emailBody .= "<p>--<br>" . __('contact_email_sent_from', 'This email was sent from the contact form at') . " " . htmlspecialchars($_SERVER['HTTP_HOST']) . "</p>";
+//         $emailBody .= "</body></html>";
         
-        $mail->Body = $emailBody;
+//         $mail->Body = $emailBody;
         
-        // Send plain text version as well
-        $mail->AltBody = strip_tags(str_replace(["<br>", "</p>", "<p>"], ["\n", "\n\n", ""], $emailBody));
+//         // Send plain text version as well
+//         $mail->AltBody = strip_tags(str_replace(["<br>", "</p>", "<p>"], ["\n", "\n\n", ""], $emailBody));
 
-        // Send the email
-        if ($mail->send()) {
-            $message = __('contact_success_message');
-            // Clear form on success
-            $nombre = $apellido = $email = $telefono = $asunto = $mensaje = '';
-        } else {
-            throw new Exception($mail->ErrorInfo);
-        }
-    } catch (Exception $e) {
-        error_log('Email sending failed: ' . $e->getMessage());
-        $message = __('contact_error_message') . (getenv('APP_DEBUG') ? ': ' . $e->getMessage() : '');
-    }
-}
+//         // Send the email
+//         if ($mail->send()) {
+//             $message = __('contact_success_message');
+//             // Clear form on success
+//             $nombre = $apellido = $email = $telefono = $asunto = $mensaje = '';
+//         } else {
+//             throw new Exception($mail->ErrorInfo);
+//         }
+//     } catch (Exception $e) {
+//         error_log('Email sending failed: ' . $e->getMessage());
+//         $message = __('contact_error_message') . (getenv('APP_DEBUG') ? ': ' . $e->getMessage() : '');
+//     }
+// }
+
+include "includes/header.php";
 ?>
 
     <!-- Muestra el mensaje después de enviar el formulario -->

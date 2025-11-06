@@ -65,9 +65,9 @@ return [
     'get_quote' => 'Demander un Devis',
     
     // Page d'accueil
-    'hero_title' => 'Automatisation Intelligente : IA, IoT et Logiciels Sur Mesure pour Votre Entreprise',
-    'hero_subtitle' => 'AppNet Developer - Innovation Intelligente',
-    'hero_description' => 'Nous développons des solutions avancées avec IA telles que la reconnaissance faciale et des LLM propriétaires, intégrons l\'IoT, automations les RH et créons des communications personnalisées (WhatsApp, SMS) sur des serveurs locaux sécurisés. Transformez vos opérations avec AppNet Developer.',
+    'hero_title' => 'BionicEye : La Première Plateforme d\'Entreprise Autonome avec IA Locale',
+    'hero_subtitle' => 'Conçue à Murcie pour le Monde',
+    'hero_description' => 'Découvrez BionicEye, le système d\'exploitation pour entreprises avec une IA 100% locale, sans filtrage de données et sans coûts d\'API. Contrôlé par des agents autonomes Adri, il est auto-hébergé dans votre propre installation, garantissant une confidentialité et une efficacité maximales.',
     'our_solutions' => 'Nos Solutions',
     'watch_demo' => 'Voir la Démo',
     
@@ -169,9 +169,9 @@ return [
     'benefit3_desc' => 'Restez en avance avec des solutions technologiques de pointe.',
     
     // Section Plateforme
-    'platform_section_title' => 'Plateforme Tout-en-Un',
-    'platform_main_title' => 'Système d\'Exploitation d\'IA d\'Entreprise',
-    'platform_subtitle' => 'Une solution intégrée qui unifie l\'automatisation, le contrôle et la communication d\'entreprise dans un écosystème sécurisé unique.',
+    'platform_section_title' => 'Système BionicEye',
+    'platform_main_title' => 'Un Écosystème Autonome Contrôlé par l\'IA',
+    'platform_subtitle' => 'BionicEye intègre un groupe d\'agents autonomes appelés Adri (Agent Distribué de Réponse Inteligente) qui travaillent pour vous sur votre propre infrastructure. Bien que le système soit autonome, il offre également la flexibilité de connecter des API externes si votre entreprise le nécessite.',
     'discover_how' => 'Découvrir Comment',
     'view_demo' => 'Voir la Démo',
     'view_features' => 'Voir les Fonctionnalités',
@@ -179,18 +179,18 @@ return [
     'view_use_cases' => 'Voir les Cas d\'Utilisation',
     
     // Caractéristiques de la Plateforme
-    'platform_feature1_title' => 'Assistant IA d\'Entreprise',
-    'platform_feature1_desc' => 'IA fonctionnant entièrement sur votre serveur, avec la technologie RAG pour accéder à la documentation interne et répondre avec précision sans filtres externes.',
-    'platform_feature2_title' => 'Contrôle de Production avec Vision par Ordinateur',
-    'platform_feature2_desc' => 'Surveillance en temps réel des lignes de production, comptage de boîtes et détection d\'anomalies utilisant la vision par ordinateur.',
-    'platform_feature3_title' => 'Gestion RH Complète',
-    'platform_feature3_desc' => 'Suivi du temps avec reconnaissance faciale, gestion des équipes, signature électronique de documents et suivi de la productivité en temps réel.',
-    'platform_feature4_title' => 'Communications Unifiées avec IA',
-    'platform_feature4_desc' => 'Gestion centralisée de WhatsApp, Telegram, Email et LinkedIn avec IA générative pour des réponses personnalisées et des campagnes automatisées.',
-    'platform_feature5_title' => 'Intégration Industrie 4.0',
-    'platform_feature5_desc' => 'Connexion des machines industrielles, surveillance des lignes de production et analyse prédictive avec capteurs IoT et vision par ordinateur.',
-    'platform_feature6_title' => 'Tableau de Bord Business Intelligence',
-    'platform_feature6_desc' => 'Tableau de bord interactif avec KPI en temps réel, analyses prédictives et rapports personnalisés pour la prise de décision stratégique.',
+    'platform_feature1_title' => 'IA dans le Contrôle du Temps et des Accès',
+    'platform_feature1_desc' => 'Optimisez la gestion du personnel avec la reconnaissance faciale pour le contrôle du temps et des accès, garantissant sécurité et précision.',
+    'platform_feature2_title' => 'Reconnaissance de Flottes et de Véhicules',
+    'platform_feature2_desc' => 'Automatisez l\'entrée et la sortie de votre flotte de véhicules et gérez la logistique intelligemment avec notre système de reconnaissance.',
+    'platform_feature3_title' => 'Facturation et Gestion Documentaire Autonomes',
+    'platform_feature3_desc' => 'Les agents Adri gèrent la facturation, les bons de livraison et la comptabilité de votre entreprise de manière autonome, réduisant les erreurs et le temps.',
+    'platform_feature4_title' => 'Communications Locales Unifiées',
+    'platform_feature4_desc' => 'Intégrez WhatsApp, Telegram et Email sur vos serveurs. Communiquez en toute sécurité sans dépendre d\'API externes ni partager vos données.',
+    'platform_feature5_title' => 'Sécurité d\'Entreprise Autonome',
+    'platform_feature5_desc' => 'Systèmes de sécurité B2B qui fonctionnent de manière autonome pour protéger vos installations et actifs numériques 24/7.',
+    'platform_feature6_title' => 'Chat Tasker IA et Agents Adri',
+    'platform_feature6_desc' => 'Déléguez des tâches à nos agents intelligents via un chat. De la génération de rapports à la planification de campagnes marketing, Adri s\'en occupe pour vous.',
     
     // Section Approche
     'approach_section_title' => 'Notre Approche',
@@ -885,4 +885,25 @@ return [
     'project5_description' => 'Implémentation de système de maintenance prédictive basé sur l\'IA pour machines critiques.',
     'project6_title' => 'Système de Logistique Automatisée',
     'project6_description' => 'Automatisation d\'entrepôt avec véhicules guidés automatiques (AGV) et gestion intelligente d\'inventaire.',
+
+    // Clés manquantes de index.php
+    'projects_completed' => 'Projets Réalisés',
+    'client_satisfaction' => 'Satisfaction Client',
+    'support_available' => 'Support Disponible',
+    'view_all_services' => 'Voir Tous les Services',
+    'benefits_section_title' => 'Avantages',
+    'benefits_title' => 'Avantages pour Votre Entreprise',
+    'efficiency_increase' => 'Augmentation de l\'Efficacité',
+    'cost_reduction' => 'Réduction des Coûts',
+    'explore_possibilities' => 'Explorer les Possibilités',
+    'work_process_alt' => 'Processus de Travail',
+    'most_popular' => 'Le plus Populaire',
+    'testimonial_alt_1' => 'Transformation numérique de l\'entreprise',
+    'testimonial_alt_2' => 'Automatisation industrielle avec IA',
+    'testimonial_alt_3' => 'Communications d\'entreprise unifiées',
+    'blog_post1_date' => '21 Mai, 2025',
+    'blog_read_time' => 'min de lecture',
+    'blog_post2_date' => '22 Mai, 2025',
+    'blog_category_software' => 'Logiciel',
+    'blog_post3_date' => '23 Mai, 2025',
 ];

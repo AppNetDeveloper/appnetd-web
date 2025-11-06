@@ -82,6 +82,22 @@ if (isset($_POST['website']) && !empty($_POST['website'])) {
     $errors[] = 'Solicitud inválida';
 }
 
+// CSRF Protection
+if (!isset($_POST['csrf_token']) || !isset($_SESSION['csrf_token']) || $_POST['csrf_token'] !== $_SESSION['csrf_token']) {
+    $errors[] = 'Token CSRF inválido.';
+}
+
+// Captcha Validation
+if (isset($_SESSION['captcha_answer']) && isset($_POST['captcha'])) {
+    $user_answer = strtolower(trim($_POST['captcha']));
+    $correct_answer = strtolower(trim($_SESSION['captcha_answer']));
+    if ($user_answer !== $correct_answer) {
+        $errors[] = 'Respuesta CAPTCHA incorrecta.';
+    }
+} else {
+    $errors[] = 'CAPTCHA no proporcionado o sesión expirada.';
+}
+
 // Si hay errores, devolver
 if (!empty($errors)) {
     $response['message'] = implode('. ', $errors);
@@ -89,6 +105,13 @@ if (!empty($errors)) {
     echo json_encode($response);
     exit;
 }
+
+// Regenerate CSRF token after successful validation to prevent reuse
+unset($_SESSION['csrf_token']);
+$_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+
+// Unset captcha answer after successful validation
+unset($_SESSION['captcha_answer']);
 
 // Crear instancia de PHPMailer
 $mail = new PHPMailer(true);

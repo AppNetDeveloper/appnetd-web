@@ -1,16 +1,6 @@
 <?php
 // Incluir configuración de idioma
 require_once __DIR__ . '/languages/config.php';
-
-// Incluir el archivo de idioma correspondiente
-$lang_file = __DIR__ . '/languages/' . $current_lang . '.php';
-if (file_exists($lang_file)) {
-    include $lang_file;
-} else {
-    // Si no se encuentra el archivo de idioma, cargar el idioma por defecto
-    include __DIR__ . '/languages/es.php';
-}
-
 include "includes/header.php"; 
 ?>
 

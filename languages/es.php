@@ -1,6 +1,5 @@
 <?php
 return [
-    // General
     'welcome' => 'Bienvenido a AppNet Developer',
     'select_language' => 'Selecciona tu idioma',
     'language_es' => 'Español',
@@ -11,8 +10,6 @@ return [
     'language_ar' => 'Árabe',
     'save' => 'Guardar',
     'close' => 'Cerrar',
-    
-    // Navigation
     'header_top_text' => 'Bienvenido a AppNet Developer - Su Socio Tecnológico',
     'home' => 'Inicio',
     'about' => 'Sobre Nosotros',
@@ -22,16 +19,11 @@ return [
     'blog' => 'Blog',
     'contact' => 'Contacto',
     'get_quote' => 'Obtener Presupuesto',
-    
-    // Homepage
-    'home' => 'Inicio',
-    'hero_title' => 'Automatización Inteligente: IA, IoT y Software a Medida para Tu Negocio',
-    'hero_subtitle' => 'AppNet Developer - Innovación Inteligente',
-    'hero_description' => 'Desarrollamos soluciones avanzadas con IA como reconocimiento facial y LLMs propios, integramos IoT, automatizamos RRHH y creamos comunicaciones personalizadas (WhatsApp, SMS) en servidores locales seguros. Transforma tu operativa con AppNet Developer.',
+    'hero_title' => 'BionicEye: La Primera Plataforma Empresarial Autónoma con IA Local',
+    'hero_subtitle' => 'Diseñada en Murcia para el Mundo',
+    'hero_description' => 'Presentamos BionicEye, el sistema operativo para empresas con IA 100% local, sin filtrar datos y sin costes de APIs. Controlado por agentes autónomos Adri, se auto-aloja en tu propia instalación garantizando máxima privacidad y eficiencia.',
     'our_solutions' => 'Nuestras Soluciones',
     'watch_demo' => 'Ver Video Demo',
-    
-    // About Section
     'about_image1_alt' => 'Imagen Sobre Nosotros 1',
     'about_image2_alt' => 'Imagen Sobre Nosotros 2',
     'about_icon_alt' => 'Icono Innovación',
@@ -45,12 +37,7 @@ return [
     'about_feature3' => 'Automatización integral de procesos de RRHH y gestión.',
     'about_feature4' => 'Plataforma segura para comunicaciones empresariales.',
     'about_button' => 'Conoce Nuestra Historia',
-    
-    // Página Sobre Nosotros
-    'about' => 'Sobre Nosotros',
     'about_main_heading' => 'Potencia tu Negocio con Nuestras Soluciones Tecnológicas Integrales',
-    
-    // SEO Meta
     'home_page_title' => 'Inicio - Soluciones de IA, IoT y Desarrollo de Software',
     'home_meta_description' => 'AppNet Developer ofrece soluciones tecnológicas avanzadas en IA, IoT y desarrollo de software personalizado para impulsar tu negocio.',
     'about_meta_description' => 'Conoce nuestro equipo de expertos en tecnología y cómo podemos ayudarte a transformar tu negocio con soluciones innovadoras.',
@@ -62,13 +49,13 @@ return [
     'about_description_text' => 'Nuestra app estrella es la app de control horario, control personal y control de producción. Conectamos la maquinaria con nuestro sistema, teniendo un control en tiempo real de la producción. Conectamos cualquier máquina industrial, básculas, medidores de altura y cámaras con inteligencia artificial, incluyendo reconocimiento de matrículas para abrir las puertas automáticamente de la flota y personal. También ofrecemos geolocalización, ciberseguridad, y servidores tanto locales como en la nube. Ofrecemos servidores ARM para un mejor ahorro de energía. Y lo más importante, desarrollamos aplicaciones a medida para satisfacer las necesidades de nuestros clientes.',
     'it_consulting' => 'Consultoría IT',
     'cybersecurity_label' => 'Ciberseguridad',
-    'request_quote' => 'Solicitar una Cotización',
+    'request_quote' => 'Solicitar Cotización',
     'our_mission' => 'Nuestra Misión',
     'mission_title' => 'Innovando para el Éxito: Nuestra Misión Tecnológica',
     'mission_text' => 'En AppNet Developer, nuestra misión es simple: revolucionar el panorama digital ofreciendo soluciones tecnológicas de primer nivel que impulsen el crecimiento, la eficiencia y la sostenibilidad para nuestros clientes.',
     'our_expertise' => 'Nuestra Experiencia',
     'expertise_title' => 'Áreas de Especialización',
-    'expertise_intro' => 'En AppNet Developer, nos enorgullecemos ofrecer soluciones tecnológicas integrales respaldadas por años de experiencia y conocimiento especializado.',
+    'expertise_intro' => 'En AppNet Developer, nos enorgullece ofrecer soluciones tecnológicas integrales respaldadas por años de experiencia y conocimiento especializado.',
     'ai_especialización' => 'Inteligencia Artificial',
     'ai_especialización_desc' => 'Desarrollamos soluciones de IA personalizadas que impulsan la eficiencia y la innovación en tu negocio.',
     'iot_especialización' => 'IoT Industrial',
@@ -90,8 +77,6 @@ return [
     'cta_business_description' => 'Da el primer paso hacia el logro de tus objetivos comerciales contactándonos hoy. Programa una consulta con uno de nuestros especialistas en TI para discutir tus objetivos y explorar cómo nuestras soluciones innovadoras pueden impulsar tu negocio.',
     'request_consultation' => 'Solicitar una Consulta',
     'explore_solutions' => 'Explorar Soluciones',
-    
-    // Services Section
     'services_section_title' => 'Soluciones Empresariales',
     'services_main_title' => 'Tecnología Avanzada para tu Empresa',
     'services_subtitle' => 'Soluciones personalizadas que impulsan la eficiencia, seguridad y crecimiento de tu negocio',
@@ -99,10 +84,10 @@ return [
     'service1_desc' => 'Sistemas de inteligencia artificial que optimizan procesos y mejoran la toma de decisiones en tiempo real.',
     'service2_title' => 'Automatización Industrial',
     'service2_desc' => 'Soluciones IoT para monitoreo y control de maquinaria industrial con análisis predictivo.',
-    'service3_title' => 'Seguridad Cibernética',
-    'service3_desc' => 'Protección avanzada contra amenazas digitales para tus sistemas y datos.',
+    'service3_title' => 'Seguridad Avanzada',
+    'service3_desc' => 'Protección de datos y sistemas con tecnología de vanguardia y cifrado de extremo a extremo.',
     'service4_title' => 'Servidores en la Nube',
-    'service4_desc' => 'Infraestructura escalable y segura para alojar tus aplicaciones y datos críticos.',
+    'service4_desc' => 'Infraestructura escalable y segura para alojar tus aplicaciones y datos, con servidores ARM.',
     'service5_title' => 'Desarrollo de Software',
     'service5_desc' => 'Soluciones de software personalizadas adaptadas a las necesidades específicas de tu negocio.',
     'service6_title' => 'Análisis de Datos',
@@ -111,8 +96,6 @@ return [
     'service7_desc' => 'Desarrollo de aplicaciones nativas e híbridas para iOS y Android.',
     'service8_title' => 'Consultoría Tecnológica',
     'service8_desc' => 'Asesoramiento experto para optimizar tus sistemas y procesos tecnológicos.',
-    
-    // Página de Servicios
     'services_page_title' => 'Nuestros Servicios',
     'services_page_breadcrumb_home' => 'Inicio',
     'services_page_breadcrumb_current' => 'Servicios',
@@ -132,32 +115,22 @@ return [
     'services_software_desc' => 'Creamos soluciones de software personalizadas adaptadas a las necesidades específicas de tu negocio.',
     'services_ia_titulo' => 'Soluciones de IA',
     'services_ia_desc' => 'Implementamos soluciones de inteligencia artificial para optimizar procesos y mejorar la toma de decisiones.',
-    'service3_title' => 'Seguridad Avanzada',
-    'service3_desc' => 'Protección de datos y sistemas con tecnología de vanguardia y cifrado de extremo a extremo.',
     'learn_more' => 'Saber más',
     'view_details' => 'Ver detalles',
-    
-    // Service 1 Features
     'service1_feature1' => 'Modelos predictivos personalizados',
     'service1_feature2' => 'Análisis avanzado de datos',
     'service1_feature3' => 'Chatbots inteligentes',
     'service1_feature4' => 'Automatización de procesos',
-    
-    // Service 2 Features
     'service2_feature1' => 'Monitoreo en tiempo real',
     'service2_feature2' => 'Mantenimiento predictivo',
     'service2_feature3' => 'Automatización de procesos',
     'service2_feature4' => 'Control remoto de activos',
-    
-    // Service 3 Features
     'service3_feature1' => 'Aplicaciones web y móviles',
     'service3_feature2' => 'Software a medida',
     'service3_feature3' => 'Integración de sistemas',
     'service3_feature4' => 'Migración a la nube',
-    
-    // Benefits Section
-    'beneficios_title' => 'Beneficios para tu Empresa',
-    'beneficios_subtitle' => 'Nuestras soluciones están diseñadas para ofrecer resultados tangibles:',
+    'beneficios_title' => 'Beneficios Clave',
+    'beneficios_subtitle' => 'Ventajas de integrar tu maquinaria industrial',
     'beneficios_image_alt' => 'Beneficios de nuestras soluciones',
     'benefit1_title' => 'Mayor Eficiencia',
     'benefit1_desc' => 'Automatización de procesos repetitivos que ahorran tiempo y recursos.',
@@ -165,32 +138,26 @@ return [
     'benefit2_desc' => 'Protección de datos y activos con las últimas tecnologías de seguridad.',
     'benefit3_title' => 'Innovación Constante',
     'benefit3_desc' => 'Mantente a la vanguardia con soluciones tecnológicas de última generación.',
-    
-    // Platform Section
-    'platform_section_title' => 'Plataforma Todo-en-Uno',
-    'platform_main_title' => 'Sistema Operativo Empresarial con IA',
-    'platform_subtitle' => 'Una solución integrada que unifica automatización, control y comunicación empresarial en un único ecosistema seguro.',
+    'platform_section_title' => 'Sistema BionicEye',
+    'platform_main_title' => 'Un Ecosistema Autónomo Controlado por IA',
+    'platform_subtitle' => 'BionicEye integra un grupo de agentes autónomos llamados Adri (Agente Distribuido de Respuesta Inteligente) que trabajan para ti en tu propia infraestructura. Aunque el sistema es autónomo, también ofrece la flexibilidad de conectar APIs externas si tu negocio lo requiere.',
     'discover_how' => 'Descubre Cómo',
     'view_demo' => 'Ver Demostración',
     'view_features' => 'Ver Funcionalidades',
     'discover_more' => 'Descubrir Más',
     'view_use_cases' => 'Ver Casos de Uso',
-    
-    // Platform Features
-    'platform_feature1_title' => 'Asistente Empresarial con IA Local',
-    'platform_feature1_desc' => 'IA ejecutada íntegramente en tu servidor, con tecnología RAG para acceder a documentación interna y responder con precisión sin filtros externos.',
-    'platform_feature2_title' => 'Control de Producción con Visión Artificial',
-    'platform_feature2_desc' => 'Supervisión en tiempo real de líneas de producción, conteo de cajas y detección de anomalías mediante visión por computadora.',
-    'platform_feature3_title' => 'Gestión Integral de RRHH',
-    'platform_feature3_desc' => 'Control horario con reconocimiento facial, gestión de turnos, firma digital de documentos y seguimiento de productividad, todo en tiempo real.',
-    'platform_feature4_title' => 'Comunicaciones Unificadas con IA',
-    'platform_feature4_desc' => 'Gestión centralizada de WhatsApp, Telegram, Email y LinkedIn con IA generativa para respuestas personalizadas y campañas automatizadas.',
-    'platform_feature5_title' => 'Integración Industrial 4.0',
-    'platform_feature5_desc' => 'Conexión de maquinaria industrial, supervisión de líneas de producción y análisis predictivo con sensores IoT y visión artificial.',
-    'platform_feature6_title' => 'Cuadro de Mando Integral',
-    'platform_feature6_desc' => 'Dashboard interactivo con KPIs en tiempo real, análisis predictivo e informes personalizados para la toma de decisiones estratégicas.',
-    
-    // Approach Section
+    'platform_feature1_title' => 'IA en Control Horario y Accesos',
+    'platform_feature1_desc' => 'Optimiza la gestión de personal con reconocimiento facial para control horario y de accesos, garantizando seguridad y precisión.',
+    'platform_feature2_title' => 'Reconocimiento de Flotas y Vehículos',
+    'platform_feature2_desc' => 'Automatiza la entrada y salida de tu flota de vehículos y gestiona la logística de forma inteligente con nuestro sistema de reconocimiento.',
+    'platform_feature3_title' => 'Facturación y Gestión Documental Autónoma',
+    'platform_feature3_desc' => 'Los agentes Adri gestionan la facturación, albaranes y la contabilidad de tu empresa de forma autónoma, reduciendo errores y tiempos.',
+    'platform_feature4_title' => 'Comunicaciones Unificadas en Local',
+    'platform_feature4_desc' => 'Integra WhatsApp, Telegram y Email en tus servidores. Comunícate de forma segura sin depender de APIs externas ni compartir tus datos.',
+    'platform_feature5_title' => 'Seguridad Empresarial Autónoma',
+    'platform_feature5_desc' => 'Sistemas de seguridad B2B que operan de forma autónoma para proteger tus instalaciones y activos digitales 24/7.',
+    'platform_feature6_title' => 'Chat Tasker IA y Agentes Adri',
+    'platform_feature6_desc' => 'Delega tareas a nuestros agentes inteligentes a través de un chat. Desde generar informes hasta programar campañas de marketing, Adri lo hace por ti.',
     'approach_section_title' => 'Nuestro Enfoque',
     'approach_main_title' => 'Integración Inteligente para Resultados Reales',
     'approach_description' => 'Combinamos hardware y software avanzado con IA para ofrecer soluciones completas. Desde la captura de datos con IoT hasta el análisis y acción con IA, nuestro proceso está diseñado para maximizar tu eficiencia y seguridad.',
@@ -203,21 +170,14 @@ return [
     'step3_alt' => 'Icono Proceso 3',
     'step3_title' => 'Acción y Automatización Inteligente',
     'step3_desc' => 'Activamos respuestas automáticas, desde comunicaciones personalizadas hasta control de maquinaria o gestión de personal.',
-    
-    // About
     'about_title' => 'Sobre Nosotros',
     'about_content' => 'Somos expertos en desarrollo de software, IoT e Inteligencia Artificial, ofreciendo soluciones personalizadas para tu negocio.',
-    
-    // Services
     'services_title' => 'Nuestros Servicios',
     'web_development' => 'Desarrollo Web',
-    'mobile_apps' => 'Aplicaciones Móviles',
     'iot_solutions' => 'Soluciones IoT',
     'ai_ml' => 'Inteligencia Artificial',
     'cybersecurity' => 'Ciberseguridad',
     'cloud_services' => 'Servicios en la Nube',
-    
-    // Contact
     'contact_title' => 'Contáctanos',
     'name' => 'Nombre',
     'email' => 'Correo Electrónico',
@@ -228,8 +188,6 @@ return [
     'phone' => 'Teléfono',
     'email_us' => 'Escríbenos',
     'follow_us' => 'Síguenos',
-    
-    // Footer
     'all_rights' => 'Todos los derechos reservados',
     'privacy_policy' => 'Política de Privacidad',
     'terms_conditions' => 'Términos y Condiciones',
@@ -248,21 +206,16 @@ return [
     'our_projects' => 'Nuestros Proyectos',
     'blog_news' => 'Blog & Noticias',
     'brand_assets' => 'Activos de la Marca',
-    'contact_us' => 'Contáctenos',
+    'contact_us' => 'Contáctanos',
     'call_us' => 'Llámanos',
     'phone_number' => '+34 619 929 305',
     'email_address' => 'info@appnet.dev',
     'website_url' => 'www.appnet.dev',
     'all_rights_reserved' => 'Todos los derechos reservados',
-    'terms_conditions' => 'Términos y Condiciones',
-    'privacy_policy' => 'Política de Privacidad',
     'cookie_consent_text' => 'Este sitio web utiliza cookies para mejorar su experiencia.',
     'accept' => 'Aceptar',
     'last_updated' => 'Última actualización',
-    
-    // Contact Page
     'contact_page_title' => 'Contáctanos',
-    'home' => 'Inicio',
     'contact_information_title' => 'Información de Contacto',
     'contact_information_subtitle' => 'Estamos aquí para ayudarte. Contáctanos para cualquier consulta o solicitud.',
     'contact_address_title' => 'Dirección',
@@ -272,19 +225,19 @@ return [
     'contact_email_title' => 'Email',
     'contact_email' => 'info@appnet.dev',
     'contact_form_title' => 'Envíanos un Mensaje',
-    'contact_form_subtitle' => 'Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.',
+    'contact_form_subtitle' => 'Completa el siguiente formulario y nos repondremos en contacto contigo lo antes posible.',
     'contact_form_firstname' => 'Nombre',
     'contact_form_lastname' => 'Apellidos',
-    'contact_form_email' => 'Correo electrónico',
+    'contact_form_email' => 'Correo Electrónico',
     'contact_form_phone' => 'Teléfono',
     'contact_form_subject' => 'Asunto',
     'contact_form_message' => 'Mensaje',
     'contact_form_submit' => 'Enviar Mensaje',
     'contact_captcha_question' => '¿Cuánto es 3 + 3?',
-    'contact_captcha_error' => 'Respuesta incorrecta. Por favor, intenta de nuevo.',
+    'contact_captcha_error' => 'Respuesta incorrecta. Por favor, inténtalo de nuevo.',
     'contact_email_subject' => 'Nuevo mensaje de contacto',
     'contact_form_name' => 'Nombre',
-    'contact_success_message' => '¡Mensaje enviado con éxito! Nos pondremos en contacto contigo pronto.',
+    'contact_success_message' => '¡Mensaje enviado con éxito! Nos repondremos en contacto contigo pronto.',
     'contact_error_message' => 'Error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.',
     'contact_information_description' => 'Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos.',
     'contact_location_title' => 'Ubicación',
@@ -294,59 +247,38 @@ return [
     'contact_hours_saturday' => 'Sábado',
     'contact_hours_sunday' => 'Domingo',
     'contact_hours_closed' => 'Cerrado',
-    'contact_form_description' => 'Rellena el formulario y nos pondremos en contacto contigo lo antes posible.',
     'contact_form_first_name' => 'Nombre',
     'contact_form_last_name' => 'Apellido',
-    'contact_form_email' => 'Correo Electrónico',
-    'contact_form_phone' => 'Teléfono',
-    'contact_form_subject' => 'Asunto',
-    'contact_form_message' => 'Mensaje',
     'contact_captcha_help' => 'Responde en minúsculas y sin acentos',
-    'contact_form_submit' => 'Enviar Mensaje',
-    'contact_captcha_error' => 'Respuesta incorrecta. Por favor, inténtalo de nuevo.',
     'security_question_1' => '¿Cuál es la capital de Francia?',
     'security_question_2' => '¿En qué país se encuentra Barcelona?',
     'security_question_3' => '¿De qué color es el cielo despejado?',
     'security_question_4' => '¿Es el agua mojada? (sí/no)',
     'security_question_5' => '¿Es el fuego frío? (sí/no)',
-    'contact_email_subject' => 'Nuevo mensaje de contacto',
     'contact_error_required_fields' => 'Por favor, complete todos los campos obligatorios.',
     'contact_error_invalid_email' => 'Por favor, introduzca una dirección de correo electrónico válida.',
     'contact_form_new_message' => 'Nuevo mensaje del formulario de contacto',
-    'contact_form_name' => 'Nombre',
     'contact_email_sent_from' => 'Este correo fue enviado desde el formulario de contacto en',
-    
-    // Blog
     'blog_page_title' => 'Blog',
     'blog_latest_news' => 'Últimas Noticias',
     'blog_our_blog' => 'Nuestro Blog',
     'blog_subtitle' => 'Mantente actualizado con las últimas tendencias en IA, IoT y tecnología industrial',
-    'read_more' => 'Leer más',
-    
-    // Categorías del blog
+    'read_more' => 'Leer Más',
     'blog_category_ai' => 'Inteligencia Artificial',
     'blog_category_iot' => 'IoT Industrial',
     'blog_category_tech' => 'Tecnología',
-    
-    // Artículo 1: IA Revolución Industrial
     'blog_ia_revolution_alt' => 'Revolución Industrial 4.0',
     'blog_ia_revolution_date' => '19 Mayo, 2025',
     'blog_ia_revolution_title' => 'Cómo la IA está Transformando la Industria 4.0',
     'blog_ia_revolution_excerpt' => 'Exploramos el impacto de la inteligencia artificial en la cuarta revolución industrial y cómo las empresas pueden aprovecharla.',
-    
-    // Artículo 2: IoT Industrial
     'blog_iot_industrial_alt' => 'IoT Industrial',
     'blog_iot_industrial_date' => '15 Mayo, 2025',
     'blog_iot_industrial_title' => 'IoT Industrial: Conectando el Futuro de la Fabricación',
-    'blog_iot_industrial_excerpt' => 'Descubre cómo el Internet de las Cosas está revolucionando los procesos industriales y mejorando la eficiencia operativa.',
-    
-    // Artículo 3: Servidores ARM
+    'blog_iot_industrial_excerpt' => 'Descubre cómo el Internet de las Cosas está revolucionando la industria y mejorando la eficiencia operativa.',
     'blog_arm_servers_alt' => 'Servidores ARM',
     'blog_arm_servers_date' => '20 Mayo, 2025',
     'blog_arm_servers_title' => 'Servidores ARM: El Futuro de los Centros de Datos',
     'blog_arm_servers_excerpt' => 'Explora cómo la arquitectura ARM está transformando la infraestructura de centros de datos con su eficiencia energética y rendimiento.',
-    
-    // Pricing Section
     'pricing_section_title' => 'Planes y Precios',
     'pricing_main_title' => 'Soluciones a Medida para Cada Necesidad',
     'pricing_subtitle' => 'Elige el plan que mejor se adapte a los requerimientos de tu empresa',
@@ -384,7 +316,6 @@ return [
     'custom_llm' => 'LLM personalizado para tu negocio',
     'request_info' => 'Solicitar Información',
     'custom_solution_title' => 'Solución Personalizada',
-    'custom_solution_subtitle' => 'A Medida',
     'custom_solution_desc' => 'Diseñamos una solución completa con tus requisitos específicos (LLMs, IoT, etc.).',
     'included_features' => 'Características Incluidas',
     'feature_custom1' => 'Análisis de Necesidades',
@@ -392,11 +323,8 @@ return [
     'feature_custom3' => 'Servidores Locales Dedicados',
     'feature_custom4' => 'Integraciones Avanzadas',
     'feature_custom5' => 'Soporte Prioritario',
-    'contact_us' => 'Contactar',
     'included_workstation' => 'Estación de Trabajo Incluida',
     'premium_licenses' => 'Licencias premium incluidas',
-    
-    // Testimonials Section
     'testimonials_section_title' => 'Aplicaciones Reales',
     'testimonials_main_title' => 'Vea Cómo Nuestras Soluciones Marcan la Diferencia',
     'testimonial1_title' => 'Transformación Digital Integral',
@@ -408,8 +336,6 @@ return [
     'testimonial3_title' => 'Comunicaciones Empresariales Eficientes',
     'testimonial3_content' => 'La plataforma de comunicaciones unificadas nos permite gestionar toda la interacción con clientes desde un solo lugar. La IA generativa responde consultas comunes, agilizando el soporte. Redujimos los tiempos de respuesta de horas a minutos, mejorando significativamente la satisfacción del cliente.',
     'testimonial3_author' => 'Director de Atención al Cliente, Empresa de Servicios',
-    
-    // Blog Section
     'blog_section_title' => 'Blog y Noticias',
     'blog_main_title' => 'Mantente al Día con las Últimas Tendencias en IA e IoT',
     'blog_post1_title' => 'Control Horario y Producción en Tiempo Real',
@@ -424,18 +350,12 @@ return [
     'blog_post5_excerpt' => 'Protección avanzada para instalaciones industriales',
     'blog_post6_title' => 'Gestión de Flotas con IoT',
     'blog_post6_excerpt' => 'Optimización de rutas y mantenimiento predictivo',
-    'read_more' => 'Leer Más',
     'view_all_posts' => 'Ver Todas las Publicaciones',
-    
-    // CTA Section
     'cta_title' => '¿Listo para Transformar tu Negocio?',
     'cta_description' => 'Descubre cómo nuestras soluciones pueden optimizar tus operaciones y mejorar tu productividad. Agenda una consulta gratuita con nuestros expertos.',
     'request_free_consultation' => 'Solicitar Consulta Gratuita',
-    'explore_solutions' => 'Explorar Soluciones',
     'view_all_services' => 'Ver todos nuestros servicios',
     'explore_possibilities' => 'Explora las Posibilidades',
-    
-    // Features
     'feature1_title' => 'Soporte Técnico Especializado',
     'feature1_desc' => 'Asistencia técnica experta disponible 24/7 para resolver cualquier incidencia.',
     'feature2_title' => 'Actualizaciones Constantes',
@@ -444,17 +364,12 @@ return [
     'feature3_desc' => 'Protección avanzada para tus sistemas y datos sensibles.',
     'feature4_title' => 'Alto Rendimiento',
     'feature4_desc' => 'Tecnología de punta para garantizar el máximo rendimiento de tus sistemas.',
-    
-    // Sección de Servidores
     'local_cloud_servers_title' => 'Servidores Locales y en la Nube',
     'local_cloud_servers_desc' => 'Ofrecemos servidores tanto locales como en la nube, adaptados a tus necesidades.',
-    
-    // Cámaras con IA
     'ia_cameras_title' => 'Cámaras con Inteligencia Artificial',
     'ia_cameras_subtitle' => 'Sistemas de visión artificial avanzada para seguridad, control y análisis de datos',
-    'request_demo' => 'Solicitar Demostración',
     'ia_business_vision_title' => 'Visión Artificial para tu Negocio',
-    'ia_business_vision_desc' => 'Nuestras soluciones de cámaras con IA permiten no solo grabar, sino también entender y analizar lo que sucede en tus instalaciones en tiempo real.',
+    'ia_business_vision_desc' => 'Nuestras soluciones de cámaras con IA permiten no solo grabar, sino también identificar y analizar lo que sucede en tus instalaciones en tiempo real.',
     'feature_license_plate_title' => 'Reconocimiento de Matrículas',
     'feature_license_plate_desc' => 'Control de acceso vehicular automatizado',
     'feature_facial_recognition_title' => 'Reconocimiento Facial',
@@ -476,8 +391,6 @@ return [
     'app_retail_analytics_desc' => 'Análisis de comportamiento de clientes en tiendas',
     'app_industrial_safety_title' => 'Seguridad Industrial',
     'app_industrial_safety_desc' => 'Detección de EPIs y cumplimiento de normativas',
-    
-    // Ciberseguridad
     'cyber_security_title' => 'Ciberseguridad Integral',
     'cyber_security_subtitle' => 'Protege tus sistemas, datos y reputación con nuestras soluciones de seguridad informática avanzada',
     'free_security_assessment' => 'Evaluación de Seguridad Gratuita',
@@ -511,13 +424,11 @@ return [
     'cyber_service_awareness_desc' => 'Capacitación del personal en seguridad informática',
     'cyber_service_compliance_title' => 'Cumplimiento Normativo',
     'cyber_service_compliance_desc' => 'Asesoría en normativas de protección de datos',
-    
-    // Servidores
     'servers_title' => 'Servidores Locales y en la Nube',
     'servers_subtitle' => 'Infraestructura tecnológica escalable, segura y de alto rendimiento para tu negocio',
     'consult_solutions' => 'Consultar Soluciones',
     'servers_custom_title' => 'Infraestructura Tecnológica a tu Medida',
-    'servers_custom_desc' => 'Ofrecemos soluciones de infraestructura completas que se adaptan a las necesidades específicas de tu negocio, ya sea en instalaciones locales, en la nube o en un entorno híbrido.',
+    'servers_custom_desc' => 'Ofrecemos soluciones de infraestructura completas que se adaptan a tus necesidades, ya sea en instalaciones locales, en la nube o en un entorno híbrido.',
     'servers_feature_dedicated_title' => 'Servidores Dedicados',
     'servers_feature_dedicated_desc' => 'Infraestructura física de alto rendimiento para cargas de trabajo exigentes',
     'servers_feature_cloud_title' => 'Soluciones en la Nube',
@@ -544,13 +455,10 @@ return [
     'servers_beneficios_title' => 'Beneficios Clave',
     'servers_beneficios_subtitle' => 'Ventajas de confiar en nuestra infraestructura',
     'servers_benefit_performance_title' => 'Alto Rendimiento',
-    'servers_benefit_performance_desc' => 'Infraestructura optimizada para el máximo rendimiento',
     'servers_benefit_security_title' => 'Seguridad Avanzada',
     'servers_benefit_security_desc' => 'Protección de datos y cumplimiento normativo',
     'servers_benefit_scalability_title' => 'Escalabilidad',
     'servers_benefit_scalability_desc' => 'Adaptación a las necesidades cambiantes de tu negocio',
-    
-    // Integración de Maquinaria
     'integration_industry_title' => 'Conectamos tu Maquinaria con la Industria 4.0',
     'integration_industry_desc' => 'Nuestro servicio de integración de maquinaria permite conectar cualquier equipo industrial a sistemas de monitoreo y control, independientemente de su antigüedad o fabricante.',
     'feature_connectivity_title' => 'Conectividad Universal',
@@ -559,8 +467,6 @@ return [
     'feature_monitoring_desc' => 'Visualización de parámetros operativos desde cualquier dispositivo',
     'feature_integration_title' => 'Integración con Sistemas Existentes',
     'feature_integration_desc' => 'Compatibilidad con ERPs, MES y otros sistemas de gestión',
-    'beneficios_title' => 'Beneficios Clave',
-    'beneficios_subtitle' => 'Ventajas de integrar tu maquinaria industrial',
     'benefit_efficiency_title' => 'Máxima Eficiencia',
     'benefit_efficiency_desc' => 'Optimiza el rendimiento de tus equipos y reduce tiempos muertos',
     'benefit_prevention_title' => 'Prevención de Fallos',
@@ -571,10 +477,8 @@ return [
     'equipment_subtitle' => 'Conectamos prácticamente cualquier tipo de maquinaria industrial',
     'equipment_cnc_title' => 'Máquinas CNC',
     'equipment_cnc_desc' => 'Fresadoras, tornos, centros de mecanizado y más',
-    // Aplicaciones a medida
     'custom_apps_title' => 'Desarrollo de Aplicaciones a Medida',
     'custom_apps_subtitle' => 'Soluciones de software personalizadas que se adaptan perfectamente a los procesos únicos de tu negocio',
-    'request_quote' => 'Solicitar Cotización',
     'custom_apps_heading' => 'Software que se Adapta a tus Necesidades',
     'custom_apps_description' => 'Desarrollamos aplicaciones personalizadas que resuelven problemas específicos de tu negocio, optimizando procesos y mejorando la productividad de tu equipo.',
     'custom_apps_mobile_title' => 'Aplicaciones Móviles',
@@ -611,8 +515,6 @@ return [
     'custom_apps_benefit1_desc' => 'Desarrollada específicamente para tus procesos y necesidades',
     'custom_apps_benefit2_title' => 'Mayor Eficiencia',
     'custom_apps_benefit2_desc' => 'Automatización de tareas repetitivas y reducción de errores',
-    
-    // Información de contacto
     'send_us_email' => 'Envíanos un correo',
     'visit_us_at' => 'Visítanos en',
     'our_location' => 'Nuestra Ubicación',
@@ -622,59 +524,20 @@ return [
     'custom_apps_benefit4_desc' => 'Crecimiento adaptado a la evolución de tu negocio',
     'custom_apps_benefit5_title' => 'Soporte Continuo',
     'custom_apps_benefit5_desc' => 'Mantenimiento y actualizaciones periódicas',
-
     'equipment_scales_title' => 'Básculas Industriales',
     'equipment_scales_desc' => 'Control preciso de pesos y lotes',
     'equipment_gauges_title' => 'Medidores de Altura',
     'equipment_gauges_desc' => 'Control de dimensiones en tiempo real',
-    
-    // Sección de Visión
     'vision_title' => 'Impulsando la Innovación: Nuestra Visión en AppNet Developer',
     'vision_text' => 'En AppNet Developer, nuestra visión es ser la fuerza líder que impulsa la transformación digital y la innovación a nivel mundial. Imaginamos un futuro donde las empresas de todos los tamaños tengan las herramientas y la experiencia que necesitan para prosperar en un mundo cada vez más digital.',
-    
-    // Servicios adicionales
     'infrastructure_solutions_title' => 'Soluciones de Infraestructura de Red',
     'infrastructure_solutions_desc' => 'Construimos una infraestructura de red confiable y segura que apoya las operaciones de su negocio y permite una integración fluida.',
-    
     'managed_services_title' => 'Servicios de TI Gestionados',
     'managed_services_desc' => 'Concéntrese en sus actividades comerciales principales mientras nosotros nos encargamos de sus necesidades de TI con nuestros servicios gestionados.',
-    
     'request_quote_btn' => 'Solicitar una Cotización',
-    
-    // Sección de compromiso
     'commitment_title' => 'En AppNet Developer, Estamos Comprometidos con las Empresas',
     'commitment_text' => 'Dé el primer paso hacia el logro de sus objetivos comerciales contactándonos hoy. Programe una consulta con uno de nuestros especialistas en TI para discutir sus objetivos y explorar cómo nuestras soluciones innovadoras pueden impulsar su negocio.',
     'schedule_consultation' => 'Solicitar una Consulta',
-    'explore_solutions' => 'Explorar Soluciones',
-    
-    // Servidores ARM
-    'servidores_arm_titulo' => 'Servidores ARM',
-    'servidores_arm_subtitulo' => 'Eficiencia energética y alto rendimiento con arquitectura ARM para centros de datos modernos',
-    'solicitar_informacion' => 'Solicitar Información',
-    'servidores_arm_seccion1_titulo' => 'El Futuro de la Infraestructura Eficiente',
-    'servidores_arm_seccion1_desc' => 'Los servidores ARM representan la próxima generación en eficiencia energética para centros de datos, ofreciendo un rendimiento excepcional por vatio y reduciendo significativamente los costos operativos.',
-    'servidores_arm_caracteristica1_titulo' => 'Bajo Consumo',
-    'servidores_arm_caracteristica1_desc' => 'Hasta un 60% menos de consumo energético que arquitecturas tradicionales',
-    'servidores_arm_caracteristica2_titulo' => 'Alto Rendimiento',
-    'servidores_arm_caracteristica2_desc' => 'Procesamiento paralelo masivo para cargas de trabajo específicas',
-    'servidores_arm_caracteristica3_titulo' => 'Sostenibilidad',
-    'servidores_arm_caracteristica3_desc' => 'Reducción de la huella de carbono de tu infraestructura TI',
-    'servidores_arm_microservicios_titulo' => 'Microservicios',
-    'servidores_arm_microservicios_desc' => 'Arquitecturas escalables y modulares',
-    'servidores_arm_desarrollo_titulo' => 'Desarrollo Móvil',
-    'servidores_arm_desarrollo_desc' => 'Entornos de desarrollo y testing para aplicaciones móviles',
-    'servidores_arm_ventajas_titulo' => 'Ventajas Clave',
-    'servidores_arm_ventajas_subtitulo' => 'Beneficios de elegir servidores ARM',
-    'servidores_arm_ventaja1_titulo' => 'Eficiencia Energética',
-    'servidores_arm_ventaja1_desc' => 'Menor consumo eléctrico y reducción de costos operativos',
-    'servidores_arm_ventaja2_titulo' => 'Alta Densidad',
-    'servidores_arm_ventaja2_desc' => 'Mayor cantidad de núcleos por unidad de rack',
-    'servidores_arm_ventaja3_titulo' => 'Menor Disipación Térmica',
-    'servidores_arm_ventaja3_desc' => 'Reducción de costos de refrigeración',
-    'servidores_arm_ventaja4_titulo' => 'Compatibilidad Móvil',
-    'servidores_arm_ventaja4_desc' => 'Ideal para entornos de desarrollo móvil y aplicaciones nativas',
-    'servidores_arm_ventaja5_titulo' => 'Sostenibilidad',
-    'servidores_arm_ventaja5_desc' => 'Contribución a los objetivos de sostenibilidad corporativa',
     'servidores_arm_titulo' => 'Servidores ARM',
     'servidores_arm_subtitulo' => 'Potencia de cómputo eficiente y escalable para cargas de trabajo modernas',
     'solicitar_informacion' => 'Solicitar Información',
@@ -696,14 +559,12 @@ return [
     'servidores_arm_ventaja1_desc' => 'Mayor eficiencia energética sin comprometer el rendimiento',
     'servidores_arm_ventaja2_titulo' => 'Densidad de Cómputo',
     'servidores_arm_ventaja2_desc' => 'Más núcleos por servidor para cargas de trabajo paralelas',
-    'servidores_arm_ventaja3_titulo' => 'Reducción de Costes',
+    'servidores_arm_ventaja3_titulo' => 'Menor Disipación Térmica',
     'servidores_arm_ventaja3_desc' => 'Menor consumo energético y costes operativos reducidos',
     'servidores_arm_ventaja4_titulo' => 'Optimización para Móviles',
     'servidores_arm_ventaja4_desc' => 'Ideal para entornos de desarrollo móvil y aplicaciones nativas',
     'servidores_arm_ventaja5_titulo' => 'Sostenibilidad',
     'servidores_arm_ventaja5_desc' => 'Contribución a los objetivos de sostenibilidad corporativa',
-    
-    // Aplicaciones Servidores ARM
     'servidores_arm_aplicaciones_titulo' => 'Casos de Uso Ideales',
     'servidores_arm_aplicaciones_subtitulo' => 'Aplicaciones donde los servidores ARM destacan',
     'servidores_arm_app1_titulo' => 'Edge Computing',
@@ -714,8 +575,6 @@ return [
     'servidores_arm_app3_desc' => 'Ejecución eficiente de modelos de machine learning',
     'servidores_arm_app4_titulo' => 'Bases de Datos',
     'servidores_arm_app4_desc' => 'Almacenamiento y consulta eficiente de datos',
-    
-    // Traducciones adicionales para la página de contacto
     'contact_hero_subtitle' => 'Ponte en Contacto',
     'contact_hero_description' => 'Estamos aquí para ayudarte con tus necesidades tecnológicas. Contáctanos y creemos algo increíble juntos.',
     'contact_section_title' => 'Contáctanos',
@@ -735,22 +594,16 @@ return [
     'contact_subject_partnership' => 'Consulta de Asociación',
     'contact_subject_general' => 'Pregunta General',
     'sending_message' => 'Enviando...',
-    // Nuevas traducciones para about.php modernizado
-    // Sección Quiénes Somos
     'about_who_we_are_title' => 'Quiénes Somos',
     'about_who_we_are_description' => 'Somos líderes en soluciones tecnológicas avanzadas, fusionando Inteligencia Artificial, IoT y desarrollo personalizado para transformar negocios. Nuestra experiencia de más de 25 años nos permite ofrecer soluciones innovadoras que optimizan procesos y mejoran la eficiencia operativa.',
     'about_stats_projects' => 'Proyectos Completados',
     'about_stats_clients' => 'Clientes Satisfechos',
     'about_stats_countries' => 'Países',
     'about_stats_support' => 'Soporte 24/7',
-
-    // Sección Misión y Visión
     'about_mission_title' => 'Nuestra Misión',
     'about_mission_description' => 'Revolucionar el panorama digital ofreciendo soluciones tecnológicas de primer nivel que impulsan el crecimiento, la eficiencia y la sostenibilidad para nuestros clientes.',
     'about_vision_title' => 'Nuestra Visión',
     'about_vision_description' => 'Ser la fuerza líder que impulsa la transformación digital y la innovación a nivel global, empoderando a las empresas con herramientas avanzadas de IA, IoT y automatización.',
-
-    // Sección Valores
     'about_values_title' => 'Nuestros Valores',
     'about_value_innovation' => 'Innovación',
     'about_value_innovation_desc' => 'Desarrollamos constantemente nuevas tecnologías para mantenernos a la vanguardia de la innovación.',
@@ -760,21 +613,15 @@ return [
     'about_value_commitment_desc' => 'Estamos comprometidos con el éxito de nuestros clientes, ofreciendo soporte continuo y personalizado.',
     'about_value_integrity' => 'Integridad',
     'about_value_integrity_desc' => 'Actuamos con honestidad, transparencia y ética en todas nuestras operaciones.',
-
-    // Sección Equipo
     'about_team_title' => 'Nuestro Equipo',
     'about_team_subtitle' => 'Profesionales apasionados por la tecnología',
     'about_team_member_name' => 'Nombre del Miembro',
     'about_team_member_position' => 'Cargo del Miembro',
     'about_team_member_description' => 'Descripción del Miembro',
-
-    // Sección Historia
     'about_history_title' => 'Nuestra Historia',
     'about_history_subtitle' => 'Más de dos décadas de innovación tecnológica',
     'about_history_year' => 'Año',
     'about_history_event' => 'Evento',
-
-    // Sección Especializaciones Mejoradas
     'about_expertise_improved_title' => 'Áreas de Especialización',
     'about_expertise_ai_improved' => 'Inteligencia Artificial',
     'about_expertise_ai_improved_desc' => 'Desarrollamos soluciones de IA personalizadas que impulsan la eficiencia y la innovación en tu negocio, incluyendo reconocimiento facial, chatbots inteligentes y análisis predictivo.',
@@ -782,7 +629,7 @@ return [
     'about_expertise_iot_improved_desc' => 'Conectamos maquinaria y sensores para un control en tiempo real y análisis predictivo, optimizando procesos industriales y reduciendo tiempos de inactividad.',
     'about_expertise_cybersecurity_improved' => 'Ciberseguridad',
     'about_expertise_cybersecurity_improved_desc' => 'Protección avanzada para tus sistemas y datos con las últimas tecnologías en seguridad informática, incluyendo encriptación, monitoreo continuo y respuesta a incidentes.',
-    'about_expertise_cloud_improved' => 'Servidores en la Nube',
+    'about_expertise_cloud_improved' => 'Servicios en la Nube',
     'about_expertise_cloud_improved_desc' => 'Infraestructura escalable y segura para alojar tus aplicaciones y datos críticos, con servidores ARM de bajo consumo energético.',
     'about_expertise_mobile_improved' => 'Aplicaciones Móviles',
     'about_expertise_mobile_improved_desc' => 'Desarrollo de aplicaciones nativas e híbridas para iOS y Android con diseño centrado en el usuario y integración con sistemas empresariales.',
@@ -792,20 +639,10 @@ return [
     'about_expertise_automation_improved_desc' => 'Soluciones personalizadas para automatizar procesos y aumentar la productividad, desde RRHH hasta operaciones industriales.',
     'about_expertise_support_improved' => 'Soporte 24/7',
     'about_expertise_support_improved_desc' => 'Asistencia técnica continua para garantizar el funcionamiento óptimo de tus sistemas, con soporte remoto y local.',
-
-    // CTA Mejorado
     'about_cta_title' => '¿Listo para Transformar tu Negocio?',
     'about_cta_description' => 'Descubre cómo nuestras soluciones pueden optimizar tus operaciones y mejorar tu productividad. Agenda una consulta gratuita con nuestros expertos.',
     'about_cta_button_primary' => 'Contáctanos',
     'about_cta_button_secondary' => 'Ver Proyectos',
-
-    // Nuevas traducciones para about.php
-    'about_who_we_are_title' => 'Quiénes Somos',
-    'about_who_we_are_description' => 'Somos líderes en soluciones tecnológicas avanzadas, fusionando Inteligencia Artificial, IoT y desarrollo personalizado para transformar negocios. Nuestra experiencia de más de 25 años nos permite ofrecer soluciones innovadoras que optimizan procesos y mejoran la eficiencia operativa.',
-    'about_stats_support' => 'Soporte 24/7',
-    'expertise_intro' => 'En AppNet Developer, nos enorgullece ofrecer soluciones tecnológicas integrales respaldadas por años de experiencia y conocimiento especializado.',
-    'about_expertise_automation_improved' => 'Automatización',
-    'about_expertise_automation_improved_desc' => 'Soluciones personalizadas para automatizar procesos y aumentar la productividad, desde RRHH hasta operaciones industriales.',
     'mission_feature1' => 'Innovación constante',
     'mission_feature2' => 'Soluciones personalizadas',
     'mission_feature3' => 'Soporte continuo',
@@ -813,8 +650,6 @@ return [
     'vision_feature2' => 'Transformación digital',
     'vision_feature3' => 'Sostenibilidad',
     'about_values_subtitle' => 'Los principios que guían nuestro trabajo',
-
-    // Traducciones faltantes para about.php
     'about_mission_vision_subtitle' => 'Nuestra misión y visión para el futuro',
     'about_mission_vision_title' => 'Misión y Visión',
     'about_stats_clients_desc' => 'Empresas que confían en nuestras soluciones',
@@ -825,8 +660,6 @@ return [
     'clients_served' => 'Clientes Atendidos',
     'projects_completed' => 'Proyectos Completados',
     'software_development_especialización' => 'Desarrollo de Software',
-
-    // Nuevas traducciones para sección de historia mejorada
     'about_history_event_2000' => 'Fundación de AppNet Developer',
     'about_history_event_2000_desc' => 'Nace AppNet Developer como una empresa dedicada al desarrollo de software personalizado, marcando el inicio de una trayectoria innovadora en el sector tecnológico.',
     'about_history_event_2010' => 'Expansión hacia IoT',
@@ -835,38 +668,26 @@ return [
     'about_history_event_2020_desc' => 'Desarrollamos las primeras soluciones de IA personalizadas, incluyendo reconocimiento facial y chatbots inteligentes para optimizar operaciones empresariales.',
     'about_history_event_2025' => 'Liderazgo en Industria 4.0',
     'about_history_event_2025_desc' => 'Consolidamos nuestra posición como líderes en transformación digital, ofreciendo soluciones completas que integran IA, IoT y automatización avanzada.',
-
-    // Nuevas traducciones para sección de logros mejorada
     'about_achievements_title' => 'Números que demuestran nuestro compromiso',
     'about_achievements_projects' => 'Proyectos exitosamente completados',
     'about_achievements_clients' => 'Empresas que confían en nuestras soluciones',
     'about_achievements_countries' => 'Países donde operamos y servimos',
-    
-    // Nuevas traducciones para about.php mejorado
     'about_feature1_desc' => 'Creamos modelos de lenguaje grandes (LLM) personalizados para tu negocio, con capacidades de reconocimiento facial, chatbots inteligentes y análisis predictivo que se integran perfectamente con tus sistemas existentes.',
     'about_feature2_desc' => 'Implementamos sensores y dispositivos IoT que conectan maquinaria industrial, sistemas de medición y cámaras inteligentes para monitorización en tiempo real y control automatizado de procesos.',
-    'about_feature3_desc' => 'Automatizamos completamente la gestión de recursos humanos, desde el control de acceso con reconocimiento facial hasta la gestión de turnos y evaluación de productividad con análisis de datos en tiempo real.',
+    'about_feature3_desc' => 'Automatizamos completamente la gestión de recursos humanos, desde el control de acceso con reconocimiento facial hasta la gestión de turnos y evaluación de productividad con análisis de datos en el tiempo real.',
     'about_feature4_desc' => 'Desarrollamos plataformas de comunicación seguras con WhatsApp, Telegram y email integrados, funcionando en servidores locales para garantizar la privacidad y cumplimiento normativo.',
-    
-    // Missing translations for hero cards
     'hero_card_ai' => 'IA Avanzada',
     'hero_card_iot' => 'IoT Industrial',
     'hero_card_cybersecurity' => 'Ciberseguridad',
     'about_achievements_badge' => 'Nuestros Logros',
     'hero_main_image_alt' => 'Soluciones Tecnológicas',
-
-    // About page - Feature cards
     'about_feature_innovation_title' => 'Innovación Tecnológica',
     'about_feature_innovation_desc' => 'Desarrollamos soluciones vanguardistas utilizando IA, IoT y tecnologías emergentes para transformar tu negocio.',
     'about_feature_experience_title' => 'Experiencia Probada',
     'about_feature_experience_desc' => 'Más de 500 proyectos completados y 250 clientes satisfechos en 15 países diferentes.',
     'about_feature_support_title' => 'Soporte 24/7',
     'about_feature_support_desc' => 'Equipo técnico disponible las 24 horas del día para garantizar el éxito continuo de tus proyectos.',
-
-    // About page - Stats descriptions
     'about_stats_support_desc' => 'Soporte disponible las 24 horas',
-
-    // About page - Team members
     'about_team_member1_name' => 'Carlos Rodríguez',
     'about_team_member1_role' => 'CEO Fundador',
     'about_team_member1_desc' => '25 años de experiencia en desarrollo de software y transformación digital.',
@@ -879,16 +700,12 @@ return [
     'about_team_member4_name' => 'Sofía Martínez',
     'about_team_member4_role' => 'Directora de Seguridad',
     'about_team_member4_desc' => 'Especialista en ciberseguridad y protección de datos críticos.',
-
-    // Projects page
     'projects_our_work' => 'Nuestro Trabajo',
     'projects_featured' => 'Proyectos Destacados',
     'projects_description' => 'Descubre algunos de nuestros proyectos más recientes y exitosos en automatización industrial, IoT y soluciones tecnológicas avanzadas.',
     'view_project' => 'Ver Proyecto',
     'projects_cta_title' => '¿Tienes un proyecto en mente?',
     'projects_cta_description' => 'Estamos listos para ayudarte a hacerlo realidad con nuestras soluciones tecnológicas avanzadas.',
-
-    // Individual projects
     'project1_title' => 'Automatización de Línea de Producción',
     'project1_description' => 'Sistema integral de automatización para línea de producción industrial con control en tiempo real.',
     'project2_title' => 'Implementación de IoT Industrial',
@@ -901,8 +718,6 @@ return [
     'project5_description' => 'Implementación de sistema de mantenimiento predictivo basado en IA para maquinaria crítica.',
     'project6_title' => 'Sistema de Logística Automatizada',
     'project6_description' => 'Automatización de almacén con vehículos guiados (AGV) y gestión inteligente de inventario.',
-
-    // Legal Pages - Privacy Policy
     'privacy_policy_title' => 'Política de Privacidad',
     'privacy_policy_description' => 'Información sobre cómo recopilamos, usamos y protegemos tus datos personales',
     'privacy_last_updated' => 'Última actualización',
@@ -961,9 +776,6 @@ return [
     'privacy_contact_title' => 'Contacto',
     'privacy_contact_text' => 'Para cualquier consulta sobre privacidad, contáctanos:',
     'privacy_questions' => '¿Tienes preguntas sobre nuestra política de privacidad?',
-    'contact_us' => 'Contáctanos',
-
-    // Terms and Conditions
     'terms_title' => 'Términos y Condiciones',
     'terms_description' => 'Condiciones de uso del sitio web y servicios de AppNet Developer',
     'terms_last_updated' => 'Última actualización',
@@ -1002,8 +814,6 @@ return [
     'terms_applicable_law_text' => 'Estos términos se rigen por la legislación española. Cualquier disputa se resolverá en los tribunales de Barcelona.',
     'terms_contact_title' => 'Contacto',
     'terms_contact_text' => 'Para cualquier consulta sobre estos términos, contáctanos:',
-
-    // Cookies Policy
     'cookies_policy_title' => 'Política de Cookies',
     'cookies_policy_description' => 'Información sobre el uso de cookies en nuestro sitio web',
     'cookies_last_updated' => 'Última actualización',
@@ -1047,8 +857,6 @@ return [
     'cookies_contact_title' => 'Contacto',
     'cookies_contact_text' => 'Para cualquier consulta sobre cookies, contáctanos:',
     'cookies_more_info' => 'Para más información, consulta nuestra',
-
-    // Legal Notice
     'legal_notice_title' => 'Aviso Legal',
     'legal_notice_description' => 'Información legal sobre AppNet Developer y el uso del sitio web',
     'legal_last_updated' => 'Última actualización',
@@ -1075,7 +883,7 @@ return [
     'legal_responsibility_title' => 'Responsabilidad',
     'legal_responsibility_text' => 'AppNet Developer no se hace responsable de la información y contenidos almacenados en foros, redes sociales o cualquier otro medio que permita a terceros publicar contenidos de forma independiente.',
     'legal_links_title' => 'Enlaces',
-    'legal_links_text' => 'El sitio web puede contener enlaces a otros sitios web. AppNet Developer no ejerce ningún control sobre estos sitios y no es responsable de sus contenidos.',
+    'legal_links_text' => 'El sitio web puede contener enlaces a otros sitios web. No ejercemos ningún control sobre estos sitios y no somos responsables de sus contenidos.',
     'legal_data_protection_title' => 'Protección de Datos',
     'legal_data_protection_text' => 'El tratamiento de datos personales se rige por lo dispuesto en nuestra',
     'legal_cookies_title' => 'Cookies',
@@ -1087,4 +895,21 @@ return [
     'legal_contact_title' => 'Contacto',
     'legal_contact_text' => 'Para cualquier consulta legal, puedes contactarnos:',
     'legal_questions' => '¿Tienes preguntas sobre nuestro aviso legal?',
+    'efficiency_increase' => 'Aumento de Eficiencia',
+    'cost_reduction' => 'Reducción de Costes',
+    'most_popular' => 'Más Popular',
+    'blog_category_software' => 'Software',
+    'blog_read_time' => 'min de lectura',
+    'blog_post1_date' => '21 Mayo, 2025',
+    'blog_post2_date' => '22 Mayo, 2025',
+    'blog_post3_date' => '23 Mayo, 2025',
+    'work_process_alt' => 'Proceso de Trabajo',
+    'testimonial_alt_1' => 'Transformación digital empresarial',
+    'testimonial_alt_2' => 'Automatización industrial con IA',
+    'testimonial_alt_3' => 'Comunicaciones unificadas empresariales',
+    'benefits_section_title' => 'Beneficios',
+    'benefits_title' => 'Beneficios para tu Empresa',
+    'benefits_subtitle' => 'Nuestras soluciones están diseñadas para ofrecer resultados tangibles',
+    'benefits_image_alt' => 'Beneficios de nuestras soluciones',
+    'custom_solution_subtitle' => 'A Medida',
 ];

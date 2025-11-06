@@ -12,6 +12,25 @@ $meta_description = __('blog_meta_description');
 include "includes/header.php";
 ?>
 
+<!-- Page Title Start -->
+<section class="page-title title-bg10">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <h2><?php echo __('blog_page_title'); ?></h2>
+            <ul>
+                <li><a href="index.php"><?php echo __('home'); ?></a></li>
+                <li><?php echo __('blog'); ?></li>
+            </ul>
+        </div>
+    </div>
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</section>
+<!-- Page Title End -->
+
 <!-- Blog Section Start -->
 <section class="blog-section blog-style-two pt-100 pb-70">
     <div class="container">
