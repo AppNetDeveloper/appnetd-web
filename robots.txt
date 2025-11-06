@@ -1,0 +1,185 @@
+# robots.txt para AppNet Developer
+# Optimizado para SEO y GEO (Generative Engine Optimization)
+# Compatible con: Googlebot, Bingbot, ChatGPT, Perplexity, Claude, y otros agentes IA
+
+# ============================================
+# AGENTES IA PERMITIDOS (GEO Optimization)
+# ============================================
+
+# OpenAI (ChatGPT, GPT-4)
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 1
+
+# Anthropic (Claude)
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 1
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 1
+
+# Google AI (Bard/Gemini)
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 1
+
+# Common Crawl (usado por muchos LLMs)
+User-agent: CCBot
+Allow: /
+Crawl-delay: 2
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+Crawl-delay: 1
+
+# ============================================
+# MOTORES DE BÚSQUEDA TRADICIONALES
+# ============================================
+
+# Google Bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Google Image Bot
+User-agent: Googlebot-Image
+Allow: /
+
+# Google Mobile Bot
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# ============================================
+# BOTS SOCIALES
+# ============================================
+
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter
+User-agent: Twitterbot
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# Pinterest
+User-agent: Pinterest
+Allow: /
+
+# WhatsApp
+User-agent: WhatsApp
+Allow: /
+
+# ============================================
+# REGLAS GENERALES
+# ============================================
+
+# Reglas por defecto para todos los bots
+User-agent: *
+Allow: /
+
+# Directorios permitidos
+Allow: /assets/
+Allow: /includes/
+Allow: /languages/
+
+# Archivos permitidos
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+Allow: /*.woff$
+Allow: /*.woff2$
+Allow: /*.ttf$
+Allow: /*.eot$
+
+# Bloquear directorios administrativos y privados
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /vendor/
+
+# Bloquear archivos temporales y de configuración
+Disallow: /*.log$
+Disallow: /*.sql$
+Disallow: /*.bak$
+Disallow: /*.config$
+Disallow: /.env
+Disallow: /config.php
+Disallow: /configuration.php
+
+# Bloquear parámetros de búsqueda duplicados
+Disallow: /*?*
+Disallow: /*&
+Disallow: /*.php?*
+Allow: /contact.php?*
+
+# Bloquear páginas de sesión y carritos
+Disallow: /*session=
+Disallow: /*sid=
+Disallow: /*add-to-cart=
+
+# ============================================
+# SITEMAPS
+# ============================================
+
+# Sitemap principal
+Sitemap: https://appnet.dev/sitemap.php
+Sitemap: https://www.appnet.dev/sitemap.php
+
+# Sitemaps por idioma (si los tienes)
+# Sitemap: https://appnet.dev/sitemap-es.xml
+# Sitemap: https://appnet.dev/sitemap-en.xml
+# Sitemap: https://appnet.dev/sitemap-fr.xml
+
+# ============================================
+# INFORMACIÓN ADICIONAL
+# ============================================
+
+# Política de privacidad
+# Privacy Policy: https://appnet.dev/privacidad.php
+
+# Contacto
+# Contact: info@appnet.dev
+# Website: https://appnet.dev
+
+# Crawl-delay recomendado: 1 segundo
+# Permite que los bots accedan al contenido sin sobrecargar el servidor

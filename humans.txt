@@ -1,0 +1,202 @@
+/* TEAM */
+
+    Company: AppNet Developer
+    Site: https://appnet.dev
+    Description: Soluciones de IA e IoT Industrial para la Industria 4.0
+    Location: Murcia, España
+
+/* DEVELOPMENT TEAM */
+
+    Lead Developer: AppNet Developer Team
+    Contact: info [at] appnet.dev
+    Twitter: @appnetdev
+    LinkedIn: /company/appnet-developer
+    GitHub: @appnetdeveloper
+
+/* TECHNOLOGIES */
+
+    Backend:
+    - PHP 8.x
+    - MySQL / MariaDB
+    - RESTful APIs
+    - WebSocket
+
+    Frontend:
+    - HTML5
+    - CSS3
+    - JavaScript ES6+
+    - Bootstrap 5
+    - jQuery
+
+    AI & Machine Learning:
+    - TensorFlow
+    - PyTorch
+    - OpenCV
+    - scikit-learn
+    - Hugging Face Transformers
+
+    IoT & Automation:
+    - MQTT
+    - OPC-UA
+    - Modbus
+    - Node-RED
+    - PLC Integration (Siemens, Allen-Bradley)
+
+    Infrastructure:
+    - Docker
+    - Kubernetes
+    - AWS / Azure / GCP
+    - ARM Servers
+    - Edge Computing
+
+    Development Tools:
+    - Git / GitHub
+    - VS Code
+    - Docker Compose
+    - Postman
+    - Jenkins / GitLab CI
+
+    Optimization:
+    - SEO & GEO (Generative Engine Optimization)
+    - Schema.org / JSON-LD
+    - Open Graph Protocol
+    - Structured Data
+    - Performance Optimization
+
+/* SERVICES */
+
+    - Artificial Intelligence Solutions
+    - Industrial IoT (IIoT)
+    - Custom Software Development
+    - Cybersecurity
+    - Business Intelligence & Analytics
+    - Automated Communication Systems
+    - Production Control Systems
+    - HR Management Systems
+    - Edge Computing Solutions
+    - Computer Vision & Image Recognition
+
+/* INDUSTRIES WE SERVE */
+
+    - Manufacturing & Industry 4.0
+    - Logistics & Supply Chain
+    - Energy & Utilities
+    - Automotive
+    - Food & Beverage
+    - Pharmaceuticals
+    - Agriculture
+    - Smart Cities
+    - Retail & E-commerce
+
+/* STANDARDS & CERTIFICATIONS */
+
+    - ISO 9001:2015 (Quality Management)
+    - ISO 27001 (Information Security)
+    - GDPR Compliant
+    - Industry 4.0 Ready
+    - OWASP Security Standards
+    - W3C Web Standards
+    - Accessibility (WCAG 2.1)
+
+/* SEO & GEO OPTIMIZATION */
+
+    SEO Strategy:
+    - On-page Optimization
+    - Technical SEO
+    - Content Marketing
+    - Link Building
+    - Local SEO
+    - International SEO (Multilingual)
+
+    GEO Strategy (Generative Engine Optimization):
+    - Schema.org Structured Data
+    - JSON-LD Markup
+    - Dublin Core Metadata
+    - Citation Tags (Google Scholar)
+    - Parse.ly Tags
+    - Entity Recognition
+    - Knowledge Graph Optimization
+    - FAQ Schema
+    - Breadcrumb Navigation
+    - Article Structured Data
+
+    Compatible with AI Agents:
+    - ChatGPT (OpenAI GPTBot)
+    - Claude (Anthropic)
+    - Perplexity AI
+    - Google Gemini/Bard
+    - Microsoft Copilot
+    - Meta AI
+    - Cohere
+    - Common Crawl
+
+/* LANGUAGES */
+
+    Website Available in:
+    - Español (Spanish)
+    - English
+    - Français (French)
+    - Italiano (Italian)
+    - Română (Romanian)
+    - العربية (Arabic)
+
+/* STATISTICS */
+
+    Projects Completed: 500+
+    Client Satisfaction: 98%
+    Team Members: 15+
+    Years of Experience: 6+
+    Countries Served: 10+
+    Support: 24/7 Emergency Support
+
+/* CONTACT */
+
+    Email: info@appnet.dev
+    Sales: ventas@appnet.dev
+    Support: soporte@appnet.dev
+    Phone: +34 619 929 305
+    WhatsApp: +34 619 929 305
+    Telegram: +34 619 929 305
+
+    Address:
+    Calle Tecnología
+    30001 Murcia
+    España
+
+/* SOCIAL MEDIA */
+
+    Facebook: /appnetdeveloper
+    Twitter: @appnetdev
+    LinkedIn: /company/appnet-developer
+    YouTube: @appnetdeveloper
+    Instagram: @appnetdeveloper
+    GitHub: @appnetdeveloper
+
+/* SITE */
+
+    Last update: 2025-01-06
+    Language: ES, EN, FR, IT, RO, AR
+    Doctype: HTML5
+    IDE: Visual Studio Code
+    Components: Bootstrap 5, jQuery, AOS, Slick, Owl Carousel
+
+/* THANKS */
+
+    To our clients who trust us with their digital transformation
+    To the open-source community for amazing tools
+    To AI researchers pushing the boundaries of technology
+    To Industry 4.0 pioneers shaping the future of manufacturing
+
+                             .--.
+                            |o_o |
+                            |:_/ |
+                           //   \ \
+                          (|     | )
+                         /'\_   _/`\
+                         \___)=(___/
+
+              Made with ❤️ in Murcia, España
+              Powered by AI & Innovation
+              Building the Future of Industry 4.0
+
+/* EOF */

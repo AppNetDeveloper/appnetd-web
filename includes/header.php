@@ -71,7 +71,86 @@ require_once __DIR__ . '/seo_config.php';
      <meta name="twitter:site" content="<?php echo $available_languages[$current_lang]['twitter_site']; ?>">
      <meta name="twitter:creator" content="<?php echo $available_languages[$current_lang]['twitter_site']; ?>">
      <?php endif; ?>
-     
+
+     <!-- ============================================= -->
+     <!-- GEO TAGS - Optimización para Agentes IA -->
+     <!-- Compatible con: ChatGPT, Perplexity, Claude, Gemini, etc. -->
+     <!-- ============================================= -->
+
+     <!-- Article Tags para mejor comprensión de contenido -->
+     <meta property="article:publisher" content="<?php echo $base_url; ?>">
+     <meta property="article:author" content="AppNet Developer">
+     <meta property="article:published_time" content="<?php echo date('c'); ?>">
+     <meta property="article:modified_time" content="<?php echo date('c'); ?>">
+     <meta property="article:section" content="<?php echo isset($article_section) ? $article_section : 'Technology'; ?>">
+     <?php if (isset($article_tags) && is_array($article_tags)): ?>
+         <?php foreach ($article_tags as $tag): ?>
+     <meta property="article:tag" content="<?php echo htmlspecialchars($tag, ENT_QUOTES, 'UTF-8'); ?>">
+         <?php endforeach; ?>
+     <?php else: ?>
+     <meta property="article:tag" content="Inteligencia Artificial">
+     <meta property="article:tag" content="IoT Industrial">
+     <meta property="article:tag" content="Desarrollo de Software">
+     <meta property="article:tag" content="Automatización Industrial">
+     <meta property="article:tag" content="Machine Learning">
+     <meta property="article:tag" content="Industry 4.0">
+     <?php endif; ?>
+
+     <!-- Dublin Core Metadata para citabilidad académica -->
+     <meta name="DC.title" content="<?php echo htmlspecialchars($page_title_seo, ENT_QUOTES, 'UTF-8'); ?>">
+     <meta name="DC.creator" content="AppNet Developer">
+     <meta name="DC.subject" content="<?php echo htmlspecialchars($meta_keywords, ENT_QUOTES, 'UTF-8'); ?>">
+     <meta name="DC.description" content="<?php echo htmlspecialchars($page_description, ENT_QUOTES, 'UTF-8'); ?>">
+     <meta name="DC.publisher" content="AppNet Developer">
+     <meta name="DC.contributor" content="AppNet Developer Team">
+     <meta name="DC.date" content="<?php echo date('Y-m-d'); ?>">
+     <meta name="DC.type" content="Text">
+     <meta name="DC.format" content="text/html">
+     <meta name="DC.identifier" content="<?php echo $current_url; ?>">
+     <meta name="DC.language" content="<?php echo $available_languages[$current_lang]['hreflang']; ?>">
+     <meta name="DC.rights" content="Copyright <?php echo date('Y'); ?> AppNet Developer">
+
+     <!-- Citation Tags para Google Scholar y bases de datos académicas -->
+     <meta name="citation_title" content="<?php echo htmlspecialchars($page_title_seo, ENT_QUOTES, 'UTF-8'); ?>">
+     <meta name="citation_author" content="AppNet Developer">
+     <meta name="citation_publication_date" content="<?php echo date('Y/m/d'); ?>">
+     <meta name="citation_online_date" content="<?php echo date('Y/m/d'); ?>">
+     <meta name="citation_publisher" content="AppNet Developer">
+     <meta name="citation_language" content="<?php echo $available_languages[$current_lang]['hreflang']; ?>">
+     <meta name="citation_abstract" content="<?php echo htmlspecialchars($page_description, ENT_QUOTES, 'UTF-8'); ?>">
+     <meta name="citation_keywords" content="<?php echo htmlspecialchars($meta_keywords, ENT_QUOTES, 'UTF-8'); ?>">
+
+     <!-- Parse.ly Tags para análisis de contenido por IA -->
+     <meta name="parsely-title" content="<?php echo htmlspecialchars($page_title_seo, ENT_QUOTES, 'UTF-8'); ?>">
+     <meta name="parsely-link" content="<?php echo $current_url; ?>">
+     <meta name="parsely-type" content="post">
+     <meta name="parsely-pub-date" content="<?php echo date('c'); ?>">
+     <meta name="parsely-section" content="<?php echo isset($article_section) ? $article_section : 'Technology'; ?>">
+     <meta name="parsely-author" content="AppNet Developer">
+     <meta name="parsely-tags" content="<?php echo htmlspecialchars($meta_keywords, ENT_QUOTES, 'UTF-8'); ?>">
+
+     <!-- Metadata adicional para agentes IA -->
+     <meta name="rating" content="general">
+     <meta name="referrer" content="no-referrer-when-downgrade">
+     <meta name="format-detection" content="telephone=no">
+     <meta name="apple-mobile-web-app-capable" content="yes">
+     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+     <meta name="apple-mobile-web-app-title" content="AppNet Developer">
+
+     <!-- Geolocation para búsquedas locales y agentes IA -->
+     <meta name="geo.region" content="ES-MU">
+     <meta name="geo.placename" content="Murcia, España">
+     <meta name="geo.position" content="37.9922;-1.1307">
+     <meta name="ICBM" content="37.9922, -1.1307">
+
+     <!-- Tags para entidades y conocimiento estructurado (Knowledge Graph) -->
+     <meta name="entity" content="AppNet Developer">
+     <meta name="entity.type" content="Organization">
+     <meta name="entity.category" content="Technology, Software Development, AI, IoT, Industry 4.0">
+     <meta name="coverage" content="Worldwide">
+     <meta name="distribution" content="Global">
+     <meta name="audience" content="Manufacturers, Industries, Enterprises, Technology Companies">
+
      <!-- Favicon y Apple Touch Icons -->
      <link rel="shortcut icon" href="<?php echo $base_url; ?>/assets/img/favicon.ico" type="image/x-icon">
      <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $base_url; ?>/assets/img/favicon-32x32.png">
@@ -80,6 +159,9 @@ require_once __DIR__ . '/seo_config.php';
      <link rel="mask-icon" href="<?php echo $base_url; ?>/assets/img/safari-pinned-tab.svg" color="#4e54c8">
      <meta name="msapplication-TileColor" content="#4e54c8">
      <meta name="theme-color" content="#4e54c8">
+
+     <!-- Humans.txt - Who made this? -->
+     <link type="text/plain" rel="author" href="<?php echo $base_url; ?>/humans.txt">
      
      <!-- Preconnect a dominios externos -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
