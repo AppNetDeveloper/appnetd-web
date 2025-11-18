@@ -20,7 +20,7 @@ logs/
 *.backup
 *.swp
 *~
-
+.claude/skills
 # Archivos de IDE
 .vscode/
 .idea/
