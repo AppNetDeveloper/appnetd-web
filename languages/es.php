@@ -912,4 +912,98 @@ return [
     'benefits_subtitle' => 'Nuestras soluciones están diseñadas para ofrecer resultados tangibles',
     'benefits_image_alt' => 'Beneficios de nuestras soluciones',
     'custom_solution_subtitle' => 'A Medida',
+
+    // BionicEye + ADRI Section
+    'bioniceye_star_product' => 'Nuestro Producto Estrella',
+    'bioniceye_title' => 'BionicEye + ADRI',
+    'bioniceye_subtitle' => '11 Agentes de IA que Trabajan para Ti',
+    'bioniceye_intro' => 'Plataforma ERP completa con <strong>inteligencia artificial nativa</strong> que funciona <strong>100% en local</strong> en tu servidor. Sin dependencia de OpenAI, Google o Microsoft. Sin gastos mensuales obligatorios.',
+
+    'bioniceye_benefit1_title' => '100% Local y Privado',
+    'bioniceye_benefit1_desc' => 'Tus datos nunca salen de tu infraestructura. Cumplimiento total RGPD/LOPD. Sin vendor lock-in.',
+    'bioniceye_benefit2_title' => 'Pago Único Disponible',
+    'bioniceye_benefit2_desc' => 'Opción de compra sin suscripciones. Desde €9,000 todo incluido. Sin costes de APIs cloud recurrentes.',
+    'bioniceye_benefit3_title' => 'ROI del 245% Primer Año',
+    'bioniceye_benefit3_desc' => 'Ahorro demostrado de €295,000/año para empresas de 50 empleados. Payback en 4.6 meses.',
+    'bioniceye_benefit4_title' => 'Compatible con APIs Externas',
+    'bioniceye_benefit4_desc' => 'Usa OpenAI, Claude, Gemini, Qwen cuando quieras. Combina local + cloud según necesidades.',
+    'bioniceye_benefit5_title' => 'Escalado Sin Modificaciones',
+    'bioniceye_benefit5_desc' => 'Para ampliar capacidad solo agrega más nodos o GPUs. Sin cambios de código, sin reconfiguración. Escalado horizontal transparente.',
+
+    'bioniceye_demo_btn' => 'Demo Gratuita 45 min',
+    'bioniceye_agents_btn' => 'Ver 11 Agentes',
+    'bioniceye_stats_title' => 'En 30 Segundos',
+    'bioniceye_stats_savings' => 'Ahorro Anual',
+    'bioniceye_stats_reduction' => 'Reducción Tiempo',
+    'bioniceye_stats_processing' => 'Procesamiento Docs',
+    'bioniceye_stats_errors' => 'Errores en Datos',
+    'bioniceye_stats_support' => 'Atención Cliente',
+    'bioniceye_stats_roi' => 'ROI Año 1',
+    'bioniceye_guarantee' => '<strong>Garantía 30 días</strong> de devolución completa en PoC',
+
+    'adri_agents_title' => 'Los 11 Agentes Especializados de ADRI',
+    'adri_agents_subtitle' => 'Cada agente es un experto en su dominio, trabajando 24/7 para automatizar tu empresa',
+
+    'agent_vision_title' => 'Vision Agent',
+    'agent_vision_model' => 'Modelo: Qwen3-VL-30B',
+    'agent_vision_desc' => 'OCR avanzado multiidioma. Procesa facturas, albaranes y contratos en <strong>30 segundos vs 5 minutos manual</strong> con 98% precisión.',
+    'agent_vision_savings' => 'Ahorro: €65,000/año',
+
+    'agent_messaging_title' => 'Messaging Agent',
+    'agent_messaging_model' => 'WhatsApp/Telegram/Email',
+    'agent_messaging_desc' => 'Atención al cliente <strong>24/7 en menos de 5 segundos</strong>. Reduce 70% carga de soporte. Aumenta ventas 15% con respuestas fuera de horario.',
+    'agent_messaging_savings' => 'Ahorro: €50,000/año',
+
+    'agent_websearch_title' => 'Web Search Agent',
+    'agent_websearch_model' => 'SearXNG + Scraping Inteligente',
+    'agent_websearch_desc' => 'Análisis competitivo automático, monitoreo de precios en tiempo real e investigación de mercado programada.',
+    'agent_websearch_savings' => 'Ahorro: €15,000/año',
+
+    'agent_coder_title' => 'Coder Agent',
+    'agent_coder_model' => 'Desarrollo y Automatización',
+    'agent_coder_desc' => 'Genera scripts de automatización, crea integraciones con APIs externas, desarrollo de features simples y prototipado rápido.',
+    'agent_coder_savings' => 'Ahorro: €25,000/año',
+
+    'agent_dataanalysis_title' => 'Data Analysis Agent',
+    'agent_dataanalysis_model' => 'Analítica Avanzada',
+    'agent_dataanalysis_desc' => 'Procesa CSV/Excel/JSON automáticamente, genera gráficos bajo demanda, análisis predictivo ML e informes ejecutivos en segundos.',
+    'agent_dataanalysis_savings' => 'Ahorro: €35,000/año',
+
+    'agent_rag_title' => 'RAG Agent',
+    'agent_rag_model' => 'Base de Conocimiento Semántica',
+    'agent_rag_desc' => 'Búsqueda semántica en documentación interna, responde sobre procedimientos, onboarding automático. Reduce 80% tiempo de formación.',
+    'agent_rag_savings' => 'Ahorro: €30,000/año',
+
+    'agent_social_title' => 'Social Media',
+    'agent_social_desc' => 'LinkedIn, Instagram, Facebook, Twitter, TikTok',
+    'agent_social_savings' => '€25K/año',
+
+    'agent_planner_title' => 'Planner Agent',
+    'agent_planner_desc' => 'Optimización producción +21% eficiencia',
+    'agent_planner_savings' => '€20K/año',
+
+    'agent_diagram_title' => 'Diagram Agent',
+    'agent_diagram_desc' => 'Mermaid, Graphviz, PlantUML automático',
+    'agent_diagram_savings' => '€10K/año',
+
+    'agent_debugger_title' => 'Debugger',
+    'agent_debugger_desc' => 'Analiza logs y soluciona errores auto',
+    'agent_debugger_savings' => 'Incluido',
+
+    'agent_supervisor_title' => 'Supervisor Agent - El Cerebro del Sistema',
+    'agent_supervisor_desc' => 'Orquesta todos los agentes anteriores, delega tareas al agente apropiado, combina respuestas de múltiples agentes, optimiza rendimiento con LLM pooling y gestiona memoria conversacional. Es el director de orquesta que hace que todo funcione en armonía.',
+
+    'bioniceye_cta_title' => '¿Listo para Transformar tu Empresa con 11 Agentes IA?',
+    'bioniceye_cta_desc' => 'Agenda una <strong>demo gratuita de 45 minutos</strong> y ve BionicEye + ADRI en acción con tus propios casos de uso.<br>O inicia un <strong>PoC de 30 días por €5,000</strong> (deducibles si contratas).',
+    'bioniceye_cta_demo' => 'Agendar Demo Gratuita',
+    'bioniceye_cta_poc' => 'Iniciar PoC (€5,000)',
+
+    // Accessibility labels
+    'previous_testimonial' => 'Testimonio anterior',
+    'next_testimonial' => 'Siguiente testimonio',
+    'toggle_payment_plan' => 'Alternar plan de pago',
+    'visit_linkedin' => 'Visitar LinkedIn',
+    'visit_twitter' => 'Visitar Twitter',
+    'visit_youtube' => 'Visitar YouTube',
+    'visit_instagram' => 'Visitar Instagram',
 ];

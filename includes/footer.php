@@ -6,17 +6,17 @@
                             <div class="col-lg-4 col-md-6 col-12">
                                  <div class="single-footer-items footer-logo-area">
                                       <div class="footer-logo">
-                                        <a href=""><img src="assets/img/logo/footer-logo1.png" alt=""></a>
+                                        <a href="index.php" aria-label="<?php echo __('home'); ?>"><img src="assets/img/logo/footer-logo1.png" alt="AppNet Developer Logo"></a>
                                       </div>
                                       <div class="space20"></div>
                                       <div class="heading1">
                                         <p><?php echo __('footer_about_text'); ?></p>
                                       </div>
                                       <ul class="social-icon">
-                                           <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                           <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                           <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                                           <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                           <li><a href="https://www.linkedin.com/company/appnetdeveloper" aria-label="<?php echo __('visit_linkedin'); ?>" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                           <li><a href="https://twitter.com/appnetdev" aria-label="<?php echo __('visit_twitter'); ?>" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                           <li><a href="https://www.youtube.com/@appnetdeveloper" aria-label="<?php echo __('visit_youtube'); ?>" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a></li>
+                                           <li><a href="https://www.instagram.com/appnetdeveloper" aria-label="<?php echo __('visit_instagram'); ?>" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a></li>
                                       </ul>
                                  </div>
                             </div>

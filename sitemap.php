@@ -81,6 +81,13 @@ $blog_pages = [
     'blog-servidores-arm.php'
 ];
 
+// Páginas de comparación SEO (alta prioridad)
+$comparison_pages = [
+    'comparacion-bioniceye-vs-openai.php',
+    'comparacion-bioniceye-vs-copilot.php',
+    'ia-local-vs-cloud.php'
+];
+
 // Páginas de proyectos
 $project_pages = [
     'proyecto-automatizacion-industrial.php',
@@ -113,12 +120,19 @@ function generate_url($loc, $priority = '0.8', $changefreq = 'weekly', $lastmod 
     $url .= "    <changefreq>{$changefreq}</changefreq>\n";
     $url .= "    <priority>{$priority}</priority>\n";
 
-    // Añadir alternativas de idioma (hreflang)
+    // Añadir alternativas de idioma (hreflang) - Usando parámetros de URL
     if (empty($languages)) {
         foreach ($available_languages as $lang_code => $lang_data) {
-            $lang_url = $lang_code !== 'es' ? $lang_code . '/' . $loc : $loc;
+            // Usar parámetros ?lang= en lugar de subdirectorios
+            $lang_url = $loc;
+            if ($lang_code !== 'es') {
+                $separator = strpos($loc, '?') !== false ? '&' : '?';
+                $lang_url .= $separator . 'lang=' . $lang_code;
+            }
             $url .= "    <xhtml:link rel=\"alternate\" hreflang=\"{$lang_data['hreflang']}\" href=\"" . htmlspecialchars($base_url . '/' . $lang_url, ENT_XML1, 'UTF-8') . "\" />\n";
         }
+        // Añadir x-default
+        $url .= "    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"" . htmlspecialchars($base_url . '/' . $loc, ENT_XML1, 'UTF-8') . "\" />\n";
     }
 
     $url .= "  </url>\n";
@@ -146,6 +160,11 @@ foreach ($service_pages as $page) {
 // Añadir páginas de blog
 foreach ($blog_pages as $page) {
     echo generate_url($page, '0.7', 'monthly', date('Y-m-d'));
+}
+
+// Añadir páginas de comparación (alta prioridad para SEO/AIO)
+foreach ($comparison_pages as $page) {
+    echo generate_url($page, '0.95', 'weekly', date('Y-m-d'));
 }
 
 // Añadir páginas de proyectos
