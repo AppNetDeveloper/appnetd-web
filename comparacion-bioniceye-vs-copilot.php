@@ -1,11 +1,11 @@
 <?php
-// Incluir configuración de idiomas
+// Incluir configuraciï¿½n de idiomas
 require_once __DIR__ . '/languages/config.php';
 
-// Configuración SEO específica
+// Configuraciï¿½n SEO especï¿½fica
 $page_title = 'BionicEye vs Microsoft Copilot: Comparativa Detallada 2025';
-$meta_description = 'BionicEye ahorra ¬16.812/año vs Microsoft Copilot para 50 usuarios. IA 100% local con ERP completo vs asistente cloud básico. Tabla comparativa completa de precios, funcionalidades y ROI real.';
-$meta_keywords = 'BionicEye vs Copilot, Microsoft Copilot alternativa, comparación IA local vs Microsoft, ahorro costes Copilot, IA empresarial sin Microsoft, ERP con IA local, ROI BionicEye vs Copilot, precios Microsoft Copilot, alternativa privada Copilot';
+$meta_description = 'BionicEye ahorra ï¿½16.812/aï¿½o vs Microsoft Copilot para 50 usuarios. IA 100% local con ERP completo vs asistente cloud bï¿½sico. Tabla comparativa completa de precios, funcionalidades y ROI real.';
+$meta_keywords = 'BionicEye vs Copilot, Microsoft Copilot alternativa, comparaciï¿½n IA local vs Microsoft, ahorro costes Copilot, IA empresarial sin Microsoft, ERP con IA local, ROI BionicEye vs Copilot, precios Microsoft Copilot, alternativa privada Copilot';
 
 include "includes/header.php";
 ?>
@@ -33,21 +33,21 @@ include "includes/header.php";
                     BionicEye + ADRI vs Microsoft Copilot
                 </h1>
                 <p class="lead mb-4">
-                    ¿Asistente básico de oficina o ERP completo con IA industrial? Comparación exhaustiva de costes, privacidad y funcionalidades.
+                    ï¿½Asistente bï¿½sico de oficina o ERP completo con IA industrial? Comparaciï¿½n exhaustiva de costes, privacidad y funcionalidades.
                 </p>
                 <div class="comparison-summary p-4 bg-white bg-opacity-10 rounded-4 mb-4">
                     <div class="row text-center">
                         <div class="col-md-4 mb-3 mb-md-0">
                             <h3 class="display-6 fw-bold text-success">83%</h3>
-                            <p class="mb-0">Ahorro con BionicEye<br><small>(opción perpetua)</small></p>
+                            <p class="mb-0">Ahorro con BionicEye<br><small>(opciï¿½n perpetua)</small></p>
                         </div>
                         <div class="col-md-4 mb-3 mb-md-0">
-                            <h3 class="display-6 fw-bold text-warning">¬16.812</h3>
+                            <h3 class="display-6 fw-bold text-warning">ï¿½16.812</h3>
                             <p class="mb-0">Ahorro anual<br><small>(50 empleados)</small></p>
                         </div>
                         <div class="col-md-4">
-                            <h3 class="display-6 fw-bold text-info">11</h3>
-                            <p class="mb-0">Agentes IA especializados<br><small>vs 1 asistente genérico</small></p>
+                            <h3 class="display-6 fw-bold text-info">9</h3>
+                            <p class="mb-0">Agentes IA especializados<br><small>vs 1 asistente genÃ©rico</small></p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ include "includes/header.php";
     </div>
 </section>
 
-<!-- Tabla de Comparación -->
+<!-- Tabla de Comparaciï¿½n -->
 <section class="comparison-table-section py-5" id="tabla-comparacion">
     <div class="container">
         <div class="row">
@@ -69,7 +69,7 @@ include "includes/header.php";
                     <table class="table table-bordered table-hover comparison-table">
                         <thead class="table-dark">
                             <tr>
-                                <th scope="col" style="width: 35%">Característica</th>
+                                <th scope="col" style="width: 35%">Caracterï¿½stica</th>
                                 <th scope="col" style="width: 32.5%" class="text-center bg-success">
                                     <i class="fas fa-eye me-2"></i>BionicEye + ADRI
                                 </th>
@@ -86,30 +86,30 @@ include "includes/header.php";
                             <tr>
                                 <th scope="row">Precio por Usuario/Mes</th>
                                 <td class="text-center bg-success-light">
-                                    <strong>¬1.98/usuario</strong><br>
-                                    <small class="text-muted">(¬99÷50 users) o ¬0 perpetua</small>
+                                    <strong>ï¿½1.98/usuario</strong><br>
+                                    <small class="text-muted">(ï¿½99ï¿½50 users) o ï¿½0 perpetua</small>
                                 </td>
                                 <td class="text-center">
-                                    <strong>¬30/usuario</strong><br>
+                                    <strong>ï¿½30/usuario</strong><br>
                                     <small class="text-muted">Obligatorio para cada usuario</small>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row">Coste Anual (50 usuarios)</th>
                                 <td class="text-center bg-success-light">
-                                    <strong>¬1.188/año</strong><br>
-                                    o <strong>¬15.000</strong> pago único<br>
-                                    <small class="text-success">Año 2+: ¬0</small>
+                                    <strong>ï¿½1.188/aï¿½o</strong><br>
+                                    o <strong>ï¿½15.000</strong> pago ï¿½nico<br>
+                                    <small class="text-success">Aï¿½o 2+: ï¿½0</small>
                                 </td>
                                 <td class="text-center">
-                                    <strong>¬18.000/año</strong><br>
-                                    <small class="text-danger">Todos los años</small>
+                                    <strong>ï¿½18.000/aï¿½o</strong><br>
+                                    <small class="text-danger">Todos los aï¿½os</small>
                                 </td>
                             </tr>
                             <tr class="table-success">
                                 <th scope="row">AHORRO ANUAL</th>
                                 <td class="text-center fw-bold fs-5">
-                                    <span class="text-success">¬16.812/año</span>
+                                    <span class="text-success">ï¿½16.812/aï¿½o</span>
                                 </td>
                                 <td class="text-center">-</td>
                             </tr>
@@ -119,7 +119,7 @@ include "includes/header.php";
                                 <td colspan="3" class="fw-bold"><i class="fas fa-shield-alt me-2"></i>PRIVACIDAD Y DATOS</td>
                             </tr>
                             <tr>
-                                <th scope="row">Ubicación de Datos</th>
+                                <th scope="row">Ubicaciï¿½n de Datos</th>
                                 <td class="text-center bg-success-light">
                                     <i class="fas fa-server text-success fa-2x"></i><br>
                                     <strong>100% Local</strong><br>
@@ -132,7 +132,7 @@ include "includes/header.php";
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">¿Microsoft puede leer tus datos?</th>
+                                <th scope="row">ï¿½Microsoft puede leer tus datos?</th>
                                 <td class="text-center bg-success-light">
                                     <i class="fas fa-times-circle text-success"></i><br>
                                     <strong>NO</strong><br>
@@ -140,14 +140,14 @@ include "includes/header.php";
                                 </td>
                                 <td class="text-center">
                                     <i class="fas fa-exclamation-triangle text-warning"></i><br>
-                                    <strong>Según ToS</strong><br>
+                                    <strong>Segï¿½n ToS</strong><br>
                                     <small>"No entrenamos con tus datos"*</small>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row">Funciona sin Internet</th>
                                 <td class="text-center bg-success-light">
-                                    <i class="fas fa-check-circle text-success"></i> <strong>Sí</strong>
+                                    <i class="fas fa-check-circle text-success"></i> <strong>Sï¿½</strong>
                                 </td>
                                 <td class="text-center">
                                     <i class="fas fa-times-circle text-danger"></i> <strong>No</strong>
@@ -162,7 +162,7 @@ include "includes/header.php";
                                 <th scope="row">Tipo de Herramienta</th>
                                 <td class="text-center bg-success-light">
                                     <strong>ERP Completo + IA</strong><br>
-                                    <small>10 módulos empresariales</small>
+                                    <small>10 mï¿½dulos empresariales</small>
                                 </td>
                                 <td class="text-center">
                                     <strong>Asistente de Oficina</strong><br>
@@ -170,10 +170,10 @@ include "includes/header.php";
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">Gestión de RRHH</th>
+                                <th scope="row">Gestiï¿½n de RRHH</th>
                                 <td class="text-center bg-success-light">
                                     <i class="fas fa-check-circle text-success"></i><br>
-                                    <small>Control horario, nóminas, vacaciones</small>
+                                    <small>Control horario, nï¿½minas, vacaciones</small>
                                 </td>
                                 <td class="text-center">
                                     <i class="fas fa-times-circle text-danger"></i><br>
@@ -181,7 +181,7 @@ include "includes/header.php";
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">CRM + Gestión Clientes</th>
+                                <th scope="row">CRM + Gestiï¿½n Clientes</th>
                                 <td class="text-center bg-success-light">
                                     <i class="fas fa-check-circle text-success"></i><br>
                                     <small>CRM completo incluido</small>
@@ -192,10 +192,10 @@ include "includes/header.php";
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">Control de Producción Industrial</th>
+                                <th scope="row">Control de Producciï¿½n Industrial</th>
                                 <td class="text-center bg-success-light">
                                     <i class="fas fa-check-circle text-success"></i><br>
-                                    <small>Conexión PLCs, sensores IoT</small>
+                                    <small>Conexiï¿½n PLCs, sensores IoT</small>
                                 </td>
                                 <td class="text-center">
                                     <i class="fas fa-times-circle text-danger"></i><br>
@@ -203,10 +203,10 @@ include "includes/header.php";
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">OCR Automático Facturas</th>
+                                <th scope="row">OCR Automï¿½tico Facturas</th>
                                 <td class="text-center bg-success-light">
                                     <i class="fas fa-check-circle text-success"></i><br>
-                                    <small>Vision Agent: 98% precisión</small>
+                                    <small>Vision Agent: 98% precisiï¿½n</small>
                                 </td>
                                 <td class="text-center">
                                     <i class="fas fa-times-circle text-danger"></i><br>
@@ -228,11 +228,11 @@ include "includes/header.php";
                                 <th scope="row">Asistente en Office (Word/Excel)</th>
                                 <td class="text-center bg-success-light">
                                     <i class="fas fa-minus-circle text-warning"></i><br>
-                                    <small>Vía API externa opcional</small>
+                                    <small>Vï¿½a API externa opcional</small>
                                 </td>
                                 <td class="text-center">
                                     <i class="fas fa-check-circle text-success"></i><br>
-                                    <strong>Función principal</strong>
+                                    <strong>Funciï¿½n principal</strong>
                                 </td>
                             </tr>
 
@@ -241,10 +241,10 @@ include "includes/header.php";
                                 <td colspan="3" class="fw-bold"><i class="fas fa-plug me-2"></i>INTEGRACIONES</td>
                             </tr>
                             <tr>
-                                <th scope="row">Integración con Microsoft 365</th>
+                                <th scope="row">Integraciï¿½n con Microsoft 365</th>
                                 <td class="text-center bg-success-light">
                                     <i class="fas fa-check-circle text-success"></i><br>
-                                    <small>Vía Microsoft Graph API</small>
+                                    <small>Vï¿½a Microsoft Graph API</small>
                                 </td>
                                 <td class="text-center">
                                     <i class="fas fa-check-circle text-success"></i><br>
@@ -252,7 +252,7 @@ include "includes/header.php";
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">Integración con ERPs (SAP, Oracle)</th>
+                                <th scope="row">Integraciï¿½n con ERPs (SAP, Oracle)</th>
                                 <td class="text-center bg-success-light">
                                     <i class="fas fa-check-circle text-success"></i><br>
                                     <strong>Nativa completa</strong>
@@ -282,21 +282,21 @@ include "includes/header.php";
                                 <th scope="row">Arquitectura Multi-Nodo</th>
                                 <td class="text-center bg-success-light">
                                     <i class="fas fa-check-circle text-success"></i><br>
-                                    <small>Añade servidores sin reemplazar</small>
+                                    <small>Aï¿½ade servidores sin reemplazar</small>
                                 </td>
                                 <td class="text-center">
                                     <i class="fas fa-check-circle text-success"></i><br>
-                                    <small>Cloud escalable automático</small>
+                                    <small>Cloud escalable automï¿½tico</small>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row">Coste por Escalado</th>
                                 <td class="text-center bg-success-light">
-                                    <strong>¬2.000/50 usuarios</strong><br>
-                                    <small>Pago único</small>
+                                    <strong>ï¿½2.000/50 usuarios</strong><br>
+                                    <small>Pago ï¿½nico</small>
                                 </td>
                                 <td class="text-center">
-                                    <strong>+¬30/usuario/mes</strong><br>
+                                    <strong>+ï¿½30/usuario/mes</strong><br>
                                     <small>Por siempre</small>
                                 </td>
                             </tr>
@@ -308,12 +308,12 @@ include "includes/header.php";
     </div>
 </section>
 
-<!-- ¿Cuándo usar cada uno? -->
+<!-- ï¿½Cuï¿½ndo usar cada uno? -->
 <section class="use-cases-section py-5 bg-light">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="text-center mb-5">¿Cuándo Usar Cada Plataforma?</h2>
+                <h2 class="text-center mb-5">ï¿½Cuï¿½ndo Usar Cada Plataforma?</h2>
             </div>
         </div>
         <div class="row">
@@ -327,12 +327,12 @@ include "includes/header.php";
                             <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Tu trabajo es principalmente oficina (Word, Excel, PowerPoint)</li>
                             <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Ya usas Microsoft 365 intensivamente</li>
                             <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>No manejas datos extremadamente sensibles</li>
-                            <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Necesitas solo asistente de redacción y resumen</li>
+                            <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>Necesitas solo asistente de redacciï¿½n y resumen</li>
                             <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>No tienes maquinaria industrial o IoT</li>
-                            <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>El coste recurrente no es problema crítico</li>
+                            <li class="mb-3"><i class="fas fa-check text-primary me-2"></i>El coste recurrente no es problema crï¿½tico</li>
                         </ul>
                         <div class="alert alert-info">
-                            <strong>Perfil ideal:</strong> Despachos, consultorías, oficinas administrativas sin procesos industriales.
+                            <strong>Perfil ideal:</strong> Despachos, consultorï¿½as, oficinas administrativas sin procesos industriales.
                         </div>
                     </div>
                 </div>
@@ -345,15 +345,15 @@ include "includes/header.php";
                     </div>
                     <div class="card-body">
                         <ul class="list-unstyled">
-                            <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Necesitas ERP completo (RRHH, CRM, Producción, Tickets)</li>
+                            <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Necesitas ERP completo (RRHH, CRM, Producciï¿½n, Tickets)</li>
                             <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Manejas datos sensibles que NO pueden salir de tu servidor</li>
                             <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Tienes maquinaria industrial o sensores IoT</li>
-                            <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Necesitas automatización avanzada (OCR, WhatsApp bot, análisis)</li>
+                            <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Necesitas automatizaciï¿½n avanzada (OCR, WhatsApp bot, anï¿½lisis)</li>
                             <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Quieres eliminar costes recurrentes de SaaS</li>
                             <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Requieres funcionar offline/sin internet</li>
                         </ul>
                         <div class="alert alert-success">
-                            <strong>Perfil ideal:</strong> Industrias manufactureras, logística, producción, empresas con requisitos RGPD estrictos, PYMEs que buscan ROI alto.
+                            <strong>Perfil ideal:</strong> Industrias manufactureras, logï¿½stica, producciï¿½n, empresas con requisitos RGPD estrictos, PYMEs que buscan ROI alto.
                         </div>
                     </div>
                 </div>
@@ -364,10 +364,10 @@ include "includes/header.php";
             <div class="col-12">
                 <div class="card border-warning">
                     <div class="card-body text-center py-4">
-                        <h4 class="text-warning"><i class="fas fa-lightbulb me-2"></i>Solución Híbrida Óptima</h4>
+                        <h4 class="text-warning"><i class="fas fa-lightbulb me-2"></i>Soluciï¿½n Hï¿½brida ï¿½ptima</h4>
                         <p class="lead mb-0">
-                            <strong>Mejor opción para muchas empresas:</strong> Usa <strong>BionicEye para backend crítico</strong> (datos sensibles, producción, ERP)
-                            + <strong>Copilot para frontend de oficina</strong> (redacción documentos, presentaciones). Así combinas privacidad con productividad Office.
+                            <strong>Mejor opciï¿½n para muchas empresas:</strong> Usa <strong>BionicEye para backend crï¿½tico</strong> (datos sensibles, producciï¿½n, ERP)
+                            + <strong>Copilot para frontend de oficina</strong> (redacciï¿½n documentos, presentaciones). Asï¿½ combinas privacidad con productividad Office.
                         </p>
                     </div>
                 </div>
@@ -381,16 +381,16 @@ include "includes/header.php";
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-                <h2 class="display-5 fw-bold mb-4">Ahorra ¬16.812/año vs Microsoft Copilot</h2>
+                <h2 class="display-5 fw-bold mb-4">Ahorra ï¿½16.812/aï¿½o vs Microsoft Copilot</h2>
                 <p class="lead mb-4">
-                    BionicEye incluye ERP completo + 11 agentes IA especializados por menos que solo el asistente de Copilot.
+                    BionicEye incluye ERP completo + 9 agentes IA especializados por menos que solo el asistente de Copilot.
                 </p>
                 <div class="d-flex flex-wrap justify-content-center gap-3">
                     <a href="contact.php?product=bioniceye&action=demo&from=comparacion-copilot" class="btn btn-light btn-lg">
                         <i class="fas fa-video me-2"></i>Demo Gratuita 45 min
                     </a>
                     <a href="contact.php?product=bioniceye&action=poc&from=comparacion-copilot" class="btn btn-outline-light btn-lg">
-                        <i class="fas fa-flask me-2"></i>PoC 30 Días
+                        <i class="fas fa-flask me-2"></i>PoC 30 Dï¿½as
                     </a>
                     <a href="tel:+34619929305" class="btn btn-warning btn-lg">
                         <i class="fas fa-phone me-2"></i>+34 619 929 305

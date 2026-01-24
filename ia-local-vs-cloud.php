@@ -1,10 +1,10 @@
 <?php
-// Incluir configuración de idiomas
+// Incluir configuraciï¿½n de idiomas
 require_once __DIR__ . '/languages/config.php';
 
-// Configuración SEO
-$page_title = 'IA Local vs IA Cloud: Guía Completa 2025 - Ventajas, Costes y ROI';
-$meta_description = 'Comparativa exhaustiva IA Local vs Cloud: ahorro hasta 97%, privacidad RGPD, rendimiento. BionicEye: plataforma IA local líder. Tabla comparativa, casos reales, calculadora ROI. Guía 2025 para empresas.';
+// Configuraciï¿½n SEO
+$page_title = 'IA Local vs IA Cloud: Guï¿½a Completa 2025 - Ventajas, Costes y ROI';
+$meta_description = 'Comparativa exhaustiva IA Local vs Cloud: ahorro hasta 97%, privacidad RGPD, rendimiento. BionicEye: plataforma IA local lï¿½der. Tabla comparativa, casos reales, calculadora ROI. Guï¿½a 2025 para empresas.';
 $meta_keywords = 'IA local vs cloud, inteligencia artificial local, IA on-premise, ahorro costes IA cloud, privacidad IA RGPD, IA offline, LLM local empresa, BionicEye IA local, OpenAI alternativa local, rendimiento IA local vs cloud';
 
 include "includes/header.php";
@@ -28,12 +28,12 @@ include "includes/header.php";
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto text-center">
-                <span class="badge bg-warning text-dark mb-3"><i class="fas fa-book-open me-2"></i>Guía Técnica 2025</span>
+                <span class="badge bg-warning text-dark mb-3"><i class="fas fa-book-open me-2"></i>Guï¿½a Tï¿½cnica 2025</span>
                 <h1 class="display-3 fw-bold mb-4">
-                    IA Local vs IA Cloud:<br>¿Cuál Conviene a Tu Empresa?
+                    IA Local vs IA Cloud:<br>ï¿½Cuï¿½l Conviene a Tu Empresa?
                 </h1>
                 <p class="lead mb-4">
-                    Análisis exhaustivo de costes, privacidad, rendimiento y casos de uso. Datos reales, calculadora ROI y recomendaciones por industria.
+                    Anï¿½lisis exhaustivo de costes, privacidad, rendimiento y casos de uso. Datos reales, calculadora ROI y recomendaciones por industria.
                 </p>
                 <div class="article-meta">
                     <span class="me-4"><i class="fas fa-calendar me-2"></i>Actualizado: Noviembre 2025</span>
@@ -45,20 +45,20 @@ include "includes/header.php";
     </div>
 </section>
 
-<!-- Índice -->
+<!-- ï¿½ndice -->
 <section class="table-of-contents py-4 bg-light">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title mb-3"><i class="fas fa-list me-2"></i>Índice de Contenidos</h5>
+                        <h5 class="card-title mb-3"><i class="fas fa-list me-2"></i>ï¿½ndice de Contenidos</h5>
                         <div class="row">
                             <div class="col-md-6">
                                 <ul class="list-unstyled">
-                                    <li><a href="#que-es">1. ¿Qué es IA Local vs IA Cloud?</a></li>
+                                    <li><a href="#que-es">1. ï¿½Quï¿½ es IA Local vs IA Cloud?</a></li>
                                     <li><a href="#tabla-comparativa">2. Tabla Comparativa Completa</a></li>
-                                    <li><a href="#costes">3. Análisis de Costes Reales</a></li>
+                                    <li><a href="#costes">3. Anï¿½lisis de Costes Reales</a></li>
                                     <li><a href="#privacidad">4. Privacidad y Cumplimiento RGPD</a></li>
                                 </ul>
                             </div>
@@ -83,7 +83,7 @@ include "includes/header.php";
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
-                <h2 class="mb-4">1. ¿Qué es IA Local vs IA Cloud?</h2>
+                <h2 class="mb-4">1. ï¿½Quï¿½ es IA Local vs IA Cloud?</h2>
 
                 <div class="row mb-5">
                     <div class="col-md-6">
@@ -92,17 +92,17 @@ include "includes/header.php";
                                 <h4 class="mb-0"><i class="fas fa-server me-2"></i>IA Local (On-Premise)</h4>
                             </div>
                             <div class="card-body">
-                                <p><strong>Definición:</strong> Modelos de IA ejecutándose en TUS propios servidores físicos, en tu oficina/datacenter.</p>
-                                <h6 class="mt-3 mb-2">Características:</h6>
+                                <p><strong>Definiciï¿½n:</strong> Modelos de IA ejecutï¿½ndose en TUS propios servidores fï¿½sicos, en tu oficina/datacenter.</p>
+                                <h6 class="mt-3 mb-2">Caracterï¿½sticas:</h6>
                                 <ul>
                                     <li>Datos NUNCA salen de tu infraestructura</li>
                                     <li>Hardware dedicado (AMD, NVIDIA, Intel)</li>
                                     <li>Modelos LLM open-source (LLaMA, Mistral, Qwen)</li>
                                     <li>Funciona 100% offline</li>
-                                    <li>Pago único o licencia perpetua</li>
+                                    <li>Pago ï¿½nico o licencia perpetua</li>
                                 </ul>
                                 <div class="alert alert-success mt-3">
-                                    <strong>Ejemplo:</strong> BionicEye con 11 agentes IA corriendo en tu servidor AMD Ryzen AI.
+                                    <strong>Ejemplo:</strong> BionicEye con 9 agentes IA especializados (ARIA, FELIX, HUGO, etc.) corriendo en tu servidor AMD Ryzen AI.
                                 </div>
                             </div>
                         </div>
@@ -114,8 +114,8 @@ include "includes/header.php";
                                 <h4 class="mb-0"><i class="fas fa-cloud me-2"></i>IA Cloud (SaaS)</h4>
                             </div>
                             <div class="card-body">
-                                <p><strong>Definición:</strong> Modelos de IA alojados en servidores de terceros (OpenAI, Microsoft, Google), acceso vía APIs.</p>
-                                <h6 class="mt-3 mb-2">Características:</h6>
+                                <p><strong>Definiciï¿½n:</strong> Modelos de IA alojados en servidores de terceros (OpenAI, Microsoft, Google), acceso vï¿½a APIs.</p>
+                                <h6 class="mt-3 mb-2">Caracterï¿½sticas:</h6>
                                 <ul>
                                     <li>Datos procesados en servidores externos</li>
                                     <li>Infraestructura compartida (multi-tenant)</li>
@@ -145,28 +145,28 @@ include "includes/header.php";
                         <tbody>
                             <tr>
                                 <th>Privacidad de Datos</th>
-                                <td class="text-center"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><br><small>Máxima</small></td>
+                                <td class="text-center"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><br><small>Mï¿½xima</small></td>
                                 <td class="text-center"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="far fa-star text-muted"></i><i class="far fa-star text-muted"></i><i class="far fa-star text-muted"></i><br><small>Media-Baja</small></td>
                             </tr>
                             <tr>
                                 <th>Cumplimiento RGPD</th>
-                                <td class="text-center text-success"><strong>Automático</strong></td>
+                                <td class="text-center text-success"><strong>Automï¿½tico</strong></td>
                                 <td class="text-center text-warning"><strong>Requiere DPA</strong></td>
                             </tr>
                             <tr>
                                 <th>Coste Inicial</th>
-                                <td class="text-center">¬¬¬<br><small>¬5.000-¬15.000</small></td>
-                                <td class="text-center">¬<br><small>¬0-¬5.000</small></td>
+                                <td class="text-center">ï¿½ï¿½ï¿½<br><small>ï¿½5.000-ï¿½15.000</small></td>
+                                <td class="text-center">ï¿½<br><small>ï¿½0-ï¿½5.000</small></td>
                             </tr>
                             <tr>
                                 <th>Coste Recurrente (50 users)</th>
-                                <td class="text-center text-success"><strong>¬0-¬1.188/año</strong></td>
-                                <td class="text-center text-danger"><strong>¬18.000-¬180.000/año</strong></td>
+                                <td class="text-center text-success"><strong>ï¿½0-ï¿½1.188/aï¿½o</strong></td>
+                                <td class="text-center text-danger"><strong>ï¿½18.000-ï¿½180.000/aï¿½o</strong></td>
                             </tr>
                             <tr>
-                                <th>TCO 3 Años</th>
-                                <td class="text-center text-success"><strong>¬8.564-¬20.000</strong></td>
-                                <td class="text-center text-danger"><strong>¬54.000-¬540.000</strong></td>
+                                <th>TCO 3 Aï¿½os</th>
+                                <td class="text-center text-success"><strong>ï¿½8.564-ï¿½20.000</strong></td>
+                                <td class="text-center text-danger"><strong>ï¿½54.000-ï¿½540.000</strong></td>
                             </tr>
                             <tr>
                                 <th>Latencia Promedio</th>
@@ -184,7 +184,7 @@ include "includes/header.php";
                                 <td class="text-center"><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><br><small>Auto-scaling ilimitado</small></td>
                             </tr>
                             <tr>
-                                <th>Personalización Modelos</th>
+                                <th>Personalizaciï¿½n Modelos</th>
                                 <td class="text-center text-success"><strong>Completa</strong><br><small>Entrena con tus datos</small></td>
                                 <td class="text-center text-warning"><strong>Limitada</strong><br><small>Fine-tuning restringido</small></td>
                             </tr>
@@ -195,7 +195,7 @@ include "includes/header.php";
                             </tr>
                             <tr>
                                 <th>Mantenimiento</th>
-                                <td class="text-center"><strong>Medio</strong><br><small>Requiere administración</small></td>
+                                <td class="text-center"><strong>Medio</strong><br><small>Requiere administraciï¿½n</small></td>
                                 <td class="text-center"><strong>Bajo</strong><br><small>Gestionado por proveedor</small></td>
                             </tr>
                             <tr>
@@ -207,11 +207,11 @@ include "includes/header.php";
                     </table>
                 </div>
 
-                <h2 class="mb-4" id="costes">3. Análisis de Costes Reales (Empresa 50 Empleados)</h2>
+                <h2 class="mb-4" id="costes">3. Anï¿½lisis de Costes Reales (Empresa 50 Empleados)</h2>
 
                 <div class="row mb-5">
                     <div class="col-12">
-                        <h4 class="mb-3">Comparativa TCO (Total Cost of Ownership) 5 Años</h4>
+                        <h4 class="mb-3">Comparativa TCO (Total Cost of Ownership) 5 Aï¿½os</h4>
                         <div class="table-responsive">
                             <table class="table table-striped">
                                 <thead class="table-dark">
@@ -224,58 +224,58 @@ include "includes/header.php";
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><strong>Año 1</strong></td>
+                                        <td><strong>Aï¿½o 1</strong></td>
                                         <td></td>
                                         <td></td>
                                         <td></td>
                                     </tr>
                                     <tr>
                                         <td>Setup/Licencias</td>
-                                        <td class="text-end">¬5.000</td>
-                                        <td class="text-end">¬5.000</td>
-                                        <td class="text-end">¬0</td>
+                                        <td class="text-end">ï¿½5.000</td>
+                                        <td class="text-end">ï¿½5.000</td>
+                                        <td class="text-end">ï¿½0</td>
                                     </tr>
                                     <tr>
                                         <td>Licencias/Suscripciones</td>
-                                        <td class="text-end">¬1.188</td>
-                                        <td class="text-end">¬180.000</td>
-                                        <td class="text-end">¬18.000</td>
+                                        <td class="text-end">ï¿½1.188</td>
+                                        <td class="text-end">ï¿½180.000</td>
+                                        <td class="text-end">ï¿½18.000</td>
                                     </tr>
                                     <tr>
                                         <td>Hardware (servidor AMD)</td>
-                                        <td class="text-end">¬3.000</td>
-                                        <td class="text-end">¬0</td>
-                                        <td class="text-end">¬0</td>
+                                        <td class="text-end">ï¿½3.000</td>
+                                        <td class="text-end">ï¿½0</td>
+                                        <td class="text-end">ï¿½0</td>
                                     </tr>
                                     <tr>
-                                        <td>Formación</td>
-                                        <td class="text-end">¬0 (incluida)</td>
-                                        <td class="text-end">¬8.000</td>
-                                        <td class="text-end">¬2.000</td>
+                                        <td>Formaciï¿½n</td>
+                                        <td class="text-end">ï¿½0 (incluida)</td>
+                                        <td class="text-end">ï¿½8.000</td>
+                                        <td class="text-end">ï¿½2.000</td>
                                     </tr>
                                     <tr class="fw-bold">
-                                        <td>TOTAL AÑO 1</td>
-                                        <td class="text-end text-success">¬9.188</td>
-                                        <td class="text-end text-danger">¬193.000</td>
-                                        <td class="text-end text-warning">¬20.000</td>
+                                        <td>TOTAL Aï¿½O 1</td>
+                                        <td class="text-end text-success">ï¿½9.188</td>
+                                        <td class="text-end text-danger">ï¿½193.000</td>
+                                        <td class="text-end text-warning">ï¿½20.000</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Años 2-5 (anual)</strong></td>
-                                        <td class="text-end text-success">¬1.188</td>
-                                        <td class="text-end text-danger">¬180.000</td>
-                                        <td class="text-end text-warning">¬18.000</td>
+                                        <td><strong>Aï¿½os 2-5 (anual)</strong></td>
+                                        <td class="text-end text-success">ï¿½1.188</td>
+                                        <td class="text-end text-danger">ï¿½180.000</td>
+                                        <td class="text-end text-warning">ï¿½18.000</td>
                                     </tr>
                                     <tr class="table-success fw-bold">
-                                        <td><strong>TCO 5 AÑOS</strong></td>
-                                        <td class="text-end fs-4">¬13.940</td>
-                                        <td class="text-end fs-4">¬913.000</td>
-                                        <td class="text-end fs-4">¬92.000</td>
+                                        <td><strong>TCO 5 Aï¿½OS</strong></td>
+                                        <td class="text-end fs-4">ï¿½13.940</td>
+                                        <td class="text-end fs-4">ï¿½913.000</td>
+                                        <td class="text-end fs-4">ï¿½92.000</td>
                                     </tr>
                                     <tr class="table-warning">
                                         <td><strong>AHORRO vs Cloud</strong></td>
-                                        <td class="text-end text-success fs-5">¬899.060 vs OpenAI</td>
+                                        <td class="text-end text-success fs-5">ï¿½899.060 vs OpenAI</td>
                                         <td class="text-end">-</td>
-                                        <td class="text-end text-success fs-5">¬78.060 vs Copilot</td>
+                                        <td class="text-end text-success fs-5">ï¿½78.060 vs Copilot</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -287,22 +287,22 @@ include "includes/header.php";
 
                 <div class="alert alert-danger mb-4">
                     <h5 class="alert-heading"><i class="fas fa-exclamation-triangle me-2"></i>Riesgos de IA Cloud con Datos Sensibles</h5>
-                    <p class="mb-0">Enviar datos sensibles (nóminas, historiales médicos, información financiera) a APIs cloud externas puede violar RGPD Artículo 32 (seguridad del tratamiento) y Artículo 44 (transferencias internacionales). Multas de hasta ¬20M o 4% facturación global.</p>
+                    <p class="mb-0">Enviar datos sensibles (nï¿½minas, historiales mï¿½dicos, informaciï¿½n financiera) a APIs cloud externas puede violar RGPD Artï¿½culo 32 (seguridad del tratamiento) y Artï¿½culo 44 (transferencias internacionales). Multas de hasta ï¿½20M o 4% facturaciï¿½n global.</p>
                 </div>
 
                 <div class="row mb-4">
                     <div class="col-md-6 mb-3">
                         <div class="card h-100 border-success">
                             <div class="card-header bg-success text-white">
-                                <h5 class="mb-0"><i class="fas fa-shield-check me-2"></i>IA Local: RGPD Compliant por Diseño</h5>
+                                <h5 class="mb-0"><i class="fas fa-shield-check me-2"></i>IA Local: RGPD Compliant por Diseï¿½o</h5>
                             </div>
                             <div class="card-body">
                                 <ul class="mb-0">
-                                    <li><strong>Artículo 25:</strong> Privacidad por diseño  (datos nunca salen)</li>
-                                    <li><strong>Artículo 32:</strong> Seguridad técnica  (control físico servidor)</li>
-                                    <li><strong>Artículo 44:</strong> Transferencias internacionales  (no aplica, todo local)</li>
+                                    <li><strong>Artï¿½culo 25:</strong> Privacidad por diseï¿½o  (datos nunca salen)</li>
+                                    <li><strong>Artï¿½culo 32:</strong> Seguridad tï¿½cnica  (control fï¿½sico servidor)</li>
+                                    <li><strong>Artï¿½culo 44:</strong> Transferencias internacionales  (no aplica, todo local)</li>
                                     <li><strong>Derecho al olvido:</strong> Borrado inmediato garantizado</li>
-                                    <li><strong>Auditorías:</strong> Logs completos en tu poder</li>
+                                    <li><strong>Auditorï¿½as:</strong> Logs completos en tu poder</li>
                                 </ul>
                             </div>
                         </div>
@@ -317,9 +317,9 @@ include "includes/header.php";
                                 <ul class="mb-0">
                                     <li><strong>DPA obligatorio:</strong> Data Processing Agreement con proveedor</li>
                                     <li><strong>SCC:</strong> Standard Contractual Clauses si servidores fuera UE</li>
-                                    <li><strong>Evaluación impacto:</strong> DPIA (Data Protection Impact Assessment)</li>
-                                    <li><strong>Derecho al olvido:</strong> Depende del proveedor (OpenAI retiene 30 días)</li>
-                                    <li><strong>Auditorías:</strong> Acceso limitado a logs</li>
+                                    <li><strong>Evaluaciï¿½n impacto:</strong> DPIA (Data Protection Impact Assessment)</li>
+                                    <li><strong>Derecho al olvido:</strong> Depende del proveedor (OpenAI retiene 30 dï¿½as)</li>
+                                    <li><strong>Auditorï¿½as:</strong> Acceso limitado a logs</li>
                                 </ul>
                             </div>
                         </div>
@@ -333,35 +333,35 @@ include "includes/header.php";
                         <thead class="table-dark">
                             <tr>
                                 <th>Industria</th>
-                                <th>Recomendación</th>
-                                <th>Justificación</th>
+                                <th>Recomendaciï¿½n</th>
+                                <th>Justificaciï¿½n</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr class="table-success">
                                 <td><strong>Healthcare / Sanidad</strong></td>
                                 <td class="text-center"><span class="badge bg-success">IA LOCAL</span></td>
-                                <td>Datos médicos extremadamente sensibles. HIPAA/RGPD crítico. Cero tolerancia a fugas.</td>
+                                <td>Datos mï¿½dicos extremadamente sensibles. HIPAA/RGPD crï¿½tico. Cero tolerancia a fugas.</td>
                             </tr>
                             <tr class="table-success">
                                 <td><strong>Banca / Finanzas</strong></td>
                                 <td class="text-center"><span class="badge bg-success">IA LOCAL</span></td>
-                                <td>Información financiera confidencial. Regulaciones estrictas (PSD2, Basel III).</td>
+                                <td>Informaciï¿½n financiera confidencial. Regulaciones estrictas (PSD2, Basel III).</td>
                             </tr>
                             <tr class="table-success">
                                 <td><strong>Industria / Manufactura</strong></td>
                                 <td class="text-center"><span class="badge bg-success">IA LOCAL</span></td>
-                                <td>Secretos industriales. Integración IoT/PLCs requiere baja latencia local.</td>
+                                <td>Secretos industriales. Integraciï¿½n IoT/PLCs requiere baja latencia local.</td>
                             </tr>
                             <tr class="table-success">
                                 <td><strong>Defensa / Gobierno</strong></td>
                                 <td class="text-center"><span class="badge bg-success">IA LOCAL</span></td>
-                                <td>Información clasificada. Requisito normativo de infraestructura propia.</td>
+                                <td>Informaciï¿½n clasificada. Requisito normativo de infraestructura propia.</td>
                             </tr>
                             <tr class="table-warning">
-                                <td><strong>Logística / Distribución</strong></td>
-                                <td class="text-center"><span class="badge bg-warning">HÍBRIDO</span></td>
-                                <td>IA local para optimización rutas críticas. Cloud para análisis histórico no sensible.</td>
+                                <td><strong>Logï¿½stica / Distribuciï¿½n</strong></td>
+                                <td class="text-center"><span class="badge bg-warning">Hï¿½BRIDO</span></td>
+                                <td>IA local para optimizaciï¿½n rutas crï¿½ticas. Cloud para anï¿½lisis histï¿½rico no sensible.</td>
                             </tr>
                             <tr class="table-info">
                                 <td><strong>Marketing / Publicidad</strong></td>
@@ -371,7 +371,7 @@ include "includes/header.php";
                             <tr class="table-info">
                                 <td><strong>Desarrollo Software</strong></td>
                                 <td class="text-center"><span class="badge bg-info">IA CLOUD</span></td>
-                                <td>GitHub Copilot muy efectivo. Código no suele ser secreto crítico (salvo fintech/defensa).</td>
+                                <td>GitHub Copilot muy efectivo. Cï¿½digo no suele ser secreto crï¿½tico (salvo fintech/defensa).</td>
                             </tr>
                         </tbody>
                     </table>
@@ -383,31 +383,31 @@ include "includes/header.php";
                     <div class="col-12">
                         <div class="card border-primary">
                             <div class="card-header bg-primary text-white">
-                                <h4 class="mb-0"><i class="fas fa-lightbulb me-2"></i>Matriz de Decisión</h4>
+                                <h4 class="mb-0"><i class="fas fa-lightbulb me-2"></i>Matriz de Decisiï¿½n</h4>
                             </div>
                             <div class="card-body">
                                 <h5>Elige IA LOCAL si:</h5>
                                 <ul>
                                     <li> Manejas datos sensibles (salud, finanzas, personal)</li>
-                                    <li> RGPD/HIPAA/SOC2 es crítico</li>
+                                    <li> RGPD/HIPAA/SOC2 es crï¿½tico</li>
                                     <li> Quieres eliminar costes recurrentes (ROI largo plazo)</li>
                                     <li> Necesitas funcionar offline</li>
                                     <li> Tienes secretos industriales/comerciales valiosos</li>
-                                    <li> Integración IoT/OT (maquinaria industrial)</li>
+                                    <li> Integraciï¿½n IoT/OT (maquinaria industrial)</li>
                                 </ul>
 
                                 <h5 class="mt-4">Elige IA CLOUD si:</h5>
                                 <ul>
-                                    <li> Datos no son críticos/sensibles</li>
+                                    <li> Datos no son crï¿½ticos/sensibles</li>
                                     <li> Presupuesto inicial limitado (CAPEX bajo)</li>
                                     <li> Escalado extremo impredecible (startup crecimiento exponencial)</li>
                                     <li> No tienes equipo TI interno</li>
                                     <li> Necesitas modelos multimodales cutting-edge (GPT-4o, Gemini Ultra)</li>
                                 </ul>
 
-                                <h5 class="mt-4">Solución HÍBRIDA óptima:</h5>
+                                <h5 class="mt-4">Soluciï¿½n Hï¿½BRIDA ï¿½ptima:</h5>
                                 <p class="mb-0">
-                                    <strong>Backend crítico:</strong> IA Local (BionicEye para ERP, RRHH, producción)<br>
+                                    <strong>Backend crï¿½tico:</strong> IA Local (BionicEye para ERP, RRHH, producciï¿½n)<br>
                                     <strong>Frontend productividad:</strong> IA Cloud (Copilot para Word/Excel, ChatGPT para brainstorming)<br>
                                     <strong>Resultado:</strong> Privacidad + Productividad sin compromisos.
                                 </p>
@@ -426,9 +426,9 @@ include "includes/header.php";
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-                <h2 class="display-5 fw-bold mb-4">¿Listo para IA Local en Tu Empresa?</h2>
+                <h2 class="display-5 fw-bold mb-4">ï¿½Listo para IA Local en Tu Empresa?</h2>
                 <p class="lead mb-4">
-                    BionicEye: Plataforma IA local líder. Ahorra hasta ¬899.060 en 5 años vs OpenAI Enterprise.
+                    BionicEye: Plataforma IA local lï¿½der. Ahorra hasta ï¿½899.060 en 5 aï¿½os vs OpenAI Enterprise.
                 </p>
                 <div class="d-flex flex-wrap justify-content-center gap-3">
                     <a href="contact.php?product=bioniceye&action=demo&from=ia-local-vs-cloud" class="btn btn-light btn-lg">
