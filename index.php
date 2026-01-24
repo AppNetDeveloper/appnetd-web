@@ -58,7 +58,7 @@ include "includes/header.php";
               <img src="assets/img/hero/AppNetDeveloper-1.webp"
      srcset="assets/img/hero/AppNetDeveloper-1.webp 768w, assets/img/hero/AppNetDeveloper-1.webp 1200w"
      sizes="(max-width: 767px) 100vw, (max-width: 991px) 50vw, 50vw"
-     alt="BionicEye + ADRI - 11 Agentes de Inteligencia Artificial locales para transformación digital empresarial con IoT Industrial y automatización avanzada"
+     alt="BionicEyE + ADRI - 9 Agentes IA especializados para Oficina Virtual Inteligente con automatización empresarial"
      loading="eager"
      class="img-fluid">
             </div>
@@ -560,7 +560,7 @@ include "includes/header.php";
     </div>
   </section>
 
-  <!-- Sección de Precios Modernizada -->
+  <!-- Sección de Precios BionicEyE - 3 Planes -->
   <section class="pricing-modern py-5 bg-light">
     <div class="container">
       <div class="row">
@@ -574,143 +574,116 @@ include "includes/header.php";
           </div>
         </div>
       </div>
-      
+
       <div class="row justify-content-center">
+        <!-- Plan Cloud SaaS -->
         <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="600">
           <div class="pricing-card-modern">
             <div class="pricing-header">
-              <h3><?php echo __('pricing_plan1_title'); ?></h3>
-              <div class="pricing-toggle">
-                <span class="toggle-label monthly active"><?php echo __('monthly_payment'); ?></span>
-                <label class="toggle-switch" for="esencial-toggle">
-                  <input type="checkbox" id="esencial-toggle" aria-label="<?php echo __('toggle_payment_plan'); ?>">
-                  <span class="toggle-slider"></span>
-                </label>
-                <span class="toggle-label yearly"><?php echo __('one_time_payment'); ?></span>
-              </div>
+              <h3><i class="fas fa-cloud me-2"></i><?php echo __('pricing_cloud_title'); ?></h3>
             </div>
-            
+
             <div class="pricing-body">
-              <div class="pricing-option monthly-option active">
-                <div class="price">
-                  <span class="currency">€</span>
-                  <span class="amount">5.000</span>
-                  <span class="period">+ 99€/<?php echo __('month'); ?></span>
-                </div>
-                <p class="price-desc"><?php echo __('monthly_service_payment'); ?></p>
+              <div class="price">
+                <span class="currency">€</span>
+                <span class="amount">350</span>
+                <span class="period">/<?php echo __('month'); ?></span>
               </div>
-              
-              <div class="pricing-option yearly-option">
-                <div class="price">
-                  <span class="currency">€</span>
-                  <span class="amount">15.000</span>
-                </div>
-                <p class="price-desc"><?php echo __('all_inclusive_support'); ?></p>
-                <div class="discount-badge"><?php echo __('long_term_savings'); ?></div>
-              </div>
-              
+              <p class="price-desc"><?php echo __('pricing_cloud_desc'); ?></p>
+
               <div class="pricing-features">
                 <h4><?php echo __('key_features'); ?>:</h4>
                 <ul>
-                  <li><i class="fas fa-check"></i> <?php echo __('feature1'); ?></li>
-                  <li><i class="fas fa-check"></i> <?php echo __('feature2'); ?></li>
-                  <li><i class="fas fa-check"></i> <?php echo __('feature3'); ?></li>
-                  <li><i class="fas fa-check"></i> <?php echo __('feature4'); ?></li>
-                  <li><i class="fas fa-check"></i> <?php echo __('feature5'); ?></li>
-                  <li><i class="fas fa-check"></i> <?php echo __('feature6'); ?></li>
-                  <li><i class="fas fa-check"></i> <?php echo __('feature7'); ?></li>
-                  <li><i class="fas fa-check"></i> <?php echo __('feature8'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('cloud_feature1'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('cloud_feature2'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('cloud_feature3'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('cloud_feature4'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('cloud_feature5'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('cloud_feature6'); ?></li>
                 </ul>
               </div>
             </div>
-            
+
             <div class="pricing-footer">
-              <a href="contact.php?plan=esencial" class="btn btn-outline-primary btn-modern w-100">
+              <a href="contact.php?plan=cloud" class="btn btn-outline-primary btn-modern w-100">
                 <span><?php echo __('request_demo'); ?></span>
                 <i class="fas fa-arrow-right ms-2"></i>
               </a>
             </div>
           </div>
         </div>
-        
+
+        <!-- Plan Híbrido - RECOMENDADO -->
         <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
           <div class="pricing-card-modern featured">
-            <div class="popular-badge"><?php echo __('most_popular'); ?></div>
+            <div class="popular-badge"><?php echo __('recommended'); ?></div>
             <div class="pricing-header">
-              <h3><?php echo __('pricing_plan2_title'); ?></h3>
-              <div class="pricing-toggle">
-                <span class="toggle-label monthly active"><?php echo __('monthly_payment'); ?></span>
-                <label class="toggle-switch" for="avanzado-toggle">
-                  <input type="checkbox" id="avanzado-toggle" aria-label="<?php echo __('toggle_payment_plan'); ?>">
-                  <span class="toggle-slider"></span>
-                </label>
-                <span class="toggle-label yearly"><?php echo __('one_time_payment'); ?></span>
-              </div>
+              <h3><i class="fas fa-link me-2"></i><?php echo __('pricing_hybrid_title'); ?></h3>
             </div>
-            
+
             <div class="pricing-body">
-              <div class="pricing-option monthly-option active">
-                <div class="price">
-                  <span class="currency">€</span>
-                  <span class="amount">9.000</span>
-                  <span class="period">+ 199€/<?php echo __('month'); ?></span>
-                </div>
-                <p class="price-desc"><?php echo __('monthly_service_payment'); ?></p>
+              <div class="price">
+                <span class="small text-muted"><?php echo __('from'); ?></span>
+                <span class="currency">€</span>
+                <span class="amount">250</span>
+                <span class="period">/<?php echo __('month'); ?></span>
               </div>
-              
-              <div class="pricing-option yearly-option">
-                <div class="price">
-                  <span class="currency">€</span>
-                  <span class="amount">19.000</span>
-                </div>
-                <p class="price-desc"><?php echo __('all_inclusive_support'); ?></p>
-                <div class="discount-badge"><?php echo __('long_term_savings'); ?></div>
-              </div>
-              
+              <p class="price-desc"><?php echo __('pricing_hybrid_desc'); ?></p>
+
               <div class="pricing-features">
                 <h4><?php echo __('key_features'); ?>:</h4>
                 <ul>
-                  <li><i class="fas fa-check"></i> <?php echo __('all_essential_features'); ?> +</li>
-                  <li><i class="fas fa-check"></i> <?php echo __('custom_llm'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('hybrid_feature1'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('hybrid_feature2'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('hybrid_feature3'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('hybrid_feature4'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('hybrid_feature5'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('hybrid_feature6'); ?></li>
                 </ul>
               </div>
             </div>
-            
+
             <div class="pricing-footer">
-              <a href="contact.php?plan=avanzado" class="btn btn-primary btn-modern w-100">
+              <a href="contact.php?plan=hibrido" class="btn btn-primary btn-modern w-100">
                 <span><?php echo __('request_info'); ?></span>
                 <i class="fas fa-arrow-right ms-2"></i>
               </a>
             </div>
           </div>
         </div>
-        
+
+        <!-- Plan On-Premise - PRIVACIDAD -->
         <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
           <div class="pricing-card-modern">
+            <div class="popular-badge bg-success"><?php echo __('privacy_badge'); ?></div>
             <div class="pricing-header">
-              <h3><?php echo __('custom_solution_title'); ?></h3>
+              <h3><i class="fas fa-server me-2"></i><?php echo __('pricing_onpremise_title'); ?></h3>
             </div>
-            
+
             <div class="pricing-body">
               <div class="price">
-                <span class="amount"><?php echo __('custom_solution_subtitle'); ?></span>
+                <span class="small text-muted"><?php echo __('from'); ?></span>
+                <span class="currency">€</span>
+                <span class="amount">5.000</span>
+                <span class="period"><?php echo __('one_time'); ?></span>
               </div>
-              <p class="price-desc"><?php echo __('custom_solution_desc'); ?></p>
-              
+              <p class="price-desc"><?php echo __('pricing_onpremise_desc'); ?></p>
+
               <div class="pricing-features">
-                <h4><?php echo __('included_features'); ?>:</h4>
+                <h4><?php echo __('key_features'); ?>:</h4>
                 <ul>
-                  <li><i class="fas fa-check"></i> <?php echo __('feature_custom1'); ?></li>
-                  <li><i class="fas fa-check"></i> <?php echo __('feature_custom2'); ?></li>
-                  <li><i class="fas fa-check"></i> <?php echo __('feature_custom3'); ?></li>
-                  <li><i class="fas fa-check"></i> <?php echo __('feature_custom4'); ?></li>
-                  <li><i class="fas fa-check"></i> <?php echo __('feature_custom5'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('onpremise_feature1'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('onpremise_feature2'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('onpremise_feature3'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('onpremise_feature4'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('onpremise_feature5'); ?></li>
+                  <li><i class="fas fa-check"></i> <?php echo __('onpremise_feature6'); ?></li>
                 </ul>
               </div>
             </div>
-            
+
             <div class="pricing-footer">
-              <a href="contact.php" class="btn btn-outline-primary btn-modern w-100">
+              <a href="contact.php?plan=onpremise" class="btn btn-outline-primary btn-modern w-100">
                 <span><?php echo __('contact_us'); ?></span>
                 <i class="fas fa-arrow-right ms-2"></i>
               </a>
@@ -804,7 +777,7 @@ include "includes/header.php";
     </div>
   </section>
 
-  <!-- Sección BionicEye + ADRI - Sistema de 11 Agentes IA Locales -->
+  <!-- Sección BionicEyE + ADRI - Oficina Virtual Inteligente con 9 Agentes IA -->
   <section class="bioniceye-adri-section py-5 bg-gradient-primary">
     <div class="container">
       <div class="row align-items-center mb-5">
@@ -888,38 +861,38 @@ include "includes/header.php";
             <div class="row g-3">
               <div class="col-6">
                 <div class="stat-box text-center p-3 bg-light rounded">
-                  <div class="stat-value text-primary fw-bold fs-3">€295K</div>
+                  <div class="stat-value text-primary fw-bold fs-3">9</div>
+                  <div class="stat-label small"><?php echo __('bioniceye_stats_agents'); ?></div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stat-box text-center p-3 bg-light rounded">
+                  <div class="stat-value text-success fw-bold fs-3">151</div>
+                  <div class="stat-label small"><?php echo __('bioniceye_stats_models'); ?></div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stat-box text-center p-3 bg-light rounded">
+                  <div class="stat-value text-warning fw-bold fs-3">93</div>
+                  <div class="stat-label small"><?php echo __('bioniceye_stats_services'); ?></div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stat-box text-center p-3 bg-light rounded">
+                  <div class="stat-value text-danger fw-bold fs-3">€5.496</div>
                   <div class="stat-label small"><?php echo __('bioniceye_stats_savings'); ?></div>
                 </div>
               </div>
               <div class="col-6">
                 <div class="stat-box text-center p-3 bg-light rounded">
-                  <div class="stat-value text-success fw-bold fs-3">60%</div>
-                  <div class="stat-label small"><?php echo __('bioniceye_stats_reduction'); ?></div>
+                  <div class="stat-value text-info fw-bold fs-3">+40%</div>
+                  <div class="stat-label small"><?php echo __('bioniceye_stats_productivity'); ?></div>
                 </div>
               </div>
               <div class="col-6">
                 <div class="stat-box text-center p-3 bg-light rounded">
-                  <div class="stat-value text-warning fw-bold fs-3">10x</div>
-                  <div class="stat-label small"><?php echo __('bioniceye_stats_processing'); ?></div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="stat-box text-center p-3 bg-light rounded">
-                  <div class="stat-value text-danger fw-bold fs-3">-98%</div>
+                  <div class="stat-value text-primary fw-bold fs-3">-60%</div>
                   <div class="stat-label small"><?php echo __('bioniceye_stats_errors'); ?></div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="stat-box text-center p-3 bg-light rounded">
-                  <div class="stat-value text-info fw-bold fs-3">24/7</div>
-                  <div class="stat-label small"><?php echo __('bioniceye_stats_support'); ?></div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="stat-box text-center p-3 bg-light rounded">
-                  <div class="stat-value text-primary fw-bold fs-3">245%</div>
-                  <div class="stat-label small"><?php echo __('bioniceye_stats_roi'); ?></div>
                 </div>
               </div>
             </div>
@@ -934,7 +907,7 @@ include "includes/header.php";
         </div>
       </div>
 
-      <!-- 11 Agentes ADRI -->
+      <!-- 9 Agentes ADRI -->
       <div class="row" id="adri-agents">
         <div class="col-12 text-center mb-5" data-aos="fade-up">
           <h3 class="text-white mb-3"><?php echo __('adri_agents_title'); ?></h3>
@@ -943,144 +916,111 @@ include "includes/header.php";
       </div>
 
       <div class="row g-4">
-        <!-- Vision Agent -->
+        <!-- ARIA - Supervisora -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
-              <i class="fas fa-eye fa-3x text-primary"></i>
+              <i class="fas fa-brain fa-3x" style="color: #60a5fa;"></i>
             </div>
-            <h4 class="fw-bold mb-2">👁️ <?php echo __('agent_vision_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_vision_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_vision_desc'); ?></p>
-            <div class="savings-badge bg-success bg-opacity-10 p-2 rounded">
-              <small class="text-success fw-bold"><i class="fas fa-piggy-bank me-1"></i><?php echo __('agent_vision_savings'); ?></small>
-            </div>
+            <h4 class="fw-bold mb-2">🎯 <?php echo __('agent_aria_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_aria_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_aria_desc'); ?></p>
           </div>
         </div>
 
-        <!-- Messaging Agent -->
+        <!-- FELIX - Producción -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="700">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
-              <i class="fas fa-comments fa-3x text-success"></i>
+              <i class="fas fa-industry fa-3x" style="color: #f97316;"></i>
             </div>
-            <h4 class="fw-bold mb-2">💬 <?php echo __('agent_messaging_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_messaging_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_messaging_desc'); ?></p>
-            <div class="savings-badge bg-success bg-opacity-10 p-2 rounded">
-              <small class="text-success fw-bold"><i class="fas fa-piggy-bank me-1"></i><?php echo __('agent_messaging_savings'); ?></small>
-            </div>
+            <h4 class="fw-bold mb-2">🏭 <?php echo __('agent_felix_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_felix_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_felix_desc'); ?></p>
           </div>
         </div>
 
-        <!-- Web Search Agent -->
+        <!-- HUGO - RRHH -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
-              <i class="fas fa-search fa-3x text-info"></i>
+              <i class="fas fa-users fa-3x" style="color: #facc15;"></i>
             </div>
-            <h4 class="fw-bold mb-2">🔍 <?php echo __('agent_websearch_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_websearch_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_websearch_desc'); ?></p>
-            <div class="savings-badge bg-success bg-opacity-10 p-2 rounded">
-              <small class="text-success fw-bold"><i class="fas fa-piggy-bank me-1"></i><?php echo __('agent_websearch_savings'); ?></small>
-            </div>
+            <h4 class="fw-bold mb-2">👥 <?php echo __('agent_hugo_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_hugo_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_hugo_desc'); ?></p>
           </div>
         </div>
 
-        <!-- Coder Agent -->
+        <!-- IRIS - Business Intelligence -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
-              <i class="fas fa-code fa-3x text-warning"></i>
+              <i class="fas fa-chart-pie fa-3x" style="color: #a855f7;"></i>
             </div>
-            <h4 class="fw-bold mb-2">💻 <?php echo __('agent_coder_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_coder_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_coder_desc'); ?></p>
-            <div class="savings-badge bg-success bg-opacity-10 p-2 rounded">
-              <small class="text-success fw-bold"><i class="fas fa-piggy-bank me-1"></i><?php echo __('agent_coder_savings'); ?></small>
-            </div>
+            <h4 class="fw-bold mb-2">📊 <?php echo __('agent_iris_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_iris_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_iris_desc'); ?></p>
           </div>
         </div>
 
-        <!-- Data Analysis Agent -->
+        <!-- LEO - Finanzas -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="700">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
-              <i class="fas fa-chart-bar fa-3x text-danger"></i>
+              <i class="fas fa-euro-sign fa-3x" style="color: #22c55e;"></i>
             </div>
-            <h4 class="fw-bold mb-2">📊 <?php echo __('agent_dataanalysis_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_dataanalysis_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_dataanalysis_desc'); ?></p>
-            <div class="savings-badge bg-success bg-opacity-10 p-2 rounded">
-              <small class="text-success fw-bold"><i class="fas fa-piggy-bank me-1"></i><?php echo __('agent_dataanalysis_savings'); ?></small>
-            </div>
+            <h4 class="fw-bold mb-2">💰 <?php echo __('agent_leo_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_leo_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_leo_desc'); ?></p>
           </div>
         </div>
 
-        <!-- RAG Agent -->
+        <!-- MAX - Marketing -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
-              <i class="fas fa-book fa-3x text-purple"></i>
+              <i class="fas fa-bullhorn fa-3x" style="color: #ef4444;"></i>
             </div>
-            <h4 class="fw-bold mb-2">📚 <?php echo __('agent_rag_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_rag_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_rag_desc'); ?></p>
-            <div class="savings-badge bg-success bg-opacity-10 p-2 rounded">
-              <small class="text-success fw-bold"><i class="fas fa-piggy-bank me-1"></i><?php echo __('agent_rag_savings'); ?></small>
-            </div>
+            <h4 class="fw-bold mb-2">📣 <?php echo __('agent_max_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_max_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_max_desc'); ?></p>
           </div>
         </div>
 
-        <!-- Más agentes en una fila compacta -->
-        <div class="col-12 mt-4">
-          <div class="row g-3">
-            <div class="col-lg-3 col-md-6" data-aos="fade-up">
-              <div class="agent-mini-card p-3 bg-white rounded shadow-sm text-center">
-                <i class="fab fa-instagram fa-2x text-pink mb-2"></i>
-                <h5 class="mb-1">📱 <?php echo __('agent_social_title'); ?></h5>
-                <small class="text-muted"><?php echo __('agent_social_desc'); ?></small>
-                <div class="mt-2"><small class="text-success fw-bold"><?php echo __('agent_social_savings'); ?></small></div>
-              </div>
+        <!-- NOVA - CRM -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600">
+          <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
+            <div class="agent-icon mb-3">
+              <i class="fas fa-headset fa-3x" style="color: #ec4899;"></i>
             </div>
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="agent-mini-card p-3 bg-white rounded shadow-sm text-center">
-                <i class="fas fa-calendar-alt fa-2x text-primary mb-2"></i>
-                <h5 class="mb-1">📅 <?php echo __('agent_planner_title'); ?></h5>
-                <small class="text-muted"><?php echo __('agent_planner_desc'); ?></small>
-                <div class="mt-2"><small class="text-success fw-bold"><?php echo __('agent_planner_savings'); ?></small></div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-              <div class="agent-mini-card p-3 bg-white rounded shadow-sm text-center">
-                <i class="fas fa-project-diagram fa-2x text-warning mb-2"></i>
-                <h5 class="mb-1">📐 <?php echo __('agent_diagram_title'); ?></h5>
-                <small class="text-muted"><?php echo __('agent_diagram_desc'); ?></small>
-                <div class="mt-2"><small class="text-success fw-bold"><?php echo __('agent_diagram_savings'); ?></small></div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="agent-mini-card p-3 bg-white rounded shadow-sm text-center">
-                <i class="fas fa-bug fa-2x text-danger mb-2"></i>
-                <h5 class="mb-1">🐛 <?php echo __('agent_debugger_title'); ?></h5>
-                <small class="text-muted"><?php echo __('agent_debugger_desc'); ?></small>
-                <div class="mt-2"><small class="text-success fw-bold"><?php echo __('agent_debugger_savings'); ?></small></div>
-              </div>
-            </div>
+            <h4 class="fw-bold mb-2">📞 <?php echo __('agent_nova_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_nova_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_nova_desc'); ?></p>
           </div>
         </div>
-      </div>
 
-      <!-- Supervisor Agent destacado -->
-      <div class="row mt-5">
-        <div class="col-lg-8 mx-auto" data-aos="zoom-in">
-          <div class="supervisor-card p-5 bg-gradient-dark rounded-4 shadow-lg text-center">
-            <i class="fas fa-brain fa-4x text-white mb-3"></i>
-            <h4 class="text-white mb-3">🎯 <?php echo __('agent_supervisor_title'); ?></h4>
-            <p class="text-white-75 mb-0">
-              <?php echo __('agent_supervisor_desc'); ?>
-            </p>
+        <!-- SAM - Logística -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="700">
+          <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
+            <div class="agent-icon mb-3">
+              <i class="fas fa-truck fa-3x" style="color: #14b8a6;"></i>
+            </div>
+            <h4 class="fw-bold mb-2">🚚 <?php echo __('agent_sam_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_sam_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_sam_desc'); ?></p>
+          </div>
+        </div>
+
+        <!-- ZOE - Compliance -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
+          <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
+            <div class="agent-icon mb-3">
+              <i class="fas fa-shield-alt fa-3x" style="color: #8b5cf6;"></i>
+            </div>
+            <h4 class="fw-bold mb-2">⚖️ <?php echo __('agent_zoe_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_zoe_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_zoe_desc'); ?></p>
           </div>
         </div>
       </div>
@@ -1097,8 +1037,8 @@ include "includes/header.php";
               <a href="contact.php?product=bioniceye&action=demo" class="btn btn-primary btn-lg">
                 <i class="fas fa-video me-2"></i><?php echo __('bioniceye_cta_demo'); ?>
               </a>
-              <a href="contact.php?product=bioniceye&action=poc" class="btn btn-success btn-lg">
-                <i class="fas fa-flask me-2"></i><?php echo __('bioniceye_cta_poc'); ?>
+              <a href="https://bioniceye.app/presentacion.html" target="_blank" class="btn btn-success btn-lg">
+                <i class="fas fa-presentation me-2"></i><?php echo __('bioniceye_cta_poc'); ?>
               </a>
               <a href="tel:+34619929305" class="btn btn-outline-primary btn-lg">
                 <i class="fas fa-phone me-2"></i>+34 619 929 305
@@ -1234,8 +1174,8 @@ include "includes/header.php";
           <span class="badge bg-primary mb-3">
             <i class="fas fa-question-circle me-2"></i>Preguntas Frecuentes
           </span>
-          <h2 class="section-title mb-3">Todo lo que necesitas saber sobre BionicEye + ADRI</h2>
-          <p class="section-description">Respuestas detalladas sobre nuestra plataforma de 11 agentes IA locales</p>
+          <h2 class="section-title mb-3">Todo lo que necesitas saber sobre BionicEyE + ADRI</h2>
+          <p class="section-description">Respuestas detalladas sobre nuestra Oficina Virtual Inteligente con 9 agentes IA</p>
         </div>
       </div>
 
@@ -1248,28 +1188,31 @@ include "includes/header.php";
               <h3 class="accordion-header" id="faq1">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
                   <i class="fas fa-robot me-3 text-primary"></i>
-                  ¿Qué es BionicEye + ADRI y cómo funciona sin gastos mensuales?
+                  ¿Qué es BionicEyE + ADRI y qué planes de precios ofrecen?
                 </button>
               </h3>
               <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                  <p><strong>BionicEye + ADRI</strong> es una plataforma ERP completa con <strong>11 agentes de IA especializados</strong> que funcionan 100% en local en tu servidor, sin dependencia de OpenAI, Google o Microsoft.</p>
-                  <p><strong>ADRI</strong> (Agente Distribuido de Respuesta Inteligente) incluye agentes para:</p>
+                  <p><strong>BionicEyE + ADRI</strong> es una <strong>Oficina Virtual Inteligente</strong> con <strong>9 agentes IA especializados</strong>. NO es un ERP tradicional - es una solución de automatización empresarial moderna.</p>
+                  <p><strong>ADRI</strong> (Adaptive Dynamic Reasoning Intelligence) incluye 9 agentes:</p>
                   <ul>
-                    <li>OCR de facturas</li>
-                    <li>WhatsApp/Telegram 24/7</li>
-                    <li>Análisis web</li>
-                    <li>Desarrollo de código</li>
-                    <li>Debugging</li>
-                    <li>Análisis de datos</li>
-                    <li>Base de conocimiento RAG</li>
-                    <li>Redes sociales</li>
-                    <li>Planificación</li>
-                    <li>Diagramas</li>
-                    <li>Supervisión</li>
+                    <li><strong>ARIA</strong> - Supervisora y orquestadora</li>
+                    <li><strong>FELIX</strong> - Producción y control de planta</li>
+                    <li><strong>HUGO</strong> - RRHH y gestión de personal</li>
+                    <li><strong>IRIS</strong> - Business Intelligence y analítica</li>
+                    <li><strong>LEO</strong> - Finanzas y facturación VeriFactu</li>
+                    <li><strong>MAX</strong> - Marketing y contenido IA</li>
+                    <li><strong>NOVA</strong> - CRM multicanal (WhatsApp, Email, Telegram)</li>
+                    <li><strong>SAM</strong> - Logística e inventario</li>
+                    <li><strong>ZOE</strong> - Compliance GDPR y AI Act</li>
                   </ul>
-                  <p>Al ejecutarse localmente en hardware AMD NPU/GPU con Lemonade Server, <strong>eliminas costes de APIs cloud</strong>. Ofrecemos opción de <strong>pago único de €9,000</strong> (servidor básico) o <strong>€5,000 inicial + €90/mes</strong>.</p>
-                  <p><span class="badge bg-success">ROI del 245%</span> en el primer año con ahorro demostrado de <strong>€295,000/año</strong> para empresas de 50 empleados.</p>
+                  <p><strong>3 Planes disponibles:</strong></p>
+                  <ul>
+                    <li><strong>Cloud SaaS</strong>: €350/mes - Sin inversión inicial</li>
+                    <li><strong>Híbrido</strong>: desde €250/mes - Servidor local + API cloud (RECOMENDADO)</li>
+                    <li><strong>On-Premise</strong>: desde €5.000 único - 100% privacidad, sin costes mensuales</li>
+                  </ul>
+                  <p><span class="badge bg-success">Ahorro de €5.496/año</span> comparado con ChatGPT Enterprise + Claude Pro + Gemini Advanced.</p>
                 </div>
               </div>
             </div>
@@ -1351,14 +1294,14 @@ include "includes/header.php";
               </h3>
               <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="faq5" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                  <p>La diferencia clave es que BionicEye tiene <strong>IA nativa integrada en cada módulo</strong>, no como complemento.</p>
-                  <p><strong>BionicEye (IA Nativa):</strong></p>
+                  <p>La diferencia clave es que BionicEyE tiene <strong>IA nativa integrada en cada módulo</strong>, no como complemento.</p>
+                  <p><strong>BionicEyE (IA Nativa):</strong></p>
                   <ul>
-                    <li>11 agentes especializados diseñados para tareas empresariales</li>
-                    <li>100% local - tus datos sensibles nunca salen de tu servidor</li>
-                    <li>Crucial para RGPD/LOPD</li>
-                    <li>Pago único opcional - sin costes recurrentes</li>
-                    <li>Todo-en-uno: ERP + 11 agentes IA + infraestructura</li>
+                    <li>9 agentes especializados diseñados para tareas empresariales</li>
+                    <li>3 modalidades: Cloud, Híbrido u On-Premise</li>
+                    <li>Compliance GDPR, LOPD y AI Act europeo</li>
+                    <li>On-Premise desde €5.000 - sin costes recurrentes</li>
+                    <li>Todo-en-uno: Oficina Virtual + 9 agentes IA + infraestructura</li>
                   </ul>
                   <p><strong>ERPs tradicionales con "IA":</strong></p>
                   <ul>
@@ -1376,7 +1319,7 @@ include "includes/header.php";
               <h3 class="accordion-header" id="faq6">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
                   <i class="fas fa-clock me-3 text-primary"></i>
-                  ¿Cuánto tiempo tarda la implementación de BionicEye + ADRI?
+                  ¿Cuánto tiempo tarda la implementación de BionicEyE + ADRI?
                 </button>
               </h3>
               <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="faq6" data-bs-parent="#faqAccordion">
@@ -1448,7 +1391,7 @@ include "includes/header.php";
               <h3 class="accordion-header" id="faq8">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
                   <i class="fas fa-expand-arrows-alt me-3 text-primary"></i>
-                  ¿Cómo escalo BionicEye + ADRI si mi empresa crece?
+                  ¿Cómo escalo BionicEyE + ADRI si mi empresa crece?
                 </button>
               </h3>
               <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="faq8" data-bs-parent="#faqAccordion">
@@ -1481,7 +1424,7 @@ include "includes/header.php";
                     Ambas opciones mantienen el código sin cambios.
                   </div>
 
-                  <p>La arquitectura multi-agente de ADRI permite escalado transparente: el <strong>Supervisor Agent</strong> distribuye automáticamente tareas entre capacidad disponible.</p>
+                  <p>La arquitectura multi-agente de ADRI permite escalado transparente: <strong>ARIA (Agente Supervisora)</strong> distribuye automáticamente tareas entre los 9 agentes según capacidad disponible.</p>
                   <p><span class="badge bg-success">Sin vendor lock-in</span> - puedes combinar hardware propio con servidores nuestros.</p>
                 </div>
               </div>

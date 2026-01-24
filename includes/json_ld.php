@@ -193,10 +193,10 @@ $faq_schema = [
     'mainEntity' => [
         [
             '@type' => 'Question',
-            'name' => '¿Qué es BionicEye + ADRI y cómo funciona sin gastos mensuales?',
+            'name' => '¿Qué es BionicEyE + ADRI y qué planes de precios ofrecen?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'BionicEye + ADRI es una plataforma ERP completa con 11 agentes de IA especializados que funcionan 100% en local en tu servidor, sin dependencia de OpenAI, Google o Microsoft. ADRI (Agente Distribuido de Respuesta Inteligente) incluye agentes para: OCR de facturas, WhatsApp/Telegram 24/7, análisis web, desarrollo de código, debugging, análisis de datos, base de conocimiento RAG, redes sociales, planificación, diagramas y supervisión. Al ejecutarse localmente en hardware AMD NPU/GPU con Lemonade Server, eliminas costes de APIs cloud. Ofrecemos opción de pago único de €9,000 (servidor básico) o €5,000 inicial + €90/mes. ROI del 245% en el primer año con ahorro demostrado de €295,000/año para empresas de 50 empleados.'
+                'text' => 'BionicEyE + ADRI es una Oficina Virtual Inteligente con 9 agentes IA especializados: ARIA (Supervisora), FELIX (Producción), HUGO (RRHH), IRIS (BI), LEO (Finanzas), MAX (Marketing), NOVA (CRM), SAM (Logística) y ZOE (Compliance). 3 planes disponibles: Cloud SaaS €350/mes sin inversión inicial, Híbrido desde €250/mes (servidor local + API cloud), On-Premise desde €5.000 único con 100% privacidad. Ahorro de €5.496/año comparado con ChatGPT Enterprise + Claude Pro + Gemini Advanced. Compliance GDPR y AI Act. Activación en 48h.'
             ]
         ],
         [
@@ -225,10 +225,10 @@ $faq_schema = [
         ],
         [
             '@type' => 'Question',
-            'name' => '¿Qué diferencia a BionicEye de un ERP tradicional con "IA añadida"?',
+            'name' => '¿Qué diferencia a BionicEyE de un ERP tradicional con "IA añadida"?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'La diferencia clave es que BionicEye tiene IA nativa integrada en cada módulo, no como complemento. Los 11 agentes ADRI están diseñados específicamente para tareas empresariales: procesamiento de facturas (Vision), atención cliente (Messaging), investigación competitiva (Web Search), automatización de código (Coder/Debugger), análisis de datos (Data Analysis), búsqueda semántica en documentación (RAG), redes sociales (Social Media), y más. Además, al ser 100% local, tus datos sensibles nunca salen de tu servidor - crucial para RGPD/LOPD. Los ERPs tradicionales con "IA" dependen de APIs cloud de terceros, tienen costes recurrentes elevados, y envían tus datos a servidores externos. BionicEye es todo-en-uno: ERP + 11 agentes IA + infraestructura local por un pago único opcional.'
+                'text' => 'La diferencia clave es que BionicEyE no es un ERP tradicional sino una Oficina Virtual Inteligente con IA nativa. Los 9 agentes ADRI están especializados: ARIA coordina todo, FELIX gestiona producción, HUGO maneja RRHH con fichaje legal, IRIS proporciona Business Intelligence, LEO automatiza facturación VeriFactu, MAX genera contenido marketing, NOVA gestiona CRM multicanal (WhatsApp, Email, Telegram), SAM optimiza logística y ZOE asegura compliance GDPR y AI Act. 3 modalidades: Cloud, Híbrido u On-Premise. Compliance total con regulación europea AI Act.'
             ]
         ],
         [
