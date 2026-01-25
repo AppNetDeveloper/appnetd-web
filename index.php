@@ -846,6 +846,9 @@ include "includes/header.php";
           </div>
 
           <div class="cta-buttons">
+            <a href="https://bioniceye.app" target="_blank" class="btn btn-warning btn-lg me-3 mb-2">
+              <i class="fas fa-external-link-alt me-2"></i>Visitar BionicEyE.app
+            </a>
             <a href="contact.php?product=bioniceye" class="btn btn-light btn-lg me-3 mb-2">
               <i class="fas fa-calendar-check me-2"></i><?php echo __('bioniceye_demo_btn'); ?>
             </a>
@@ -1037,8 +1040,8 @@ include "includes/header.php";
               <a href="contact.php?product=bioniceye&action=demo" class="btn btn-primary btn-lg">
                 <i class="fas fa-video me-2"></i><?php echo __('bioniceye_cta_demo'); ?>
               </a>
-              <a href="https://bioniceye.app/presentacion.html" target="_blank" class="btn btn-success btn-lg">
-                <i class="fas fa-presentation me-2"></i><?php echo __('bioniceye_cta_poc'); ?>
+              <a href="https://bioniceye.app" target="_blank" class="btn btn-success btn-lg">
+                <i class="fas fa-globe me-2"></i>bioniceye.app
               </a>
               <a href="tel:+34619929305" class="btn btn-outline-primary btn-lg">
                 <i class="fas fa-phone me-2"></i>+34 619 929 305
