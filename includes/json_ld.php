@@ -837,6 +837,78 @@ if ($current_page === 'index') {
         ]
     ];
     $schemas_to_include[] = $software_platform_schema;
+
+    // BionicEyE + ADRI Schema - Específico para el producto estrella
+    $bioniceye_schema = [
+        '@context' => 'https://schema.org',
+        '@type' => 'SoftwareApplication',
+        'name' => 'BionicEyE + ADRI',
+        'alternateName' => 'Bionic Eye Oficina Virtual Inteligente',
+        'applicationCategory' => 'BusinessApplication',
+        'applicationSubCategory' => 'AI Virtual Office & ERP',
+        'operatingSystem' => 'Linux, Windows, Cloud, On-Premise',
+        'description' => 'Oficina Virtual Inteligente con 9 agentes IA especializados (ADRI) que gestionan producción, RRHH, finanzas, marketing, logística y compliance. Incluye ARIA (Supervisora), FELIX (Producción), HUGO (RRHH), IRIS (BI), LEO (Finanzas), MAX (Marketing), NOVA (CRM), SAM (Logística) y ZOE (Compliance).',
+        'softwareVersion' => '2.0',
+        'offers' => [
+            [
+                '@type' => 'Offer',
+                'name' => 'Plan Cloud SaaS',
+                'price' => '350',
+                'priceCurrency' => 'EUR',
+                'billingIncrement' => 'monthly',
+                'description' => 'Acceso completo en la nube sin inversión inicial. Incluye actualizaciones automáticas y soporte.',
+                'availability' => 'https://schema.org/InStock'
+            ],
+            [
+                '@type' => 'Offer',
+                'name' => 'Plan Híbrido',
+                'price' => '250',
+                'priceCurrency' => 'EUR',
+                'billingIncrement' => 'monthly',
+                'description' => 'Servidor local para datos sensibles + API Cloud para inteligencia. Equilibrio entre privacidad y potencia.',
+                'availability' => 'https://schema.org/InStock'
+            ],
+            [
+                '@type' => 'Offer',
+                'name' => 'Plan On-Premise',
+                'price' => '5000',
+                'priceCurrency' => 'EUR',
+                'description' => 'Licencia perpetua con servidor local. 100% privacidad, sin dependencia de internet. Pago único.',
+                'availability' => 'https://schema.org/InStock'
+            ]
+        ],
+        'aggregateRating' => [
+            '@type' => 'AggregateRating',
+            'ratingValue' => '4.9',
+            'reviewCount' => '85',
+            'bestRating' => '5',
+            'worstRating' => '1'
+        ],
+        'featureList' => [
+            '9 Agentes IA especializados (ADRI)',
+            'ARIA: Supervisión y coordinación general',
+            'FELIX: Gestión de producción y eficiencia',
+            'HUGO: Recursos Humanos y control horario legal',
+            'IRIS: Business Intelligence y análisis de datos',
+            'LEO: Finanzas y facturación VeriFactu',
+            'MAX: Marketing y generación de contenido',
+            'NOVA: CRM omnicanal (WhatsApp, Telegram, Email)',
+            'SAM: Logística y optimización de rutas',
+            'ZOE: Compliance legal, GDPR y AI Act',
+            'Privacidad total con opción On-Premise',
+            'Integración con sistemas existentes'
+        ],
+        'screenshot' => [
+            $base_url . '/assets/img/hero/AppNetDeveloper-1.webp',
+            $base_url . '/assets/img/about/about1-img1.png'
+        ],
+        'author' => [
+            '@type' => 'Organization',
+            'name' => 'AppNet Developer',
+            'url' => $base_url
+        ]
+    ];
+    $schemas_to_include[] = $bioniceye_schema;
 }
 
 // Para páginas de servicios
