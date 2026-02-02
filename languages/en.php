@@ -899,7 +899,7 @@ return [
     'bioniceye_benefit5_title' => 'Scaling Without Modifications',
     'bioniceye_benefit5_desc' => 'To expand capacity just add more nodes or GPUs. No code changes, no reconfiguration. Transparent horizontal scaling.',
     'bioniceye_demo_btn' => 'Free 45-min Demo',
-    'bioniceye_agents_btn' => 'See 9 Agents',
+    'bioniceye_agents_btn' => 'See 13 agents',
     'bioniceye_stats_title' => 'In 30 Seconds',
     'bioniceye_stats_savings' => 'Annual Savings',
     'bioniceye_stats_reduction' => 'Time Reduction',

@@ -102,7 +102,7 @@ include "includes/header.php";
                                     <li>Pago �nico o licencia perpetua</li>
                                 </ul>
                                 <div class="alert alert-success mt-3">
-                                    <strong>Ejemplo:</strong> BionicEye con 9 agentes IA especializados (ARIA, FELIX, HUGO, etc.) corriendo en tu servidor AMD Ryzen AI.
+                                    <strong>Ejemplo:</strong> BionicEye con 13 agentes IA especializados (ARIA, FELIX, HUGO, etc.) corriendo en tu servidor AMD Ryzen AI.
                                 </div>
                             </div>
                         </div>

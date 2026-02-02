@@ -189,7 +189,7 @@ include "includes/header.php";
                             <tr>
                                 <th scope="row">Número de Agentes IA Especializados</th>
                                 <td class="text-center bg-success-light">
-                                    <strong class="fs-4 text-success">9 Agentes</strong><br>
+                                    <strong class="fs-4 text-success">13 agentes</strong><br>
                                     <small>ARIA, FELIX, HUGO, IRIS, LEO, MAX, NOVA, SAM, ZOE</small>
                                 </td>
                                 <td class="text-center">
@@ -379,7 +379,7 @@ include "includes/header.php";
                                 <ul class="list-unstyled">
                                     <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Setup inicial: <strong>�5.000</strong> (�nico)</li>
                                     <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Mantenimiento: �99/mes � 12 = <strong>�1.188</strong></li>
-                                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>9 Agentes IA: <strong>€0 extra</strong></li>
+                                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>13 agentes IA: <strong>€0 extra</strong></li>
                                     <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>10 M�dulos ERP: <strong>�0 extra</strong></li>
                                     <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>WhatsApp/Telegram bot: <strong>�0 extra</strong></li>
                                     <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>OCR facturas ilimitado: <strong>�0 extra</strong></li>

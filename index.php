@@ -58,7 +58,7 @@ include "includes/header.php";
               <img src="assets/img/hero/AppNetDeveloper-1.webp"
      srcset="assets/img/hero/AppNetDeveloper-1.webp 768w, assets/img/hero/AppNetDeveloper-1.webp 1200w"
      sizes="(max-width: 767px) 100vw, (max-width: 991px) 50vw, 50vw"
-     alt="BionicEyE + ADRI - 9 Agentes IA especializados para Oficina Virtual Inteligente con automatización empresarial"
+     alt="BionicEyE + ADRI - 13 agentes IA especializados para Oficina Virtual Inteligente con automatización empresarial"
      loading="eager"
      class="img-fluid">
             </div>
@@ -777,7 +777,7 @@ include "includes/header.php";
     </div>
   </section>
 
-  <!-- Sección BionicEyE + ADRI - Oficina Virtual Inteligente con 9 Agentes IA -->
+  <!-- Sección BionicEyE + ADRI - Oficina Virtual Inteligente con 13 agentes IA -->
   <section class="bioniceye-adri-section py-5 bg-gradient-primary">
     <div class="container">
       <div class="row align-items-center mb-5">
@@ -910,7 +910,7 @@ include "includes/header.php";
         </div>
       </div>
 
-      <!-- 9 Agentes ADRI -->
+      <!-- 13 agentes ADRI -->
       <div class="row" id="adri-agents">
         <div class="col-12 text-center mb-5" data-aos="fade-up">
           <h3 class="text-white mb-3"><?php echo __('adri_agents_title'); ?></h3>
@@ -1178,7 +1178,7 @@ include "includes/header.php";
             <i class="fas fa-question-circle me-2"></i>Preguntas Frecuentes
           </span>
           <h2 class="section-title mb-3">Todo lo que necesitas saber sobre BionicEyE + ADRI</h2>
-          <p class="section-description">Respuestas detalladas sobre nuestra Oficina Virtual Inteligente con 9 agentes IA</p>
+          <p class="section-description">Respuestas detalladas sobre nuestra Oficina Virtual Inteligente con 13 agentes IA</p>
         </div>
       </div>
 
@@ -1196,8 +1196,8 @@ include "includes/header.php";
               </h3>
               <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                  <p><strong>BionicEyE + ADRI</strong> es una <strong>Oficina Virtual Inteligente</strong> con <strong>9 agentes IA especializados</strong>. NO es un ERP tradicional - es una solución de automatización empresarial moderna.</p>
-                  <p><strong>ADRI</strong> (Adaptive Dynamic Reasoning Intelligence) incluye 9 agentes:</p>
+                  <p><strong>BionicEyE + ADRI</strong> es una <strong>Oficina Virtual Inteligente</strong> con <strong>13 agentes IA especializados</strong>. NO es un ERP tradicional - es una solución de automatización empresarial moderna.</p>
+                  <p><strong>ADRI</strong> (Adaptive Dynamic Reasoning Intelligence) incluye 13 agentes:</p>
                   <ul>
                     <li><strong>ARIA</strong> - Supervisora y orquestadora</li>
                     <li><strong>FELIX</strong> - Producción y control de planta</li>
@@ -1300,11 +1300,11 @@ include "includes/header.php";
                   <p>La diferencia clave es que BionicEyE tiene <strong>IA nativa integrada en cada módulo</strong>, no como complemento.</p>
                   <p><strong>BionicEyE (IA Nativa):</strong></p>
                   <ul>
-                    <li>9 agentes especializados diseñados para tareas empresariales</li>
+                    <li>13 agentes especializados diseñados para tareas empresariales</li>
                     <li>3 modalidades: Cloud, Híbrido u On-Premise</li>
                     <li>Compliance GDPR, LOPD y AI Act europeo</li>
                     <li>On-Premise desde €5.000 - sin costes recurrentes</li>
-                    <li>Todo-en-uno: Oficina Virtual + 9 agentes IA + infraestructura</li>
+                    <li>Todo-en-uno: Oficina Virtual + 13 agentes IA + infraestructura</li>
                   </ul>
                   <p><strong>ERPs tradicionales con "IA":</strong></p>
                   <ul>
@@ -1427,7 +1427,7 @@ include "includes/header.php";
                     Ambas opciones mantienen el código sin cambios.
                   </div>
 
-                  <p>La arquitectura multi-agente de ADRI permite escalado transparente: <strong>ARIA (Agente Supervisora)</strong> distribuye automáticamente tareas entre los 9 agentes según capacidad disponible.</p>
+                  <p>La arquitectura multi-agente de ADRI permite escalado transparente: <strong>ARIA (Agente Supervisora)</strong> distribuye automáticamente tareas entre los 13 agentes según capacidad disponible.</p>
                   <p><span class="badge bg-success">Sin vendor lock-in</span> - puedes combinar hardware propio con servidores nuestros.</p>
                 </div>
               </div>

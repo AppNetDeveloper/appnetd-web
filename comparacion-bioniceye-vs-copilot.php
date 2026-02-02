@@ -383,7 +383,7 @@ include "includes/header.php";
             <div class="col-lg-8 mx-auto text-center">
                 <h2 class="display-5 fw-bold mb-4">Ahorra �16.812/a�o vs Microsoft Copilot</h2>
                 <p class="lead mb-4">
-                    BionicEye incluye ERP completo + 9 agentes IA especializados por menos que solo el asistente de Copilot.
+                    BionicEye incluye ERP completo + 13 agentes IA especializados por menos que solo el asistente de Copilot.
                 </p>
                 <div class="d-flex flex-wrap justify-content-center gap-3">
                     <a href="contact.php?product=bioniceye&action=demo&from=comparacion-copilot" class="btn btn-light btn-lg">

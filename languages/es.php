@@ -19,9 +19,9 @@ return [
     'blog' => 'Blog',
     'contact' => 'Contacto',
     'get_quote' => 'Obtener Presupuesto',
-    'hero_title' => 'BionicEyE: Oficina Virtual Inteligente con 9 Agentes IA',
+    'hero_title' => 'BionicEyE: Oficina Virtual Inteligente con 13 agentes IA',
     'hero_subtitle' => 'Diseñada en Murcia para el Mundo',
-    'hero_description' => 'Presentamos BionicEyE, la Oficina Virtual Inteligente con 9 agentes IA especializados (ADRI). Marketing automatizado, CRM multicanal, RRHH con fichaje, Facturación VeriFactu. On-premise o Cloud. Ahorra €5.496/año vs ChatGPT Enterprise.',
+    'hero_description' => 'Presentamos BionicEyE, la Oficina Virtual Inteligente con 13 agentes IA especializados (ADRI). Marketing automatizado, CRM multicanal, RRHH con fichaje, Facturación VeriFactu. On-premise o Cloud. Ahorra €5.496/año vs ChatGPT Enterprise.',
     'our_solutions' => 'Nuestras Soluciones',
     'watch_demo' => 'Ver Video Demo',
     'about_image1_alt' => 'Imagen Sobre Nosotros 1',
@@ -139,8 +139,8 @@ return [
     'benefit3_title' => 'Innovación Constante',
     'benefit3_desc' => 'Mantente a la vanguardia con soluciones tecnológicas de última generación.',
     'platform_section_title' => 'Sistema BionicEyE',
-    'platform_main_title' => 'Oficina Virtual Inteligente con 9 Agentes IA',
-    'platform_subtitle' => 'BionicEyE integra el sistema ADRI (Adaptive Dynamic Reasoning Intelligence) con 9 agentes IA especializados: ARIA (Supervisora), FELIX (Producción), HUGO (RRHH), IRIS (BI), LEO (Finanzas), MAX (Marketing), NOVA (CRM), SAM (Logística) y ZOE (Compliance). Funciona On-premise, Cloud o Híbrido.',
+    'platform_main_title' => 'Oficina Virtual Inteligente con 13 agentes IA',
+    'platform_subtitle' => 'BionicEyE integra el sistema ADRI (Adaptive Dynamic Reasoning Intelligence) con 13 agentes IA especializados: ARIA (Supervisora), FELIX (Producción), HUGO (RRHH), IRIS (BI), LEO (Finanzas), MAX (Marketing), NOVA (CRM), SAM (Logística) y ZOE (Compliance). Funciona On-premise, Cloud o Híbrido.',
     'discover_how' => 'Descubre Cómo',
     'view_demo' => 'Ver Demostración',
     'view_features' => 'Ver Funcionalidades',
@@ -286,7 +286,7 @@ return [
     // Plan Cloud SaaS
     'pricing_cloud_title' => 'Cloud SaaS',
     'pricing_cloud_desc' => 'Máquinas virtuales dedicadas, sin inversión inicial',
-    'cloud_feature1' => 'Todos los 9 agentes incluidos',
+    'cloud_feature1' => 'Todos los 13 agentes incluidos',
     'cloud_feature2' => 'Actualizaciones automáticas',
     'cloud_feature3' => 'Soporte técnico 24/7',
     'cloud_feature4' => 'Backup automático diario',
@@ -952,14 +952,14 @@ return [
     // BionicEyE + ADRI Section
     'bioniceye_star_product' => 'Nuestro Producto Estrella',
     'bioniceye_title' => 'BionicEyE + ADRI',
-    'bioniceye_subtitle' => '9 Agentes IA Especializados',
-    'bioniceye_intro' => '<strong>Oficina Virtual Inteligente</strong> con 9 agentes IA especializados. Marketing automatizado, CRM multicanal (WhatsApp, Email, Telegram), RRHH con fichaje, Facturación VeriFactu. <strong>On-premise, Cloud o Híbrido</strong>. Compliance GDPR y AI Act.',
+    'bioniceye_subtitle' => '13 agentes IA Especializados',
+    'bioniceye_intro' => '<strong>Oficina Virtual Inteligente</strong> con 13 agentes IA especializados. Marketing automatizado, CRM multicanal (WhatsApp, Email, Telegram), RRHH con fichaje, Facturación VeriFactu. <strong>On-premise, Cloud o Híbrido</strong>. Compliance GDPR y AI Act.',
 
     'bioniceye_benefit1_title' => '3 Modalidades Flexibles',
     'bioniceye_benefit1_desc' => 'Cloud desde €350/mes, Híbrido desde €250/mes, On-Premise desde €5.000 único. Elige según tus necesidades.',
     'bioniceye_benefit2_title' => 'Ahorro €5.496/año',
     'bioniceye_benefit2_desc' => 'Comparado con ChatGPT Enterprise + Claude Pro + Gemini Advanced. Amortización en 6-12 meses.',
-    'bioniceye_benefit3_title' => '9 Agentes Especializados',
+    'bioniceye_benefit3_title' => '13 agentes Especializados',
     'bioniceye_benefit3_desc' => 'ARIA, FELIX, HUGO, IRIS, LEO, MAX, NOVA, SAM y ZOE. Cada uno experto en su área de negocio.',
     'bioniceye_benefit4_title' => 'IA Multimodal Avanzada',
     'bioniceye_benefit4_desc' => 'Vision, Video, Audio, Documentos, Web Browsing. Claude 4.5, GLM-4.7, Gemini 2.0, Qwen 3-VL integrados.',
@@ -967,7 +967,7 @@ return [
     'bioniceye_benefit5_desc' => 'GDPR, LOPD, AI Act, VeriFactu. Auditorías automáticas, gestión de consentimientos y derecho al olvido.',
 
     'bioniceye_demo_btn' => 'Demo Gratuita',
-    'bioniceye_agents_btn' => 'Ver 9 Agentes',
+    'bioniceye_agents_btn' => 'Ver 13 agentes',
     'bioniceye_stats_title' => 'BionicEyE en Números',
     'bioniceye_stats_agents' => 'Agentes IA',
     'bioniceye_stats_models' => 'Modelos LLM',
@@ -977,10 +977,10 @@ return [
     'bioniceye_stats_errors' => 'Errores',
     'bioniceye_guarantee' => '<strong>Activación en 48h</strong> garantizada. Demo gratuita sin compromiso.',
 
-    'adri_agents_title' => 'Los 9 Agentes Especializados de ADRI',
+    'adri_agents_title' => 'Los 13 agentes Especializados de ADRI',
     'adri_agents_subtitle' => 'Adaptive Dynamic Reasoning Intelligence - Cada agente experto en su área, trabajando 24/7',
 
-    // 9 Agentes ADRI de BionicEyE
+    // 13 agentes ADRI de BionicEyE
     'agent_aria_title' => 'ARIA - Supervisora',
     'agent_aria_model' => 'Claude Sonnet 4.5',
     'agent_aria_desc' => 'Orquestadora principal que coordina todos los agentes, optimiza recursos y gestiona el flujo de trabajo inteligente.',
