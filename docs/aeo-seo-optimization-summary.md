@@ -89,7 +89,7 @@
 **Solución implementada:**
 - ✅ Creado `/var/www/appnetd-web/llm.txt` (227 líneas)
 - ✅ Información completa sobre BionicEye + ADRI
-- ✅ Especificaciones técnicas de los 9 agentes
+- ✅ Especificaciones técnicas de los 13 agentes
 - ✅ Comparaciones detalladas vs OpenAI, Copilot, SAP
 - ✅ Casos de uso reales con ROI documentado
 - ✅ Keywords optimizados para búsqueda semántica
@@ -100,7 +100,7 @@
 
 **Contenido principal:**
 - Información corporativa completa
-- Detalles técnicos de los 9 agentes ADRI
+- Detalles técnicos de los 13 agentes ADRI
 - Pricing y comparaciones (€6,188/año vs €180,000/año OpenAI)
 - ROI 245% primer año
 - Casos de éxito reales

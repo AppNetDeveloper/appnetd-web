@@ -146,7 +146,7 @@ Minimum Requirements: 8+ cores, 32GB RAM, Ubuntu 22.04+ or RHEL
 - Privacy: BionicEye 100% local vs OpenAI cloud-based
 - Offline: BionicEye works offline vs OpenAI requires internet
 - ERP Modules: BionicEye 10 modules included vs OpenAI none
-- Specialized Agents: BionicEye 9 agents vs OpenAI 1 generic GPT-4
+- Specialized Agents: BionicEye 13 agents vs OpenAI 1 generic GPT-4
 
 ### vs Microsoft Copilot
 - Cost: BionicEye �6,188/year vs Copilot �18,000/year (83% savings)
