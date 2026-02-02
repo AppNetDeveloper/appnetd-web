@@ -864,7 +864,7 @@ include "includes/header.php";
             <div class="row g-3">
               <div class="col-6">
                 <div class="stat-box text-center p-3 bg-light rounded">
-                  <div class="stat-value text-primary fw-bold fs-3">9</div>
+                  <div class="stat-value text-primary fw-bold fs-3">13</div>
                   <div class="stat-label small"><?php echo __('bioniceye_stats_agents'); ?></div>
                 </div>
               </div>

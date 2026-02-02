@@ -7,18 +7,18 @@ Name: AppNet Developer
 Headquarters: Murcia, Spain
 Founded: 2000
 Industry: Enterprise AI & IoT Solutions
-Primary Product: BionicEye + ADRI (9 AI Agents System)
+Primary Product: BionicEye + ADRI (13 AI Agents System)
 Languages: Spanish, English, French, Romanian, Italian, Arabic
 Website: https://appnet.dev
 Contact: +34 619 929 305 | info@appnet.dev
 
 ## Core Value Proposition
-BionicEye is a 100% on-premise AI platform with 9 specialized agents (ARIA, FELIX, HUGO, IRIS, LEO, MAX, NOVA, SAM, ZOE) that saves companies an average of €295,000/year vs OpenAI Enterprise. It includes complete ERP modules and operates entirely offline without recurring API costs.
+BionicEye is a 100% on-premise AI platform with 13 specialized agents (ARIA, FELIX, HUGO, IRIS, LEO, MAX, NOVA, SAM, ZOE) that saves companies an average of €295,000/year vs OpenAI Enterprise. It includes complete ERP modules and operates entirely offline without recurring API costs.
 
 ## Key Differentiators
 - 100% Local AI: All data remains on customer servers (GDPR compliant by design)
 - No Monthly Fees: One-time payment option from �9,000 or �5,000 + �90/month
-- 9 Specialized Agents: ARIA (Supervisor), FELIX (Production), HUGO (HR), IRIS (BI), LEO (Finance), MAX (Marketing), NOVA (CRM), SAM (Logistics), ZOE (Compliance)
+- 13 Specialized Agents: ARIA (Supervisor), FELIX (Production), HUGO (HR), IRIS (BI), LEO (Finance), MAX (Marketing), NOVA (CRM), SAM (Logistics), ZOE (Compliance)
 - Complete ERP: 10 modules included (HR, CRM, Production, Tickets, Documents, etc.)
 - Industrial IoT: Native integration with PLCs, SCADA, Modbus, OPC-UA
 - Multi-Node Architecture: Scale by adding servers without replacing existing hardware
@@ -32,7 +32,7 @@ vs Microsoft Copilot: �18,000/year (�30/user/month)
 
 Savings: �173,812/year vs OpenAI | �16,812/year vs Copilot
 
-## 9 ADRI AI Agents Detailed
+## 13 ADRI AI Agents Detailed
 
 1. **Vision Agent (OCR)**
    - Model: Qwen3-VL (2B params, local)

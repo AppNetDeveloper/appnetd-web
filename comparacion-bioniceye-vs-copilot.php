@@ -46,7 +46,7 @@ include "includes/header.php";
                             <p class="mb-0">Ahorro anual<br><small>(50 empleados)</small></p>
                         </div>
                         <div class="col-md-4">
-                            <h3 class="display-6 fw-bold text-info">9</h3>
+                            <h3 class="display-6 fw-bold text-info">13</h3>
                             <p class="mb-0">Agentes IA especializados<br><small>vs 1 asistente genérico</small></p>
                         </div>
                     </div>
