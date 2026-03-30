@@ -586,7 +586,7 @@ include "includes/header.php";
             <div class="pricing-body">
               <div class="price">
                 <span class="currency">€</span>
-                <span class="amount">350</span>
+                <span class="amount">500</span>
                 <span class="period">/<?php echo __('month'); ?></span>
               </div>
               <p class="price-desc"><?php echo __('pricing_cloud_desc'); ?></p>
@@ -625,7 +625,7 @@ include "includes/header.php";
               <div class="price">
                 <span class="small text-muted"><?php echo __('from'); ?></span>
                 <span class="currency">€</span>
-                <span class="amount">250</span>
+                <span class="amount">400</span>
                 <span class="period">/<?php echo __('month'); ?></span>
               </div>
               <p class="price-desc"><?php echo __('pricing_hybrid_desc'); ?></p>
