@@ -228,7 +228,7 @@ $faq_schema = [
             'name' => '¿Qué diferencia a BionicEyE de un ERP tradicional con "IA añadida"?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'La diferencia clave es que BionicEyE no es un ERP tradicional sino una Oficina Virtual Inteligente con IA nativa. Los 8 agentes ADRI están especializados: Supervisor (ADRI) coordina todo, Browser navega la web, Code Orchestrator genera y depura código, Vision procesa documentos e imágenes con OCR, Messaging gestiona CRM multicanal (WhatsApp, Email, Telegram), Web Search realiza investigación competitiva, Social Media gestiona redes sociales, Data Analysis proporciona Business Intelligence, Planner optimiza planificación, Deep Thinking razona problemas complejos y OSINT/Security asegura compliance GDPR y AI Act. 3 modalidades: Cloud, Híbrido u On-Premise. Compliance total con regulación europea AI Act.'
+                'text' => 'La diferencia clave es que BionicEyE no es un ERP tradicional sino una Oficina Virtual Inteligente con IA nativa. Los 8 agentes ADRI están especializados: Supervisor (ADRI) coordina todo, Browser navega la web, Code Orchestrator genera y depura código, Vision procesa documentos e imágenes con OCR, Messaging gestiona CRM multicanal (WhatsApp, Email, Telegram), Social Media gestiona redes sociales, Data Analysis proporciona Business Intelligence y Planner optimiza planificación y finanzas. Sub-capacidades integradas: Deep Thinking, OSINT, búsqueda web y seguridad. 3 modalidades: Cloud, Híbrido u On-Premise. Compliance total con regulación europea AI Act.'
             ]
         ],
         [

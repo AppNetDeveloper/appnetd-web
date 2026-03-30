@@ -979,19 +979,7 @@ include "includes/header.php";
           </div>
         </div>
 
-        <!-- 6. Web Search Agent - SearXNG, noticias, investigacion -->
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
-          <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
-            <div class="agent-icon mb-3">
-              <i class="fas fa-search fa-3x" style="color: #14b8a6;"></i>
-            </div>
-            <h4 class="fw-bold mb-2"><?php echo __('agent_websearch_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_websearch_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_websearch_desc'); ?></p>
-          </div>
-        </div>
-
-        <!-- 7. Social Media Agent - Instagram, LinkedIn, X, TikTok -->
+        <!-- 6. Social Media Agent - Instagram, LinkedIn, X, TikTok -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
@@ -1027,29 +1015,7 @@ include "includes/header.php";
           </div>
         </div>
 
-        <!-- 10. Deep Thinking Agent - Razonamiento complejo -->
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600">
-          <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
-            <div class="agent-icon mb-3">
-              <i class="fas fa-lightbulb fa-3x" style="color: #f59e0b;"></i>
-            </div>
-            <h4 class="fw-bold mb-2"><?php echo __('agent_deepthinking_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_deepthinking_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_deepthinking_desc'); ?></p>
-          </div>
-        </div>
-
-        <!-- 11. OSINT/Security Agent - Ciberseguridad, pentesting -->
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="700">
-          <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
-            <div class="agent-icon mb-3">
-              <i class="fas fa-shield-alt fa-3x" style="color: #dc2626;"></i>
-            </div>
-            <h4 class="fw-bold mb-2"><?php echo __('agent_osint_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_osint_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_osint_desc'); ?></p>
-          </div>
-        </div>
+        <!-- Deep Thinking, OSINT and Web Search are now sub-capabilities integrated into the 8 main agents -->
       </div>
 
       <!-- CTA Final -->
@@ -1228,12 +1194,9 @@ include "includes/header.php";
                     <li><strong>Code Orchestrator</strong> - Código, Git, seguridad</li>
                     <li><strong>Vision Agent</strong> - Imágenes, PDFs, videos, audio, OCR</li>
                     <li><strong>Messaging Agent</strong> - WhatsApp, Email, Telegram, SMS</li>
-                    <li><strong>Web Search Agent</strong> - SearXNG, noticias, investigación</li>
                     <li><strong>Social Media Agent</strong> - Instagram, LinkedIn, X, TikTok</li>
                     <li><strong>Data Analysis Agent</strong> - CSV/Excel, estadísticas, gráficos</li>
-                    <li><strong>Planner Agent</strong> - Planificación, cálculos, diagramas</li>
-                    <li><strong>Deep Thinking Agent</strong> - Razonamiento complejo</li>
-                    <li><strong>OSINT/Security Agent</strong> - Ciberseguridad, pentesting</li>
+                    <li><strong>Planner Agent</strong> - Planificación, finanzas, producción, rutas</li>
                   </ul>
                   <p><strong>3 Planes disponibles:</strong></p>
                   <ul>

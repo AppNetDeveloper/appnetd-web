@@ -10,7 +10,7 @@
 $default_seo = [
     'home' => [
         'title' => __('home_page_title'),
-        'description' => 'BionicEyE: Oficina Virtual Inteligente con 8 agentes IA especializados (Supervisor ADRI, Browser, Code Orchestrator, Vision, Messaging, Web Search, Social Media, Data Analysis, Planner, Deep Thinking, OSINT/Security). 3 planes: Cloud €500/mes, Híbrido desde €400/mes, On-Premise desde €5.000. Ahorra €5.496/año vs ChatGPT Enterprise. Marketing automation, CRM multicanal WhatsApp/Email/Telegram, RRHH con fichaje legal, Facturación VeriFactu, Compliance GDPR y AI Act. Murcia, España.',
+        'description' => 'BionicEyE: Oficina Virtual Inteligente con 8 agentes IA especializados (Supervisor ADRI, Code Orchestrator, Browser, Vision, Data Analysis, Messaging, Social Media, Planner). 3 planes: Cloud €500/mes, Híbrido desde €400/mes, On-Premise desde €5.000. Ahorra €5.496/año vs ChatGPT Enterprise. Marketing automation, CRM multicanal WhatsApp/Email/Telegram, RRHH con fichaje legal, Facturación VeriFactu, Compliance GDPR y AI Act. Murcia, España.',
         'keywords' => 'alternativa OpenAI local, IA sin mensualidades, ERP con IA local, ahorro costes OpenAI, BionicEye ADRI, agentes IA privados, automatizar facturas OCR, WhatsApp bot 24/7 local, IA empresarial sin cloud, ROI 245% IA, pago único IA, sistema IA offline, RGPD IA local, eliminar gastos APIs IA, LLM privado empresa, visión artificial facturas, mantenimiento predictivo IA, IoT industrial IA, Industry 4.0 local, transformación digital sin cloud, agentes IA especializados',
         'image' => 'og-image.jpg'
     ],

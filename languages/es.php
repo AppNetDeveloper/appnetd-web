@@ -960,7 +960,7 @@ return [
     'bioniceye_benefit2_title' => 'Ahorro €5.496/año',
     'bioniceye_benefit2_desc' => 'Comparado con ChatGPT Enterprise + Claude Pro + Gemini Advanced. Amortización en 6-12 meses.',
     'bioniceye_benefit3_title' => '8 agentes Especializados',
-    'bioniceye_benefit3_desc' => 'Supervisor (ADRI), Browser, Code Orchestrator, Vision, Messaging, Web Search, Social Media, Data Analysis, Planner, Deep Thinking y OSINT/Security. Cada uno experto en su área.',
+    'bioniceye_benefit3_desc' => 'Supervisor (ADRI), Code Orchestrator, Browser, Vision, Data Analysis, Messaging, Social Media y Planner. Cada uno experto en su área.',
     'bioniceye_benefit4_title' => 'IA Multimodal Avanzada',
     'bioniceye_benefit4_desc' => 'Vision, Video, Audio, Documentos, Web Browsing. Claude 4.5, GLM-4.7, Gemini 2.0, Qwen 3-VL integrados.',
     'bioniceye_benefit5_title' => 'Compliance Total',

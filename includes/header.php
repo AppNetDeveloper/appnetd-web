@@ -242,7 +242,7 @@ require_once __DIR__ . '/seo_config.php';
      <meta name="product.ai.model" content="Claude 4.5, GLM-4.7, Gemini 2.0, Qwen 3-VL, Local LLM options">
      <meta name="product.ai.external_apis" content="OpenAI Compatible, Claude API, Google Gemini, Qwen, Mistral">
      <meta name="product.agents.count" content="8 Specialized AI Agents">
-     <meta name="product.agents.list" content="Supervisor (ADRI), Browser, Code Orchestrator, Vision, Messaging, Web Search, Social Media, Data Analysis, Planner, Deep Thinking, OSINT/Security">
+     <meta name="product.agents.list" content="Supervisor (ADRI), Code Orchestrator, Browser, Vision, Data Analysis, Messaging, Social Media, Planner">
      <meta name="product.pricing.model" content="Cloud €500/month, Hybrid from €400/month, On-Premise from €5,000 one-time">
      <meta name="product.roi" content="€5,496/year savings vs ChatGPT Enterprise + Claude + Gemini, +40% productivity, -60% errors">
      <meta name="product.modules" content="HR, CRM, Production, Maintenance, Documents, Tickets, Security, Social Media, Communications, Dashboards">

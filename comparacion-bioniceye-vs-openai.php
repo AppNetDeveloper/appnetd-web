@@ -190,7 +190,7 @@ include "includes/header.php";
                                 <th scope="row">Número de Agentes IA Especializados</th>
                                 <td class="text-center bg-success-light">
                                     <strong class="fs-4 text-success">8 agentes</strong><br>
-                                    <small>Supervisor (ADRI), Browser, Code Orchestrator, Vision, Messaging, Web Search, Social Media, Data Analysis, Planner, Deep Thinking, OSINT/Security</small>
+                                    <small>Supervisor (ADRI), Code Orchestrator, Browser, Vision, Data Analysis, Messaging, Social Media, Planner</small>
                                 </td>
                                 <td class="text-center">
                                     <strong class="fs-4">1 Modelo</strong><br>
