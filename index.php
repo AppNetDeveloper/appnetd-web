@@ -58,7 +58,7 @@ include "includes/header.php";
               <img src="assets/img/hero/AppNetDeveloper-1.webp"
      srcset="assets/img/hero/AppNetDeveloper-1.webp 768w, assets/img/hero/AppNetDeveloper-1.webp 1200w"
      sizes="(max-width: 767px) 100vw, (max-width: 991px) 50vw, 50vw"
-     alt="BionicEyE + ADRI - 13 agentes IA especializados para Oficina Virtual Inteligente con automatización empresarial"
+     alt="BionicEyE + ADRI - 8 agentes IA especializados para Oficina Virtual Inteligente con automatización empresarial"
      loading="eager"
      class="img-fluid">
             </div>
@@ -777,7 +777,7 @@ include "includes/header.php";
     </div>
   </section>
 
-  <!-- Sección BionicEyE + ADRI - Oficina Virtual Inteligente con 13 agentes IA -->
+  <!-- Sección BionicEyE + ADRI - Oficina Virtual Inteligente con 8 agentes IA -->
   <section class="bioniceye-adri-section py-5 bg-gradient-primary">
     <div class="container">
       <div class="row align-items-center mb-5">
@@ -910,7 +910,7 @@ include "includes/header.php";
         </div>
       </div>
 
-      <!-- 13 agentes ADRI -->
+      <!-- 8 agentes ADRI -->
       <div class="row" id="adri-agents">
         <div class="col-12 text-center mb-5" data-aos="fade-up">
           <h3 class="text-white mb-3"><?php echo __('adri_agents_title'); ?></h3>
@@ -919,111 +919,135 @@ include "includes/header.php";
       </div>
 
       <div class="row g-4">
-        <!-- ARIA - Supervisora -->
+        <!-- 1. Supervisor (ADRI) - Orquestador principal -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
               <i class="fas fa-brain fa-3x" style="color: #60a5fa;"></i>
             </div>
-            <h4 class="fw-bold mb-2">🎯 <?php echo __('agent_aria_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_aria_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_aria_desc'); ?></p>
+            <h4 class="fw-bold mb-2"><?php echo __('agent_supervisor_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_supervisor_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_supervisor_desc'); ?></p>
           </div>
         </div>
 
-        <!-- FELIX - Producción -->
+        <!-- 2. Browser Agent - Chrome automatizado -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="700">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
-              <i class="fas fa-industry fa-3x" style="color: #f97316;"></i>
+              <i class="fas fa-globe fa-3x" style="color: #f97316;"></i>
             </div>
-            <h4 class="fw-bold mb-2">🏭 <?php echo __('agent_felix_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_felix_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_felix_desc'); ?></p>
+            <h4 class="fw-bold mb-2"><?php echo __('agent_browser_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_browser_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_browser_desc'); ?></p>
           </div>
         </div>
 
-        <!-- HUGO - RRHH -->
+        <!-- 3. Code Orchestrator - Codigo, Git, seguridad -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
-              <i class="fas fa-users fa-3x" style="color: #facc15;"></i>
+              <i class="fas fa-code fa-3x" style="color: #22c55e;"></i>
             </div>
-            <h4 class="fw-bold mb-2">👥 <?php echo __('agent_hugo_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_hugo_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_hugo_desc'); ?></p>
+            <h4 class="fw-bold mb-2"><?php echo __('agent_coder_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_coder_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_coder_desc'); ?></p>
           </div>
         </div>
 
-        <!-- IRIS - Business Intelligence -->
+        <!-- 4. Vision Agent - Imagenes, PDFs, videos, audio, OCR -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
-              <i class="fas fa-chart-pie fa-3x" style="color: #a855f7;"></i>
+              <i class="fas fa-eye fa-3x" style="color: #a855f7;"></i>
             </div>
-            <h4 class="fw-bold mb-2">📊 <?php echo __('agent_iris_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_iris_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_iris_desc'); ?></p>
+            <h4 class="fw-bold mb-2"><?php echo __('agent_vision_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_vision_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_vision_desc'); ?></p>
           </div>
         </div>
 
-        <!-- LEO - Finanzas -->
+        <!-- 5. Messaging Agent - WhatsApp, Email, Telegram, SMS -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="700">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
-              <i class="fas fa-euro-sign fa-3x" style="color: #22c55e;"></i>
+              <i class="fas fa-comments fa-3x" style="color: #ec4899;"></i>
             </div>
-            <h4 class="fw-bold mb-2">💰 <?php echo __('agent_leo_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_leo_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_leo_desc'); ?></p>
+            <h4 class="fw-bold mb-2"><?php echo __('agent_messaging_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_messaging_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_messaging_desc'); ?></p>
           </div>
         </div>
 
-        <!-- MAX - Marketing -->
+        <!-- 6. Web Search Agent - SearXNG, noticias, investigacion -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
-              <i class="fas fa-bullhorn fa-3x" style="color: #ef4444;"></i>
+              <i class="fas fa-search fa-3x" style="color: #14b8a6;"></i>
             </div>
-            <h4 class="fw-bold mb-2">📣 <?php echo __('agent_max_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_max_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_max_desc'); ?></p>
+            <h4 class="fw-bold mb-2"><?php echo __('agent_websearch_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_websearch_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_websearch_desc'); ?></p>
           </div>
         </div>
 
-        <!-- NOVA - CRM -->
+        <!-- 7. Social Media Agent - Instagram, LinkedIn, X, TikTok -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
-              <i class="fas fa-headset fa-3x" style="color: #ec4899;"></i>
+              <i class="fas fa-share-alt fa-3x" style="color: #ef4444;"></i>
             </div>
-            <h4 class="fw-bold mb-2">📞 <?php echo __('agent_nova_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_nova_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_nova_desc'); ?></p>
+            <h4 class="fw-bold mb-2"><?php echo __('agent_social_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_social_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_social_desc'); ?></p>
           </div>
         </div>
 
-        <!-- SAM - Logística -->
+        <!-- 8. Data Analysis Agent - CSV/Excel, estadisticas, graficos -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="700">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
-              <i class="fas fa-truck fa-3x" style="color: #14b8a6;"></i>
+              <i class="fas fa-chart-bar fa-3x" style="color: #facc15;"></i>
             </div>
-            <h4 class="fw-bold mb-2">🚚 <?php echo __('agent_sam_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_sam_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_sam_desc'); ?></p>
+            <h4 class="fw-bold mb-2"><?php echo __('agent_dataanalysis_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_dataanalysis_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_dataanalysis_desc'); ?></p>
           </div>
         </div>
 
-        <!-- ZOE - Compliance -->
+        <!-- 9. Planner Agent - Planificacion, calculos, diagramas -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
           <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
             <div class="agent-icon mb-3">
-              <i class="fas fa-shield-alt fa-3x" style="color: #8b5cf6;"></i>
+              <i class="fas fa-tasks fa-3x" style="color: #8b5cf6;"></i>
             </div>
-            <h4 class="fw-bold mb-2">⚖️ <?php echo __('agent_zoe_title'); ?></h4>
-            <p class="text-muted small mb-2"><?php echo __('agent_zoe_model'); ?></p>
-            <p class="mb-3"><?php echo __('agent_zoe_desc'); ?></p>
+            <h4 class="fw-bold mb-2"><?php echo __('agent_planner_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_planner_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_planner_desc'); ?></p>
+          </div>
+        </div>
+
+        <!-- 10. Deep Thinking Agent - Razonamiento complejo -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600">
+          <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
+            <div class="agent-icon mb-3">
+              <i class="fas fa-lightbulb fa-3x" style="color: #f59e0b;"></i>
+            </div>
+            <h4 class="fw-bold mb-2"><?php echo __('agent_deepthinking_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_deepthinking_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_deepthinking_desc'); ?></p>
+          </div>
+        </div>
+
+        <!-- 11. OSINT/Security Agent - Ciberseguridad, pentesting -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="700">
+          <div class="agent-card h-100 p-4 bg-white rounded-4 shadow">
+            <div class="agent-icon mb-3">
+              <i class="fas fa-shield-alt fa-3x" style="color: #dc2626;"></i>
+            </div>
+            <h4 class="fw-bold mb-2"><?php echo __('agent_osint_title'); ?></h4>
+            <p class="text-muted small mb-2"><?php echo __('agent_osint_model'); ?></p>
+            <p class="mb-3"><?php echo __('agent_osint_desc'); ?></p>
           </div>
         </div>
       </div>
@@ -1178,7 +1202,7 @@ include "includes/header.php";
             <i class="fas fa-question-circle me-2"></i>Preguntas Frecuentes
           </span>
           <h2 class="section-title mb-3">Todo lo que necesitas saber sobre BionicEyE + ADRI</h2>
-          <p class="section-description">Respuestas detalladas sobre nuestra Oficina Virtual Inteligente con 13 agentes IA</p>
+          <p class="section-description">Respuestas detalladas sobre nuestra Oficina Virtual Inteligente con 8 agentes IA</p>
         </div>
       </div>
 
@@ -1196,22 +1220,24 @@ include "includes/header.php";
               </h3>
               <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                  <p><strong>BionicEyE + ADRI</strong> es una <strong>Oficina Virtual Inteligente</strong> con <strong>13 agentes IA especializados</strong>. NO es un ERP tradicional - es una solución de automatización empresarial moderna.</p>
-                  <p><strong>ADRI</strong> (Adaptive Dynamic Reasoning Intelligence) incluye 13 agentes:</p>
+                  <p><strong>BionicEyE + ADRI</strong> es una <strong>Oficina Virtual Inteligente</strong> con <strong>8 agentes IA especializados</strong>. NO es un ERP tradicional - es una solución de automatización empresarial moderna.</p>
+                  <p><strong>ADRI</strong> (Adaptive Dynamic Reasoning Intelligence) incluye 8 agentes especializados:</p>
                   <ul>
-                    <li><strong>ARIA</strong> - Supervisora y orquestadora</li>
-                    <li><strong>FELIX</strong> - Producción y control de planta</li>
-                    <li><strong>HUGO</strong> - RRHH y gestión de personal</li>
-                    <li><strong>IRIS</strong> - Business Intelligence y analítica</li>
-                    <li><strong>LEO</strong> - Finanzas y facturación VeriFactu</li>
-                    <li><strong>MAX</strong> - Marketing y contenido IA</li>
-                    <li><strong>NOVA</strong> - CRM multicanal (WhatsApp, Email, Telegram)</li>
-                    <li><strong>SAM</strong> - Logística e inventario</li>
-                    <li><strong>ZOE</strong> - Compliance GDPR y AI Act</li>
+                    <li><strong>Supervisor (ADRI)</strong> - Orquestador principal</li>
+                    <li><strong>Browser Agent</strong> - Chrome automatizado con stealth mode</li>
+                    <li><strong>Code Orchestrator</strong> - Código, Git, seguridad</li>
+                    <li><strong>Vision Agent</strong> - Imágenes, PDFs, videos, audio, OCR</li>
+                    <li><strong>Messaging Agent</strong> - WhatsApp, Email, Telegram, SMS</li>
+                    <li><strong>Web Search Agent</strong> - SearXNG, noticias, investigación</li>
+                    <li><strong>Social Media Agent</strong> - Instagram, LinkedIn, X, TikTok</li>
+                    <li><strong>Data Analysis Agent</strong> - CSV/Excel, estadísticas, gráficos</li>
+                    <li><strong>Planner Agent</strong> - Planificación, cálculos, diagramas</li>
+                    <li><strong>Deep Thinking Agent</strong> - Razonamiento complejo</li>
+                    <li><strong>OSINT/Security Agent</strong> - Ciberseguridad, pentesting</li>
                   </ul>
                   <p><strong>3 Planes disponibles:</strong></p>
                   <ul>
-                    <li><strong>Cloud SaaS</strong>: €350/mes - Sin inversión inicial</li>
+                    <li><strong>Cloud SaaS</strong>: €500/mes - Sin inversión inicial</li>
                     <li><strong>Híbrido</strong>: desde €250/mes - Servidor local + API cloud (RECOMENDADO)</li>
                     <li><strong>On-Premise</strong>: desde €5.000 único - 100% privacidad, sin costes mensuales</li>
                   </ul>
@@ -1300,11 +1326,11 @@ include "includes/header.php";
                   <p>La diferencia clave es que BionicEyE tiene <strong>IA nativa integrada en cada módulo</strong>, no como complemento.</p>
                   <p><strong>BionicEyE (IA Nativa):</strong></p>
                   <ul>
-                    <li>13 agentes especializados diseñados para tareas empresariales</li>
+                    <li>8 agentes especializados diseñados para tareas empresariales</li>
                     <li>3 modalidades: Cloud, Híbrido u On-Premise</li>
                     <li>Compliance GDPR, LOPD y AI Act europeo</li>
                     <li>On-Premise desde €5.000 - sin costes recurrentes</li>
-                    <li>Todo-en-uno: Oficina Virtual + 13 agentes IA + infraestructura</li>
+                    <li>Todo-en-uno: Oficina Virtual + 8 agentes IA + infraestructura</li>
                   </ul>
                   <p><strong>ERPs tradicionales con "IA":</strong></p>
                   <ul>
@@ -1427,7 +1453,7 @@ include "includes/header.php";
                     Ambas opciones mantienen el código sin cambios.
                   </div>
 
-                  <p>La arquitectura multi-agente de ADRI permite escalado transparente: <strong>ARIA (Agente Supervisora)</strong> distribuye automáticamente tareas entre los 13 agentes según capacidad disponible.</p>
+                  <p>La arquitectura multi-agente de ADRI permite escalado transparente: <strong>Supervisor (ADRI)</strong> distribuye automáticamente tareas entre los 8 agentes según capacidad disponible.</p>
                   <p><span class="badge bg-success">Sin vendor lock-in</span> - puedes combinar hardware propio con servidores nuestros.</p>
                 </div>
               </div>

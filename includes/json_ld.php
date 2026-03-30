@@ -196,7 +196,7 @@ $faq_schema = [
             'name' => '¿Qué es BionicEyE + ADRI y qué planes de precios ofrecen?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'BionicEyE + ADRI es una Oficina Virtual Inteligente con 13 agentes IA especializados: ARIA (Supervisora), FELIX (Producción), HUGO (RRHH), IRIS (BI), LEO (Finanzas), MAX (Marketing), NOVA (CRM), SAM (Logística) y ZOE (Compliance). 3 planes disponibles: Cloud SaaS €350/mes sin inversión inicial, Híbrido desde €250/mes (servidor local + API cloud), On-Premise desde €5.000 único con 100% privacidad. Ahorro de €5.496/año comparado con ChatGPT Enterprise + Claude Pro + Gemini Advanced. Compliance GDPR y AI Act. Activación en 48h.'
+                'text' => 'BionicEyE + ADRI es una Oficina Virtual Inteligente con 8 agentes IA especializados: Supervisor (ADRI), Browser, Code Orchestrator, Vision, Messaging, Social Media, Data Analysis y Planner. 3 planes disponibles: Cloud SaaS €500/mes sin inversión inicial, Híbrido desde €250/mes (servidor local + API cloud), On-Premise desde €5.000 único con 100% privacidad. Ahorro de €5.496/año comparado con ChatGPT Enterprise + Claude Pro + Gemini Advanced. Compliance GDPR y AI Act. Activación en 48h.'
             ]
         ],
         [
@@ -228,7 +228,7 @@ $faq_schema = [
             'name' => '¿Qué diferencia a BionicEyE de un ERP tradicional con "IA añadida"?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'La diferencia clave es que BionicEyE no es un ERP tradicional sino una Oficina Virtual Inteligente con IA nativa. Los 13 agentes ADRI están especializados: ARIA coordina todo, FELIX gestiona producción, HUGO maneja RRHH con fichaje legal, IRIS proporciona Business Intelligence, LEO automatiza facturación VeriFactu, MAX genera contenido marketing, NOVA gestiona CRM multicanal (WhatsApp, Email, Telegram), SAM optimiza logística y ZOE asegura compliance GDPR y AI Act. 3 modalidades: Cloud, Híbrido u On-Premise. Compliance total con regulación europea AI Act.'
+                'text' => 'La diferencia clave es que BionicEyE no es un ERP tradicional sino una Oficina Virtual Inteligente con IA nativa. Los 8 agentes ADRI están especializados: Supervisor (ADRI) coordina todo, Browser navega la web, Code Orchestrator genera y depura código, Vision procesa documentos e imágenes con OCR, Messaging gestiona CRM multicanal (WhatsApp, Email, Telegram), Web Search realiza investigación competitiva, Social Media gestiona redes sociales, Data Analysis proporciona Business Intelligence, Planner optimiza planificación, Deep Thinking razona problemas complejos y OSINT/Security asegura compliance GDPR y AI Act. 3 modalidades: Cloud, Híbrido u On-Premise. Compliance total con regulación europea AI Act.'
             ]
         ],
         [
@@ -325,7 +325,7 @@ $people_also_ask_schema = [
             'name' => '¿Cuánto tiempo tarda realmente la implementación completa de BionicEye?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'Implementación completa garantizada en 8 semanas con cronograma detallado: SEMANAS 1-2 (Análisis): Auditoría procesos actuales, mapeo flujos de trabajo, identificación KPIs, definición casos de uso prioritarios, auditoría técnica IT/OT. Entregable: Documento análisis + arquitectura técnica. SEMANAS 3-4 (Instalación): Instalación servidor/cluster, configuración 13 agentes ADRI, migración datos desde sistemas actuales, integración APIs/ERPs existentes, configuración usuarios/permisos. Entregable: Sistema funcionando entorno staging. SEMANAS 5-6 (Formación): Capacitación administradores (8 horas), formación usuarios finales por departamento (4 horas/dept), documentación personalizada, creación SOPs específicos. Entregable: Equipo autónomo operando sistema. SEMANAS 7-8 (Go-Live): Despliegue producción con acompañamiento on-site 2 semanas, ajuste fino modelos IA con datos reales, optimización rendimiento, validación ROI vs objetivos. Entregable: Sistema productivo + informe ROI. INCLUYE: PoC previo 30 días (deducible), soporte 24/7 durante implementación, garantía cumplimiento plazo (penalizaciones si excedemos). Implementaciones express 4 semanas disponibles para casos simples (+20% coste).'
+                'text' => 'Implementación completa garantizada en 8 semanas con cronograma detallado: SEMANAS 1-2 (Análisis): Auditoría procesos actuales, mapeo flujos de trabajo, identificación KPIs, definición casos de uso prioritarios, auditoría técnica IT/OT. Entregable: Documento análisis + arquitectura técnica. SEMANAS 3-4 (Instalación): Instalación servidor/cluster, configuración 8 agentes ADRI, migración datos desde sistemas actuales, integración APIs/ERPs existentes, configuración usuarios/permisos. Entregable: Sistema funcionando entorno staging. SEMANAS 5-6 (Formación): Capacitación administradores (8 horas), formación usuarios finales por departamento (4 horas/dept), documentación personalizada, creación SOPs específicos. Entregable: Equipo autónomo operando sistema. SEMANAS 7-8 (Go-Live): Despliegue producción con acompañamiento on-site 2 semanas, ajuste fino modelos IA con datos reales, optimización rendimiento, validación ROI vs objetivos. Entregable: Sistema productivo + informe ROI. INCLUYE: PoC previo 30 días (deducible), soporte 24/7 durante implementación, garantía cumplimiento plazo (penalizaciones si excedemos). Implementaciones express 4 semanas disponibles para casos simples (+20% coste).'
             ]
         ],
         [
@@ -333,7 +333,7 @@ $people_also_ask_schema = [
             'name' => '¿Qué diferencia a BionicEye de usar ChatGPT Enterprise o Microsoft Copilot?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'DIFERENCIAS CLAVE vs ChatGPT Enterprise/Microsoft Copilot: 1) PRIVACIDAD: BionicEye 100% local (datos NUNCA salen de tu servidor, RGPD/LOPD compliant automático) vs ChatGPT/Copilot (datos procesados en cloud OpenAI/Microsoft, riesgo compliance), 2) COSTES: BionicEye €9.000 pago único o €5.000+€90/mes (€0 recurrentes con opción perpetua) vs ChatGPT Enterprise €60/usuario/mes (€36.000/año para 50 usuarios) vs Copilot €30/usuario/mes, 3) FUNCIONALIDAD: BionicEye incluye 10 módulos ERP completos (RRHH, CRM, Producción, Tickets, etc) + 13 agentes IA especializados vs ChatGPT/Copilot solo chat genérico sin ERP, 4) DEPENDENCIA: BionicEye funciona 100% offline vs ChatGPT/Copilot requieren internet constante, 5) PERSONALIZACIÓN: BionicEye permite entrenar modelos con TUS datos privados vs ChatGPT/Copilot modelos genéricos sin customización profunda, 6) INTEGRACIÓN: BionicEye integración nativa con maquinaria IoT, PLCs industriales, básculas, cámaras vs ChatGPT/Copilot orientados solo a oficina. AHORRO COMPROBADO: Empresa 50 empleados ahorra €295.000/año vs ChatGPT Enterprise + implementa funcionalidades que ChatGPT no ofrece (OCR facturas, WhatsApp bot local, control producción IoT).'
+                'text' => 'DIFERENCIAS CLAVE vs ChatGPT Enterprise/Microsoft Copilot: 1) PRIVACIDAD: BionicEye 100% local (datos NUNCA salen de tu servidor, RGPD/LOPD compliant automático) vs ChatGPT/Copilot (datos procesados en cloud OpenAI/Microsoft, riesgo compliance), 2) COSTES: BionicEye €9.000 pago único o €5.000+€90/mes (€0 recurrentes con opción perpetua) vs ChatGPT Enterprise €60/usuario/mes (€36.000/año para 50 usuarios) vs Copilot €30/usuario/mes, 3) FUNCIONALIDAD: BionicEye incluye 10 módulos ERP completos (RRHH, CRM, Producción, Tickets, etc) + 8 agentes IA especializados vs ChatGPT/Copilot solo chat genérico sin ERP, 4) DEPENDENCIA: BionicEye funciona 100% offline vs ChatGPT/Copilot requieren internet constante, 5) PERSONALIZACIÓN: BionicEye permite entrenar modelos con TUS datos privados vs ChatGPT/Copilot modelos genéricos sin customización profunda, 6) INTEGRACIÓN: BionicEye integración nativa con maquinaria IoT, PLCs industriales, básculas, cámaras vs ChatGPT/Copilot orientados solo a oficina. AHORRO COMPROBADO: Empresa 50 empleados ahorra €295.000/año vs ChatGPT Enterprise + implementa funcionalidades que ChatGPT no ofrece (OCR facturas, WhatsApp bot local, control producción IoT).'
             ]
         ]
     ]
@@ -847,8 +847,8 @@ if ($current_page === 'index') {
         'applicationCategory' => 'BusinessApplication',
         'applicationSubCategory' => 'AI Virtual Office & ERP',
         'operatingSystem' => 'Linux, Windows, Cloud, On-Premise',
-        'description' => 'Oficina Virtual Inteligente con 13 agentes IA especializados (ADRI) que gestionan producción, RRHH, finanzas, marketing, logística y compliance. Incluye ARIA (Supervisora), FELIX (Producción), HUGO (RRHH), IRIS (BI), LEO (Finanzas), MAX (Marketing), NOVA (CRM), SAM (Logística) y ZOE (Compliance).',
-        'softwareVersion' => '2.0',
+        'description' => 'Oficina Virtual Inteligente con 8 agentes IA especializados (ADRI): Supervisor (ADRI), Browser, Code Orchestrator, Vision, Messaging, Social Media, Data Analysis y Planner. Gestiona navegación web, generación de código, OCR/visión, CRM multicanal, búsqueda web, redes sociales, análisis de datos, planificación, razonamiento avanzado y seguridad/compliance.',
+        'softwareVersion' => '4.3.0',
         'offers' => [
             [
                 '@type' => 'Offer',
@@ -885,16 +885,18 @@ if ($current_page === 'index') {
             'worstRating' => '1'
         ],
         'featureList' => [
-            '13 agentes IA especializados (ADRI)',
-            'ARIA: Supervisión y coordinación general',
-            'FELIX: Gestión de producción y eficiencia',
-            'HUGO: Recursos Humanos y control horario legal',
-            'IRIS: Business Intelligence y análisis de datos',
-            'LEO: Finanzas y facturación VeriFactu',
-            'MAX: Marketing y generación de contenido',
-            'NOVA: CRM omnicanal (WhatsApp, Telegram, Email)',
-            'SAM: Logística y optimización de rutas',
-            'ZOE: Compliance legal, GDPR y AI Act',
+            '8 agentes IA especializados (ADRI)',
+            'Supervisor (ADRI): Orquestación y coordinación de todos los agentes',
+            'Browser: Navegación web y extracción de información',
+            'Code Orchestrator: Generación, depuración y orquestación de código',
+            'Vision: OCR de facturas/documentos e inspección visual',
+            'Messaging: CRM multicanal (WhatsApp, Telegram, Email) 24/7',
+            'Web Search: Investigación competitiva y monitorización de mercado',
+            'Social Media: Gestión automatizada de redes sociales',
+            'Data Analysis: Business Intelligence y análisis predictivo',
+            'Planner: Planificación y optimización de recursos',
+            'Deep Thinking: Razonamiento avanzado y resolución de problemas complejos',
+            'OSINT/Security: Compliance legal, GDPR, AI Act y seguridad',
             'Privacidad total con opción On-Premise',
             'Integración con sistemas existentes'
         ],

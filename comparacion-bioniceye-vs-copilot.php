@@ -46,7 +46,7 @@ include "includes/header.php";
                             <p class="mb-0">Ahorro anual<br><small>(50 empleados)</small></p>
                         </div>
                         <div class="col-md-4">
-                            <h3 class="display-6 fw-bold text-info">13</h3>
+                            <h3 class="display-6 fw-bold text-info">11</h3>
                             <p class="mb-0">Agentes IA especializados<br><small>vs 1 asistente genérico</small></p>
                         </div>
                     </div>
@@ -383,7 +383,7 @@ include "includes/header.php";
             <div class="col-lg-8 mx-auto text-center">
                 <h2 class="display-5 fw-bold mb-4">Ahorra �16.812/a�o vs Microsoft Copilot</h2>
                 <p class="lead mb-4">
-                    BionicEye incluye ERP completo + 13 agentes IA especializados por menos que solo el asistente de Copilot.
+                    BionicEye incluye ERP completo + 8 agentes IA especializados por menos que solo el asistente de Copilot.
                 </p>
                 <div class="d-flex flex-wrap justify-content-center gap-3">
                     <a href="contact.php?product=bioniceye&action=demo&from=comparacion-copilot" class="btn btn-light btn-lg">

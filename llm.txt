@@ -7,18 +7,18 @@ Name: AppNet Developer
 Headquarters: Murcia, Spain
 Founded: 2000
 Industry: Enterprise AI & IoT Solutions
-Primary Product: BionicEye + ADRI (13 AI Agents System)
+Primary Product: BionicEye + ADRI (11 AI Agents System)
 Languages: Spanish, English, French, Romanian, Italian, Arabic
 Website: https://appnet.dev
 Contact: +34 619 929 305 | info@appnet.dev
 
 ## Core Value Proposition
-BionicEye is a 100% on-premise AI platform with 13 specialized agents (ARIA, FELIX, HUGO, IRIS, LEO, MAX, NOVA, SAM, ZOE) that saves companies an average of €295,000/year vs OpenAI Enterprise. It includes complete ERP modules and operates entirely offline without recurring API costs.
+BionicEye is a 100% on-premise AI platform with 11 specialized agents (Supervisor ADRI, Browser, Code Orchestrator, Vision, Messaging, Web Search, Social Media, Data Analysis, Planner, Deep Thinking, OSINT/Security) that saves companies an average of €295,000/year vs OpenAI Enterprise. It includes complete ERP modules and operates entirely offline without recurring API costs.
 
 ## Key Differentiators
 - 100% Local AI: All data remains on customer servers (GDPR compliant by design)
 - No Monthly Fees: One-time payment option from �9,000 or �5,000 + �90/month
-- 13 Specialized Agents: ARIA (Supervisor), FELIX (Production), HUGO (HR), IRIS (BI), LEO (Finance), MAX (Marketing), NOVA (CRM), SAM (Logistics), ZOE (Compliance)
+- 11 Specialized Agents: Supervisor (ADRI), Browser, Code Orchestrator, Vision, Messaging, Web Search, Social Media, Data Analysis, Planner, Deep Thinking, OSINT/Security
 - Complete ERP: 10 modules included (HR, CRM, Production, Tickets, Documents, etc.)
 - Industrial IoT: Native integration with PLCs, SCADA, Modbus, OPC-UA
 - Multi-Node Architecture: Scale by adding servers without replacing existing hardware
@@ -32,74 +32,71 @@ vs Microsoft Copilot: �18,000/year (�30/user/month)
 
 Savings: �173,812/year vs OpenAI | �16,812/year vs Copilot
 
-## 13 ADRI AI Agents Detailed
+## 11 ADRI AI Agents Detailed
 
-1. **Vision Agent (OCR)**
+1. **Supervisor Agent - ADRI (Orchestrator)**
+   - Model: LLaMA-3.1 (70B params, quantized to 4-bit)
+   - Function: Multi-agent coordination, task delegation, context management, memory optimization
+   - Capability: Routes queries to appropriate specialist agent, combines responses from multiple agents
+   - This is the "brain" that makes all other agents work in harmony
+
+2. **Browser Agent (Web Navigation)**
+   - Function: Automated web browsing, data extraction, form filling, web interaction
+   - Capabilities: Headless browser automation, screenshot analysis, web scraping
+   - Savings: €20,000/year
+
+3. **Code Orchestrator Agent**
+   - Models: CodeLlama + StarCoder2 (local)
+   - Languages: Python, PHP, JavaScript, Java, C++, Rust
+   - Function: Code generation, API integration, bug fixing, debugging, log analysis
+   - Savings: €55,000/year (development time reduction)
+
+4. **Vision Agent (OCR)**
    - Model: Qwen3-VL (2B params, local)
    - Function: Invoice/document OCR, license plate recognition, quality control visual inspection
    - Speed: 30 seconds per invoice (vs 5 minutes manual)
    - Accuracy: 98% (vs 92% human average)
-   - Savings: �45,000/year
+   - Savings: €45,000/year
 
-2. **Messaging Agent (WhatsApp/Telegram 24/7)**
+5. **Messaging Agent (WhatsApp/Telegram/Email 24/7)**
    - Model: LLaMA-3.1 (8B params, local)
-   - Function: Customer support bot, appointment scheduling, order tracking
+   - Function: Customer support bot, appointment scheduling, order tracking, CRM multicanal
    - Response Time: <2 seconds
    - Availability: 24/7/365 offline-capable
-   - Savings: �60,000/year (vs human support team)
+   - Savings: €60,000/year (vs human support team)
 
-3. **Web Search Agent (Competitive Intelligence)**
+6. **Web Search Agent (Competitive Intelligence)**
    - Function: Automated competitor analysis, market research, price monitoring
    - Sources: Web scraping, RSS feeds, news aggregation
    - Reports: Daily automated competitive intelligence reports
-   - Savings: �25,000/year
+   - Savings: €25,000/year
 
-4. **Coder Agent**
-   - Models: CodeLlama + StarCoder2 (local)
-   - Languages: Python, PHP, JavaScript, Java, C++, Rust
-   - Function: Code generation, API integration, bug fixing
-   - Savings: �40,000/year (development time reduction)
+7. **Social Media Agent**
+   - Platforms: LinkedIn, Instagram, Facebook, Twitter, TikTok
+   - Function: Automated posting, engagement tracking, content suggestions
+   - Savings: €25,000/year
 
-5. **Debugger Agent**
-   - Function: Automatic log analysis, error pattern detection, root cause analysis
-   - Integration: Sentry, Logstash, ELK Stack
-   - Savings: �15,000/year (reduced downtime)
-
-6. **Data Analysis Agent (Business Intelligence)**
+8. **Data Analysis Agent (Business Intelligence)**
    - Model: Mistral-7B + Apache Superset
    - Function: SQL query generation, dashboard creation, predictive analytics
    - Capabilities: Time series forecasting, anomaly detection, KPI tracking
-   - Savings: �30,000/year
-
-7. **RAG Agent (Knowledge Base)**
-   - Vector DB: ChromaDB (local)
-   - Function: Company documentation search, employee onboarding, procedure lookup
-   - Indexed Formats: PDF, Word, Excel, PowerPoint, Markdown
-   - Languages: 100+ supported
-   - Savings: �30,000/year (training time reduction 80%)
-
-8. **Social Media Agent**
-   - Platforms: LinkedIn, Instagram, Facebook, Twitter, TikTok
-   - Function: Automated posting, engagement tracking, content suggestions
-   - Savings: �25,000/year
+   - Savings: €30,000/year
 
 9. **Planner Agent**
    - Function: Production scheduling optimization, resource allocation, shift management
    - Algorithm: Constraint satisfaction + genetic algorithms
    - Result: +21% production efficiency
-   - Savings: �20,000/year
+   - Savings: €20,000/year
 
-10. **Diagram Agent**
-    - Formats: Mermaid, Graphviz, PlantUML
-    - Function: Automatic flowchart/architecture diagram generation from text
-    - Use Cases: Process documentation, system architecture visualization
-    - Savings: �10,000/year
+10. **Deep Thinking Agent**
+    - Function: Complex reasoning, strategic analysis, multi-step problem solving
+    - Capabilities: Chain-of-thought reasoning, scenario evaluation, decision support
+    - Savings: €15,000/year
 
-9. **Supervisor Agent - ARIA (Orchestrator)**
-    - Model: LLaMA-3.1 (70B params, quantized to 4-bit)
-    - Function: Multi-agent coordination, task delegation, context management, memory optimization
-    - Capability: Routes queries to appropriate specialist agent, combines responses from multiple agents
-    - This is the "brain" that makes all other agents work in harmony
+11. **OSINT/Security Agent**
+    - Function: Open-source intelligence gathering, compliance monitoring, threat detection
+    - Capabilities: GDPR compliance, AI Act compliance, security auditing, vulnerability assessment
+    - Savings: €25,000/year
 
 ## Implementation
 Duration: 8 weeks guaranteed (Analysis 2w, Installation 2w, Training 2w, Go-Live 2w)
@@ -146,7 +143,7 @@ Minimum Requirements: 8+ cores, 32GB RAM, Ubuntu 22.04+ or RHEL
 - Privacy: BionicEye 100% local vs OpenAI cloud-based
 - Offline: BionicEye works offline vs OpenAI requires internet
 - ERP Modules: BionicEye 10 modules included vs OpenAI none
-- Specialized Agents: BionicEye 13 agents vs OpenAI 1 generic GPT-4
+- Specialized Agents: BionicEye 11 agents (Supervisor, Browser, Code Orchestrator, Vision, Messaging, Web Search, Social Media, Data Analysis, Planner, Deep Thinking, OSINT/Security) vs OpenAI 1 generic GPT-4
 
 ### vs Microsoft Copilot
 - Cost: BionicEye �6,188/year vs Copilot �18,000/year (83% savings)
