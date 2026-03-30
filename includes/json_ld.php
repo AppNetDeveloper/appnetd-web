@@ -196,7 +196,7 @@ $faq_schema = [
             'name' => '¿Qué es BionicEyE + ADRI y qué planes de precios ofrecen?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'BionicEyE + ADRI es una Oficina Virtual Inteligente con 8 agentes IA especializados: Supervisor (ADRI), Browser, Code Orchestrator, Vision, Messaging, Social Media, Data Analysis y Planner. 3 planes disponibles: Cloud SaaS €500/mes sin inversión inicial, Híbrido desde €250/mes (servidor local + API cloud), On-Premise desde €5.000 único con 100% privacidad. Ahorro de €5.496/año comparado con ChatGPT Enterprise + Claude Pro + Gemini Advanced. Compliance GDPR y AI Act. Activación en 48h.'
+                'text' => 'BionicEyE + ADRI es una Oficina Virtual Inteligente con 8 agentes IA especializados: Supervisor (ADRI), Browser, Code Orchestrator, Vision, Messaging, Social Media, Data Analysis y Planner. 3 planes disponibles: Cloud SaaS €500/mes sin inversión inicial, Híbrido desde €400/mes (servidor local + API cloud), On-Premise desde €5.000 único con 100% privacidad. Ahorro de €5.496/año comparado con ChatGPT Enterprise + Claude Pro + Gemini Advanced. Compliance GDPR y AI Act. Activación en 48h.'
             ]
         ],
         [

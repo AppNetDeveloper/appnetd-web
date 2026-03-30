@@ -956,7 +956,7 @@ return [
     'bioniceye_intro' => '<strong>Oficina Virtual Inteligente</strong> con 8 agentes IA especializados. Navegación automatizada, orquestación de código, visión multimedia, mensajería multicanal (WhatsApp, Email, Telegram), búsqueda web, redes sociales, análisis de datos, planificación, razonamiento profundo y ciberseguridad. <strong>On-premise, Cloud o Híbrido</strong>. Compliance GDPR y AI Act.',
 
     'bioniceye_benefit1_title' => '3 Modalidades Flexibles',
-    'bioniceye_benefit1_desc' => 'Cloud desde €500/mes, Híbrido desde €250/mes, On-Premise desde €5.000 único. Elige según tus necesidades.',
+    'bioniceye_benefit1_desc' => 'Cloud desde €500/mes, Híbrido desde €400/mes, On-Premise desde €5.000 único. Elige según tus necesidades.',
     'bioniceye_benefit2_title' => 'Ahorro €5.496/año',
     'bioniceye_benefit2_desc' => 'Comparado con ChatGPT Enterprise + Claude Pro + Gemini Advanced. Amortización en 6-12 meses.',
     'bioniceye_benefit3_title' => '8 agentes Especializados',
@@ -1037,7 +1037,7 @@ return [
     'agent_osint_color' => '#8b5cf6',
 
     'bioniceye_cta_title' => '¿Listo para tu Oficina Virtual Inteligente?',
-    'bioniceye_cta_desc' => 'Agenda una <strong>demo gratuita</strong> y ve BionicEyE + ADRI en acción con tus propios casos de uso.<br>3 planes: Cloud €500/mes, Híbrido desde €250/mes, On-Premise desde €5.000.',
+    'bioniceye_cta_desc' => 'Agenda una <strong>demo gratuita</strong> y ve BionicEyE + ADRI en acción con tus propios casos de uso.<br>3 planes: Cloud €500/mes, Híbrido desde €400/mes, On-Premise desde €5.000.',
     'bioniceye_cta_demo' => 'Solicitar Demo Gratuita',
     'bioniceye_cta_poc' => 'Ver Presentación',
 

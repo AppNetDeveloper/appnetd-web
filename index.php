@@ -1238,7 +1238,7 @@ include "includes/header.php";
                   <p><strong>3 Planes disponibles:</strong></p>
                   <ul>
                     <li><strong>Cloud SaaS</strong>: €500/mes - Sin inversión inicial</li>
-                    <li><strong>Híbrido</strong>: desde €250/mes - Servidor local + API cloud (RECOMENDADO)</li>
+                    <li><strong>Híbrido</strong>: desde €400/mes - Servidor local + API cloud (RECOMENDADO)</li>
                     <li><strong>On-Premise</strong>: desde €5.000 único - 100% privacidad, sin costes mensuales</li>
                   </ul>
                   <p><span class="badge bg-success">Ahorro de €5.496/año</span> comparado con ChatGPT Enterprise + Claude Pro + Gemini Advanced.</p>
