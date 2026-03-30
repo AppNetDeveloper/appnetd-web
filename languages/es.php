@@ -1006,9 +1006,6 @@ return [
     'agent_messaging_desc' => 'Comunicación multicanal: WhatsApp Business, Email, Telegram y SMS. Atención al cliente 24/7 automatizada.',
     'agent_messaging_color' => '#ec4899',
 
-    'agent_websearch_title' => 'Web Search Agent',
-    'agent_websearch_model' => 'SearXNG + Scraping',
-    'agent_websearch_desc' => 'Búsqueda web con SearXNG, monitorización de noticias, precios, clima y criptomonedas en tiempo real.',
     'agent_websearch_color' => '#22c55e',
 
     'agent_social_title' => 'Social Media Agent',
@@ -1026,14 +1023,8 @@ return [
     'agent_planner_desc' => 'Planificación de tareas y proyectos, cálculos complejos, generación de diagramas y optimización de flujos.',
     'agent_planner_color' => '#f59e0b',
 
-    'agent_deepthinking_title' => 'Deep Thinking Agent',
-    'agent_deepthinking_model' => 'Razonamiento Complejo',
-    'agent_deepthinking_desc' => 'Razonamiento complejo y análisis profundo. Resolución de problemas multi-paso con pensamiento estructurado.',
     'agent_deepthinking_color' => '#6366f1',
 
-    'agent_osint_title' => 'OSINT/Security Agent',
-    'agent_osint_model' => 'Ciberseguridad',
-    'agent_osint_desc' => 'Ciberseguridad, pentesting, análisis de vulnerabilidades, OSINT e inteligencia de amenazas.',
     'agent_osint_color' => '#8b5cf6',
 
     'bioniceye_cta_title' => '¿Listo para tu Oficina Virtual Inteligente?',

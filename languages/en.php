@@ -937,9 +937,6 @@ return [
     'agent_messaging_desc' => 'Multichannel communication: WhatsApp Business, Email, Telegram and SMS. Automated 24/7 customer support.',
     'agent_messaging_color' => '#ec4899',
 
-    'agent_websearch_title' => 'Web Search Agent',
-    'agent_websearch_model' => 'SearXNG + Scraping',
-    'agent_websearch_desc' => 'Web search with SearXNG, real-time monitoring of news, prices, weather and cryptocurrencies.',
     'agent_websearch_color' => '#22c55e',
 
     'agent_social_title' => 'Social Media Agent',
@@ -957,14 +954,8 @@ return [
     'agent_planner_desc' => 'Task and project planning, complex calculations, diagram generation and workflow optimization.',
     'agent_planner_color' => '#f59e0b',
 
-    'agent_deepthinking_title' => 'Deep Thinking Agent',
-    'agent_deepthinking_model' => 'Complex Reasoning',
-    'agent_deepthinking_desc' => 'Complex reasoning and deep analysis. Multi-step problem solving with structured thinking.',
     'agent_deepthinking_color' => '#6366f1',
 
-    'agent_osint_title' => 'OSINT/Security Agent',
-    'agent_osint_model' => 'Cybersecurity',
-    'agent_osint_desc' => 'Cybersecurity, pentesting, vulnerability analysis, OSINT and threat intelligence.',
     'agent_osint_color' => '#8b5cf6',
     'bioniceye_cta_title' => 'Ready to Transform Your Company with 11 AI Agents?',
     'bioniceye_cta_desc' => 'Schedule a <strong>free 45-minute demo</strong> and see BionicEye + ADRI in action with your own use cases.<br>Or start a <strong>30-day PoC for €5,000</strong> (deductible if you contract).',
