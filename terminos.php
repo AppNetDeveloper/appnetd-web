@@ -1,132 +1,37 @@
 <?php
-// Incluir configuración de idiomas
 require_once __DIR__ . '/languages/config.php';
-
-// Obtener la URL base del sitio
-$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
-
-// Configuración de la página
-$page_title = __('terms_title');
-$meta_description = __('terms_description');
-
-include "includes/header.php";
+$page_meta = [
+    'title' => 'Términos y Condiciones · AppNet Developer',
+    'description' => 'Términos y condiciones de uso del sitio web y servicios de AppNet Developer: aceptación, descripción, propiedad intelectual, ley aplicable.',
+    'keywords' => 'términos AppNet, condiciones uso, legal Murcia',
+];
+include __DIR__ . '/includes/header-reimagine.php';
 ?>
 
-<!-- Page Title Start -->
-<section class="page-title title-bg10">
-    <div class="d-table">
-        <div class="d-table-cell">
-            <h2><?php echo __('terms_title'); ?></h2>
-            <ul>
-                <li><a href="index.php"><?php echo __('home'); ?></a></li>
-                <li><?php echo __('terms_title'); ?></li>
-            </ul>
-        </div>
-    </div>
-    <div class="lines">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+<section class="re-subhero">
+    <div class="re-container">
+        <span class="re-subhero__eyebrow"><?= __('legal') ?> · Condiciones</span>
+        <h1 class="re-display">Términos y Condiciones</h1>
+        <p class="re-subhero__lede">Condiciones de uso del sitio web y servicios de AppNet Developer.</p>
     </div>
 </section>
-<!-- Page Title End -->
 
-<!-- Terms and Conditions Section Start -->
-<section class="terms-section pt-100 pb-70">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="terms-content">
-                    <div class="section-title">
-                        <h2><?php echo __('terms_title'); ?></h2>
-                        <p><strong><?php echo __('terms_last_updated'); ?>:</strong> <?php echo date('d/m/Y'); ?></p>
-                    </div>
+<section class="re-section">
+    <div class="re-container">
+        <article class="re-legal">
+            <span class="re-legal__tag">Última actualización: <?= date('F Y') ?></span>
 
-                    <div class="terms-section">
-                        <h3>1. <?php echo __('terms_acceptance_title'); ?></h3>
-                        <p><?php echo __('terms_acceptance_text'); ?></p>
-                    </div>
-
-                    <div class="terms-section">
-                        <h3>2. <?php echo __('terms_services_title'); ?></h3>
-                        <p><?php echo __('terms_services_text'); ?></p>
-                        <ul class="terms-list">
-                            <li><?php echo __('terms_service_development'); ?></li>
-                            <li><?php echo __('terms_service_consulting'); ?></li>
-                            <li><?php echo __('terms_service_automation'); ?></li>
-                            <li><?php echo __('terms_service_ai'); ?></li>
-                            <li><?php echo __('terms_service_iot'); ?></li>
-                            <li><?php echo __('terms_service_cybersecurity'); ?></li>
-                        </ul>
-                    </div>
-
-                    <div class="terms-section">
-                        <h3>3. <?php echo __('terms_use_conditions_title'); ?></h3>
-                        <p><?php echo __('terms_use_conditions_text'); ?></p>
-                        <ul class="terms-list">
-                            <li><?php echo __('terms_use_legal'); ?></li>
-                            <li><?php echo __('terms_use_no_harm'); ?></li>
-                            <li><?php echo __('terms_use_no_unauthorized'); ?></li>
-                            <li><?php echo __('terms_use_no_spam'); ?></li>
-                            <li><?php echo __('terms_use_no_malware'); ?></li>
-                        </ul>
-                    </div>
-
-                    <div class="terms-section">
-                        <h3>4. <?php echo __('terms_intellectual_property_title'); ?></h3>
-                        <p><?php echo __('terms_intellectual_property_text'); ?></p>
-                    </div>
-
-                    <div class="terms-section">
-                        <h3>5. <?php echo __('terms_user_content_title'); ?></h3>
-                        <p><?php echo __('terms_user_content_text'); ?></p>
-                    </div>
-
-                    <div class="terms-section">
-                        <h3>6. <?php echo __('terms_limitation_liability_title'); ?></h3>
-                        <p><?php echo __('terms_limitation_liability_text'); ?></p>
-                    </div>
-
-                    <div class="terms-section">
-                        <h3>7. <?php echo __('terms_warranties_title'); ?></h3>
-                        <p><?php echo __('terms_warranties_text'); ?></p>
-                    </div>
-
-                    <div class="terms-section">
-                        <h3>8. <?php echo __('terms_links_title'); ?></h3>
-                        <p><?php echo __('terms_links_text'); ?></p>
-                    </div>
-
-                    <div class="terms-section">
-                        <h3>9. <?php echo __('terms_termination_title'); ?></h3>
-                        <p><?php echo __('terms_termination_text'); ?></p>
-                    </div>
-
-                    <div class="terms-section">
-                        <h3>10. <?php echo __('terms_modifications_title'); ?></h3>
-                        <p><?php echo __('terms_modifications_text'); ?></p>
-                    </div>
-
-                    <div class="terms-section">
-                        <h3>11. <?php echo __('terms_applicable_law_title'); ?></h3>
-                        <p><?php echo __('terms_applicable_law_text'); ?></p>
-                    </div>
-
-                    <div class="terms-section">
-                        <h3>12. <?php echo __('terms_contact_title'); ?></h3>
-                        <p><?php echo __('terms_contact_text'); ?></p>
-                        <ul class="terms-list">
-                            <li><strong><?php echo __('privacy_email'); ?>:</strong> info@appnet.dev</li>
-                            <li><strong><?php echo __('privacy_phone'); ?>:</strong> +34 619 929 305</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <section><h2>1. Aceptación de los términos</h2><p>Al acceder a appnet.dev o contratar nuestros servicios, aceptas estos términos. Si no estás de acuerdo, no uses el sitio o los servicios.</p></section>
+            <section><h2>2. Descripción del servicio</h2><p>AppNet Developer ofrece servicios de IA local, IoT industrial, desarrollo de software a medida, consultoría estratégica y productos como BionicEyE + ADRI.</p></section>
+            <section><h2>3. Cuentas de usuario</h2><p>Eres responsable de mantener la confidencialidad de tus credenciales y de toda actividad en tu cuenta. Notifica inmediatamente cualquier uso no autorizado.</p></section>
+            <section><h2>4. Uso aceptable</h2><p>No utilizarás el servicio para actividades ilegales, abuso, spam, explotación de vulnerabilidades o violación de derechos de terceros.</p></section>
+            <section><h2>5. Propiedad intelectual</h2><p>El sitio, sus contenidos y los productos BionicEyE + ADRI son propiedad de AppNet Developer SL. Los datos que ingreses son tuyos.</p></section>
+            <section><h2>6. Facturación y pagos</h2><p>Los servicios profesionales se facturan según presupuesto acordado. Los productos SaaS BionicEyE se rigen por sus propios términos en bioniceye.app.</p></section>
+            <section><h2>7. Limitación de responsabilidad</h2><p>El servicio se presta "tal cual". No somos responsables de daños indirectos, lucro cesante o pérdida de datos más allá de lo establecido por la ley aplicable.</p></section>
+            <section><h2>8. Terminación</h2><p>Puedes cancelar tu contrato según las condiciones pactadas. Nosotros podemos terminar el servicio en caso de incumplimiento grave o uso abusivo.</p></section>
+            <section><h2>9. Ley aplicable</h2><p>Estos términos se rigen por la legislación española. Los tribunales competentes serán los de Murcia (España), domicilio social de AppNet Developer SL.</p></section>
+        </article>
     </div>
 </section>
-<!-- Terms and Conditions Section End -->
 
-<?php
-include "includes/footer.php";
-?>
+<?php include __DIR__ . '/includes/footer-reimagine.php'; ?>

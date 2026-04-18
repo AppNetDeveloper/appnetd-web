@@ -1,42 +1,4 @@
-# robots.txt — AppNet Developer
-# SEO + GEO optimized
-
-User-agent: GPTBot
-Allow: /
-Crawl-delay: 1
-
-User-agent: Claude-Web
-Allow: /
-Crawl-delay: 1
-
-User-agent: PerplexityBot
-Allow: /
-Crawl-delay: 1
-
-User-agent: Google-Extended
-Allow: /
-Crawl-delay: 1
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 1
-
-User-agent: facebookexternalhit
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: LinkedInBot
-Allow: /
-
 User-agent: *
 Allow: /
-Disallow: /*?*
-Disallow: /*&
 
-Sitemap: https://appnet.dev/sitemap.php
-Sitemap: https://www.appnet.dev/sitemap.php
+Sitemap: https://appnet.dev/sitemap.xml

@@ -1,253 +1,54 @@
 <?php
-// Incluir configuración de idioma
 require_once __DIR__ . '/languages/config.php';
-include "includes/header.php"; 
+$page_meta = [
+    'title' => 'Aplicaciones a medida · Servicio',
+    'description' => 'Desarrollo de apps móviles y web a medida: Laravel, Python FastAPI, Node.js, PostgreSQL con pgvector.',
+    'keywords' => 'AppNet Developer, IA local, IoT industrial',
+];
+include __DIR__ . '/includes/header-reimagine.php';
 ?>
 
-<!-- Hero Section -->
-<div class="common-hero" style="background-image: url('assets/img/bg/desarrollo-app-bg.jpg');">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-8">
-        <div class="main-heading text-white">
-          <h1><?php echo __('custom_apps_title'); ?></h1>
-          <div class="space16"></div>
-          <p class="lead"><?php echo __('custom_apps_subtitle'); ?></p>
-          <div class="space30"></div>
-          <a href="#contact-form" class="theme-btn1"><?php echo __('request_quote'); ?></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<section class="re-section">
+    <div class="re-container">
+        <article class="re-legal">
+            <a href="/blog.php" style="color:var(--re-iris-bright);text-decoration:none;font-size:var(--re-text-sm);font-weight:600;margin-bottom:var(--re-space-3);display:inline-block;">← <?= __('blog') ?></a>
+            <h1 class="re-display" style="font-family:'Space Grotesk',system-ui,sans-serif;font-size:var(--re-text-3xl);letter-spacing:-0.03em;line-height:1.1;margin-bottom:var(--re-space-3);background:linear-gradient(120deg, var(--re-ink) 0%, var(--re-iris-bright) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;">Aplicaciones a medida · Servicio</h1>
+            <p style="font-size:var(--re-text-lg);color:var(--re-ink);line-height:1.55;border-left:3px solid var(--re-iris-bright);padding-left:var(--re-space-3);margin-bottom:var(--re-space-5);">Desarrollo de apps móviles y web a medida: Laravel, Python FastAPI, Node.js, PostgreSQL con pgvector.</p>
 
-<!-- Descripción del Servicio -->
-<div class="service-detail sp">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <div class="service-content">
-          <h2><?php echo __('custom_apps_heading'); ?></h2>
-          <p><?php echo __('custom_apps_description'); ?></p>
-          
-          <div class="feature-list">
-            <div class="feature-item">
-              <i class="fas fa-mobile-alt"></i>
-              <div>
-                <h4><?php echo __('custom_apps_mobile_title'); ?></h4>
-                <p><?php echo __('custom_apps_mobile_desc'); ?></p>
-              </div>
+            <div class="legacy-content">
+                <p>Content extraction failed — original preserved as .legacy</p>
             </div>
-            <div class="feature-item">
-              <i class="fas fa-desktop"></i>
-              <div>
-                <h4><?php echo __('custom_apps_web_title'); ?></h4>
-                <p><?php echo __('custom_apps_web_desc'); ?></p>
-              </div>
+
+            <div style="margin-top:var(--re-space-5);padding-top:var(--re-space-4);border-top:1px solid var(--re-border);">
+                <a href="/contact.php" class="re-btn re-btn--primary"><span><?= __('an.hero.ctaContact') ?></span><span class="re-btn__arrow" aria-hidden="true">→</span></a>
             </div>
-            <div class="feature-item">
-              <i class="fas fa-sync"></i>
-              <div>
-                <h4><?php echo __('custom_apps_integration_title'); ?></h4>
-                <p><?php echo __('custom_apps_integration_desc'); ?></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="service-image">
-          <img src="assets/img/services/desarrollo-aplicaciones.jpg" alt="Desarrollo de Aplicaciones" class="img-fluid rounded">
-        </div>
-      </div>
+        </article>
     </div>
-  </div>
-</div>
+</section>
 
-<!-- Proceso de Desarrollo -->
-<div class="process-section sp bg-light">
-  <div class="container">
-    <div class="section-title text-center">
-      <h2><?php echo __('custom_apps_process_title'); ?></h2>
-      <p><?php echo __('custom_apps_process_subtitle'); ?></p>
-    </div>
-    
-    <div class="row">
-      <div class="col-md-4 mb-4">
-        <div class="process-card text-center">
-          <div class="process-number">1</div>
-          <h4><?php echo __('custom_apps_step1_title'); ?></h4>
-          <p><?php echo __('custom_apps_step1_desc'); ?></p>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="process-card text-center">
-          <div class="process-number">2</div>
-          <h4><?php echo __('custom_apps_step2_title'); ?></h4>
-          <p><?php echo __('custom_apps_step2_desc'); ?></p>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="process-card text-center">
-          <div class="process-number">3</div>
-          <h4><?php echo __('custom_apps_step3_title'); ?></h4>
-          <p><?php echo __('custom_apps_step3_desc'); ?></p>
-        </div>
-      </div>
-      <div class="col-md-6 mb-4">
-        <div class="process-card text-center">
-          <div class="process-number">4</div>
-          <h4><?php echo __('custom_apps_step4_title'); ?></h4>
-          <p><?php echo __('custom_apps_step4_desc'); ?></p>
-        </div>
-      </div>
-      <div class="col-md-6 mb-4">
-        <div class="process-card text-center">
-          <div class="process-number">5</div>
-          <h4><?php echo __('custom_apps_step5_title'); ?></h4>
-          <p><?php echo __('custom_apps_step5_desc'); ?></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<style>
+/* Legacy content styling inside re-legal wrapper */
+.legacy-content h2, .legacy-content h3 {
+    font-family: 'Space Grotesk', system-ui, sans-serif !important;
+    letter-spacing: -0.02em !important;
+    color: var(--re-ink) !important;
+    margin-top: var(--re-space-4) !important;
+    margin-bottom: var(--re-space-2) !important;
+}
+.legacy-content h2 { font-size: var(--re-text-xl) !important; }
+.legacy-content h3 { font-size: var(--re-text-lg) !important; }
+.legacy-content p, .legacy-content li {
+    color: var(--re-ink-muted) !important;
+    line-height: 1.7 !important;
+    font-size: var(--re-text-base) !important;
+}
+.legacy-content img { max-width: 100%; height: auto; border-radius: var(--re-radius-md); margin: var(--re-space-3) 0; }
+.legacy-content ul, .legacy-content ol { padding-left: 1.4rem; margin-bottom: var(--re-space-3); }
+.legacy-content a { color: var(--re-iris-bright); text-decoration: underline; }
+.legacy-content .container { padding: 0 !important; max-width: 100% !important; }
+.legacy-content .row, .legacy-content [class*="col-"] { margin: 0 !important; padding: 0 !important; width: 100% !important; flex: 0 0 100% !important; max-width: 100% !important; }
+.legacy-content section { padding: var(--re-space-3) 0 !important; background: transparent !important; }
+.legacy-content .blog-details-section, .legacy-content .blog-details-content { padding: 0 !important; }
+</style>
 
-<!-- Tecnologías -->
-<div class="technologies-section sp">
-  <div class="container">
-    <div class="section-title text-center">
-      <h2><?php echo __('custom_apps_tech_title'); ?></h2>
-      <p><?php echo __('custom_apps_tech_subtitle'); ?></p>
-    </div>
-    
-    <div class="row">
-      <div class="col-6 col-md-3 mb-4">
-        <div class="tech-card text-center">
-          <div class="tech-icon">
-            <i class="fab fa-react"></i>
-          </div>
-          <h5><?php echo __('custom_apps_tech_react'); ?></h5>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 mb-4">
-        <div class="tech-card text-center">
-          <div class="tech-icon">
-            <i class="fab fa-angular"></i>
-          </div>
-          <h5><?php echo __('custom_apps_tech_angular'); ?></h5>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 mb-4">
-        <div class="tech-card text-center">
-          <div class="tech-icon">
-            <i class="fab fa-vuejs"></i>
-          </div>
-          <h5><?php echo __('custom_apps_tech_vue'); ?></h5>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 mb-4">
-        <div class="tech-card text-center">
-          <div class="tech-icon">
-            <i class="fab fa-node-js"></i>
-          </div>
-          <h5><?php echo __('custom_apps_tech_node'); ?></h5>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 mb-4">
-        <div class="tech-card text-center">
-          <div class="tech-icon">
-            <i class="fab fa-python"></i>
-          </div>
-          <h5><?php echo __('custom_apps_tech_python'); ?></h5>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 mb-4">
-        <div class="tech-card text-center">
-          <div class="tech-icon">
-            <i class="fas fa-database"></i>
-          </div>
-          <h5><?php echo __('custom_apps_tech_database'); ?></h5>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 mb-4">
-        <div class="tech-card text-center">
-          <div class="tech-icon">
-            <i class="fas fa-cloud"></i>
-          </div>
-          <h5><?php echo __('custom_apps_tech_cloud'); ?></h5>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 mb-4">
-        <div class="tech-card text-center">
-          <div class="tech-icon">
-            <i class="fas fa-robot"></i>
-          </div>
-          <h5><?php echo __('custom_apps_tech_ai'); ?></h5>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Beneficios -->
-<div class="benefits-section sp bg-light">
-  <div class="container">
-    <div class="section-title text-center">
-      <h2><?php echo __('custom_apps_benefits_title'); ?></h2>
-      <p><?php echo __('custom_apps_benefits_subtitle'); ?></p>
-    </div>
-    
-    <div class="row">
-      <div class="col-md-4 mb-4">
-        <div class="benefit-card text-center">
-          <div class="benefit-icon">
-            <i class="fas fa-bullseye"></i>
-          </div>
-          <h4><?php echo __('custom_apps_benefit1_title'); ?></h4>
-          <p><?php echo __('custom_apps_benefit1_desc'); ?></p>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="benefit-card text-center">
-          <div class="benefit-icon">
-            <i class="fas fa-chart-line"></i>
-          </div>
-          <h4><?php echo __('custom_apps_benefit2_title'); ?></h4>
-          <p><?php echo __('custom_apps_benefit2_desc'); ?></p>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="benefit-card text-center">
-          <div class="benefit-icon">
-            <i class="fas fa-lock"></i>
-          </div>
-          <h4><?php echo __('custom_apps_benefit3_title'); ?></h4>
-          <p><?php echo __('custom_apps_benefit3_desc'); ?></p>
-        </div>
-      </div>
-      <div class="col-md-6 mb-4">
-        <div class="benefit-card text-center">
-          <div class="benefit-icon">
-            <i class="fas fa-expand-arrows-alt"></i>
-          </div>
-          <h4><?php echo __('custom_apps_benefit4_title'); ?></h4>
-          <p><?php echo __('custom_apps_benefit4_desc'); ?></p>
-        </div>
-      </div>
-      <div class="col-md-6 mb-4">
-        <div class="benefit-card text-center">
-          <div class="benefit-icon">
-            <i class="fas fa-headset"></i>
-          </div>
-          <h4><?php echo __('custom_apps_benefit5_title'); ?></h4>
-          <p><?php echo __('custom_apps_benefit5_desc'); ?></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Formulario de Contacto -->
-<?php include "includes/contact-form.php"; ?>
-
-<?php include "includes/footer.php"; ?>
+<?php include __DIR__ . '/includes/footer-reimagine.php'; ?>

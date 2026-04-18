@@ -1,140 +1,54 @@
-<?php include "includes/header.php"; ?>
+<?php
+require_once __DIR__ . '/languages/config.php';
+$page_meta = [
+    'title' => 'Control de producción · Servicio',
+    'description' => 'Optimización de planificación con OR-Tools CP-SAT solver: secuencia óptima, KPIs OEE, análisis what-if.',
+    'keywords' => 'AppNet Developer, IA local, IoT industrial',
+];
+include __DIR__ . '/includes/header-reimagine.php';
+?>
 
-<!-- Hero Section -->
-<div class="common-hero" style="background-image: url('assets/img/bg/production-bg.jpg');">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-8">
-        <div class="main-heading text-white">
-          <h1>Control Horario y de Producción</h1>
-          <div class="space16"></div>
-          <p class="lead">Solución integral para el monitoreo y control en tiempo real de tus procesos productivos</p>
-          <div class="space30"></div>
-          <a href="#contact-form" class="theme-btn1">Solicitar Demostración</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<section class="re-section">
+    <div class="re-container">
+        <article class="re-legal">
+            <a href="/blog.php" style="color:var(--re-iris-bright);text-decoration:none;font-size:var(--re-text-sm);font-weight:600;margin-bottom:var(--re-space-3);display:inline-block;">← <?= __('blog') ?></a>
+            <h1 class="re-display" style="font-family:'Space Grotesk',system-ui,sans-serif;font-size:var(--re-text-3xl);letter-spacing:-0.03em;line-height:1.1;margin-bottom:var(--re-space-3);background:linear-gradient(120deg, var(--re-ink) 0%, var(--re-iris-bright) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;">Control de producción · Servicio</h1>
+            <p style="font-size:var(--re-text-lg);color:var(--re-ink);line-height:1.55;border-left:3px solid var(--re-iris-bright);padding-left:var(--re-space-3);margin-bottom:var(--re-space-5);">Optimización de planificación con OR-Tools CP-SAT solver: secuencia óptima, KPIs OEE, análisis what-if.</p>
 
-<!-- Descripción del Servicio -->
-<div class="service-detail sp">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <div class="service-content">
-          <h2>Optimiza tu Producción con Nuestro Sistema de Control</h2>
-          <p>Nuestra solución de control de producción te permite monitorear en tiempo real todos los aspectos de tu línea de producción, desde el rendimiento de la maquinaria hasta la eficiencia de tus operarios.</p>
-          
-          <div class="feature-list">
-            <div class="feature-item">
-              <i class="fas fa-clock"></i>
-              <div>
-                <h4>Control de Tiempos</h4>
-                <p>Registro preciso de tiempos de producción y paradas técnicas</p>
-              </div>
+            <div class="legacy-content">
+                <p>Content extraction failed — original preserved as .legacy</p>
             </div>
-            <div class="feature-item">
-              <i class="fas fa-chart-pie"></i>
-              <div>
-                <h4>Análisis de Eficiencia</h4>
-                <p>Métricas detalladas del rendimiento de producción (OEE)</p>
-              </div>
+
+            <div style="margin-top:var(--re-space-5);padding-top:var(--re-space-4);border-top:1px solid var(--re-border);">
+                <a href="/contact.php" class="re-btn re-btn--primary"><span><?= __('an.hero.ctaContact') ?></span><span class="re-btn__arrow" aria-hidden="true">→</span></a>
             </div>
-            <div class="feature-item">
-              <i class="fas fa-bell"></i>
-              <div>
-                <h4>Alertas en Tiempo Real</h4>
-                <p>Notificaciones inmediatas de incidencias o desviaciones</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="service-image">
-          <img src="assets/img/services/production-control.jpg" alt="Control de Producción" class="img-fluid rounded">
-        </div>
-      </div>
+        </article>
     </div>
-  </div>
-</div>
+</section>
 
-<!-- Beneficios -->
-<div class="benefits-section sp bg-light">
-  <div class="container">
-    <div class="section-title text-center">
-      <h2>Beneficios Clave</h2>
-      <p>Ventajas de implementar nuestro sistema de control de producción</p>
-    </div>
-    
-    <div class="row">
-      <div class="col-md-4 mb-4">
-        <div class="benefit-card text-center">
-          <div class="benefit-icon">
-            <i class="fas fa-chart-line"></i>
-          </div>
-          <h4>Mayor Productividad</h4>
-          <p>Identifica cuellos de botella y mejora la eficiencia general de producción</p>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="benefit-card text-center">
-          <div class="benefit-icon">
-            <i class="fas fa-money-bill-wave"></i>
-          </div>
-          <h4>Reducción de Costos</h4>
-          <p>Minimiza el tiempo de inactividad y los costos operativos</p>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="benefit-card text-center">
-          <div class="benefit-icon">
-            <i class="fas fa-clipboard-check"></i>
-          </div>
-          <h4>Mejor Calidad</h4>
-          <p>Control de calidad integrado en tiempo real</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<style>
+/* Legacy content styling inside re-legal wrapper */
+.legacy-content h2, .legacy-content h3 {
+    font-family: 'Space Grotesk', system-ui, sans-serif !important;
+    letter-spacing: -0.02em !important;
+    color: var(--re-ink) !important;
+    margin-top: var(--re-space-4) !important;
+    margin-bottom: var(--re-space-2) !important;
+}
+.legacy-content h2 { font-size: var(--re-text-xl) !important; }
+.legacy-content h3 { font-size: var(--re-text-lg) !important; }
+.legacy-content p, .legacy-content li {
+    color: var(--re-ink-muted) !important;
+    line-height: 1.7 !important;
+    font-size: var(--re-text-base) !important;
+}
+.legacy-content img { max-width: 100%; height: auto; border-radius: var(--re-radius-md); margin: var(--re-space-3) 0; }
+.legacy-content ul, .legacy-content ol { padding-left: 1.4rem; margin-bottom: var(--re-space-3); }
+.legacy-content a { color: var(--re-iris-bright); text-decoration: underline; }
+.legacy-content .container { padding: 0 !important; max-width: 100% !important; }
+.legacy-content .row, .legacy-content [class*="col-"] { margin: 0 !important; padding: 0 !important; width: 100% !important; flex: 0 0 100% !important; max-width: 100% !important; }
+.legacy-content section { padding: var(--re-space-3) 0 !important; background: transparent !important; }
+.legacy-content .blog-details-section, .legacy-content .blog-details-content { padding: 0 !important; }
+</style>
 
-<!-- Aplicaciones -->
-<div class="applications-section sp">
-  <div class="container">
-    <div class="section-title text-center">
-      <h2>Aplicaciones</h2>
-      <p>Nuestro sistema de control de producción es ideal para:</p>
-    </div>
-    
-    <div class="row">
-      <div class="col-md-4 mb-4">
-        <div class="app-card">
-          <div class="icon"><i class="fas fa-industry"></i></div>
-          <h4>Fábricas</h4>
-          <p>Monitoreo de líneas de producción en tiempo real</p>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="app-card">
-          <div class="icon"><i class="fas fa-warehouse"></i></div>
-          <h4>Almacenes</h4>
-          <p>Gestión de inventario y logística</p>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="app-card">
-          <div class="icon"><i class="fas fa-tools"></i></div>
-          <h4>Talleres</h4>
-          <p>Control de tiempos y productividad</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Formulario de Contacto -->
-<?php include "includes/contact-form.php"; ?>
-
-<?php include "includes/footer.php"; ?>
+<?php include __DIR__ . '/includes/footer-reimagine.php'; ?>

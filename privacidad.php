@@ -1,153 +1,98 @@
 <?php
-// Incluir configuración de idiomas
 require_once __DIR__ . '/languages/config.php';
-
-// Obtener la URL base del sitio
-$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
-
-// Configuración de la página
-$page_title = __('privacy_policy_title');
-$meta_description = __('privacy_policy_description');
-
-include "includes/header.php";
+$page_meta = [
+    'title' => 'Privacidad RGPD · AppNet Developer',
+    'description' => 'Política de privacidad de AppNet Developer conforme al RGPD y LOPDGDD: responsable, datos, finalidad, base legal, derechos RGPD, conservación, AEPD.',
+    'keywords' => 'privacidad RGPD AppNet, LOPDGDD, tratamiento datos Murcia',
+];
+include __DIR__ . '/includes/header-reimagine.php';
 ?>
 
-<!-- Page Title Start -->
-<section class="page-title title-bg10">
-    <div class="d-table">
-        <div class="d-table-cell">
-            <h2><?php echo __('privacy_policy_title'); ?></h2>
-            <ul>
-                <li><a href="index.php"><?php echo __('home'); ?></a></li>
-                <li><?php echo __('privacy_policy_title'); ?></li>
-            </ul>
-        </div>
-    </div>
-    <div class="lines">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+<section class="re-subhero">
+    <div class="re-container">
+        <span class="re-subhero__eyebrow"><?= __('legal') ?> · RGPD</span>
+        <h1 class="re-display">Política de Privacidad</h1>
+        <p class="re-subhero__lede">Cómo tratamos tus datos personales conforme al RGPD y LOPDGDD. Transparente, sin letra pequeña.</p>
     </div>
 </section>
-<!-- Page Title End -->
 
-<!-- Privacy Policy Section Start -->
-<section class="privacy-policy-section pt-100 pb-70">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="privacy-policy-content">
-                    <div class="section-title">
-                        <h2><?php echo __('privacy_policy_title'); ?></h2>
-                        <p><strong><?php echo __('privacy_last_updated'); ?>:</strong> <?php echo date('d/m/Y'); ?></p>
-                    </div>
+<section class="re-section">
+    <div class="re-container">
+        <article class="re-legal">
+            <span class="re-legal__tag">Última actualización: <?= date('F Y') ?></span>
 
-                    <div class="privacy-section">
-                        <h3>1. <?php echo __('privacy_intro_title'); ?></h3>
-                        <p><?php echo __('privacy_intro_text'); ?></p>
-                    </div>
+            <section>
+                <h2>1. Responsable del Tratamiento</h2>
+                <p>AppNet Developer SL es el responsable del tratamiento de los datos personales recogidos en este sitio web (appnet.dev).</p>
+                <p><strong>Contacto:</strong> <a href="mailto:info@appnet.dev">info@appnet.dev</a> · <strong>Dirección:</strong> Murcia, España.</p>
+            </section>
 
-                    <div class="privacy-section">
-                        <h3>2. <?php echo __('privacy_responsible_title'); ?></h3>
-                        <ul class="privacy-list">
-                            <li><strong><?php echo __('privacy_company_name'); ?>:</strong> AppNet Developer</li>
-                            <li><strong><?php echo __('privacy_address'); ?>:</strong> Murcia, España</li>
-                            <li><strong><?php echo __('privacy_email'); ?>:</strong> info@appnet.dev</li>
-                            <li><strong><?php echo __('privacy_phone'); ?>:</strong> +34 619 929 305</li>
-                        </ul>
-                    </div>
+            <section>
+                <h2>2. Datos que Recogemos</h2>
+                <ul>
+                    <li><strong>Datos de contacto:</strong> nombre, email, teléfono, empresa (cuando contactas con nosotros).</li>
+                    <li><strong>Datos de uso:</strong> páginas visitadas, tiempo, dispositivo, idioma.</li>
+                    <li><strong>Cookies:</strong> ver nuestra <a href="/cookies.php">Política de Cookies</a>.</li>
+                </ul>
+            </section>
 
-                    <div class="privacy-section">
-                        <h3>3. <?php echo __('privacy_data_collected_title'); ?></h3>
-                        <p><?php echo __('privacy_data_collected_text'); ?></p>
-                        <ul class="privacy-list">
-                            <li><?php echo __('privacy_data_identification'); ?></li>
-                            <li><?php echo __('privacy_data_contact'); ?></li>
-                            <li><?php echo __('privacy_data_navigation'); ?></li>
-                            <li><?php echo __('privacy_data_cookies'); ?></li>
-                        </ul>
-                    </div>
+            <section>
+                <h2>3. Finalidad del Tratamiento</h2>
+                <ul>
+                    <li>Responder a tus consultas y solicitudes.</li>
+                    <li>Prestar los servicios contratados.</li>
+                    <li>Enviar comunicaciones comerciales (solo si das consentimiento).</li>
+                    <li>Mejorar nuestros servicios y web.</li>
+                </ul>
+            </section>
 
-                    <div class="privacy-section">
-                        <h3>4. <?php echo __('privacy_purpose_title'); ?></h3>
-                        <p><?php echo __('privacy_purpose_text'); ?></p>
-                        <ul class="privacy-list">
-                            <li><?php echo __('privacy_purpose_communication'); ?></li>
-                            <li><?php echo __('privacy_purpose_services'); ?></li>
-                            <li><?php echo __('privacy_purpose_newsletter'); ?></li>
-                            <li><?php echo __('privacy_purpose_improvement'); ?></li>
-                            <li><?php echo __('privacy_purpose_legal'); ?></li>
-                        </ul>
-                    </div>
+            <section>
+                <h2>4. Base Legal</h2>
+                <ul>
+                    <li>Tu consentimiento (formularios, newsletter).</li>
+                    <li>Ejecución de contrato (servicios contratados).</li>
+                    <li>Interés legítimo (mejora de servicios, analítica).</li>
+                </ul>
+            </section>
 
-                    <div class="privacy-section">
-                        <h3>5. <?php echo __('privacy_legal_basis_title'); ?></h3>
-                        <p><?php echo __('privacy_legal_basis_text'); ?></p>
-                        <ul class="privacy-list">
-                            <li><?php echo __('privacy_legal_consent'); ?></li>
-                            <li><?php echo __('privacy_legal_contract'); ?></li>
-                            <li><?php echo __('privacy_legal_legitimate'); ?></li>
-                        </ul>
-                    </div>
+            <section>
+                <h2>5. Tus Derechos (RGPD)</h2>
+                <ul>
+                    <li><strong>Acceso:</strong> saber qué datos tenemos de ti.</li>
+                    <li><strong>Rectificación:</strong> corregir datos incorrectos.</li>
+                    <li><strong>Supresión:</strong> pedir que borremos tus datos.</li>
+                    <li><strong>Portabilidad:</strong> recibir tus datos en formato portable.</li>
+                    <li><strong>Oposición:</strong> oponerte a cierto tratamiento.</li>
+                    <li><strong>Retirar consentimiento:</strong> en cualquier momento.</li>
+                </ul>
+                <p>Para ejercer estos derechos, escribe a <strong>info@appnet.dev</strong>.</p>
+            </section>
 
-                    <div class="privacy-section">
-                        <h3>6. <?php echo __('privacy_recipients_title'); ?></h3>
-                        <p><?php echo __('privacy_recipients_text'); ?></p>
-                    </div>
+            <section>
+                <h2>6. Conservación de Datos</h2>
+                <ul>
+                    <li>Datos de contacto: hasta 2 años tras la última interacción.</li>
+                    <li>Datos de clientes: durante la relación contractual + 5 años (obligaciones legales).</li>
+                    <li>Datos de uso: 2 años.</li>
+                </ul>
+            </section>
 
-                    <div class="privacy-section">
-                        <h3>7. <?php echo __('privacy_retention_title'); ?></h3>
-                        <p><?php echo __('privacy_retention_text'); ?></p>
-                    </div>
+            <section>
+                <h2>7. Seguridad</h2>
+                <p>Implementamos medidas técnicas y organizativas para proteger tus datos: cifrado HTTPS, acceso restringido, copias de seguridad, CSP headers, auditoría SEO continua.</p>
+            </section>
 
-                    <div class="privacy-section">
-                        <h3>8. <?php echo __('privacy_rights_title'); ?></h3>
-                        <p><?php echo __('privacy_rights_text'); ?></p>
-                        <ul class="privacy-list">
-                            <li><strong><?php echo __('privacy_right_access'); ?>:</strong> <?php echo __('privacy_right_access_desc'); ?></li>
-                            <li><strong><?php echo __('privacy_right_rectification'); ?>:</strong> <?php echo __('privacy_right_rectification_desc'); ?></li>
-                            <li><strong><?php echo __('privacy_right_erasure'); ?>:</strong> <?php echo __('privacy_right_erasure_desc'); ?></li>
-                            <li><strong><?php echo __('privacy_right_restriction'); ?>:</strong> <?php echo __('privacy_right_restriction_desc'); ?></li>
-                            <li><strong><?php echo __('privacy_right_portability'); ?>:</strong> <?php echo __('privacy_right_portability_desc'); ?></li>
-                            <li><strong><?php echo __('privacy_right_object'); ?>:</strong> <?php echo __('privacy_right_object_desc'); ?></li>
-                        </ul>
-                        <p><?php echo __('privacy_rights_contact'); ?></p>
-                    </div>
+            <section>
+                <h2>8. Terceros</h2>
+                <p>No vendemos tus datos. Solo compartimos con proveedores necesarios para el servicio (hosting propio, email, IA on-premise local) bajo acuerdo de confidencialidad.</p>
+            </section>
 
-                    <div class="privacy-section">
-                        <h3>9. <?php echo __('privacy_security_title'); ?></h3>
-                        <p><?php echo __('privacy_security_text'); ?></p>
-                    </div>
-
-                    <div class="privacy-section">
-                        <h3>10. <?php echo __('privacy_cookies_title'); ?></h3>
-                        <p><?php echo __('privacy_cookies_text'); ?> <a href="cookies.php"><?php echo __('privacy_cookies_policy'); ?></a>.</p>
-                    </div>
-
-                    <div class="privacy-section">
-                        <h3>11. <?php echo __('privacy_changes_title'); ?></h3>
-                        <p><?php echo __('privacy_changes_text'); ?></p>
-                    </div>
-
-                    <div class="privacy-section">
-                        <h3>12. <?php echo __('privacy_contact_title'); ?></h3>
-                        <p><?php echo __('privacy_contact_text'); ?></p>
-                        <ul class="privacy-list">
-                            <li><strong><?php echo __('privacy_email'); ?>:</strong> info@appnet.dev</li>
-                            <li><strong><?php echo __('privacy_phone'); ?>:</strong> +34 619 929 305</li>
-                        </ul>
-                    </div>
-
-                    <div class="privacy-cta">
-                        <p><?php echo __('privacy_questions'); ?> <a href="contact.php"><?php echo __('contact_us'); ?></a>.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <section>
+                <h2>9. Autoridad de Control</h2>
+                <p>Si crees que no tratamos correctamente tus datos, puedes reclamar ante la Agencia Española de Protección de Datos (AEPD): <a href="https://www.aepd.es" target="_blank" rel="noopener">www.aepd.es</a>.</p>
+            </section>
+        </article>
     </div>
 </section>
-<!-- Privacy Policy Section End -->
 
-<?php
-include "includes/footer.php";
-?>
+<?php include __DIR__ . '/includes/footer-reimagine.php'; ?>
