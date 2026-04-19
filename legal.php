@@ -1,9 +1,8 @@
 <?php
 require_once __DIR__ . '/languages/config.php';
 $page_meta = [
-    'title' => 'Aviso Legal · AppNet Developer',
-    'description' => 'Aviso legal de AppNet Developer SL: datos identificativos, CIF, domicilio social, LSSI-CE, propiedad intelectual.',
-    'keywords' => 'aviso legal AppNet Developer, LSSI, datos identificativos',
+    'title' => __('meta.legal.title'),
+    'description' => __('meta.legal.desc'),
 ];
 include __DIR__ . '/includes/header-reimagine.php';
 ?>

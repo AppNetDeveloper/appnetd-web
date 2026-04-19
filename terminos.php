@@ -1,9 +1,8 @@
 <?php
 require_once __DIR__ . '/languages/config.php';
 $page_meta = [
-    'title' => 'Términos y Condiciones · AppNet Developer',
-    'description' => 'Términos y condiciones de uso del sitio web y servicios de AppNet Developer: aceptación, descripción, propiedad intelectual, ley aplicable.',
-    'keywords' => 'términos AppNet, condiciones uso, legal Murcia',
+    'title' => __('meta.terms.title'),
+    'description' => __('meta.terms.desc'),
 ];
 include __DIR__ . '/includes/header-reimagine.php';
 ?>

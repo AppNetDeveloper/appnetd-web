@@ -1,9 +1,8 @@
 <?php
 require_once __DIR__ . '/languages/config.php';
 $page_meta = [
-    'title' => 'Política de Cookies · AppNet Developer',
-    'description' => 'Política de cookies de AppNet Developer: qué cookies usamos, por qué y cómo desactivarlas. Solo cookies técnicas estrictamente necesarias.',
-    'keywords' => 'cookies AppNet, política cookies, GDPR cookies',
+    'title' => __('meta.cookies.title'),
+    'description' => __('meta.cookies.desc'),
 ];
 include __DIR__ . '/includes/header-reimagine.php';
 ?>

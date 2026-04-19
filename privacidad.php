@@ -1,9 +1,8 @@
 <?php
 require_once __DIR__ . '/languages/config.php';
 $page_meta = [
-    'title' => 'Privacidad RGPD · AppNet Developer',
-    'description' => 'Política de privacidad de AppNet Developer conforme al RGPD y LOPDGDD: responsable, datos, finalidad, base legal, derechos RGPD, conservación, AEPD.',
-    'keywords' => 'privacidad RGPD AppNet, LOPDGDD, tratamiento datos Murcia',
+    'title' => __('meta.privacy.title'),
+    'description' => __('meta.privacy.desc'),
 ];
 include __DIR__ . '/includes/header-reimagine.php';
 ?>

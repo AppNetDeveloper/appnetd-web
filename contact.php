@@ -1,9 +1,9 @@
 <?php
 require_once __DIR__ . '/languages/config.php';
 $page_meta = [
-    'title' => 'Contacto · Auditoría técnica gratuita | AppNet',
-    'description' => 'Contacta con AppNet Developer por formulario, email (info@appnet.dev), WhatsApp +34 619 929 305. Auditoría técnica gratuita en 48h.',
-    'keywords' => 'contacto AppNet Developer, demo gratis, WhatsApp empresa IA, Murcia España',
+    'title' => __('meta.contact.title'),
+    'description' => __('meta.contact.desc'),
+    'keywords' => __('meta.contact.kw'),
 ];
 $form_sent = false;
 $form_error = null;

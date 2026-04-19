@@ -2,9 +2,9 @@
 require_once __DIR__ . '/languages/config.php';
 
 $page_meta = [
-    'title' => 'AppNet Developer · IA local, IoT industrial, software a medida',
-    'description' => 'AppNet Developer Murcia: 25 años construyendo IA local, IoT industrial y software a medida. Creadores de BionicEyE + ADRI con 8 agentes IA 24/7.',
-    'keywords' => 'AppNet Developer Murcia, IA local España, IoT industrial, BionicEyE ADRI, agentes IA, automatización industrial, software a medida, AMD Ryzen AI',
+    'title' => __('meta.index.title'),
+    'description' => __('meta.index.desc'),
+    'keywords' => __('meta.index.kw'),
 ];
 
 include __DIR__ . '/includes/header-reimagine.php';
@@ -19,7 +19,7 @@ include __DIR__ . '/includes/header-reimagine.php';
         <div class="re-hero__eyebrow"><?= __('an.hero.eyebrow') ?></div>
 
         <h1 id="hero-title" class="re-display">
-            <span class="sr-only">AppNet Developer Murcia: IA local, IoT industrial y software a medida. </span>
+            <span class="sr-only"><?= __('an.hero.sr_prefix') ?> </span>
             <span><?= __('an.hero.title1') ?></span><br>
             <span class="re-ink-gradient"><?= __('an.hero.title2') ?></span>
         </h1>
@@ -185,7 +185,7 @@ include __DIR__ . '/includes/header-reimagine.php';
                 <span class="re-uc__emoji">🏭</span>
                 <h3 class="re-uc__title"><?= __('an.projects.p1t') ?></h3>
                 <p class="re-uc__desc"><?= __('an.projects.p1d') ?></p>
-                <div class="re-uc__impact">95% precisión predictiva</div>
+                <div class="re-uc__impact"><?= __('an.projects.p1impact') ?></div>
             </article>
 
             <article class="re-uc re-uc--finance re-reveal" data-delay="1">
@@ -193,7 +193,7 @@ include __DIR__ . '/includes/header-reimagine.php';
                 <span class="re-uc__emoji">⚡</span>
                 <h3 class="re-uc__title"><?= __('an.projects.p2t') ?></h3>
                 <p class="re-uc__desc"><?= __('an.projects.p2d') ?></p>
-                <div class="re-uc__impact">–30% consumo</div>
+                <div class="re-uc__impact"><?= __('an.projects.p2impact') ?></div>
             </article>
 
             <article class="re-uc re-uc--security re-reveal" data-delay="2">
@@ -201,7 +201,7 @@ include __DIR__ . '/includes/header-reimagine.php';
                 <span class="re-uc__emoji">🔍</span>
                 <h3 class="re-uc__title"><?= __('an.projects.p3t') ?></h3>
                 <p class="re-uc__desc"><?= __('an.projects.p3d') ?></p>
-                <div class="re-uc__impact">99,8% precisión</div>
+                <div class="re-uc__impact"><?= __('an.projects.p3impact') ?></div>
             </article>
 
             <article class="re-uc re-uc--dev re-reveal" data-delay="3">
@@ -209,7 +209,7 @@ include __DIR__ . '/includes/header-reimagine.php';
                 <span class="re-uc__emoji">🤖</span>
                 <h3 class="re-uc__title"><?= __('an.projects.p4t') ?></h3>
                 <p class="re-uc__desc"><?= __('an.projects.p4d') ?></p>
-                <div class="re-uc__impact">–40% tiempos ciclo</div>
+                <div class="re-uc__impact"><?= __('an.projects.p4impact') ?></div>
             </article>
 
             <article class="re-uc re-uc--ops re-reveal" data-delay="4">
@@ -217,7 +217,7 @@ include __DIR__ . '/includes/header-reimagine.php';
                 <span class="re-uc__emoji">📊</span>
                 <h3 class="re-uc__title"><?= __('an.projects.p5t') ?></h3>
                 <p class="re-uc__desc"><?= __('an.projects.p5d') ?></p>
-                <div class="re-uc__impact">500 sensores MQTT</div>
+                <div class="re-uc__impact"><?= __('an.projects.p5impact') ?></div>
             </article>
 
             <article class="re-uc re-uc--sales re-reveal" data-delay="5">
@@ -225,7 +225,7 @@ include __DIR__ . '/includes/header-reimagine.php';
                 <span class="re-uc__emoji">🚚</span>
                 <h3 class="re-uc__title"><?= __('an.projects.p6t') ?></h3>
                 <p class="re-uc__desc"><?= __('an.projects.p6d') ?></p>
-                <div class="re-uc__impact">OR-Tools + GPS live</div>
+                <div class="re-uc__impact"><?= __('an.projects.p6impact') ?></div>
             </article>
         </div>
     </div>

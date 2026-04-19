@@ -1,9 +1,9 @@
 <?php
 require_once __DIR__ . '/languages/config.php';
 $page_meta = [
-    'title' => 'Blog AppNet · IA, IoT industrial y automatización',
-    'description' => 'Artículos sobre IA local, IoT industrial, servidores ARM, ciberseguridad, ERP con IA, automatización y casos de éxito reales.',
-    'keywords' => 'blog AppNet, IA local, IoT industrial, servidores ARM, automatización, ERP IA',
+    'title' => __('meta.blog.title'),
+    'description' => __('meta.blog.desc'),
+    'keywords' => __('meta.blog.kw'),
 ];
 include __DIR__ . '/includes/header-reimagine.php';
 

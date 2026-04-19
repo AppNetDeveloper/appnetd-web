@@ -1,9 +1,9 @@
 <?php
 require_once __DIR__ . '/languages/config.php';
 $page_meta = [
-    'title' => 'Servicios AppNet · IA local, IoT y software a medida',
-    'description' => 'Servicios de AppNet Developer: IA on-premise, IoT industrial, software a medida, visión artificial, servidores AMD, ciberseguridad, automatización industrial, consultoría.',
-    'keywords' => 'servicios IA local, IoT industrial, software a medida, visión artificial, servidor AMD Ryzen AI, pentesting, automatización industrial',
+    'title' => __('meta.service.title'),
+    'description' => __('meta.service.desc'),
+    'keywords' => __('meta.service.kw'),
 ];
 include __DIR__ . '/includes/header-reimagine.php';
 ?>
